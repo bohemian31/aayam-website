@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The House of Aayam — Home (Draft Preview)</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="preview-notice">Design preview — sample products and prices.</div>
+<header class="site-header">
+  <div class="nav-row">
+    <a class="nav-logo" href="index.html"><img src="../assets/logo.png" alt="The House of Aayam"></a>
+    <nav class="nav-center">
+      <a href="all-jewellery.html" class="active">Jewellery</a>
+      <a href="our-story.html">Our Story</a>
+      <a href="materials-care.html">Materials &amp; Care</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-right">
+      <form class="search-form" data-search><input type="search" placeholder="Search jewellery" aria-label="Search jewellery"></form>
+      <button class="icon-btn menu-btn" data-menu-open aria-label="Open menu">Menu</button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer-backdrop"></div>
+<aside class="drawer">
+  <button class="icon-btn drawer-close" data-menu-close aria-label="Close menu">Close</button>
+  <nav>
+    <a class="primary-link" href="all-jewellery.html">All Jewellery</a>
+    <a class="primary-link" href="all-jewellery.html?category=Rings">Rings</a>
+    <a class="primary-link" href="all-jewellery.html?category=Bracelets">Bracelets</a>
+    <a class="primary-link" href="all-jewellery.html?category=Chains">Chains</a>
+    <a class="primary-link" href="all-jewellery.html?category=Pendants">Pendants</a>
+    <a class="secondary-link" href="our-story.html">Our Story</a>
+    <a class="secondary-link" href="materials-care.html">Materials &amp; Care</a>
+    <a class="secondary-link" href="contact.html">Contact</a>
+  </nav>
+  <form data-search><input type="search" placeholder="Search jewellery" aria-label="Search jewellery"></form>
+</aside>
+
+<main>
+  <section class="campaign-pair">
+    <figure class="campaign-panel">
+      <a href="all-jewellery.html"><div class="frame"><img src="images/campaign-neck.jpg" alt=""></div></a>
+      <figcaption><a href="all-jewellery.html">The first collection</a></figcaption>
+    </figure>
+    <figure class="campaign-panel">
+      <a href="all-jewellery.html?sort=price-asc"><div class="frame"><img src="images/campaign-hand.jpg" alt=""></div></a>
+      <figcaption><a href="all-jewellery.html?sort=price-asc">Everyday signatures</a></figcaption>
+    </figure>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2>The first collection</h2>
+      <a href="all-jewellery.html">View all jewellery</a>
+    </div>
+    <div class="grid" id="featured-grid"></div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="section-head"><h2>Shop by category</h2></div>
+    <div class="category-row">
+      <a class="category-tile" href="all-jewellery.html?category=Rings">
+        <div class="frame"><img src="../catalog/images/placeholders/ring.jpg" alt="Rings"></div>
+        <figcaption>Rings</figcaption>
+      </a>
+      <a class="category-tile" href="all-jewellery.html?category=Bracelets">
+        <div class="frame"><img src="../catalog/images/placeholders/bracelet.jpg" alt="Bracelets"></div>
+        <figcaption>Bracelets</figcaption>
+      </a>
+      <a class="category-tile" href="all-jewellery.html?category=Chains">
+        <div class="frame"><img src="../catalog/images/placeholders/chain.jpg" alt="Chains"></div>
+        <figcaption>Chains</figcaption>
+      </a>
+      <a class="category-tile" href="all-jewellery.html?category=Pendants">
+        <div class="frame"><img src="../catalog/images/placeholders/pendant.jpg" alt="Pendants"></div>
+        <figcaption>Pendants</figcaption>
+      </a>
+    </div>
+  </section>
+
+  <section class="brand-statement">
+    <h2>The House of Aayam</h2>
+    <p>We believe jewellery has a place in a man's everyday life. A personal detail. A way to express taste. Something that becomes part of how you dress.</p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div class="footer-col">
+      <h3>Jewellery</h3>
+      <a href="all-jewellery.html">All Jewellery</a>
+      <a href="all-jewellery.html?category=Rings">Rings</a>
+      <a href="all-jewellery.html?category=Bracelets">Bracelets</a>
+      <a href="all-jewellery.html?category=Chains">Chains</a>
+      <a href="all-jewellery.html?category=Pendants">Pendants</a>
+    </div>
+    <div class="footer-col">
+      <h3>The House</h3>
+      <a href="our-story.html">Our Story</a>
+      <a href="materials-care.html">Materials &amp; Care</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h3>Contact</h3>
+      <p>WhatsApp: +91 72650 00916 (demo)</p>
+      <p>Email: thehouseofaayam@gmail.com</p>
+    </div>
+  </div>
+  <p class="footer-bottom">&copy; 2026 The House of Aayam · Design preview — sample content</p>
+</footer>
+
+<script src="catalog.js"></script>
+<script>
+loadCatalog().then(data => {
+  const byCategory = {};
+  data.products.forEach(p => { (byCategory[p.category] ||= []).push(p); });
+  const featured = data.categories.map(c => byCategory[c][0]).filter(Boolean);
+  renderGrid(document.getElementById('featured-grid'), featured);
+}).catch(err => {
+  document.getElementById('featured-grid').innerHTML = '<p style="padding:24px;color:#c00">' + err.message + '</p>';
+});
+</script>
+</body>
+</html>

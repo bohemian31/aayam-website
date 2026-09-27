@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title id="page-title">Product — The House of Aayam (Draft Preview)</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="preview-notice">Design preview — sample products and prices.</div>
+<header class="site-header">
+  <div class="nav-row">
+    <a class="nav-logo" href="index.html"><img src="../assets/logo.png" alt="The House of Aayam"></a>
+    <nav class="nav-center">
+      <a href="all-jewellery.html">Jewellery</a>
+      <a href="our-story.html">Our Story</a>
+      <a href="materials-care.html">Materials &amp; Care</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-right">
+      <form class="search-form" data-search><input type="search" placeholder="Search jewellery" aria-label="Search jewellery"></form>
+      <button class="icon-btn menu-btn" data-menu-open aria-label="Open menu">Menu</button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer-backdrop"></div>
+<aside class="drawer">
+  <button class="icon-btn drawer-close" data-menu-close aria-label="Close menu">Close</button>
+  <nav>
+    <a class="primary-link" href="all-jewellery.html">All Jewellery</a>
+    <a class="primary-link" href="all-jewellery.html?category=Rings">Rings</a>
+    <a class="primary-link" href="all-jewellery.html?category=Bracelets">Bracelets</a>
+    <a class="primary-link" href="all-jewellery.html?category=Chains">Chains</a>
+    <a class="primary-link" href="all-jewellery.html?category=Pendants">Pendants</a>
+    <a class="secondary-link" href="our-story.html">Our Story</a>
+    <a class="secondary-link" href="materials-care.html">Materials &amp; Care</a>
+    <a class="secondary-link" href="contact.html">Contact</a>
+  </nav>
+  <form data-search><input type="search" placeholder="Search jewellery" aria-label="Search jewellery"></form>
+</aside>
+
+<main id="app">
+  <p style="padding:24px;color:var(--text-secondary)">Loading…</p>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div class="footer-col">
+      <h3>Jewellery</h3>
+      <a href="all-jewellery.html">All Jewellery</a>
+      <a href="all-jewellery.html?category=Rings">Rings</a>
+      <a href="all-jewellery.html?category=Bracelets">Bracelets</a>
+      <a href="all-jewellery.html?category=Chains">Chains</a>
+      <a href="all-jewellery.html?category=Pendants">Pendants</a>
+    </div>
+    <div class="footer-col">
+      <h3>The House</h3>
+      <a href="our-story.html">Our Story</a>
+      <a href="materials-care.html">Materials &amp; Care</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h3>Contact</h3>
+      <p>WhatsApp: +91 72650 00916 (demo)</p>
+      <p>Email: thehouseofaayam@gmail.com</p>
+    </div>
+  </div>
+  <p class="footer-bottom">&copy; 2026 The House of Aayam · Design preview — sample content</p>
+</footer>
+
+<script src="catalog.js"></script>
+<script>
+function uniq(arr) { return [...new Set(arr)]; }
+
+function render(product) {
+  document.getElementById('page-title').textContent = product.name + ' — The House of Aayam (Draft Preview)';
+
+  const colours = uniq(product.variants.map(v => v.goldColour));
+  const sel = { goldColour: colours[0], karat: null, size: null, needsHelp: false };
+  const karatsFor = colour => uniq(product.variants.filter(v => v.goldColour === colour).map(v => v.karat));
+  sel.karat = karatsFor(sel.goldColour)[0];
+
+  function currentVariant() {
+    return product.variants.find(v => v.goldColour === sel.goldColour && v.karat === sel.karat);
+  }
+
+  function canEnquire() {
+    if (!currentVariant()) return false;
+    if (product.sizeOptions.length && product.sizeOptions[0] !== 'One size (adjustable)') {
+      return !!(sel.size || sel.needsHelp);
+    }
+    return true;
+  }
+
+  const el = document.getElementById('app');
+  el.innerHTML = `
+    <div class="product-detail">
+      <div class="gallery">
+        <div class="main"><img id="main-img" src="${product.images.primary.replace('catalog/', '../catalog/')}" alt="${product.name}"></div>
+        <div class="thumbs">
+          <button data-img="primary"><img src="${product.images.primary.replace('catalog/', '../catalog/')}" alt=""></button>
+          <button data-img="alternate"><img src="${product.images.alternate.replace('catalog/', '../catalog/')}" alt=""></button>
+          <button data-img="detail"><img src="${product.images.detail.replace('catalog/', '../catalog/')}" alt=""></button>
+        </div>
+      </div>
+      <div class="product-info">
+        <p style="font-size:13px;color:var(--text-secondary)"><a href="all-jewellery.html">Home</a> / <a href="${categoryUrl(product.category)}">${product.category}</a> / ${product.name}</p>
+        <h1>${product.name}</h1>
+        <p class="variant-line" id="variant-line"></p>
+        <p class="price" id="price-line"></p>
+
+        <div class="selector-group">
+          <div class="label">Gold colour</div>
+          <div class="swatches" id="colour-swatches"></div>
+        </div>
+        <div class="selector-group">
+          <div class="label">Karat</div>
+          <div class="swatches" id="karat-swatches"></div>
+        </div>
+        ${product.sizeOptions.length ? `
+        <div class="selector-group">
+          <div class="label">${product.sizeType}</div>
+          <div class="swatches" id="size-swatches"></div>
+          ${product.sizeHelpText ? `<div class="size-help"><label><input type="checkbox" id="size-help-check"> ${product.sizeHelpText}</label></div>` : ''}
+          <div><a href="materials-care.html#fit" style="font-size:13px;text-decoration:underline">Find your size</a></div>
+        </div>` : ''}
+
+        <a class="btn-primary" id="enquire-btn" href="#" target="_blank" rel="noopener">Enquire about this piece</a>
+        <p class="support-line">Ask us about sizing, availability or a detail you would like to know.</p>
+
+        <div class="accordion">
+          <div class="accordion-item"><button data-acc>Description</button><div class="panel">${product.description}</div></div>
+          <div class="accordion-item"><button data-acc>Details</button><div class="panel">
+            Composition: ${product.details.composition}<br>
+            Dimensions: ${product.details.dimensions}<br>
+            Fastening: ${product.details.fastening}<br>
+            Includes: ${product.details.includes}
+          </div></div>
+          <div class="accordion-item"><button data-acc>Fit &amp; Care</button><div class="panel">${product.care}</div></div>
+          <div class="accordion-item"><button data-acc>Ordering</button><div class="panel">Made to order on enquiry. Availability, lead time and ordering steps are confirmed over WhatsApp or email — this preview does not process orders.</div></div>
+        </div>
+      </div>
+    </div>`;
+
+  el.querySelectorAll('[data-acc]').forEach(btn => {
+    btn.addEventListener('click', () => btn.parentElement.classList.toggle('open'));
+  });
+  el.querySelectorAll('.thumbs button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.getElementById('main-img').src = product.images[btn.dataset.img].replace('catalog/', '../catalog/');
+    });
+  });
+
+  function draw() {
+    const colourSwatches = document.getElementById('colour-swatches');
+    colourSwatches.innerHTML = colours.map(c =>
+      `<button class="swatch ${c === sel.goldColour ? 'selected' : ''}" data-colour="${c}">${c}</button>`
+    ).join('');
+    colourSwatches.querySelectorAll('button').forEach(b => b.addEventListener('click', () => {
+      sel.goldColour = b.dataset.colour;
+      const ks = karatsFor(sel.goldColour);
+      if (!ks.includes(sel.karat)) sel.karat = ks[0];
+      draw();
+    }));
+
+    const allKarats = uniq(product.variants.map(v => v.karat)).sort();
+    const available = karatsFor(sel.goldColour);
+    const karatSwatches = document.getElementById('karat-swatches');
+    karatSwatches.innerHTML = allKarats.map(k => {
+      const off = !available.includes(k);
+      return `<button class="swatch ${k === sel.karat ? 'selected' : ''}" ${off ? 'disabled title="Not offered in this combination"' : ''} data-karat="${k}">${k}</button>`;
+    }).join('');
+    karatSwatches.querySelectorAll('button:not([disabled])').forEach(b => b.addEventListener('click', () => {
+      sel.karat = b.dataset.karat; draw();
+    }));
+
+    if (product.sizeOptions.length) {
+      const sizeSwatches = document.getElementById('size-swatches');
+      sizeSwatches.innerHTML = product.sizeOptions.map(s =>
+        `<button class="size-btn ${s === sel.size ? 'selected' : ''}" data-size="${s}">${s}</button>`
+      ).join('');
+      sizeSwatches.querySelectorAll('button').forEach(b => b.addEventListener('click', () => {
+        sel.size = b.dataset.size; sel.needsHelp = false;
+        const chk = document.getElementById('size-help-check'); if (chk) chk.checked = false;
+        draw();
+      }));
+      const chk = document.getElementById('size-help-check');
+      if (chk) chk.addEventListener('change', () => { sel.needsHelp = chk.checked; if (chk.checked) sel.size = null; draw(); });
+    }
+
+    const v = currentVariant();
+    document.getElementById('variant-line').textContent = v ? materialLabel(v) : 'Select a colour and karat';
+    document.getElementById('price-line').textContent = v ? formatINR(v.priceINR) : '';
+
+    const btn = document.getElementById('enquire-btn');
+    if (canEnquire() && v) {
+      btn.href = whatsAppLink(product, { goldColour: sel.goldColour, karat: sel.karat, size: sel.size || (sel.needsHelp ? 'I need guidance' : '') });
+      btn.removeAttribute('aria-disabled');
+      btn.style.pointerEvents = 'auto'; btn.style.opacity = '1';
+    } else {
+      btn.href = '#';
+      btn.setAttribute('aria-disabled', 'true');
+      btn.style.pointerEvents = 'none'; btn.style.opacity = '0.4';
+    }
+  }
+  draw();
+}
+
+loadCatalog().then(data => {
+  const params = new URLSearchParams(window.location.search);
+  const id = params.get('id');
+  const product = data.products.find(p => p.id === id) || data.products[0];
+  render(product);
+}).catch(err => {
+  document.getElementById('app').innerHTML = '<p style="padding:24px;color:#c00">' + err.message + '</p>';
+});
+</script>
+</body>
+</html>
