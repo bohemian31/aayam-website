@@ -2,6 +2,12 @@
 
 Date: 26 September 2026. This plan governs a reviewable first website draft. Work proceeds one phase at a time. After each phase, provide a short handoff with: what changed, where to review it, what the founder should check, known gaps, and the recommended model for the next phase. Stop at each gate for the founder's signal before starting the next phase.
 
+## Project status: on hold (27 September 2026)
+
+The founder has paused all phase work pending real product photography and product data. Phase 6 cannot meaningfully begin without it — everything through Phase 5 is dummy/sample content by design. Gate 5 (review of the complete draft catalogue) was never formally given by the founder; they moved on to infrastructure planning instead, so it remains open whenever they want to give it, but it is not what's blocking the resume — real product data is. See `PROGRESS.md` for the full resume instructions.
+
+While paused, the project gained real version control and a second preview channel, unrelated to the phase plan itself: the folder is now a Git repository pushed to a public GitHub repo (`https://github.com/bohemian31/aayam-website`), with GitHub Pages enabled as a read-only mirror for the dummy catalogue. The live domain (`thehouseofaayam.com`) and its Netlify deployment are untouched by this — full detail in `PROGRESS.md` and `DEVELOPER_REFERENCE.md`.
+
 ## Working brief
 
 - Brand: The House of Aayam, a men's fine jewellery brand.
@@ -12,6 +18,8 @@ Date: 26 September 2026. This plan governs a reviewable first website draft. Wor
 - Enquiry default: WhatsApp primary, using the **demo** number +91 7265000916. Business email on Contact: thehouseofaayam@gmail.com. Both destinations are to be checked at the final gate.
 - No fixed deadline for the full website has been specified. The existing 28 September countdown belongs to the launching-soon page until the founder says otherwise.
 - The current launching-soon page remains the live-site source during draft and local preview work. Do not replace the domain's page as part of a design phase.
+- Architecture decision (27 September 2026): the site stays fully static for the foreseeable future — no CMS, no user accounts, no checkout. The founder explicitly chose this after a walkthrough of when a static site stops being sufficient (payments, real-time inventory, non-developer content editing). This can be revisited if/when checkout becomes real scope, per "Publication and later commerce" below.
+- Hosting decision (27 September 2026): stay on Netlify for the live domain, not Vercel. Netlify's free plan explicitly permits commercial use; Vercel's free "Hobby" tier explicitly prohibits it in its terms of service, which would make Vercel's free tier non-compliant for a commercial jewellery brand's site.
 
 ## Phase 1 — Scope and gate plan
 
@@ -75,11 +83,15 @@ Date: 26 September 2026. This plan governs a reviewable first website draft. Wor
 
 **Gate 5, founder review:** review the complete browsing experience and content tone. Identify what real product data, imagery, care instructions and business policies must replace draft content before release.
 
+**Status of Gate 5:** not yet given. The founder moved to infrastructure planning (git/GitHub/hosting) instead of reviewing Phase 5 content, then paused the project. Gate 5 remains open for whenever the founder wants to give it, but it is independent of what actually blocks Phase 6 (see below).
+
 **Recommended model for Phase 6:** GPT-6 Sol, Medium reasoning for data integration and verification; use Astra, Medium, for one final visual critique if the reference match still needs judgement.
 
 ## Phase 6 — Real catalogue and release preparation
 
 **Output:** replace all dummy products, images and prices with founder-supplied or approved data; verify each published combination and image; confirm WhatsApp number, email and public copy; validate metadata, accessibility, mobile flows and links. Choose the implementation/hosting arrangement based on the finished site and how the founder wants to edit products. Prepare the Netlify/GoDaddy deployment steps using the actual configuration then in place.
+
+**Status:** blocked, 27 September 2026. The founder has no real product photography or product data yet and has paused the project until they do. Do not start Phase 6 work before that material arrives, regardless of Gate 5's status.
 
 **Done when:** a release candidate contains no unapproved placeholder products, prices, imagery, contact information or operational claims, and the founder can review a precise before/after deployment checklist.
 

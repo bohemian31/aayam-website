@@ -2,13 +2,22 @@
 
 Last documented: 27 September 2026. Read this first when resuming work. This is a status record, not an instruction to advance phases automatically.
 
+## ⏸ Project on hold (27 September 2026)
+
+The founder has paused the project until they have **real product photography and product data**. Nothing in Phase 6 should be attempted before then — everything currently in `catalog/` and `preview/` is dummy/sample content by explicit design.
+
+What "resuming" looks like: the founder returns with actual product photos, names, materials, and prices (and, ideally, confirmed WhatsApp/email destinations and any care/policy specifics). At that point, read `Business Context/Implementation Plan and Gates.md`, and Phase 6 replaces the dummy catalogue with the real one.
+
+Gate 5 (reviewing the completed Phase 5 draft) was never formally given — the founder moved on to infrastructure questions (git, hosting, static-vs-webapp) instead, then paused. Gate 5 is still open whenever they want to give feedback on the dummy catalogue's tone/content, but it is *not* the thing blocking a resume; the missing real product data is.
+
 ## Current state
 
 - **Website being served from this folder:** a static “Launching Soon” page in `index.html`, `styles.css`, `script.js`, and `assets/`. It is separate from the planned full catalogue and has not been touched since Phase 2 — Phases 3 through 5 all built in isolated locations (`catalog/`, `preview/`).
-- **Full website:** a complete Phase 5 draft exists at `preview/` — Home, All Jewellery (all 45 products, filters/sort/search), one dynamic Product template (works against any catalogue record via `?id=`), Contact, Our Story, Materials & Care, and mobile navigation. No cart/checkout, per plan; no service pages (shipping/returns/warranty), since none are confirmed. Not deployed anywhere; local preview only.
-- **Workflow gate:** Gate 1 accepted. Gate 2 accepted 27 September 2026. Gate 3 accepted 27 September 2026. Gate 4 accepted 27 September 2026 (founder said "Go ahead to Phase 5" without raising changes). Phase 5 is complete and awaiting Gate 5 review. Do not start Phase 6 until the founder signals it.
-- **Version control:** this folder is not currently a Git repository (`git status` returned “not a git repository”). Preserve and inspect existing files before edits.
-- **Deployment:** the founder bought the domain at GoDaddy and discussed Netlify DNS configuration. This workspace does not prove the current Netlify deployment, DNS, certificate, or live-domain state. Verify those from their respective services when deployment work resumes.
+- **Full website:** a complete Phase 5 draft exists at `preview/` — Home, All Jewellery (all 45 products, filters/sort/search), one dynamic Product template (works against any catalogue record via `?id=`), Contact, Our Story, Materials & Care, and mobile navigation. No cart/checkout, per plan; no service pages (shipping/returns/warranty), since none are confirmed. Not deployed to the live domain.
+- **Workflow gate:** Gate 1 accepted. Gate 2 accepted 27 September 2026. Gate 3 accepted 27 September 2026. Gate 4 accepted 27 September 2026 (founder said "Go ahead to Phase 5" without raising changes). Phase 5 is complete; Gate 5 was never formally given (see above). Phase 6 is blocked on real product data, independent of Gate 5.
+- **Architecture decision (27 September 2026):** the founder confirmed the site stays fully static going forward — no CMS, no accounts, no checkout — after a walkthrough of what would actually force a move to a backend+database (payments, real-time inventory, non-developer editing). None of those apply yet. Revisit only if/when checkout becomes real scope.
+- **Version control:** this folder **is now a Git repository** (initialized 27 September 2026), with a single commit pushed to a public GitHub remote. See "Repository and hosting" below.
+- **Deployment:** the founder bought the domain at GoDaddy and configured Netlify DNS (documented in earlier conversation, not re-verified in this workspace). Netlify continues to serve **only** the launch page — this has not changed and was not touched by the GitHub/git work below. Verify Netlify/DNS/certificate state directly with those services when deployment work resumes.
 
 ## Confirmed business and product decisions
 
@@ -72,8 +81,26 @@ No specific Gate 4 feedback needed applying, since the founder raised none.
 
 Recommended model for Phase 6 from the plan: **GPT-6 Sol, Medium reasoning** for data integration and verification; **Astra, Medium**, for one final visual critique if the reference match still needs judgement. Model choice is advisory, not a technical dependency in this session.
 
+## Repository and hosting (added 27 September 2026)
+
+- **Git/GitHub:** this folder was initialized as a Git repo and pushed to a public GitHub repository the founder created: `https://github.com/bohemian31/aayam-website`, branch `main`. One commit so far (`ca6cc01`, "Initial commit: launching-soon page, Phase 1-5 catalogue draft").
+- **What's excluded from the repo (`.gitignore`):** `.DS_Store`; `.claude/` (this session's local tooling config, not part of the deliverable); `Business Context/The House of Aayam - iSPROUTE'26.pdf` (the investor pitch deck — market sizing, competitive analysis, founder details); `Business Context/Visual Specifications - Screenshots/` (screenshots of Miansai's live site, a competitor). These were excluded because the repo is **public**, and this material is either business-sensitive or a competitor's copyrighted content, not because it isn't useful — both stay on the founder's machine.
+- **Residual disclosure to be aware of:** `Business Context/Phase 3 Dummy Catalogue and Content Contract.md` (which *is* tracked and public) describes the pricing *methodology* derived from the excluded pitch deck — an implied gold rate and a roughly 15% markup. It doesn't include the deck's market-sizing, competitive landscape, or GTM content. The founder was told this and chose to leave it as-is; revisit only if they change their mind.
+- **GitHub Pages:** the founder enabled GitHub Pages on `main`, serving from the repo root. This gives two URLs, both public but only discoverable if someone has the link:
+  - `https://bohemian31.github.io/aayam-website/` — mirrors the launch page (same content as the live domain).
+  - `https://bohemian31.github.io/aayam-website/preview/index.html` — the dummy catalogue prototype, previously only viewable via a local server. This is a **read-only preview channel**, separate from and in addition to Netlify; it does not replace or affect the live domain in any way.
+- **Netlify/the real domain are unchanged.** `thehouseofaayam.com` still serves only the root-level launch page via Netlify, exactly as before this session's git/GitHub work. Moving the real catalogue onto the live domain is a deliberate, separate decision at Gate 6 — never a side effect of committing code or enabling GitHub Pages.
+- **Git author identity note:** the initial commit's author was auto-detected from the machine as "Parth Katrodiya" (this Mac's configured username), not explicitly set. Revisit with `git config user.name`/`user.email` plus `git commit --amend --reset-author` before the next commit if a different author identity is wanted on the public repo.
+
 ## Immediate resume instructions
 
-When the founder resumes, first read `Business Context/Implementation Plan and Gates.md` and open `preview/index.html` via the local server. Incorporate any Gate 5 feedback into the `preview/` files and `catalog/products.sample.json`. Then, if the founder authorises Phase 6, replace all dummy products/images/prices with real data, verify the WhatsApp number and email, and prepare the release/deployment checklist. Stop again at Gate 6 before anything is published. Preserve the current launch page (`index.html`/`styles.css`/`script.js` at the project root) throughout — it stays live until the founder explicitly approves the domain switch at Gate 6.
+Do not resume phase work until the founder has real product photography and product data — see "Project on hold" above. When they do:
+
+1. Read `Business Context/Implementation Plan and Gates.md`, this file, and `DEVELOPER_REFERENCE.md` to reload context.
+2. `git pull` (or check `git status`/`git log`) before editing anything, since the folder is now a tracked repo with a GitHub remote — don't lose or silently diverge from what's pushed.
+3. Optionally address any Gate 5 feedback the founder gives on the dummy catalogue's tone/content (independent of the real-data blocker).
+4. Begin Phase 6: replace dummy products/images/prices in `catalog/products.sample.json` (and `preview/`'s image references) with real data, verify the WhatsApp number and email, and prepare the release/deployment checklist.
+5. Stop again at Gate 6 before anything is published to the live domain. Preserve the current launch page (`index.html`/`styles.css`/`script.js` at the project root) throughout — it stays live on Netlify until the founder explicitly approves the domain switch at Gate 6.
+6. Commit and push Phase 6 work to the same GitHub repo as it progresses, same exclusions as established in `.gitignore`.
 
 For a compact change history, read `CHANGELOG.md`. For file roles, local preview, data expectations, and release checks, read `DEVELOPER_REFERENCE.md`.

@@ -79,3 +79,22 @@ This records decisions and artifacts visible in the project and conversation. Al
 - Checked the full site in the browser at desktop and 375px mobile widths: full 45-product grid, category filters (e.g. Pendants → 11 results), Our Story, and the Materials & Care `#fit` anchor jump from a product page.
 - Marked Phase 4/Gate 4 as accepted and Phase 5 as complete in `Implementation Plan and Gates.md`; updated `PROGRESS.md` accordingly.
 - Phase 6 (replace all dummy data/images/prices with real ones, verify contact destinations, prepare the release/deployment checklist) is next, pending the founder's Gate 5 review.
+
+## Architecture and hosting decisions (27 September 2026)
+
+- Walked through when a static site stops being enough (payments, real-time inventory, non-developer editing) versus what actually needs a backend/database/CMS. Founder decided to stay fully static for now: no CMS, no accounts, no checkout, since none of those triggers apply yet.
+- Compared Netlify's and Vercel's free tiers for a commercial site. Finding: Netlify's free plan explicitly permits commercial use (can't resell the hosting itself, but running a business site is fine); Vercel's free "Hobby" tier explicitly prohibits commercial use in its terms of service. This confirmed Netlify (already in use for the live domain) as the right choice, not Vercel.
+- Noted Netlify's free-tier mechanics for future reference: a shared 300-credits/month pool covering deploys (15 credits each), bandwidth (20 credits/GB, ~15GB/month if used alone) and requests; exceeding it takes the whole site down until the next monthly cycle, not a graceful slowdown. Pro is a flat $20/month with 3,000 credits as of Netlify's April 2026 pricing change, if ever needed.
+
+## Version control and hosting groundwork (27 September 2026)
+
+- Initialized this folder as a Git repository. Added `.gitignore` excluding `.DS_Store`, `.claude/` (session-local tooling config), the investor pitch deck PDF, and the Miansai reference screenshots — the repo was going to be public, and that material is either business-sensitive (market sizing, competitive analysis, founder details) or a competitor's copyrighted content. Everything else — the launch page, `Business Context/`'s markdown planning docs, `catalog/`, `preview/` — was committed as-is, including the dummy catalogue and its sample-content labelling.
+- Founder created an empty public GitHub repository at `https://github.com/bohemian31/aayam-website`. Pushed the initial commit (`ca6cc01`) to `main`. `gh` CLI was not installed on this machine; the push used an existing GitHub credential already stored in the macOS keychain.
+- Founder enabled GitHub Pages on `main`, root. This produced two URLs: `https://bohemian31.github.io/aayam-website/` (mirrors the launch page) and `https://bohemian31.github.io/aayam-website/preview/index.html` (the dummy catalogue, previously local-server-only). Confirmed this is a separate, additional read-only preview channel — it does not touch or replace the Netlify deployment or `thehouseofaayam.com` in any way.
+- Flagged for the founder, unresolved by design: the Phase 3 content contract's pricing-methodology note (derived from the excluded pitch deck's cost figures) remains in the public repo; and the initial commit's author was auto-detected as "Parth Katrodiya" from the machine, not explicitly configured.
+
+## Project paused (27 September 2026)
+
+- The founder has no real product photography or product data yet and asked to pause all phase work until they do. Phase 6 cannot meaningfully proceed without it.
+- Gate 5 (review of the completed Phase 5 draft catalogue) was never formally given — the founder shifted to infrastructure questions (static-vs-webapp, hosting free tiers, git/GitHub setup) instead, then paused. It remains open for whenever the founder wants to give that feedback, but it is independent of what's actually blocking the resume.
+- `PROGRESS.md`, `DEVELOPER_REFERENCE.md`, and `Business Context/Implementation Plan and Gates.md` were all updated to record this pause and the git/GitHub/hosting work above, so a future session can resume cleanly once real product data arrives.
