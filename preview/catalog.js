@@ -1,4 +1,4 @@
-/* Shared catalogue helpers for the Phase 4 prototype. Reads catalog/products.sample.json. */
+/* Shared catalogue helpers for the reference-image preview. */
 
 const CATALOG_URL = '../catalog/products.sample.json';
 
@@ -50,8 +50,8 @@ function cardTemplate(product) {
       <div class="imgwrap"><img src="${product.images.primary.replace('catalog/', '../catalog/')}" alt="${product.name}" loading="lazy"></div>
       <div class="info">
         <p class="name">${product.name}</p>
-        <p class="material">${materialLabel(v)}</p>
-        <p class="price">${priceLabel(product)}</p>
+        <p class="material">Sample specification: ${materialLabel(v)}</p>
+        <p class="price">Sample price: ${priceLabel(product)}</p>
       </div>
     </a>`;
 }

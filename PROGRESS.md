@@ -1,106 +1,43 @@
 # Project progress — The House of Aayam
 
-Last documented: 27 September 2026. Read this first when resuming work. This is a status record, not an instruction to advance phases automatically.
-
-## ⏸ Project on hold (27 September 2026)
-
-The founder has paused the project until they have **real product photography and product data**. Nothing in Phase 6 should be attempted before then — everything currently in `catalog/` and `preview/` is dummy/sample content by explicit design.
-
-What "resuming" looks like: the founder returns with actual product photos, names, materials, and prices (and, ideally, confirmed WhatsApp/email destinations and any care/policy specifics). At that point, read `Business Context/Implementation Plan and Gates.md`, and Phase 6 replaces the dummy catalogue with the real one.
-
-Gate 5 (reviewing the completed Phase 5 draft) was never formally given — the founder moved on to infrastructure questions (git, hosting, static-vs-webapp) instead, then paused. Gate 5 is still open whenever they want to give feedback on the dummy catalogue's tone/content, but it is *not* the thing blocking a resume; the missing real product data is.
+Last updated: 29 September 2026. This is the current handoff. CHANGELOG.md preserves earlier phase history; older planning documents may contain historical catalogue counts.
 
 ## Current state
 
-- **Website being served from this folder:** a static “Launching Soon” page in `index.html`, `styles.css`, `script.js`, and `assets/`. It is separate from the planned full catalogue and has not been touched since Phase 2 — Phases 3 through 5 all built in isolated locations (`catalog/`, `preview/`).
-- **Full website:** a complete Phase 5 draft exists at `preview/` — Home, All Jewellery (all 45 products, filters/sort/search), one dynamic Product template (works against any catalogue record via `?id=`), Contact, Our Story, Materials & Care, and mobile navigation. No cart/checkout, per plan; no service pages (shipping/returns/warranty), since none are confirmed. Not deployed to the live domain.
-- **Workflow gate:** Gate 1 accepted. Gate 2 accepted 27 September 2026. Gate 3 accepted 27 September 2026. Gate 4 accepted 27 September 2026 (founder said "Go ahead to Phase 5" without raising changes). Phase 5 is complete; Gate 5 was never formally given (see above). Phase 6 is blocked on real product data, independent of Gate 5.
-- **Architecture decision (27 September 2026):** the founder confirmed the site stays fully static going forward — no CMS, no accounts, no checkout — after a walkthrough of what would actually force a move to a backend+database (payments, real-time inventory, non-developer editing). None of those apply yet. Revisit only if/when checkout becomes real scope.
-- **Version control:** this folder **is now a Git repository** (initialized 27 September 2026), with a single commit pushed to a public GitHub remote. See "Repository and hosting" below.
-- **Deployment:** the founder bought the domain at GoDaddy and configured Netlify DNS (documented in earlier conversation, not re-verified in this workspace). Netlify continues to serve **only** the launch page — this has not changed and was not touched by the GitHub/git work below. Verify Netlify/DNS/certificate state directly with those services when deployment work resumes.
+- The root index.html, styles.css, script.js, and assets/ remain the Launching Soon site. Its countdown reaches 00:00 at 28 September 2026, 08:00 IST and stays there. This work does not switch the live Netlify domain to the full catalogue.
+- The browse-and-enquire full-site preview is under preview/, with plain HTML, CSS and JavaScript and no build step, CMS, account or checkout. The active draft catalogue is catalog/products.sample.json.
+- The founder explicitly resumed work on 29 September and approved a 33-product reference-image preview, replacing the earlier 45 shared-placeholder listings. This is not the real-data/live-launch phase: the supplied photos are design references, and actual product facts are still unverified.
+- The founder chose to show these reference images on the existing public GitHub Pages preview. Anyone with its URL can view it, and selected images will be in the public repository. Replace or clear all reference imagery and sample claims before launching the full site on the business domain.
+- The preview carries a notice and noindex metadata. Root robots.txt also currently disallows crawling. These measures do not make GitHub Pages private.
 
-## Confirmed business and product decisions
+## Catalogue and image mapping
 
-The House of Aayam is a men's fine jewellery brand. The business pitch in `Business Context/The House of Aayam - iSPROUTE'26.pdf` frames the opportunity around understated everyday expression, versatile styling, credible material information, and trust. The pitch includes strategic concepts and projected pricing tiers; those are not evidence that any specific product, service, certification, or operational policy exists today.
+The founder supplied 36 JPEGs in the local, git-ignored Products Images/ folder: 10 Rings, 8 Bracelets, 10 Chains and 8 Pendants. Three composite photos are held out because each shows multiple pieces:
 
-For the **first full website**, the founder wants Miansai to be the main reference for layout, build-up, product discovery, and visual styling. Use Aayam's own brand identity, original copy, and accurate imagery. The first release is a browse-and-enquire catalogue. Checkout is for a later project phase. Approximately 40–50 products across 3–4 categories are anticipated. The founder says product photos exist, but the actual catalogue photos are not in this project folder at the time of this handoff.
+- Products Images/Men_s Rings/download (1).jpg
+- Products Images/Men_s Rings/download (10).jpg
+- Products Images/Men_s Pendants/download (2).jpg
 
-The range was described as mostly gold fine jewellery with yellow/gold, rose-gold, and white-gold colours and 9K, 14K, 18K, and 22K options. No per-product colour, karat, size, or price combinations have been supplied. Never assume a product comes in every combination.
+The remaining 33 photos are copied once each to catalog/images/reference/, with normalized names ring-01.jpg–ring-08.jpg, bracelet-01.jpg–bracelet-08.jpg, chain-01.jpg–chain-10.jpg, and pendant-01.jpg–pendant-07.jpg. For each category, source filenames were alphabetized; usable photos map in order to the retained IDs AYM-RG-001–008, AYM-BR-001–008, AYM-CH-001–010, and AYM-PD-001–007. The three held photos map to no ID. Names and visual descriptions are provisional interpretations of these photos; do not infer metal, stone or purity from a photograph or source filename.
 
-The founder explicitly authorised **dummy categories, photographs, prices, and other product details for the draft**. Use labels that make the preview status clear. Replace or explicitly approve every sample claim and asset before public release.
+Each product points its primary, alternate and detail gallery fields at the same image file. There are no real alternate angles, detail views or on-body photos. The gallery labels this clearly. All retained products keep their original sample weights, prices, gold-colour/karat variants, sizes, details and care values unchanged from the 45-product dummy catalogue. Those values may disagree with a reference photo. Cards and product pages explicitly label them as samples; they must be replaced or verified before domain launch. Twelve unmatched old records are removed from the active JSON; Git history retains them. Unknown IDs show an unavailable-preview state rather than a different product.
 
-Enquiry direction in the plan: WhatsApp as the primary product action, preparing a message that includes product ID/name, selected options, and URL. The founder supplied **+91 7265000916 for demo use** and **thehouseofaayam@gmail.com** as the business email. Email should appear on Contact. Confirm both destinations before public release; the number was explicitly described as a demo number.
+Homepage featured cards and category tiles now use the new product references. The two campaign images remain the prior placeholders. Search, category/variant filters, sort, size selection and the prepared WhatsApp enquiry still operate on the active catalogue. WhatsApp goes to demo number +91 7265000916; the displayed email is thehouseofaayam@gmail.com.
 
-No full-site launch deadline was set. The original Monday 28 September 2026, 8:00 AM IST date belongs to the launching-soon countdown. The founder wants it to stay at zero afterward, with no automatic redirect, form, notification, or other action.
+## Editorial pages
 
-## Phase history and gate status
+The Our Story, Materials & Care, and Contact pages now use fuller editorial layouts within the existing pale-grey/white catalogue design. The story uses the pitch's positioning—everyday expression, personal choice and clarity—but omits founder names, Payal Jewellers, manufacturing history and future services until public wording is confirmed. The 9-page pitch remains local and excluded from Git.
 
-| Phase | Status | Deliverable | Founder gate |
-| --- | --- | --- | --- |
-| Initial launching-soon page | Built locally; prior conversation reported desktop/mobile checks | Static site files at project root | Publishing state unverified here |
-| Phase 1: scope and workflow | Complete | `Business Context/Implementation Plan and Gates.md`, `Website Blueprint v1.md`, `Page Copy Draft v1.md` | Accepted; founder said to commence and then clarified Phase 2 |
-| Phase 2: Miansai visual audit | Complete | `Business Context/Phase 2 Visual Specification.md` | Accepted 27 September 2026 |
-| Phase 3: dummy catalogue/content contract | Complete | `Business Context/Phase 3 Dummy Catalogue and Content Contract.md`, `catalog/products.sample.json`, `catalog/images/placeholders/` | Accepted 27 September 2026 |
-| Phase 4: three core working templates | Complete | `preview/` (Home, All Jewellery, Product, Contact, mobile nav, coming-soon stub) | Accepted 27 September 2026 |
-| Phase 5: complete draft catalogue | Complete | 45-product `catalog/products.sample.json`; `preview/our-story.html`, `preview/materials-care.html` | **Pending review** (Gate 5) |
-| Phase 6: real data and release preparation | Not started | Planned verified release candidate | Not reached |
+Materials & Care gives general information on colour versus karat, fit and care, with an explicit warning that the preview's product specifics are samples. Contact gives WhatsApp and email paths, identifies the WhatsApp number as demo, and asks visitors to include the piece reference and questions. There is no form, support-hours promise or unconfirmed policy.
 
-The phase plan explicitly stops at every gate for a short founder review. The current hold applies to phase work; documentation requested in this turn is permitted.
+## Verification and hosting boundary
 
-## Phase 2 findings that changed the design
+Run a static server from this directory and open /preview/index.html; for example, python3 -m http.server 8123 and http://localhost:8123/preview/index.html. The same relative paths serve from GitHub Pages at https://bohemian31.github.io/aayam-website/preview/index.html. Pages in preview/ are public when pushed to main; the root URL on GitHub Pages mirrors the launch page. Netlify and thehouseofaayam.com are separate and remain unchanged by a GitHub push.
 
-Miansai's live India storefront was visually inspected at desktop and mobile sizes. The current homepage opens with **two campaign photographs side by side, captions beneath**. It does not start with a large overlaid headline. The collection uses a continuous pale-grey product grid: four columns on desktop and two on mobile, with labels above product images on desktop and below them on mobile. Product pages pair a large gallery with compact selection controls, a prominent action, and ruled accordions. On mobile, the gallery and information stack vertically.
+Checks for this update: 33 unique products and image files; 8/8/10/7 category counts; preserved sample fields for retained IDs; three gallery references per product to one file; valid JS syntax; homepage image loading; collection category/search counts; enquiry URL includes new title and ID; removed ID state; desktop and 375px mobile layouts; mobile filter overflow fixed. Recheck the deployed Pages URL after pushing.
 
-The Phase 2 specification supersedes the earlier headline-led homepage layout in `Website Blueprint v1.md` and `Page Copy Draft v1.md`. It proposes Aayam-specific values for colour, typography, spacing, breakpoints, navigation, photography, and enquiry placement. The reference audit notes which aspects were directly observed and which were proposed. It does not establish rights to Miansai's imagery or font files.
+## Phase and gate history
 
-Local reference captures have appeared under `Business Context/Visual Specifications - Screenshots/`. There are nine PNG files dated 26 September 2026. Their descriptive filenames are timestamps only; inspect each image before citing it as proof of a specific layout. They are reference material, not Aayam site assets.
+Phases 1–5 produced the initial scope, Miansai visual audit, 45-product dummy catalogue, and static site preview; Gates 1–4 were accepted in September 2026. Gate 5 feedback on the old 45-product draft was never formally provided. The founder's 29 September request and explicit implementation plan supersede that old draft for this preview pass. This work is a partial Phase 6 preview update, not approval to release the full site on Netlify.
 
-## Gate 2 — accepted 27 September 2026
-
-The founder confirmed: the paired photography-led homepage opening; white/pale-grey surfaces with charcoal-grey text and controls as the catalogue base style (the launch page keeps its own ivory/gold treatment); four separate categories (Rings, Bracelets, Chains, Pendants); original Aayam-style product naming; and sample pricing anchored to the founder's own investor-deck cost data. The early-logo question was not revisited — `assets/logo.png` stays for the first draft, to be tested at header sizes in Phase 4.
-
-## Gate 3 — accepted 27 September 2026
-
-The founder said "Goto phase 4," taken as accepting the Phase 3 catalogue and content contract as written, with no changes requested.
-
-## Gate 4 — accepted 27 September 2026
-
-The founder said "Go ahead to Phase 5," taken as accepting the Phase 4 prototype as-is, with no changes requested.
-
-## Gate 5 decision now pending
-
-The founder needs to review the complete draft at `preview/` (open `preview/index.html` through a local server, not via `file://`):
-
-1. The expanded catalogue: 45 products, 12/11/11/11 across Rings/Bracelets/Chains/Pendants, all still built from the same schema and reusing the four Phase 3 placeholder photos (no new photography exists, so every product in a category still looks the same in preview — expected, not a bug).
-2. Whether the new product names/descriptions keep the same tone as the original 12.
-3. The real Our Story and Materials & Care pages — specifically, whether the visibly flagged "to confirm before release" placeholders (a founder bio; Aayam's specific alloy/hallmarking/sizing/care policy) are the right things to leave open rather than draft further.
-4. Confirm the decision to add no shipping/returns/warranty pages at this stage, since none of those policies are confirmed yet.
-5. Whether browsing a category via `all-jewellery.html?category=X` (rather than a separate URL per category) is acceptable, or whether Phase 6 should give each category its own address.
-
-No specific Gate 4 feedback needed applying, since the founder raised none.
-
-Recommended model for Phase 6 from the plan: **GPT-6 Sol, Medium reasoning** for data integration and verification; **Astra, Medium**, for one final visual critique if the reference match still needs judgement. Model choice is advisory, not a technical dependency in this session.
-
-## Repository and hosting (added 27 September 2026)
-
-- **Git/GitHub:** this folder was initialized as a Git repo and pushed to a public GitHub repository the founder created: `https://github.com/bohemian31/aayam-website`, branch `main`. One commit so far (`ca6cc01`, "Initial commit: launching-soon page, Phase 1-5 catalogue draft").
-- **What's excluded from the repo (`.gitignore`):** `.DS_Store`; `.claude/` (this session's local tooling config, not part of the deliverable); `Business Context/The House of Aayam - iSPROUTE'26.pdf` (the investor pitch deck — market sizing, competitive analysis, founder details); `Business Context/Visual Specifications - Screenshots/` (screenshots of Miansai's live site, a competitor). These were excluded because the repo is **public**, and this material is either business-sensitive or a competitor's copyrighted content, not because it isn't useful — both stay on the founder's machine.
-- **Residual disclosure to be aware of:** `Business Context/Phase 3 Dummy Catalogue and Content Contract.md` (which *is* tracked and public) describes the pricing *methodology* derived from the excluded pitch deck — an implied gold rate and a roughly 15% markup. It doesn't include the deck's market-sizing, competitive landscape, or GTM content. The founder was told this and chose to leave it as-is; revisit only if they change their mind.
-- **GitHub Pages:** the founder enabled GitHub Pages on `main`, serving from the repo root. This gives two URLs, both public but only discoverable if someone has the link:
-  - `https://bohemian31.github.io/aayam-website/` — mirrors the launch page (same content as the live domain).
-  - `https://bohemian31.github.io/aayam-website/preview/index.html` — the dummy catalogue prototype, previously only viewable via a local server. This is a **read-only preview channel**, separate from and in addition to Netlify; it does not replace or affect the live domain in any way.
-- **Netlify/the real domain are unchanged.** `thehouseofaayam.com` still serves only the root-level launch page via Netlify, exactly as before this session's git/GitHub work. Moving the real catalogue onto the live domain is a deliberate, separate decision at Gate 6 — never a side effect of committing code or enabling GitHub Pages.
-- **Git author identity note:** the initial commit's author was auto-detected from the machine as "Parth Katrodiya" (this Mac's configured username), not explicitly set. Revisit with `git config user.name`/`user.email` plus `git commit --amend --reset-author` before the next commit if a different author identity is wanted on the public repo.
-
-## Immediate resume instructions
-
-Do not resume phase work until the founder has real product photography and product data — see "Project on hold" above. When they do:
-
-1. Read `Business Context/Implementation Plan and Gates.md`, this file, and `DEVELOPER_REFERENCE.md` to reload context.
-2. `git pull` (or check `git status`/`git log`) before editing anything, since the folder is now a tracked repo with a GitHub remote — don't lose or silently diverge from what's pushed.
-3. Optionally address any Gate 5 feedback the founder gives on the dummy catalogue's tone/content (independent of the real-data blocker).
-4. Begin Phase 6: replace dummy products/images/prices in `catalog/products.sample.json` (and `preview/`'s image references) with real data, verify the WhatsApp number and email, and prepare the release/deployment checklist.
-5. Stop again at Gate 6 before anything is published to the live domain. Preserve the current launch page (`index.html`/`styles.css`/`script.js` at the project root) throughout — it stays live on Netlify until the founder explicitly approves the domain switch at Gate 6.
-6. Commit and push Phase 6 work to the same GitHub repo as it progresses, same exclusions as established in `.gitignore`.
-
-For a compact change history, read `CHANGELOG.md`. For file roles, local preview, data expectations, and release checks, read `DEVELOPER_REFERENCE.md`.
+The next live-domain gate requires actual Aayam product photography with usage rights; confirmed names, compositions, karats, variants, sizes, weights and prices; final care and ordering information; and confirmation that the WhatsApp number is the intended business contact. Review the founder/manufacturing story separately before adding it.

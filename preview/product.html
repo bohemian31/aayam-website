@@ -5,10 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title id="page-title">Product — The House of Aayam (Draft Preview)</title>
 <meta name="robots" content="noindex">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css?v=20260929">
 </head>
 <body>
-<div class="preview-notice">Design preview — sample products and prices.</div>
+<div class="preview-notice">Design preview — reference photos and sample specifications and prices.</div>
 <header class="site-header">
   <div class="nav-row">
     <a class="nav-logo" href="index.html"><img src="../assets/logo.png" alt="The House of Aayam"></a>
@@ -70,7 +70,7 @@
   <p class="footer-bottom">&copy; 2026 The House of Aayam · Design preview — sample content</p>
 </footer>
 
-<script src="catalog.js"></script>
+<script src="catalog.js?v=20260929"></script>
 <script>
 function uniq(arr) { return [...new Set(arr)]; }
 
@@ -100,14 +100,16 @@ function render(product) {
       <div class="gallery">
         <div class="main"><img id="main-img" src="${product.images.primary.replace('catalog/', '../catalog/')}" alt="${product.name}"></div>
         <div class="thumbs">
-          <button data-img="primary"><img src="${product.images.primary.replace('catalog/', '../catalog/')}" alt=""></button>
-          <button data-img="alternate"><img src="${product.images.alternate.replace('catalog/', '../catalog/')}" alt=""></button>
-          <button data-img="detail"><img src="${product.images.detail.replace('catalog/', '../catalog/')}" alt=""></button>
+          <button data-img="primary" aria-label="View reference image in gallery position 1"><img src="${product.images.primary.replace('catalog/', '../catalog/')}" alt=""></button>
+          <button data-img="alternate" aria-label="View reference image in gallery position 2"><img src="${product.images.alternate.replace('catalog/', '../catalog/')}" alt=""></button>
+          <button data-img="detail" aria-label="View reference image in gallery position 3"><img src="${product.images.detail.replace('catalog/', '../catalog/')}" alt=""></button>
         </div>
+        <p class="gallery-note">One reference photo is repeated in all three gallery positions. Additional views are pending.</p>
       </div>
       <div class="product-info">
         <p style="font-size:13px;color:var(--text-secondary)"><a href="all-jewellery.html">Home</a> / <a href="${categoryUrl(product.category)}">${product.category}</a> / ${product.name}</p>
         <h1>${product.name}</h1>
+        <p class="sample-note">Reference image and provisional name. Prices, materials, sizes and specifications below are sample data for layout review and may not describe the pictured piece.</p>
         <p class="variant-line" id="variant-line"></p>
         <p class="price" id="price-line"></p>
 
@@ -211,7 +213,12 @@ function render(product) {
 loadCatalog().then(data => {
   const params = new URLSearchParams(window.location.search);
   const id = params.get('id');
-  const product = data.products.find(p => p.id === id) || data.products[0];
+  const product = id ? data.products.find(p => p.id === id) : data.products[0];
+  if (!product) {
+    document.getElementById('page-title').textContent = 'Piece unavailable in this preview — The House of Aayam';
+    document.getElementById('app').innerHTML = '<div class="product-missing"><h1>This piece is not in the current preview.</h1><p>The draft catalogue now shows only pieces with a clear single-item image.</p><a class="btn-secondary" href="all-jewellery.html">View all jewellery</a></div>';
+    return;
+  }
   render(product);
 }).catch(err => {
   document.getElementById('app').innerHTML = '<p style="padding:24px;color:#c00">' + err.message + '</p>';

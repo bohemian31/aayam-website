@@ -1,26 +1,66 @@
 {
-  "_readme": "SAMPLE CONTENT — Phase 3 dummy catalogue for The House of Aayam. All names, prices, weights and images are illustrative placeholders for the draft catalogue build (Phase 4+). Nothing here is confirmed inventory, pricing or imagery. See 'Business Context/Phase 3 Dummy Catalogue and Content Contract.md' for the schema, display rules and pricing methodology.",
+  "_readme": "PREVIEW CONTENT — 33 provisional image-backed listings. Photos are reference images, not verified Aayam product photography. Names and visual descriptions are draft interpretations. Prices, weights, variants, sizes, specifications and care remain sample data and must be verified or replaced before live-domain release.",
   "currency": "INR",
   "sampleContent": true,
-  "categories": ["Rings", "Bracelets", "Chains", "Pendants"],
-  "goldColours": ["Yellow", "Rose", "White"],
-  "karats": ["9K", "14K", "18K", "22K"],
+  "categories": [
+    "Rings",
+    "Bracelets",
+    "Chains",
+    "Pendants"
+  ],
+  "goldColours": [
+    "Yellow",
+    "Rose",
+    "White"
+  ],
+  "karats": [
+    "9K",
+    "14K",
+    "18K",
+    "22K"
+  ],
   "products": [
     {
       "id": "AYM-RG-001",
-      "slug": "kavi-onyx-signet-ring",
-      "name": "Kavi Onyx Signet Ring",
+      "slug": "kavi-diagonal-inlay-band",
+      "name": "Kavi Diagonal Inlay Band",
       "category": "Rings",
-      "shortDescription": "A square-set black onyx signet with a polished band.",
-      "description": "The Kavi pairs a flat-set black onyx face with a rounded, polished band. The face sits close to the finger and reads quiet from a distance, distinct up close.",
+      "shortDescription": "A broad band crossed by a dark diagonal inlay.",
+      "description": "A precise diagonal line cuts across Kavi's broad, clean face. The contrasting detail gives the band its quiet edge.",
       "weightGrams": 4,
       "sizeType": "Ring size",
-      "sizeOptions": ["7", "7.5", "8", "8.5", "9", "9.5", "10", "10.5", "11", "11.5", "12", "12.5", "13"],
+      "sizeOptions": [
+        "7",
+        "7.5",
+        "8",
+        "8.5",
+        "9",
+        "9.5",
+        "10",
+        "10.5",
+        "11",
+        "11.5",
+        "12",
+        "12.5",
+        "13"
+      ],
       "sizeHelpText": "I need sizing help",
       "variants": [
-        { "goldColour": "Yellow", "karat": "14K", "priceINR": 51000 },
-        { "goldColour": "Yellow", "karat": "18K", "priceINR": 65000 },
-        { "goldColour": "Rose", "karat": "14K", "priceINR": 51000 }
+        {
+          "goldColour": "Yellow",
+          "karat": "14K",
+          "priceINR": 51000
+        },
+        {
+          "goldColour": "Yellow",
+          "karat": "18K",
+          "priceINR": 65000
+        },
+        {
+          "goldColour": "Rose",
+          "karat": "14K",
+          "priceINR": 51000
+        }
       ],
       "details": {
         "composition": "14K or 18K gold, black onyx",
@@ -29,27 +69,70 @@
         "includes": "Ring only"
       },
       "care": "Avoid contact with perfume, lotion and chlorinated water. Store separately in a soft pouch to prevent surface scratching.",
-      "images": { "primary": "catalog/images/placeholders/ring.jpg", "alternate": "catalog/images/placeholders/ring.jpg", "detail": "catalog/images/placeholders/ring.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
+      "images": {
+        "primary": "catalog/images/reference/ring-01.jpg",
+        "alternate": "catalog/images/reference/ring-01.jpg",
+        "detail": "catalog/images/reference/ring-01.jpg",
+        "onBody": null
+      },
+      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
     },
     {
       "id": "AYM-RG-002",
-      "slug": "arka-plain-band-ring",
-      "name": "Arka Plain Band Ring",
+      "slug": "arka-chevron-band",
+      "name": "Arka Chevron Band",
       "category": "Rings",
-      "shortDescription": "A versatile rounded band for everyday wear.",
-      "description": "The Arka keeps to a clean, rounded band with a comfort-fit interior. A first ring that sits well alone or stacked beside a signet.",
+      "shortDescription": "A polished band with a small triangular accent.",
+      "description": "Arka keeps a simple rounded profile, interrupted by a small chevron-shaped detail. It reads as a minimal band from a distance.",
       "weightGrams": 4,
       "sizeType": "Ring size",
-      "sizeOptions": ["7", "7.5", "8", "8.5", "9", "9.5", "10", "10.5", "11", "11.5", "12", "12.5", "13"],
+      "sizeOptions": [
+        "7",
+        "7.5",
+        "8",
+        "8.5",
+        "9",
+        "9.5",
+        "10",
+        "10.5",
+        "11",
+        "11.5",
+        "12",
+        "12.5",
+        "13"
+      ],
       "sizeHelpText": "I need sizing help",
       "variants": [
-        { "goldColour": "Yellow", "karat": "9K", "priceINR": 33500 },
-        { "goldColour": "Rose", "karat": "9K", "priceINR": 33500 },
-        { "goldColour": "White", "karat": "9K", "priceINR": 33500 },
-        { "goldColour": "Yellow", "karat": "14K", "priceINR": 51000 },
-        { "goldColour": "Rose", "karat": "14K", "priceINR": 51000 },
-        { "goldColour": "White", "karat": "14K", "priceINR": 51000 }
+        {
+          "goldColour": "Yellow",
+          "karat": "9K",
+          "priceINR": 33500
+        },
+        {
+          "goldColour": "Rose",
+          "karat": "9K",
+          "priceINR": 33500
+        },
+        {
+          "goldColour": "White",
+          "karat": "9K",
+          "priceINR": 33500
+        },
+        {
+          "goldColour": "Yellow",
+          "karat": "14K",
+          "priceINR": 51000
+        },
+        {
+          "goldColour": "Rose",
+          "karat": "14K",
+          "priceINR": 51000
+        },
+        {
+          "goldColour": "White",
+          "karat": "14K",
+          "priceINR": 51000
+        }
       ],
       "details": {
         "composition": "9K or 14K gold",
@@ -58,23 +141,48 @@
         "includes": "Ring only"
       },
       "care": "Avoid contact with perfume, lotion and chlorinated water. Store separately in a soft pouch to prevent surface scratching.",
-      "images": { "primary": "catalog/images/placeholders/ring.jpg", "alternate": "catalog/images/placeholders/ring.jpg", "detail": "catalog/images/placeholders/ring.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
+      "images": {
+        "primary": "catalog/images/reference/ring-02.jpg",
+        "alternate": "catalog/images/reference/ring-02.jpg",
+        "detail": "catalog/images/reference/ring-02.jpg",
+        "onBody": null
+      },
+      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
     },
     {
       "id": "AYM-RG-003",
-      "slug": "veyar-malachite-signet-ring",
-      "name": "Veyar Malachite Signet Ring",
+      "slug": "veyar-bar-signet-ring",
+      "name": "Veyar Bar Signet Ring",
       "category": "Rings",
-      "shortDescription": "A statement signet set with a green malachite face.",
-      "description": "The Veyar carries a rectangular malachite face on a substantial polished band, sized for presence rather than everyday layering.",
+      "shortDescription": "A narrow bar face with a single bright accent.",
+      "description": "Veyar sets a slim, flat bar above a tapered band. One bright point draws the eye to the otherwise spare shape.",
       "weightGrams": 4,
       "sizeType": "Ring size",
-      "sizeOptions": ["8", "8.5", "9", "9.5", "10", "10.5", "11", "11.5", "12", "12.5", "13"],
+      "sizeOptions": [
+        "8",
+        "8.5",
+        "9",
+        "9.5",
+        "10",
+        "10.5",
+        "11",
+        "11.5",
+        "12",
+        "12.5",
+        "13"
+      ],
       "sizeHelpText": "I need sizing help",
       "variants": [
-        { "goldColour": "Yellow", "karat": "18K", "priceINR": 65000 },
-        { "goldColour": "Yellow", "karat": "22K", "priceINR": 79000 }
+        {
+          "goldColour": "Yellow",
+          "karat": "18K",
+          "priceINR": 65000
+        },
+        {
+          "goldColour": "Yellow",
+          "karat": "22K",
+          "priceINR": 79000
+        }
       ],
       "details": {
         "composition": "18K or 22K gold, malachite",
@@ -83,215 +191,337 @@
         "includes": "Ring only"
       },
       "care": "Malachite is a soft stone — avoid impact, chemicals and ultrasonic cleaning. Store separately in a soft pouch.",
-      "images": { "primary": "catalog/images/placeholders/ring.jpg", "alternate": "catalog/images/placeholders/ring.jpg", "detail": "catalog/images/placeholders/ring.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
+      "images": {
+        "primary": "catalog/images/reference/ring-03.jpg",
+        "alternate": "catalog/images/reference/ring-03.jpg",
+        "detail": "catalog/images/reference/ring-03.jpg",
+        "onBody": null
+      },
+      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
     },
     {
       "id": "AYM-RG-004",
-      "slug": "rudra-signet-ring",
-      "name": "Rudra Signet Ring",
+      "slug": "rudra-crossover-band",
+      "name": "Rudra Crossover Band",
       "category": "Rings",
-      "shortDescription": "A plain polished signet with a wide flat face.",
-      "description": "The Rudra keeps the signet face plain and polished, sized for a quiet, confident presence without a stone.",
+      "shortDescription": "A softly crossing band with a continuous curve.",
+      "description": "Two sweeping lines appear to meet at the front of Rudra. The overlapping form gives a plain band a sense of movement.",
       "weightGrams": 4,
       "sizeType": "Ring size",
-      "sizeOptions": ["7", "7.5", "8", "8.5", "9", "9.5", "10", "10.5", "11", "11.5", "12", "12.5", "13"],
+      "sizeOptions": [
+        "7",
+        "7.5",
+        "8",
+        "8.5",
+        "9",
+        "9.5",
+        "10",
+        "10.5",
+        "11",
+        "11.5",
+        "12",
+        "12.5",
+        "13"
+      ],
       "sizeHelpText": "I need sizing help",
       "variants": [
-        { "goldColour": "Yellow", "karat": "14K", "priceINR": 51000 },
-        { "goldColour": "Yellow", "karat": "18K", "priceINR": 65000 },
-        { "goldColour": "Rose", "karat": "14K", "priceINR": 51000 },
-        { "goldColour": "Rose", "karat": "18K", "priceINR": 65000 },
-        { "goldColour": "White", "karat": "14K", "priceINR": 51000 },
-        { "goldColour": "White", "karat": "18K", "priceINR": 65000 }
+        {
+          "goldColour": "Yellow",
+          "karat": "14K",
+          "priceINR": 51000
+        },
+        {
+          "goldColour": "Yellow",
+          "karat": "18K",
+          "priceINR": 65000
+        },
+        {
+          "goldColour": "Rose",
+          "karat": "14K",
+          "priceINR": 51000
+        },
+        {
+          "goldColour": "Rose",
+          "karat": "18K",
+          "priceINR": 65000
+        },
+        {
+          "goldColour": "White",
+          "karat": "14K",
+          "priceINR": 51000
+        },
+        {
+          "goldColour": "White",
+          "karat": "18K",
+          "priceINR": 65000
+        }
       ],
-      "details": { "composition": "14K or 18K gold", "dimensions": "Face approx. 13mm x 11mm", "fastening": "N/A", "includes": "Ring only" },
+      "details": {
+        "composition": "14K or 18K gold",
+        "dimensions": "Face approx. 13mm x 11mm",
+        "fastening": "N/A",
+        "includes": "Ring only"
+      },
       "care": "Avoid contact with perfume, lotion and chlorinated water. Store separately in a soft pouch to prevent surface scratching.",
-      "images": { "primary": "catalog/images/placeholders/ring.jpg", "alternate": "catalog/images/placeholders/ring.jpg", "detail": "catalog/images/placeholders/ring.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
+      "images": {
+        "primary": "catalog/images/reference/ring-04.jpg",
+        "alternate": "catalog/images/reference/ring-04.jpg",
+        "detail": "catalog/images/reference/ring-04.jpg",
+        "onBody": null
+      },
+      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
     },
     {
       "id": "AYM-RG-005",
-      "slug": "kiaan-half-round-band",
-      "name": "Kiaan Half-Round Band",
+      "slug": "kiaan-open-facet-ring",
+      "name": "Kiaan Open Facet Ring",
       "category": "Rings",
-      "shortDescription": "A thicker half-round band with a comfort-fit interior.",
-      "description": "The Kiaan takes a half-round profile and a wider band, built to read as a single confident line on the hand.",
+      "shortDescription": "An angular ring with an open central line.",
+      "description": "Kiaan frames a narrow opening with polished, faceted edges. Its geometric outline carries the design.",
       "weightGrams": 4,
       "sizeType": "Ring size",
-      "sizeOptions": ["7", "7.5", "8", "8.5", "9", "9.5", "10", "10.5", "11", "11.5", "12", "12.5", "13"],
+      "sizeOptions": [
+        "7",
+        "7.5",
+        "8",
+        "8.5",
+        "9",
+        "9.5",
+        "10",
+        "10.5",
+        "11",
+        "11.5",
+        "12",
+        "12.5",
+        "13"
+      ],
       "sizeHelpText": "I need sizing help",
       "variants": [
-        { "goldColour": "Yellow", "karat": "9K", "priceINR": 33500 },
-        { "goldColour": "Yellow", "karat": "14K", "priceINR": 51000 },
-        { "goldColour": "White", "karat": "9K", "priceINR": 33500 },
-        { "goldColour": "White", "karat": "14K", "priceINR": 51000 }
+        {
+          "goldColour": "Yellow",
+          "karat": "9K",
+          "priceINR": 33500
+        },
+        {
+          "goldColour": "Yellow",
+          "karat": "14K",
+          "priceINR": 51000
+        },
+        {
+          "goldColour": "White",
+          "karat": "9K",
+          "priceINR": 33500
+        },
+        {
+          "goldColour": "White",
+          "karat": "14K",
+          "priceINR": 51000
+        }
       ],
-      "details": { "composition": "9K or 14K gold", "dimensions": "Band width approx. 3.5mm", "fastening": "N/A", "includes": "Ring only" },
+      "details": {
+        "composition": "9K or 14K gold",
+        "dimensions": "Band width approx. 3.5mm",
+        "fastening": "N/A",
+        "includes": "Ring only"
+      },
       "care": "Avoid contact with perfume, lotion and chlorinated water. Store separately in a soft pouch to prevent surface scratching.",
-      "images": { "primary": "catalog/images/placeholders/ring.jpg", "alternate": "catalog/images/placeholders/ring.jpg", "detail": "catalog/images/placeholders/ring.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
+      "images": {
+        "primary": "catalog/images/reference/ring-05.jpg",
+        "alternate": "catalog/images/reference/ring-05.jpg",
+        "detail": "catalog/images/reference/ring-05.jpg",
+        "onBody": null
+      },
+      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
     },
     {
       "id": "AYM-RG-006",
-      "slug": "aum-brushed-signet-ring",
-      "name": "Aum Brushed Signet Ring",
+      "slug": "aum-stepped-band",
+      "name": "Aum Stepped Band",
       "category": "Rings",
-      "shortDescription": "A matte-brushed signet face on a polished band.",
-      "description": "The Aum contrasts a brushed signet face against a polished band, a quieter finish than a mirror signet.",
+      "shortDescription": "A polished band with a stepped central detail.",
+      "description": "Aum's profile rises into a small, defined step at the front. The rest of the band remains smooth and restrained.",
       "weightGrams": 4,
       "sizeType": "Ring size",
-      "sizeOptions": ["7.5", "8", "8.5", "9", "9.5", "10", "10.5", "11", "11.5", "12", "12.5", "13"],
+      "sizeOptions": [
+        "7.5",
+        "8",
+        "8.5",
+        "9",
+        "9.5",
+        "10",
+        "10.5",
+        "11",
+        "11.5",
+        "12",
+        "12.5",
+        "13"
+      ],
       "sizeHelpText": "I need sizing help",
       "variants": [
-        { "goldColour": "Yellow", "karat": "14K", "priceINR": 51000 },
-        { "goldColour": "Yellow", "karat": "18K", "priceINR": 65000 }
+        {
+          "goldColour": "Yellow",
+          "karat": "14K",
+          "priceINR": 51000
+        },
+        {
+          "goldColour": "Yellow",
+          "karat": "18K",
+          "priceINR": 65000
+        }
       ],
-      "details": { "composition": "14K or 18K gold", "dimensions": "Face approx. 12mm x 10mm", "fastening": "N/A", "includes": "Ring only" },
+      "details": {
+        "composition": "14K or 18K gold",
+        "dimensions": "Face approx. 12mm x 10mm",
+        "fastening": "N/A",
+        "includes": "Ring only"
+      },
       "care": "Avoid contact with perfume, lotion and chlorinated water. A brushed finish will polish smooth over time with wear; this is expected.",
-      "images": { "primary": "catalog/images/placeholders/ring.jpg", "alternate": "catalog/images/placeholders/ring.jpg", "detail": "catalog/images/placeholders/ring.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
+      "images": {
+        "primary": "catalog/images/reference/ring-06.jpg",
+        "alternate": "catalog/images/reference/ring-06.jpg",
+        "detail": "catalog/images/reference/ring-06.jpg",
+        "onBody": null
+      },
+      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
     },
     {
       "id": "AYM-RG-007",
-      "slug": "zaal-black-spinel-signet",
-      "name": "Zaal Black Spinel Signet",
+      "slug": "zaal-channel-band",
+      "name": "Zaal Channel Band",
       "category": "Rings",
-      "shortDescription": "A substantial signet set with a black spinel face.",
-      "description": "The Zaal sets a deep black spinel into a substantial white gold signet, weighted for a statement piece.",
+      "shortDescription": "A wide band with a line of bright inset accents.",
+      "description": "A narrow channel runs across the face of Zaal, giving the broad band a crisp line of contrast. The accents are visually bright; their material is unverified.",
       "weightGrams": 5,
       "sizeType": "Ring size",
-      "sizeOptions": ["8", "8.5", "9", "9.5", "10", "10.5", "11", "11.5", "12", "12.5", "13"],
+      "sizeOptions": [
+        "8",
+        "8.5",
+        "9",
+        "9.5",
+        "10",
+        "10.5",
+        "11",
+        "11.5",
+        "12",
+        "12.5",
+        "13"
+      ],
       "sizeHelpText": "I need sizing help",
       "variants": [
-        { "goldColour": "White", "karat": "18K", "priceINR": 81000 },
-        { "goldColour": "White", "karat": "22K", "priceINR": 99000 }
+        {
+          "goldColour": "White",
+          "karat": "18K",
+          "priceINR": 81000
+        },
+        {
+          "goldColour": "White",
+          "karat": "22K",
+          "priceINR": 99000
+        }
       ],
-      "details": { "composition": "18K or 22K gold, black spinel", "dimensions": "Face approx. 13mm x 11mm", "fastening": "N/A", "includes": "Ring only" },
+      "details": {
+        "composition": "18K or 22K gold, black spinel",
+        "dimensions": "Face approx. 13mm x 11mm",
+        "fastening": "N/A",
+        "includes": "Ring only"
+      },
       "care": "Avoid contact with perfume, lotion and chlorinated water. Store separately in a soft pouch.",
-      "images": { "primary": "catalog/images/placeholders/ring.jpg", "alternate": "catalog/images/placeholders/ring.jpg", "detail": "catalog/images/placeholders/ring.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
+      "images": {
+        "primary": "catalog/images/reference/ring-07.jpg",
+        "alternate": "catalog/images/reference/ring-07.jpg",
+        "detail": "catalog/images/reference/ring-07.jpg",
+        "onBody": null
+      },
+      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
     },
     {
       "id": "AYM-RG-008",
-      "slug": "tejas-twist-band",
-      "name": "Tejas Twist Band",
+      "slug": "tejas-facet-band",
+      "name": "Tejas Facet Band",
       "category": "Rings",
-      "shortDescription": "A gently twisted rope-textured band.",
-      "description": "The Tejas carries a soft twisted texture around the band, a small detail that catches light without a stone.",
+      "shortDescription": "A geometric band with sculpted, angled planes.",
+      "description": "Tejas catches the light across a series of angled surfaces. Its shape is distinctive while the silhouette stays compact.",
       "weightGrams": 4,
       "sizeType": "Ring size",
-      "sizeOptions": ["7", "7.5", "8", "8.5", "9", "9.5", "10", "10.5", "11", "11.5", "12", "12.5", "13"],
+      "sizeOptions": [
+        "7",
+        "7.5",
+        "8",
+        "8.5",
+        "9",
+        "9.5",
+        "10",
+        "10.5",
+        "11",
+        "11.5",
+        "12",
+        "12.5",
+        "13"
+      ],
       "sizeHelpText": "I need sizing help",
       "variants": [
-        { "goldColour": "Yellow", "karat": "9K", "priceINR": 33500 },
-        { "goldColour": "Yellow", "karat": "14K", "priceINR": 51000 },
-        { "goldColour": "Rose", "karat": "9K", "priceINR": 33500 },
-        { "goldColour": "Rose", "karat": "14K", "priceINR": 51000 }
+        {
+          "goldColour": "Yellow",
+          "karat": "9K",
+          "priceINR": 33500
+        },
+        {
+          "goldColour": "Yellow",
+          "karat": "14K",
+          "priceINR": 51000
+        },
+        {
+          "goldColour": "Rose",
+          "karat": "9K",
+          "priceINR": 33500
+        },
+        {
+          "goldColour": "Rose",
+          "karat": "14K",
+          "priceINR": 51000
+        }
       ],
-      "details": { "composition": "9K or 14K gold", "dimensions": "Band width approx. 3mm", "fastening": "N/A", "includes": "Ring only" },
+      "details": {
+        "composition": "9K or 14K gold",
+        "dimensions": "Band width approx. 3mm",
+        "fastening": "N/A",
+        "includes": "Ring only"
+      },
       "care": "Avoid contact with perfume, lotion and chlorinated water. Store separately in a soft pouch to prevent surface scratching.",
-      "images": { "primary": "catalog/images/placeholders/ring.jpg", "alternate": "catalog/images/placeholders/ring.jpg", "detail": "catalog/images/placeholders/ring.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
-    },
-    {
-      "id": "AYM-RG-009",
-      "slug": "vyom-sovereign-ring",
-      "name": "Vyom Sovereign Ring",
-      "category": "Rings",
-      "shortDescription": "A coin-inspired round signet, weighted for presence.",
-      "description": "The Vyom sets a round coin-textured face on a substantial band, the heaviest of the signet styles in the range.",
-      "weightGrams": 6,
-      "sizeType": "Ring size",
-      "sizeOptions": ["8.5", "9", "9.5", "10", "10.5", "11", "11.5", "12", "12.5", "13"],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
-        { "goldColour": "Yellow", "karat": "18K", "priceINR": 97000 },
-        { "goldColour": "Yellow", "karat": "22K", "priceINR": 119000 }
-      ],
-      "details": { "composition": "18K or 22K gold", "dimensions": "Face approx. 15mm diameter", "fastening": "N/A", "includes": "Ring only" },
-      "care": "Avoid contact with perfume, lotion and chlorinated water. Store separately in a soft pouch.",
-      "images": { "primary": "catalog/images/placeholders/ring.jpg", "alternate": "catalog/images/placeholders/ring.jpg", "detail": "catalog/images/placeholders/ring.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
-    },
-    {
-      "id": "AYM-RG-010",
-      "slug": "karan-half-bezel-ring",
-      "name": "Karan Half Bezel Ring",
-      "category": "Rings",
-      "shortDescription": "A slim band with a small bezel-set black onyx accent.",
-      "description": "The Karan keeps a slim profile with one small bezel-set onyx accent to one side, a quieter alternative to a full signet face.",
-      "weightGrams": 4,
-      "sizeType": "Ring size",
-      "sizeOptions": ["7", "7.5", "8", "8.5", "9", "9.5", "10", "10.5", "11", "11.5", "12", "12.5", "13"],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
-        { "goldColour": "Rose", "karat": "14K", "priceINR": 51000 },
-        { "goldColour": "White", "karat": "14K", "priceINR": 51000 }
-      ],
-      "details": { "composition": "14K gold, black onyx", "dimensions": "Band width approx. 2.5mm", "fastening": "N/A", "includes": "Ring only" },
-      "care": "Avoid contact with perfume, lotion and chlorinated water. Store separately in a soft pouch to prevent surface scratching.",
-      "images": { "primary": "catalog/images/placeholders/ring.jpg", "alternate": "catalog/images/placeholders/ring.jpg", "detail": "catalog/images/placeholders/ring.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
-    },
-    {
-      "id": "AYM-RG-011",
-      "slug": "ishan-groove-band",
-      "name": "Ishan Groove Band",
-      "category": "Rings",
-      "shortDescription": "A polished band with a single engraved groove line.",
-      "description": "The Ishan runs one fine engraved groove around an otherwise plain band, a small line that reads as intentional rather than decorative.",
-      "weightGrams": 4,
-      "sizeType": "Ring size",
-      "sizeOptions": ["7", "7.5", "8", "8.5", "9", "9.5", "10", "10.5", "11", "11.5", "12", "12.5", "13"],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
-        { "goldColour": "Yellow", "karat": "9K", "priceINR": 33500 },
-        { "goldColour": "Yellow", "karat": "14K", "priceINR": 51000 },
-        { "goldColour": "Yellow", "karat": "18K", "priceINR": 65000 },
-        { "goldColour": "Rose", "karat": "9K", "priceINR": 33500 },
-        { "goldColour": "Rose", "karat": "14K", "priceINR": 51000 },
-        { "goldColour": "White", "karat": "9K", "priceINR": 33500 },
-        { "goldColour": "White", "karat": "14K", "priceINR": 51000 }
-      ],
-      "details": { "composition": "9K, 14K or 18K gold", "dimensions": "Band width approx. 2.2mm", "fastening": "N/A", "includes": "Ring only" },
-      "care": "Avoid contact with perfume, lotion and chlorinated water. Store separately in a soft pouch to prevent surface scratching.",
-      "images": { "primary": "catalog/images/placeholders/ring.jpg", "alternate": "catalog/images/placeholders/ring.jpg", "detail": "catalog/images/placeholders/ring.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
-    },
-    {
-      "id": "AYM-RG-012",
-      "slug": "anay-aventurine-cushion-signet",
-      "name": "Anay Aventurine Cushion Signet",
-      "category": "Rings",
-      "shortDescription": "A cushion-cut green aventurine face on a polished signet.",
-      "description": "The Anay pairs a cushion-cut green aventurine face with a polished signet band, an alternative to the darker onyx and malachite styles.",
-      "weightGrams": 4,
-      "sizeType": "Ring size",
-      "sizeOptions": ["8", "8.5", "9", "9.5", "10", "10.5", "11", "11.5", "12", "12.5", "13"],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
-        { "goldColour": "Yellow", "karat": "18K", "priceINR": 65000 }
-      ],
-      "details": { "composition": "18K gold, green aventurine", "dimensions": "Face approx. 12mm x 12mm", "fastening": "N/A", "includes": "Ring only" },
-      "care": "Aventurine is a moderately soft stone — avoid impact, chemicals and ultrasonic cleaning. Store separately in a soft pouch.",
-      "images": { "primary": "catalog/images/placeholders/ring.jpg", "alternate": "catalog/images/placeholders/ring.jpg", "detail": "catalog/images/placeholders/ring.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
+      "images": {
+        "primary": "catalog/images/reference/ring-08.jpg",
+        "alternate": "catalog/images/reference/ring-08.jpg",
+        "detail": "catalog/images/reference/ring-08.jpg",
+        "onBody": null
+      },
+      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
     },
     {
       "id": "AYM-BR-001",
-      "slug": "dhruv-cuban-curb-bracelet",
-      "name": "Dhruv Cuban Curb Bracelet",
+      "slug": "dhruv-fine-link-bracelet",
+      "name": "Dhruv Fine Link Bracelet",
       "category": "Bracelets",
-      "shortDescription": "A close-linked curb bracelet with a secure box clasp.",
-      "description": "The Dhruv links a matte curb chain to a concealed box clasp, built to sit flat and close against the wrist.",
+      "shortDescription": "A fine-link bracelet with a compact clasp.",
+      "description": "Dhruv forms a light, continuous line around the wrist. Its small repeating links keep the silhouette understated.",
       "weightGrams": 8,
       "sizeType": "Bracelet length",
-      "sizeOptions": ["S (6.5\")", "M (7\")", "L (7.5\")"],
+      "sizeOptions": [
+        "S (6.5\")",
+        "M (7\")",
+        "L (7.5\")"
+      ],
       "sizeHelpText": "I need sizing help",
       "variants": [
-        { "goldColour": "Yellow", "karat": "14K", "priceINR": 101000 },
-        { "goldColour": "White", "karat": "14K", "priceINR": 101000 }
+        {
+          "goldColour": "Yellow",
+          "karat": "14K",
+          "priceINR": 101000
+        },
+        {
+          "goldColour": "White",
+          "karat": "14K",
+          "priceINR": 101000
+        }
       ],
       "details": {
         "composition": "14K gold",
@@ -300,23 +530,40 @@
         "includes": "Bracelet only"
       },
       "care": "Remove before swimming, exercise or manual work. Wipe with a soft cloth after wear.",
-      "images": { "primary": "catalog/images/placeholders/bracelet.jpg", "alternate": "catalog/images/placeholders/bracelet.jpg", "detail": "catalog/images/placeholders/bracelet.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
+      "images": {
+        "primary": "catalog/images/reference/bracelet-01.jpg",
+        "alternate": "catalog/images/reference/bracelet-01.jpg",
+        "detail": "catalog/images/reference/bracelet-01.jpg",
+        "onBody": null
+      },
+      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
     },
     {
       "id": "AYM-BR-002",
-      "slug": "nirav-rope-chain-bracelet",
-      "name": "Nirav Rope Chain Bracelet",
+      "slug": "nirav-open-cuff",
+      "name": "Nirav Open Cuff",
       "category": "Bracelets",
-      "shortDescription": "A twisted rope-link bracelet, light enough for daily wear.",
-      "description": "The Nirav uses a fine twisted rope link, a lighter everyday alternative to a curb chain, finished with a lobster clasp.",
+      "shortDescription": "A smooth open cuff with gently rounded ends.",
+      "description": "Nirav pares the cuff back to a clean arc. The open shape and soft edges let its outline lead.",
       "weightGrams": 8,
       "sizeType": "Bracelet length",
-      "sizeOptions": ["S (6.5\")", "M (7\")", "L (7.5\")"],
+      "sizeOptions": [
+        "S (6.5\")",
+        "M (7\")",
+        "L (7.5\")"
+      ],
       "sizeHelpText": "I need sizing help",
       "variants": [
-        { "goldColour": "Yellow", "karat": "9K", "priceINR": 65000 },
-        { "goldColour": "Yellow", "karat": "14K", "priceINR": 101000 }
+        {
+          "goldColour": "Yellow",
+          "karat": "9K",
+          "priceINR": 65000
+        },
+        {
+          "goldColour": "Yellow",
+          "karat": "14K",
+          "priceINR": 101000
+        }
       ],
       "details": {
         "composition": "9K or 14K gold",
@@ -325,22 +572,33 @@
         "includes": "Bracelet only"
       },
       "care": "Remove before swimming, exercise or manual work. Wipe with a soft cloth after wear.",
-      "images": { "primary": "catalog/images/placeholders/bracelet.jpg", "alternate": "catalog/images/placeholders/bracelet.jpg", "detail": "catalog/images/placeholders/bracelet.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
+      "images": {
+        "primary": "catalog/images/reference/bracelet-02.jpg",
+        "alternate": "catalog/images/reference/bracelet-02.jpg",
+        "detail": "catalog/images/reference/bracelet-02.jpg",
+        "onBody": null
+      },
+      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
     },
     {
       "id": "AYM-BR-003",
-      "slug": "samar-onyx-bead-bracelet",
-      "name": "Samar Onyx Bead Bracelet",
+      "slug": "samar-facet-cuff",
+      "name": "Samar Facet Cuff",
       "category": "Bracelets",
-      "shortDescription": "Faceted onyx beads set between polished gold roundels.",
-      "description": "The Samar alternates faceted onyx beads with polished gold roundels on an elasticated cord, sized to slip on without a clasp.",
+      "shortDescription": "An open cuff shaped by angular planes.",
+      "description": "Samar gives the classic cuff a series of crisp facets. The changing planes add definition without ornament.",
       "weightGrams": 3,
       "sizeType": "Bracelet length",
-      "sizeOptions": ["One size (adjustable)"],
+      "sizeOptions": [
+        "One size (adjustable)"
+      ],
       "sizeHelpText": null,
       "variants": [
-        { "goldColour": "Yellow", "karat": "18K", "priceINR": 65000 }
+        {
+          "goldColour": "Yellow",
+          "karat": "18K",
+          "priceINR": 65000
+        }
       ],
       "details": {
         "composition": "18K gold roundels, black onyx beads, elasticated cord",
@@ -349,189 +607,280 @@
         "includes": "Bracelet only"
       },
       "care": "Avoid stretching the cord excessively when putting on or removing. Keep away from lotion and perfume.",
-      "images": { "primary": "catalog/images/placeholders/bracelet.jpg", "alternate": "catalog/images/placeholders/bracelet.jpg", "detail": "catalog/images/placeholders/bracelet.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
+      "images": {
+        "primary": "catalog/images/reference/bracelet-03.jpg",
+        "alternate": "catalog/images/reference/bracelet-03.jpg",
+        "detail": "catalog/images/reference/bracelet-03.jpg",
+        "onBody": null
+      },
+      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
     },
     {
       "id": "AYM-BR-004",
-      "slug": "kian-figaro-chain-bracelet",
-      "name": "Kian Figaro Chain Bracelet",
+      "slug": "kian-engraved-cuff",
+      "name": "Kian Engraved Cuff",
       "category": "Bracelets",
-      "shortDescription": "A figaro-pattern bracelet alternating link sizes.",
-      "description": "The Kian alternates a long link with three shorter ones in a classic figaro pattern, finished with a lobster clasp.",
+      "shortDescription": "An open cuff with a patterned face.",
+      "description": "A repeating surface detail runs along Kian's outer edge. Its simple open form balances the more detailed finish.",
       "weightGrams": 8,
       "sizeType": "Bracelet length",
-      "sizeOptions": ["S (6.5\")", "M (7\")", "L (7.5\")"],
+      "sizeOptions": [
+        "S (6.5\")",
+        "M (7\")",
+        "L (7.5\")"
+      ],
       "sizeHelpText": "I need sizing help",
       "variants": [
-        { "goldColour": "Yellow", "karat": "9K", "priceINR": 65000 },
-        { "goldColour": "Yellow", "karat": "14K", "priceINR": 101000 },
-        { "goldColour": "Rose", "karat": "9K", "priceINR": 65000 },
-        { "goldColour": "Rose", "karat": "14K", "priceINR": 101000 }
+        {
+          "goldColour": "Yellow",
+          "karat": "9K",
+          "priceINR": 65000
+        },
+        {
+          "goldColour": "Yellow",
+          "karat": "14K",
+          "priceINR": 101000
+        },
+        {
+          "goldColour": "Rose",
+          "karat": "9K",
+          "priceINR": 65000
+        },
+        {
+          "goldColour": "Rose",
+          "karat": "14K",
+          "priceINR": 101000
+        }
       ],
-      "details": { "composition": "9K or 14K gold", "dimensions": "Link width approx. 3mm", "fastening": "Lobster clasp", "includes": "Bracelet only" },
+      "details": {
+        "composition": "9K or 14K gold",
+        "dimensions": "Link width approx. 3mm",
+        "fastening": "Lobster clasp",
+        "includes": "Bracelet only"
+      },
       "care": "Remove before swimming, exercise or manual work. Wipe with a soft cloth after wear.",
-      "images": { "primary": "catalog/images/placeholders/bracelet.jpg", "alternate": "catalog/images/placeholders/bracelet.jpg", "detail": "catalog/images/placeholders/bracelet.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
+      "images": {
+        "primary": "catalog/images/reference/bracelet-04.jpg",
+        "alternate": "catalog/images/reference/bracelet-04.jpg",
+        "detail": "catalog/images/reference/bracelet-04.jpg",
+        "onBody": null
+      },
+      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
     },
     {
       "id": "AYM-BR-005",
-      "slug": "devan-box-chain-bracelet",
-      "name": "Devan Box Chain Bracelet",
+      "slug": "devan-slim-cuff",
+      "name": "Devan Slim Cuff",
       "category": "Bracelets",
-      "shortDescription": "A square-linked box chain bracelet in three karats.",
-      "description": "The Devan mirrors the box-chain construction of the Ansh necklace at bracelet length, for a matched layered look.",
+      "shortDescription": "A slender open cuff with a polished face.",
+      "description": "Devan traces a narrow line around the wrist. The slim profile keeps its presence light and easy to layer.",
       "weightGrams": 8,
       "sizeType": "Bracelet length",
-      "sizeOptions": ["S (6.5\")", "M (7\")", "L (7.5\")"],
+      "sizeOptions": [
+        "S (6.5\")",
+        "M (7\")",
+        "L (7.5\")"
+      ],
       "sizeHelpText": "I need sizing help",
       "variants": [
-        { "goldColour": "Yellow", "karat": "9K", "priceINR": 65000 },
-        { "goldColour": "Yellow", "karat": "14K", "priceINR": 101000 },
-        { "goldColour": "Yellow", "karat": "18K", "priceINR": 130000 }
+        {
+          "goldColour": "Yellow",
+          "karat": "9K",
+          "priceINR": 65000
+        },
+        {
+          "goldColour": "Yellow",
+          "karat": "14K",
+          "priceINR": 101000
+        },
+        {
+          "goldColour": "Yellow",
+          "karat": "18K",
+          "priceINR": 130000
+        }
       ],
-      "details": { "composition": "9K, 14K or 18K gold", "dimensions": "Link width approx. 2mm", "fastening": "Lobster clasp", "includes": "Bracelet only" },
+      "details": {
+        "composition": "9K, 14K or 18K gold",
+        "dimensions": "Link width approx. 2mm",
+        "fastening": "Lobster clasp",
+        "includes": "Bracelet only"
+      },
       "care": "Remove before swimming, exercise or manual work. Wipe with a soft cloth after wear.",
-      "images": { "primary": "catalog/images/placeholders/bracelet.jpg", "alternate": "catalog/images/placeholders/bracelet.jpg", "detail": "catalog/images/placeholders/bracelet.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
+      "images": {
+        "primary": "catalog/images/reference/bracelet-05.jpg",
+        "alternate": "catalog/images/reference/bracelet-05.jpg",
+        "detail": "catalog/images/reference/bracelet-05.jpg",
+        "onBody": null
+      },
+      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
     },
     {
       "id": "AYM-BR-006",
-      "slug": "aksh-woven-mesh-bracelet",
-      "name": "Aksh Woven Mesh Bracelet",
+      "slug": "aksh-textured-cuff",
+      "name": "Aksh Textured Cuff",
       "category": "Bracelets",
-      "shortDescription": "A flexible woven mesh band that sits flat on the wrist.",
-      "description": "The Aksh uses a fine woven mesh construction, flexible enough to sit flat and close against the wrist like a fabric strap.",
+      "shortDescription": "An open cuff with a fine, directional texture.",
+      "description": "Aksh pairs a straightforward cuff shape with a closely patterned surface. The texture becomes clearer up close.",
       "weightGrams": 9,
       "sizeType": "Bracelet length",
-      "sizeOptions": ["S (6.5\")", "M (7\")", "L (7.5\")"],
+      "sizeOptions": [
+        "S (6.5\")",
+        "M (7\")",
+        "L (7.5\")"
+      ],
       "sizeHelpText": "I need sizing help",
       "variants": [
-        { "goldColour": "Yellow", "karat": "14K", "priceINR": 101000 },
-        { "goldColour": "White", "karat": "14K", "priceINR": 101000 }
+        {
+          "goldColour": "Yellow",
+          "karat": "14K",
+          "priceINR": 101000
+        },
+        {
+          "goldColour": "White",
+          "karat": "14K",
+          "priceINR": 101000
+        }
       ],
-      "details": { "composition": "14K gold", "dimensions": "Band width approx. 6mm", "fastening": "Box clasp with safety catch", "includes": "Bracelet only" },
+      "details": {
+        "composition": "14K gold",
+        "dimensions": "Band width approx. 6mm",
+        "fastening": "Box clasp with safety catch",
+        "includes": "Bracelet only"
+      },
       "care": "Remove before swimming, exercise or manual work. A woven mesh should not be pulled or twisted.",
-      "images": { "primary": "catalog/images/placeholders/bracelet.jpg", "alternate": "catalog/images/placeholders/bracelet.jpg", "detail": "catalog/images/placeholders/bracelet.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
+      "images": {
+        "primary": "catalog/images/reference/bracelet-06.jpg",
+        "alternate": "catalog/images/reference/bracelet-06.jpg",
+        "detail": "catalog/images/reference/bracelet-06.jpg",
+        "onBody": null
+      },
+      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
     },
     {
       "id": "AYM-BR-007",
-      "slug": "saarth-hex-link-bracelet",
-      "name": "Saarth Hex Link Bracelet",
+      "slug": "saarth-link-bracelet",
+      "name": "Saarth Link Bracelet",
       "category": "Bracelets",
-      "shortDescription": "A hexagonal-link bracelet with a faceted profile.",
-      "description": "The Saarth links hexagonal facets edge to edge, catching light differently from a rounded curb chain.",
+      "shortDescription": "A close-set link bracelet with a flexible line.",
+      "description": "Saarth follows the wrist through a neat sequence of small links. Its repeated pattern is the main detail.",
       "weightGrams": 8,
       "sizeType": "Bracelet length",
-      "sizeOptions": ["S (6.5\")", "M (7\")", "L (7.5\")"],
+      "sizeOptions": [
+        "S (6.5\")",
+        "M (7\")",
+        "L (7.5\")"
+      ],
       "sizeHelpText": "I need sizing help",
       "variants": [
-        { "goldColour": "Yellow", "karat": "14K", "priceINR": 101000 },
-        { "goldColour": "Yellow", "karat": "18K", "priceINR": 130000 }
+        {
+          "goldColour": "Yellow",
+          "karat": "14K",
+          "priceINR": 101000
+        },
+        {
+          "goldColour": "Yellow",
+          "karat": "18K",
+          "priceINR": 130000
+        }
       ],
-      "details": { "composition": "14K or 18K gold", "dimensions": "Link width approx. 4mm", "fastening": "Lobster clasp", "includes": "Bracelet only" },
+      "details": {
+        "composition": "14K or 18K gold",
+        "dimensions": "Link width approx. 4mm",
+        "fastening": "Lobster clasp",
+        "includes": "Bracelet only"
+      },
       "care": "Remove before swimming, exercise or manual work. Wipe with a soft cloth after wear.",
-      "images": { "primary": "catalog/images/placeholders/bracelet.jpg", "alternate": "catalog/images/placeholders/bracelet.jpg", "detail": "catalog/images/placeholders/bracelet.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
+      "images": {
+        "primary": "catalog/images/reference/bracelet-07.jpg",
+        "alternate": "catalog/images/reference/bracelet-07.jpg",
+        "detail": "catalog/images/reference/bracelet-07.jpg",
+        "onBody": null
+      },
+      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
     },
     {
       "id": "AYM-BR-008",
-      "slug": "uday-cable-chain-bracelet",
-      "name": "Uday Cable Chain Bracelet",
+      "slug": "uday-angle-cuff",
+      "name": "Uday Angle Cuff",
       "category": "Bracelets",
-      "shortDescription": "A fine round-link cable chain bracelet.",
-      "description": "The Uday uses a simple round cable link, the lightest bracelet in the range and an easy first piece.",
+      "shortDescription": "An open cuff with sharp, architectural edges.",
+      "description": "Uday takes a clean open curve and gives it a more angular outline. The faceted edge defines its shape.",
       "weightGrams": 8,
       "sizeType": "Bracelet length",
-      "sizeOptions": ["S (6.5\")", "M (7\")", "L (7.5\")"],
+      "sizeOptions": [
+        "S (6.5\")",
+        "M (7\")",
+        "L (7.5\")"
+      ],
       "sizeHelpText": "I need sizing help",
       "variants": [
-        { "goldColour": "Yellow", "karat": "9K", "priceINR": 65000 },
-        { "goldColour": "Rose", "karat": "9K", "priceINR": 65000 },
-        { "goldColour": "White", "karat": "9K", "priceINR": 65000 }
+        {
+          "goldColour": "Yellow",
+          "karat": "9K",
+          "priceINR": 65000
+        },
+        {
+          "goldColour": "Rose",
+          "karat": "9K",
+          "priceINR": 65000
+        },
+        {
+          "goldColour": "White",
+          "karat": "9K",
+          "priceINR": 65000
+        }
       ],
-      "details": { "composition": "9K gold", "dimensions": "Link width approx. 2.5mm", "fastening": "Lobster clasp", "includes": "Bracelet only" },
+      "details": {
+        "composition": "9K gold",
+        "dimensions": "Link width approx. 2.5mm",
+        "fastening": "Lobster clasp",
+        "includes": "Bracelet only"
+      },
       "care": "Remove before swimming, exercise or manual work. Wipe with a soft cloth after wear.",
-      "images": { "primary": "catalog/images/placeholders/bracelet.jpg", "alternate": "catalog/images/placeholders/bracelet.jpg", "detail": "catalog/images/placeholders/bracelet.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
-    },
-    {
-      "id": "AYM-BR-009",
-      "slug": "manik-statement-curb-bracelet",
-      "name": "Manik Statement Curb Bracelet",
-      "category": "Bracelets",
-      "shortDescription": "A heavier curb bracelet built to wear on its own.",
-      "description": "The Manik scales up the curb link for a bracelet substantial enough to wear alone, mirroring the Kairo chain's proportions.",
-      "weightGrams": 12,
-      "sizeType": "Bracelet length",
-      "sizeOptions": ["M (7\")", "L (7.5\")"],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
-        { "goldColour": "Yellow", "karat": "14K", "priceINR": 151000 },
-        { "goldColour": "Yellow", "karat": "18K", "priceINR": 194000 },
-        { "goldColour": "White", "karat": "14K", "priceINR": 151000 },
-        { "goldColour": "White", "karat": "18K", "priceINR": 194000 }
-      ],
-      "details": { "composition": "14K or 18K gold", "dimensions": "Link width approx. 6mm", "fastening": "Box clasp with safety catch", "includes": "Bracelet only" },
-      "care": "Remove before swimming, exercise or manual work. Wipe with a soft cloth after wear.",
-      "images": { "primary": "catalog/images/placeholders/bracelet.jpg", "alternate": "catalog/images/placeholders/bracelet.jpg", "detail": "catalog/images/placeholders/bracelet.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
-    },
-    {
-      "id": "AYM-BR-010",
-      "slug": "reyan-bead-and-bar-bracelet",
-      "name": "Reyan Bead & Bar Bracelet",
-      "category": "Bracelets",
-      "shortDescription": "Brushed bar links alternating with polished beads.",
-      "description": "The Reyan alternates brushed rectangular bars with small polished beads, a textured alternative to a plain chain.",
-      "weightGrams": 8,
-      "sizeType": "Bracelet length",
-      "sizeOptions": ["S (6.5\")", "M (7\")", "L (7.5\")"],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
-        { "goldColour": "Yellow", "karat": "18K", "priceINR": 130000 }
-      ],
-      "details": { "composition": "18K gold", "dimensions": "Bar approx. 8mm x 3mm", "fastening": "Lobster clasp", "includes": "Bracelet only" },
-      "care": "Remove before swimming, exercise or manual work. Wipe with a soft cloth after wear.",
-      "images": { "primary": "catalog/images/placeholders/bracelet.jpg", "alternate": "catalog/images/placeholders/bracelet.jpg", "detail": "catalog/images/placeholders/bracelet.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
-    },
-    {
-      "id": "AYM-BR-011",
-      "slug": "suhas-herringbone-bracelet",
-      "name": "Suhas Herringbone Bracelet",
-      "category": "Bracelets",
-      "shortDescription": "A flat woven herringbone band with a soft drape.",
-      "description": "The Suhas weaves a flat herringbone pattern that drapes softly against the wrist, closer to a woven strap than a chain.",
-      "weightGrams": 8,
-      "sizeType": "Bracelet length",
-      "sizeOptions": ["S (6.5\")", "M (7\")", "L (7.5\")"],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
-        { "goldColour": "Rose", "karat": "14K", "priceINR": 101000 }
-      ],
-      "details": { "composition": "14K gold", "dimensions": "Band width approx. 5mm", "fastening": "Box clasp with safety catch", "includes": "Bracelet only" },
-      "care": "Remove before swimming, exercise or manual work. A woven finish should not be pulled or twisted.",
-      "images": { "primary": "catalog/images/placeholders/bracelet.jpg", "alternate": "catalog/images/placeholders/bracelet.jpg", "detail": "catalog/images/placeholders/bracelet.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
+      "images": {
+        "primary": "catalog/images/reference/bracelet-08.jpg",
+        "alternate": "catalog/images/reference/bracelet-08.jpg",
+        "detail": "catalog/images/reference/bracelet-08.jpg",
+        "onBody": null
+      },
+      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
     },
     {
       "id": "AYM-CH-001",
-      "slug": "ansh-box-chain",
-      "name": "Ansh Box Chain",
+      "slug": "ansh-flat-chain",
+      "name": "Ansh Flat Chain",
       "category": "Chains",
-      "shortDescription": "A fine box-link chain for everyday layering.",
-      "description": "The Ansh is a fine, square-linked box chain, light enough to wear alone or beneath a shirt collar.",
+      "shortDescription": "A flat chain that lies in a smooth, continuous line.",
+      "description": "Ansh follows the neckline with a slim, flattened profile. Its simple surface makes the shape the focus.",
       "weightGrams": 8,
       "sizeType": "Chain length",
-      "sizeOptions": ["18\"", "20\"", "22\""],
+      "sizeOptions": [
+        "18\"",
+        "20\"",
+        "22\""
+      ],
       "sizeHelpText": "I need sizing help",
       "variants": [
-        { "goldColour": "Yellow", "karat": "9K", "priceINR": 65000 },
-        { "goldColour": "Rose", "karat": "9K", "priceINR": 65000 },
-        { "goldColour": "Yellow", "karat": "14K", "priceINR": 101000 },
-        { "goldColour": "Rose", "karat": "14K", "priceINR": 101000 }
+        {
+          "goldColour": "Yellow",
+          "karat": "9K",
+          "priceINR": 65000
+        },
+        {
+          "goldColour": "Rose",
+          "karat": "9K",
+          "priceINR": 65000
+        },
+        {
+          "goldColour": "Yellow",
+          "karat": "14K",
+          "priceINR": 101000
+        },
+        {
+          "goldColour": "Rose",
+          "karat": "14K",
+          "priceINR": 101000
+        }
       ],
       "details": {
         "composition": "9K or 14K gold",
@@ -540,24 +889,46 @@
         "includes": "Chain only"
       },
       "care": "Store flat or hanging to prevent tangling. Avoid contact with perfume and chlorinated water.",
-      "images": { "primary": "catalog/images/placeholders/chain.jpg", "alternate": "catalog/images/placeholders/chain.jpg", "detail": "catalog/images/placeholders/chain.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
+      "images": {
+        "primary": "catalog/images/reference/chain-01.jpg",
+        "alternate": "catalog/images/reference/chain-01.jpg",
+        "detail": "catalog/images/reference/chain-01.jpg",
+        "onBody": null
+      },
+      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
     },
     {
       "id": "AYM-CH-002",
-      "slug": "mihir-curb-chain",
-      "name": "Mihir Curb Chain",
+      "slug": "mihir-fine-chain",
+      "name": "Mihir Fine Chain",
       "category": "Chains",
-      "shortDescription": "A classic flat curb chain in a versatile weight.",
-      "description": "The Mihir follows a traditional flat curb pattern, weighted enough to hold its shape without feeling heavy through the day.",
+      "shortDescription": "A slender chain with a quiet, fluid drape.",
+      "description": "Mihir draws a fine line against the skin. Its restrained scale lends itself to a pared-back look.",
       "weightGrams": 10,
       "sizeType": "Chain length",
-      "sizeOptions": ["18\"", "20\"", "22\"", "24\""],
+      "sizeOptions": [
+        "18\"",
+        "20\"",
+        "22\"",
+        "24\""
+      ],
       "sizeHelpText": "I need sizing help",
       "variants": [
-        { "goldColour": "Yellow", "karat": "9K", "priceINR": 81000 },
-        { "goldColour": "Yellow", "karat": "14K", "priceINR": 126000 },
-        { "goldColour": "Yellow", "karat": "18K", "priceINR": 162000 }
+        {
+          "goldColour": "Yellow",
+          "karat": "9K",
+          "priceINR": 81000
+        },
+        {
+          "goldColour": "Yellow",
+          "karat": "14K",
+          "priceINR": 126000
+        },
+        {
+          "goldColour": "Yellow",
+          "karat": "18K",
+          "priceINR": 162000
+        }
       ],
       "details": {
         "composition": "9K, 14K or 18K gold",
@@ -566,25 +937,50 @@
         "includes": "Chain only"
       },
       "care": "Store flat or hanging to prevent tangling. Avoid contact with perfume and chlorinated water.",
-      "images": { "primary": "catalog/images/placeholders/chain.jpg", "alternate": "catalog/images/placeholders/chain.jpg", "detail": "catalog/images/placeholders/chain.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
+      "images": {
+        "primary": "catalog/images/reference/chain-02.jpg",
+        "alternate": "catalog/images/reference/chain-02.jpg",
+        "detail": "catalog/images/reference/chain-02.jpg",
+        "onBody": null
+      },
+      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
     },
     {
       "id": "AYM-CH-003",
-      "slug": "kairo-statement-curb-chain",
-      "name": "Kairo Statement Curb Chain",
+      "slug": "kairo-curb-chain",
+      "name": "Kairo Curb Chain",
       "category": "Chains",
-      "shortDescription": "A heavier curb chain built to wear on its own.",
-      "description": "The Kairo scales up the curb link for a chain meant to be worn alone, without other jewellery competing for attention.",
+      "shortDescription": "A classic close-set curb-link chain.",
+      "description": "Kairo is built around repeating, flattened links. The familiar rhythm gives it a clear, defined line.",
       "weightGrams": 15,
       "sizeType": "Chain length",
-      "sizeOptions": ["20\"", "22\"", "24\""],
+      "sizeOptions": [
+        "20\"",
+        "22\"",
+        "24\""
+      ],
       "sizeHelpText": "I need sizing help",
       "variants": [
-        { "goldColour": "Yellow", "karat": "14K", "priceINR": 185000 },
-        { "goldColour": "White", "karat": "14K", "priceINR": 185000 },
-        { "goldColour": "Yellow", "karat": "18K", "priceINR": 243000 },
-        { "goldColour": "White", "karat": "18K", "priceINR": 243000 }
+        {
+          "goldColour": "Yellow",
+          "karat": "14K",
+          "priceINR": 185000
+        },
+        {
+          "goldColour": "White",
+          "karat": "14K",
+          "priceINR": 185000
+        },
+        {
+          "goldColour": "Yellow",
+          "karat": "18K",
+          "priceINR": 243000
+        },
+        {
+          "goldColour": "White",
+          "karat": "18K",
+          "priceINR": 243000
+        }
       ],
       "details": {
         "composition": "14K or 18K gold",
@@ -593,185 +989,351 @@
         "includes": "Chain only"
       },
       "care": "Store flat or hanging to prevent tangling. Avoid contact with perfume and chlorinated water.",
-      "images": { "primary": "catalog/images/placeholders/chain.jpg", "alternate": "catalog/images/placeholders/chain.jpg", "detail": "catalog/images/placeholders/chain.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
+      "images": {
+        "primary": "catalog/images/reference/chain-03.jpg",
+        "alternate": "catalog/images/reference/chain-03.jpg",
+        "detail": "catalog/images/reference/chain-03.jpg",
+        "onBody": null
+      },
+      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
     },
     {
       "id": "AYM-CH-004",
-      "slug": "zoran-figaro-chain",
-      "name": "Zoran Figaro Chain",
+      "slug": "zoran-bar-link-chain",
+      "name": "Zoran Bar Link Chain",
       "category": "Chains",
-      "shortDescription": "A figaro-pattern chain alternating link sizes.",
-      "description": "The Zoran alternates one long link with three shorter ones, a pattern with more visual rhythm than a plain curb or box chain.",
+      "shortDescription": "An elongated link chain with a graphic rhythm.",
+      "description": "Longer segments give Zoran an open, linear pattern. The spacing makes each link part of the design.",
       "weightGrams": 8,
       "sizeType": "Chain length",
-      "sizeOptions": ["18\"", "20\"", "22\""],
+      "sizeOptions": [
+        "18\"",
+        "20\"",
+        "22\""
+      ],
       "sizeHelpText": "I need sizing help",
       "variants": [
-        { "goldColour": "Yellow", "karat": "9K", "priceINR": 65000 },
-        { "goldColour": "Yellow", "karat": "14K", "priceINR": 101000 },
-        { "goldColour": "Rose", "karat": "9K", "priceINR": 65000 },
-        { "goldColour": "Rose", "karat": "14K", "priceINR": 101000 }
+        {
+          "goldColour": "Yellow",
+          "karat": "9K",
+          "priceINR": 65000
+        },
+        {
+          "goldColour": "Yellow",
+          "karat": "14K",
+          "priceINR": 101000
+        },
+        {
+          "goldColour": "Rose",
+          "karat": "9K",
+          "priceINR": 65000
+        },
+        {
+          "goldColour": "Rose",
+          "karat": "14K",
+          "priceINR": 101000
+        }
       ],
-      "details": { "composition": "9K or 14K gold", "dimensions": "Link width approx. 3mm", "fastening": "Lobster clasp", "includes": "Chain only" },
+      "details": {
+        "composition": "9K or 14K gold",
+        "dimensions": "Link width approx. 3mm",
+        "fastening": "Lobster clasp",
+        "includes": "Chain only"
+      },
       "care": "Store flat or hanging to prevent tangling. Avoid contact with perfume and chlorinated water.",
-      "images": { "primary": "catalog/images/placeholders/chain.jpg", "alternate": "catalog/images/placeholders/chain.jpg", "detail": "catalog/images/placeholders/chain.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
+      "images": {
+        "primary": "catalog/images/reference/chain-04.jpg",
+        "alternate": "catalog/images/reference/chain-04.jpg",
+        "detail": "catalog/images/reference/chain-04.jpg",
+        "onBody": null
+      },
+      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
     },
     {
       "id": "AYM-CH-005",
-      "slug": "neer-rope-chain",
-      "name": "Neer Rope Chain",
+      "slug": "neer-textured-chain",
+      "name": "Neer Textured Chain",
       "category": "Chains",
-      "shortDescription": "A twisted rope-link chain across three karats.",
-      "description": "The Neer twists a fine rope link the same way as the Nirav bracelet, offered here at necklace length for a matched set.",
+      "shortDescription": "A close-linked chain with a detailed surface.",
+      "description": "Neer catches the light across a tight repeating pattern. Its texture is subtle at a distance and more defined up close.",
       "weightGrams": 8,
       "sizeType": "Chain length",
-      "sizeOptions": ["18\"", "20\"", "22\""],
+      "sizeOptions": [
+        "18\"",
+        "20\"",
+        "22\""
+      ],
       "sizeHelpText": "I need sizing help",
       "variants": [
-        { "goldColour": "Yellow", "karat": "9K", "priceINR": 65000 },
-        { "goldColour": "Yellow", "karat": "14K", "priceINR": 101000 },
-        { "goldColour": "Yellow", "karat": "18K", "priceINR": 130000 }
+        {
+          "goldColour": "Yellow",
+          "karat": "9K",
+          "priceINR": 65000
+        },
+        {
+          "goldColour": "Yellow",
+          "karat": "14K",
+          "priceINR": 101000
+        },
+        {
+          "goldColour": "Yellow",
+          "karat": "18K",
+          "priceINR": 130000
+        }
       ],
-      "details": { "composition": "9K, 14K or 18K gold", "dimensions": "Link width approx. 2.5mm", "fastening": "Lobster clasp", "includes": "Chain only" },
+      "details": {
+        "composition": "9K, 14K or 18K gold",
+        "dimensions": "Link width approx. 2.5mm",
+        "fastening": "Lobster clasp",
+        "includes": "Chain only"
+      },
       "care": "Store flat or hanging to prevent tangling. Avoid contact with perfume and chlorinated water.",
-      "images": { "primary": "catalog/images/placeholders/chain.jpg", "alternate": "catalog/images/placeholders/chain.jpg", "detail": "catalog/images/placeholders/chain.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
+      "images": {
+        "primary": "catalog/images/reference/chain-05.jpg",
+        "alternate": "catalog/images/reference/chain-05.jpg",
+        "detail": "catalog/images/reference/chain-05.jpg",
+        "onBody": null
+      },
+      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
     },
     {
       "id": "AYM-CH-006",
-      "slug": "ravik-heavy-figaro-chain",
-      "name": "Ravik Heavy Figaro Chain",
+      "slug": "ravik-rope-chain",
+      "name": "Ravik Rope Chain",
       "category": "Chains",
-      "shortDescription": "A wider figaro chain in white gold.",
-      "description": "The Ravik scales the figaro pattern up in white gold, for a cooler-toned alternative to the Zoran.",
+      "shortDescription": "A twisted chain with a rope-like line.",
+      "description": "Ravik's interlaced pattern adds movement along its length. The twisting form gives a familiar chain a richer surface.",
       "weightGrams": 10,
       "sizeType": "Chain length",
-      "sizeOptions": ["18\"", "20\"", "22\"", "24\""],
+      "sizeOptions": [
+        "18\"",
+        "20\"",
+        "22\"",
+        "24\""
+      ],
       "sizeHelpText": "I need sizing help",
       "variants": [
-        { "goldColour": "White", "karat": "14K", "priceINR": 126000 },
-        { "goldColour": "White", "karat": "18K", "priceINR": 162000 }
+        {
+          "goldColour": "White",
+          "karat": "14K",
+          "priceINR": 126000
+        },
+        {
+          "goldColour": "White",
+          "karat": "18K",
+          "priceINR": 162000
+        }
       ],
-      "details": { "composition": "14K or 18K gold", "dimensions": "Link width approx. 4mm", "fastening": "Lobster clasp", "includes": "Chain only" },
+      "details": {
+        "composition": "14K or 18K gold",
+        "dimensions": "Link width approx. 4mm",
+        "fastening": "Lobster clasp",
+        "includes": "Chain only"
+      },
       "care": "Store flat or hanging to prevent tangling. Avoid contact with perfume and chlorinated water.",
-      "images": { "primary": "catalog/images/placeholders/chain.jpg", "alternate": "catalog/images/placeholders/chain.jpg", "detail": "catalog/images/placeholders/chain.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
+      "images": {
+        "primary": "catalog/images/reference/chain-06.jpg",
+        "alternate": "catalog/images/reference/chain-06.jpg",
+        "detail": "catalog/images/reference/chain-06.jpg",
+        "onBody": null
+      },
+      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
     },
     {
       "id": "AYM-CH-007",
-      "slug": "jivan-wheat-chain",
-      "name": "Jivan Wheat Chain",
+      "slug": "jivan-station-chain",
+      "name": "Jivan Station Chain",
       "category": "Chains",
-      "shortDescription": "A densely woven wheat-link chain in rose gold.",
-      "description": "The Jivan weaves a dense wheat-link pattern that catches light like a textured rope, offered only in rose gold.",
+      "shortDescription": "A chain punctuated by regular bar-like links.",
+      "description": "Jivan alternates short connecting sections with more defined segments. The measured spacing gives it a clean rhythm.",
       "weightGrams": 8,
       "sizeType": "Chain length",
-      "sizeOptions": ["18\"", "20\"", "22\""],
+      "sizeOptions": [
+        "18\"",
+        "20\"",
+        "22\""
+      ],
       "sizeHelpText": "I need sizing help",
       "variants": [
-        { "goldColour": "Rose", "karat": "14K", "priceINR": 101000 }
+        {
+          "goldColour": "Rose",
+          "karat": "14K",
+          "priceINR": 101000
+        }
       ],
-      "details": { "composition": "14K gold", "dimensions": "Link width approx. 3mm", "fastening": "Lobster clasp", "includes": "Chain only" },
+      "details": {
+        "composition": "14K gold",
+        "dimensions": "Link width approx. 3mm",
+        "fastening": "Lobster clasp",
+        "includes": "Chain only"
+      },
       "care": "Store flat or hanging to prevent tangling. Avoid contact with perfume and chlorinated water.",
-      "images": { "primary": "catalog/images/placeholders/chain.jpg", "alternate": "catalog/images/placeholders/chain.jpg", "detail": "catalog/images/placeholders/chain.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
+      "images": {
+        "primary": "catalog/images/reference/chain-07.jpg",
+        "alternate": "catalog/images/reference/chain-07.jpg",
+        "detail": "catalog/images/reference/chain-07.jpg",
+        "onBody": null
+      },
+      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
     },
     {
       "id": "AYM-CH-008",
-      "slug": "aviraj-anchor-link-chain",
-      "name": "Aviraj Anchor Link Chain",
+      "slug": "aviraj-snake-chain",
+      "name": "Aviraj Snake Chain",
       "category": "Chains",
-      "shortDescription": "A flat anchor-link chain with a nautical pattern.",
-      "description": "The Aviraj links flat oval rings in an anchor-chain pattern, a wider, flatter profile than a round curb link.",
+      "shortDescription": "A smooth chain with a fluid, close-set profile.",
+      "description": "Aviraj forms an almost unbroken line around the neck. Its surface lets the curve of the chain stand out.",
       "weightGrams": 10,
       "sizeType": "Chain length",
-      "sizeOptions": ["18\"", "20\"", "22\"", "24\""],
+      "sizeOptions": [
+        "18\"",
+        "20\"",
+        "22\"",
+        "24\""
+      ],
       "sizeHelpText": "I need sizing help",
       "variants": [
-        { "goldColour": "Yellow", "karat": "9K", "priceINR": 81000 },
-        { "goldColour": "Yellow", "karat": "14K", "priceINR": 126000 }
+        {
+          "goldColour": "Yellow",
+          "karat": "9K",
+          "priceINR": 81000
+        },
+        {
+          "goldColour": "Yellow",
+          "karat": "14K",
+          "priceINR": 126000
+        }
       ],
-      "details": { "composition": "9K or 14K gold", "dimensions": "Link width approx. 4mm", "fastening": "Lobster clasp", "includes": "Chain only" },
+      "details": {
+        "composition": "9K or 14K gold",
+        "dimensions": "Link width approx. 4mm",
+        "fastening": "Lobster clasp",
+        "includes": "Chain only"
+      },
       "care": "Store flat or hanging to prevent tangling. Avoid contact with perfume and chlorinated water.",
-      "images": { "primary": "catalog/images/placeholders/chain.jpg", "alternate": "catalog/images/placeholders/chain.jpg", "detail": "catalog/images/placeholders/chain.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
+      "images": {
+        "primary": "catalog/images/reference/chain-08.jpg",
+        "alternate": "catalog/images/reference/chain-08.jpg",
+        "detail": "catalog/images/reference/chain-08.jpg",
+        "onBody": null
+      },
+      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
     },
     {
       "id": "AYM-CH-009",
-      "slug": "ansal-franco-chain",
-      "name": "Ansal Franco Chain",
+      "slug": "ansal-fine-chain",
+      "name": "Ansal Fine Chain",
       "category": "Chains",
-      "shortDescription": "A dense woven franco chain, the heaviest in the range.",
-      "description": "The Ansal weaves a dense franco-link pattern at a substantial weight, built to be worn alone as the statement piece it is.",
+      "shortDescription": "A delicate chain with a minimal silhouette.",
+      "description": "Ansal keeps the line fine and light. The understated profile works alone or beneath a pendant.",
       "weightGrams": 15,
       "sizeType": "Chain length",
-      "sizeOptions": ["20\"", "22\"", "24\""],
+      "sizeOptions": [
+        "20\"",
+        "22\"",
+        "24\""
+      ],
       "sizeHelpText": "I need sizing help",
       "variants": [
-        { "goldColour": "Yellow", "karat": "18K", "priceINR": 243000 },
-        { "goldColour": "Yellow", "karat": "22K", "priceINR": 297000 }
+        {
+          "goldColour": "Yellow",
+          "karat": "18K",
+          "priceINR": 243000
+        },
+        {
+          "goldColour": "Yellow",
+          "karat": "22K",
+          "priceINR": 297000
+        }
       ],
-      "details": { "composition": "18K or 22K gold", "dimensions": "Link width approx. 5mm", "fastening": "Box clasp with safety catch", "includes": "Chain only" },
+      "details": {
+        "composition": "18K or 22K gold",
+        "dimensions": "Link width approx. 5mm",
+        "fastening": "Box clasp with safety catch",
+        "includes": "Chain only"
+      },
       "care": "Store flat or hanging to prevent tangling. Avoid contact with perfume and chlorinated water.",
-      "images": { "primary": "catalog/images/placeholders/chain.jpg", "alternate": "catalog/images/placeholders/chain.jpg", "detail": "catalog/images/placeholders/chain.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
+      "images": {
+        "primary": "catalog/images/reference/chain-09.jpg",
+        "alternate": "catalog/images/reference/chain-09.jpg",
+        "detail": "catalog/images/reference/chain-09.jpg",
+        "onBody": null
+      },
+      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
     },
     {
       "id": "AYM-CH-010",
       "slug": "tarun-snake-chain",
       "name": "Tarun Snake Chain",
       "category": "Chains",
-      "shortDescription": "A smooth, flexible snake-link chain.",
-      "description": "The Tarun links tightly coiled plates into a smooth, rope-like snake chain that moves like fabric rather than a stiff chain.",
+      "shortDescription": "A sleek, smooth-profile chain.",
+      "description": "Tarun runs in a continuous, fluid curve. The compact surface brings a quiet polish to a simple shape.",
       "weightGrams": 8,
       "sizeType": "Chain length",
-      "sizeOptions": ["18\"", "20\"", "22\""],
+      "sizeOptions": [
+        "18\"",
+        "20\"",
+        "22\""
+      ],
       "sizeHelpText": "I need sizing help",
       "variants": [
-        { "goldColour": "Yellow", "karat": "9K", "priceINR": 65000 },
-        { "goldColour": "White", "karat": "9K", "priceINR": 65000 }
+        {
+          "goldColour": "Yellow",
+          "karat": "9K",
+          "priceINR": 65000
+        },
+        {
+          "goldColour": "White",
+          "karat": "9K",
+          "priceINR": 65000
+        }
       ],
-      "details": { "composition": "9K gold", "dimensions": "Approx. 2mm diameter", "fastening": "Lobster clasp", "includes": "Chain only" },
+      "details": {
+        "composition": "9K gold",
+        "dimensions": "Approx. 2mm diameter",
+        "fastening": "Lobster clasp",
+        "includes": "Chain only"
+      },
       "care": "Store flat or hanging to prevent tangling. A snake chain should not be twisted while worn.",
-      "images": { "primary": "catalog/images/placeholders/chain.jpg", "alternate": "catalog/images/placeholders/chain.jpg", "detail": "catalog/images/placeholders/chain.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
-    },
-    {
-      "id": "AYM-CH-011",
-      "slug": "sahir-byzantine-chain",
-      "name": "Sahir Byzantine Chain",
-      "category": "Chains",
-      "shortDescription": "An intricately interlocked byzantine chain.",
-      "description": "The Sahir interlocks its links in a dense byzantine weave, the most detailed construction in the chain range.",
-      "weightGrams": 15,
-      "sizeType": "Chain length",
-      "sizeOptions": ["20\"", "22\"", "24\""],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
-        { "goldColour": "Yellow", "karat": "14K", "priceINR": 185000 }
-      ],
-      "details": { "composition": "14K gold", "dimensions": "Approx. 5mm diameter", "fastening": "Box clasp with safety catch", "includes": "Chain only" },
-      "care": "Store flat or hanging to prevent tangling. Avoid contact with perfume and chlorinated water.",
-      "images": { "primary": "catalog/images/placeholders/chain.jpg", "alternate": "catalog/images/placeholders/chain.jpg", "detail": "catalog/images/placeholders/chain.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
+      "images": {
+        "primary": "catalog/images/reference/chain-10.jpg",
+        "alternate": "catalog/images/reference/chain-10.jpg",
+        "detail": "catalog/images/reference/chain-10.jpg",
+        "onBody": null
+      },
+      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
     },
     {
       "id": "AYM-PD-001",
-      "slug": "rihan-bar-pendant",
-      "name": "Rihan Bar Pendant",
+      "slug": "rihan-black-inlay-pendant",
+      "name": "Rihan Black Inlay Pendant",
       "category": "Pendants",
-      "shortDescription": "A vertical polished bar on a fine cable chain.",
-      "description": "The Rihan hangs a smooth vertical bar from a fine cable chain, sized to sit at the collarbone. Leaves room for a personal engraving, arranged separately.",
+      "shortDescription": "A rectangular pendant with a dark central face.",
+      "description": "Rihan frames a deep black panel within a slim outline. Its vertical shape gives the pendant a precise silhouette.",
       "weightGrams": 7,
       "sizeType": "Chain length",
-      "sizeOptions": ["18\"", "20\"", "22\""],
+      "sizeOptions": [
+        "18\"",
+        "20\"",
+        "22\""
+      ],
       "sizeHelpText": "I need sizing help",
       "variants": [
-        { "goldColour": "Yellow", "karat": "14K", "priceINR": 88000 },
-        { "goldColour": "Rose", "karat": "14K", "priceINR": 88000 },
-        { "goldColour": "White", "karat": "14K", "priceINR": 88000 }
+        {
+          "goldColour": "Yellow",
+          "karat": "14K",
+          "priceINR": 88000
+        },
+        {
+          "goldColour": "Rose",
+          "karat": "14K",
+          "priceINR": 88000
+        },
+        {
+          "goldColour": "White",
+          "karat": "14K",
+          "priceINR": 88000
+        }
       ],
       "details": {
         "composition": "14K gold",
@@ -780,25 +1342,50 @@
         "includes": "Pendant and chain"
       },
       "care": "Store separately to prevent scratching. Avoid contact with perfume and chlorinated water.",
-      "images": { "primary": "catalog/images/placeholders/pendant.jpg", "alternate": "catalog/images/placeholders/pendant.jpg", "detail": "catalog/images/placeholders/pendant.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
+      "images": {
+        "primary": "catalog/images/reference/pendant-01.jpg",
+        "alternate": "catalog/images/reference/pendant-01.jpg",
+        "detail": "catalog/images/reference/pendant-01.jpg",
+        "onBody": null
+      },
+      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
     },
     {
       "id": "AYM-PD-002",
-      "slug": "ojas-disc-pendant",
-      "name": "Ojas Disc Pendant",
+      "slug": "ojas-green-inlay-pendant",
+      "name": "Ojas Green Inlay Pendant",
       "category": "Pendants",
-      "shortDescription": "A brushed disc pendant on a cable chain.",
-      "description": "The Ojas keeps to a plain brushed disc, an understated everyday pendant that layers easily with a second chain.",
+      "shortDescription": "A compact pendant with a green patterned face.",
+      "description": "Ojas places a green, naturally patterned face inside a crisp frame. The contrast keeps the shape clear and considered.",
       "weightGrams": 7,
       "sizeType": "Chain length",
-      "sizeOptions": ["18\"", "20\"", "22\""],
+      "sizeOptions": [
+        "18\"",
+        "20\"",
+        "22\""
+      ],
       "sizeHelpText": "I need sizing help",
       "variants": [
-        { "goldColour": "Yellow", "karat": "9K", "priceINR": 57000 },
-        { "goldColour": "Rose", "karat": "9K", "priceINR": 57000 },
-        { "goldColour": "Yellow", "karat": "14K", "priceINR": 88000 },
-        { "goldColour": "Rose", "karat": "14K", "priceINR": 88000 }
+        {
+          "goldColour": "Yellow",
+          "karat": "9K",
+          "priceINR": 57000
+        },
+        {
+          "goldColour": "Rose",
+          "karat": "9K",
+          "priceINR": 57000
+        },
+        {
+          "goldColour": "Yellow",
+          "karat": "14K",
+          "priceINR": 88000
+        },
+        {
+          "goldColour": "Rose",
+          "karat": "14K",
+          "priceINR": 88000
+        }
       ],
       "details": {
         "composition": "9K or 14K gold",
@@ -807,23 +1394,40 @@
         "includes": "Pendant and chain"
       },
       "care": "Store separately to prevent scratching. Avoid contact with perfume and chlorinated water.",
-      "images": { "primary": "catalog/images/placeholders/pendant.jpg", "alternate": "catalog/images/placeholders/pendant.jpg", "detail": "catalog/images/placeholders/pendant.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
+      "images": {
+        "primary": "catalog/images/reference/pendant-02.jpg",
+        "alternate": "catalog/images/reference/pendant-02.jpg",
+        "detail": "catalog/images/reference/pendant-02.jpg",
+        "onBody": null
+      },
+      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
     },
     {
       "id": "AYM-PD-003",
-      "slug": "tavi-arrow-pendant",
-      "name": "Tavi Arrow Pendant",
+      "slug": "tavi-bar-pendant",
+      "name": "Tavi Bar Pendant",
       "category": "Pendants",
-      "shortDescription": "A slim directional arrow pendant in solid gold.",
-      "description": "The Tavi is a slim, solid arrow pendant on a fine chain, a quieter alternative to a disc or bar for everyday wear.",
+      "shortDescription": "A smooth vertical bar suspended from a chain.",
+      "description": "Tavi keeps to a rounded rectangular form. Its plain face makes the proportions the defining feature.",
       "weightGrams": 7,
       "sizeType": "Chain length",
-      "sizeOptions": ["18\"", "20\"", "22\""],
+      "sizeOptions": [
+        "18\"",
+        "20\"",
+        "22\""
+      ],
       "sizeHelpText": "I need sizing help",
       "variants": [
-        { "goldColour": "Yellow", "karat": "18K", "priceINR": 113000 },
-        { "goldColour": "Yellow", "karat": "22K", "priceINR": 139000 }
+        {
+          "goldColour": "Yellow",
+          "karat": "18K",
+          "priceINR": 113000
+        },
+        {
+          "goldColour": "Yellow",
+          "karat": "22K",
+          "priceINR": 139000
+        }
       ],
       "details": {
         "composition": "18K or 22K gold",
@@ -832,171 +1436,196 @@
         "includes": "Pendant and chain"
       },
       "care": "Store separately to prevent scratching. Avoid contact with perfume and chlorinated water.",
-      "images": { "primary": "catalog/images/placeholders/pendant.jpg", "alternate": "catalog/images/placeholders/pendant.jpg", "detail": "catalog/images/placeholders/pendant.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
+      "images": {
+        "primary": "catalog/images/reference/pendant-03.jpg",
+        "alternate": "catalog/images/reference/pendant-03.jpg",
+        "detail": "catalog/images/reference/pendant-03.jpg",
+        "onBody": null
+      },
+      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
     },
     {
       "id": "AYM-PD-004",
-      "slug": "kaash-initial-bar-pendant",
-      "name": "Kaash Initial Bar Pendant",
+      "slug": "kaash-fold-pendant",
+      "name": "Kaash Fold Pendant",
       "category": "Pendants",
-      "shortDescription": "A flat bar pendant, sized to carry a single engraved initial.",
-      "description": "The Kaash keeps a small flat bar face free for a single engraved initial, arranged separately, on a fine cable chain.",
+      "shortDescription": "An abstract pendant with a folded surface.",
+      "description": "Kaash turns an irregular, folded shape into a small focal point. The shifting planes catch light as it moves.",
       "weightGrams": 7,
       "sizeType": "Chain length",
-      "sizeOptions": ["18\"", "20\"", "22\""],
+      "sizeOptions": [
+        "18\"",
+        "20\"",
+        "22\""
+      ],
       "sizeHelpText": "I need sizing help",
       "variants": [
-        { "goldColour": "Yellow", "karat": "14K", "priceINR": 88000 },
-        { "goldColour": "Rose", "karat": "14K", "priceINR": 88000 },
-        { "goldColour": "White", "karat": "14K", "priceINR": 88000 }
+        {
+          "goldColour": "Yellow",
+          "karat": "14K",
+          "priceINR": 88000
+        },
+        {
+          "goldColour": "Rose",
+          "karat": "14K",
+          "priceINR": 88000
+        },
+        {
+          "goldColour": "White",
+          "karat": "14K",
+          "priceINR": 88000
+        }
       ],
-      "details": { "composition": "14K gold", "dimensions": "Bar approx. 18mm x 4mm", "fastening": "Lobster clasp", "includes": "Pendant and chain" },
+      "details": {
+        "composition": "14K gold",
+        "dimensions": "Bar approx. 18mm x 4mm",
+        "fastening": "Lobster clasp",
+        "includes": "Pendant and chain"
+      },
       "care": "Store separately to prevent scratching. Avoid contact with perfume and chlorinated water.",
-      "images": { "primary": "catalog/images/placeholders/pendant.jpg", "alternate": "catalog/images/placeholders/pendant.jpg", "detail": "catalog/images/placeholders/pendant.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
+      "images": {
+        "primary": "catalog/images/reference/pendant-04.jpg",
+        "alternate": "catalog/images/reference/pendant-04.jpg",
+        "detail": "catalog/images/reference/pendant-04.jpg",
+        "onBody": null
+      },
+      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
     },
     {
       "id": "AYM-PD-005",
-      "slug": "bhanu-sun-medallion-pendant",
-      "name": "Bhanu Sun Medallion Pendant",
+      "slug": "bhanu-black-disc-pendant",
+      "name": "Bhanu Black Disc Pendant",
       "category": "Pendants",
-      "shortDescription": "A radiating sun-motif medallion pendant.",
-      "description": "The Bhanu carries a radiating sunburst pattern across a round medallion face, one of the more detailed pendants in the range.",
+      "shortDescription": "A round pendant with a dark central face.",
+      "description": "Bhanu centres a dark disc inside a slim circular border. The simple contrast gives the piece its presence.",
       "weightGrams": 7,
       "sizeType": "Chain length",
-      "sizeOptions": ["18\"", "20\"", "22\""],
+      "sizeOptions": [
+        "18\"",
+        "20\"",
+        "22\""
+      ],
       "sizeHelpText": "I need sizing help",
       "variants": [
-        { "goldColour": "Yellow", "karat": "18K", "priceINR": 113000 },
-        { "goldColour": "Yellow", "karat": "22K", "priceINR": 139000 }
+        {
+          "goldColour": "Yellow",
+          "karat": "18K",
+          "priceINR": 113000
+        },
+        {
+          "goldColour": "Yellow",
+          "karat": "22K",
+          "priceINR": 139000
+        }
       ],
-      "details": { "composition": "18K or 22K gold", "dimensions": "Medallion approx. 18mm diameter", "fastening": "Lobster clasp", "includes": "Pendant and chain" },
+      "details": {
+        "composition": "18K or 22K gold",
+        "dimensions": "Medallion approx. 18mm diameter",
+        "fastening": "Lobster clasp",
+        "includes": "Pendant and chain"
+      },
       "care": "Store separately to prevent scratching. Avoid contact with perfume and chlorinated water.",
-      "images": { "primary": "catalog/images/placeholders/pendant.jpg", "alternate": "catalog/images/placeholders/pendant.jpg", "detail": "catalog/images/placeholders/pendant.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
+      "images": {
+        "primary": "catalog/images/reference/pendant-05.jpg",
+        "alternate": "catalog/images/reference/pendant-05.jpg",
+        "detail": "catalog/images/reference/pendant-05.jpg",
+        "onBody": null
+      },
+      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
     },
     {
       "id": "AYM-PD-006",
-      "slug": "aarav-compass-pendant",
-      "name": "Aarav Compass Pendant",
+      "slug": "aarav-facet-pendant",
+      "name": "Aarav Facet Pendant",
       "category": "Pendants",
-      "shortDescription": "A compass-face pendant for a considered everyday detail.",
-      "description": "The Aarav sets a simple compass face on a fine chain, a quietly directional detail rather than a literal charm.",
+      "shortDescription": "A small pendant with an irregular faceted form.",
+      "description": "Aarav's uneven planes lend the compact shape a sculptural quality. The outline remains easy to wear.",
       "weightGrams": 7,
       "sizeType": "Chain length",
-      "sizeOptions": ["18\"", "20\"", "22\""],
+      "sizeOptions": [
+        "18\"",
+        "20\"",
+        "22\""
+      ],
       "sizeHelpText": "I need sizing help",
       "variants": [
-        { "goldColour": "Yellow", "karat": "9K", "priceINR": 57000 },
-        { "goldColour": "Yellow", "karat": "14K", "priceINR": 88000 },
-        { "goldColour": "White", "karat": "9K", "priceINR": 57000 },
-        { "goldColour": "White", "karat": "14K", "priceINR": 88000 }
+        {
+          "goldColour": "Yellow",
+          "karat": "9K",
+          "priceINR": 57000
+        },
+        {
+          "goldColour": "Yellow",
+          "karat": "14K",
+          "priceINR": 88000
+        },
+        {
+          "goldColour": "White",
+          "karat": "9K",
+          "priceINR": 57000
+        },
+        {
+          "goldColour": "White",
+          "karat": "14K",
+          "priceINR": 88000
+        }
       ],
-      "details": { "composition": "9K or 14K gold", "dimensions": "Face approx. 16mm diameter", "fastening": "Lobster clasp", "includes": "Pendant and chain" },
+      "details": {
+        "composition": "9K or 14K gold",
+        "dimensions": "Face approx. 16mm diameter",
+        "fastening": "Lobster clasp",
+        "includes": "Pendant and chain"
+      },
       "care": "Store separately to prevent scratching. Avoid contact with perfume and chlorinated water.",
-      "images": { "primary": "catalog/images/placeholders/pendant.jpg", "alternate": "catalog/images/placeholders/pendant.jpg", "detail": "catalog/images/placeholders/pendant.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
+      "images": {
+        "primary": "catalog/images/reference/pendant-06.jpg",
+        "alternate": "catalog/images/reference/pendant-06.jpg",
+        "detail": "catalog/images/reference/pendant-06.jpg",
+        "onBody": null
+      },
+      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
     },
     {
       "id": "AYM-PD-007",
-      "slug": "rion-shield-pendant",
-      "name": "Rion Shield Pendant",
+      "slug": "rion-textured-tag-pendant",
+      "name": "Rion Textured Tag Pendant",
       "category": "Pendants",
-      "shortDescription": "A substantial shield-shaped pendant, the heaviest in the range.",
-      "description": "The Rion sets a plain polished shield face on a heavier chain, sized to be the sole piece someone wears.",
+      "shortDescription": "A rectangular tag with a rippled surface.",
+      "description": "Rion gives the familiar tag shape a closely textured face. The surface provides the detail without changing its clean outline.",
       "weightGrams": 10,
       "sizeType": "Chain length",
-      "sizeOptions": ["20\"", "22\"", "24\""],
+      "sizeOptions": [
+        "20\"",
+        "22\"",
+        "24\""
+      ],
       "sizeHelpText": "I need sizing help",
       "variants": [
-        { "goldColour": "Yellow", "karat": "14K", "priceINR": 126000 },
-        { "goldColour": "Yellow", "karat": "18K", "priceINR": 162000 }
+        {
+          "goldColour": "Yellow",
+          "karat": "14K",
+          "priceINR": 126000
+        },
+        {
+          "goldColour": "Yellow",
+          "karat": "18K",
+          "priceINR": 162000
+        }
       ],
-      "details": { "composition": "14K or 18K gold", "dimensions": "Shield approx. 22mm x 18mm", "fastening": "Lobster clasp", "includes": "Pendant and chain" },
+      "details": {
+        "composition": "14K or 18K gold",
+        "dimensions": "Shield approx. 22mm x 18mm",
+        "fastening": "Lobster clasp",
+        "includes": "Pendant and chain"
+      },
       "care": "Store separately to prevent scratching. Avoid contact with perfume and chlorinated water.",
-      "images": { "primary": "catalog/images/placeholders/pendant.jpg", "alternate": "catalog/images/placeholders/pendant.jpg", "detail": "catalog/images/placeholders/pendant.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
-    },
-    {
-      "id": "AYM-PD-008",
-      "slug": "vihan-feather-pendant",
-      "name": "Vihan Feather Pendant",
-      "category": "Pendants",
-      "shortDescription": "A slim feather-shaped pendant in rose gold.",
-      "description": "The Vihan cuts a single slim feather silhouette, offered only in rose gold for a warmer everyday tone.",
-      "weightGrams": 7,
-      "sizeType": "Chain length",
-      "sizeOptions": ["18\"", "20\"", "22\""],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
-        { "goldColour": "Rose", "karat": "14K", "priceINR": 88000 }
-      ],
-      "details": { "composition": "14K gold", "dimensions": "Feather approx. 30mm length", "fastening": "Lobster clasp", "includes": "Pendant and chain" },
-      "care": "Store separately to prevent scratching. Avoid contact with perfume and chlorinated water.",
-      "images": { "primary": "catalog/images/placeholders/pendant.jpg", "alternate": "catalog/images/placeholders/pendant.jpg", "detail": "catalog/images/placeholders/pendant.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
-    },
-    {
-      "id": "AYM-PD-009",
-      "slug": "kavan-coin-medallion-pendant",
-      "name": "Kavan Coin Medallion Pendant",
-      "category": "Pendants",
-      "shortDescription": "A coin-textured round medallion pendant.",
-      "description": "The Kavan carries a coin-inspired textured face, a rounder and more tactile alternative to the plain Ojas disc.",
-      "weightGrams": 7,
-      "sizeType": "Chain length",
-      "sizeOptions": ["18\"", "20\"", "22\""],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
-        { "goldColour": "Yellow", "karat": "18K", "priceINR": 113000 }
-      ],
-      "details": { "composition": "18K gold", "dimensions": "Medallion approx. 17mm diameter", "fastening": "Lobster clasp", "includes": "Pendant and chain" },
-      "care": "Store separately to prevent scratching. Avoid contact with perfume and chlorinated water.",
-      "images": { "primary": "catalog/images/placeholders/pendant.jpg", "alternate": "catalog/images/placeholders/pendant.jpg", "detail": "catalog/images/placeholders/pendant.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
-    },
-    {
-      "id": "AYM-PD-010",
-      "slug": "manav-knot-pendant",
-      "name": "Manav Knot Pendant",
-      "category": "Pendants",
-      "shortDescription": "A simple interlocking knot pendant.",
-      "description": "The Manav forms a single interlocking knot, a small symbol of connection without literal iconography.",
-      "weightGrams": 7,
-      "sizeType": "Chain length",
-      "sizeOptions": ["18\"", "20\"", "22\""],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
-        { "goldColour": "Rose", "karat": "14K", "priceINR": 88000 },
-        { "goldColour": "White", "karat": "14K", "priceINR": 88000 }
-      ],
-      "details": { "composition": "14K gold", "dimensions": "Knot approx. 16mm x 12mm", "fastening": "Lobster clasp", "includes": "Pendant and chain" },
-      "care": "Store separately to prevent scratching. Avoid contact with perfume and chlorinated water.",
-      "images": { "primary": "catalog/images/placeholders/pendant.jpg", "alternate": "catalog/images/placeholders/pendant.jpg", "detail": "catalog/images/placeholders/pendant.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
-    },
-    {
-      "id": "AYM-PD-011",
-      "slug": "devraj-dog-tag-pendant",
-      "name": "Devraj Dog Tag Pendant",
-      "category": "Pendants",
-      "shortDescription": "A flat rectangular tag pendant, the heaviest of the pendants.",
-      "description": "The Devraj takes a flat rectangular tag silhouette at a heavier weight, sized to carry an engraving of your own choosing.",
-      "weightGrams": 10,
-      "sizeType": "Chain length",
-      "sizeOptions": ["20\"", "22\"", "24\""],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
-        { "goldColour": "Yellow", "karat": "14K", "priceINR": 126000 },
-        { "goldColour": "Yellow", "karat": "18K", "priceINR": 162000 },
-        { "goldColour": "White", "karat": "14K", "priceINR": 126000 },
-        { "goldColour": "White", "karat": "18K", "priceINR": 162000 }
-      ],
-      "details": { "composition": "14K or 18K gold", "dimensions": "Tag approx. 30mm x 20mm", "fastening": "Lobster clasp", "includes": "Pendant and chain" },
-      "care": "Store separately to prevent scratching. Avoid contact with perfume and chlorinated water.",
-      "images": { "primary": "catalog/images/placeholders/pendant.jpg", "alternate": "catalog/images/placeholders/pendant.jpg", "detail": "catalog/images/placeholders/pendant.jpg", "onBody": null },
-      "imageStatus": "shared category placeholder — pending real product photography"
+      "images": {
+        "primary": "catalog/images/reference/pendant-07.jpg",
+        "alternate": "catalog/images/reference/pendant-07.jpg",
+        "detail": "catalog/images/reference/pendant-07.jpg",
+        "onBody": null
+      },
+      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
     }
   ]
 }
