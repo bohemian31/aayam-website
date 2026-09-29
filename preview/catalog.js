@@ -1,6 +1,6 @@
 /* Shared catalogue helpers for the reference-image preview. */
 
-const CATALOG_URL = '../catalog/products.sample.json';
+const CATALOG_URL = '../catalog/products.sample.json?v=20260929-2';
 
 async function loadCatalog() {
   const res = await fetch(CATALOG_URL);

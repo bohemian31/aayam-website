@@ -9,7 +9,7 @@ Current as of 29 September 2026. Read PROGRESS.md for status and CHANGELOG.md fo
 - This is a fully static project. There is no package.json, bundler, CMS, backend, checkout or account system. Serve the directory over HTTP because preview/catalog.js fetches JSON. For local development, run python3 -m http.server 8123 from the repository root and open http://localhost:8123/preview/index.html.
 - No secrets or environment variables are needed. .gitignore excludes the local originals in Products Images/, the investor pitch PDF, local tooling and competitor screenshots. Selected normalized copies under catalog/images/reference/ are deliberately included in the public GitHub Pages preview.
 - Relative URLs are intentional. A preview page is one level below the repo root; product images are stored as catalog/images/reference/NAME.jpg in JSON and converted to ../catalog/images/reference/NAME.jpg at render time. This works locally and beneath GitHub Pages' /aayam-website/ prefix.
-- Preview HTML loads styles.css and catalog.js with a 20260929 cache-busting query. Change that version if those shared files are later revised and browser caching impedes rollout.
+- Preview HTML loads styles.css with a 20260929 query and catalog.js plus the JSON request with a 20260929-2 query. Advance affected versions when a later release needs to refresh cached assets.
 
 ## Current file map
 
