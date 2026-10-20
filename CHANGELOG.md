@@ -2,6 +2,12 @@
 
 This records decisions and artifacts visible in the project and conversation. Earlier phase entries use 26 September 2026; later records carry their actual dates. It is a handoff history, not proof that a remote service or deployed site was verified.
 
+## 21 October 2026 — worn-image dissolve on collection hover
+
+- Collection cards with a distinct worn/third image dissolve from hero to that view on image hover, and back on pointer exit. Keyboard focus offers the same preview on devices with a fine pointer.
+- The worn image is decoded before revealing it; a missing image leaves the hero visible. Touch-only devices keep the hero and avoid loading hover-only media. Products without a distinct worn view keep their reference image.
+- Scoped to All Jewellery and its category/search/filter views; home cards keep their existing presentation. Existing reduced-motion preferences disable the transition. Updated frontend cache versions.
+
 ## 21 October 2026 — integrate 20 approved ring designs into the GitHub preview source
 
 - Accepted the six selected batch-004 sets, bringing approved ring media to 20 products / 60 views. Reconciled production metadata against approved manifests, excluding stale duplicate/planned entries.

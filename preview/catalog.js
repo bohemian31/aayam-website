@@ -62,13 +62,19 @@ function categoryUrl(category) {
   return 'all-jewellery.html?category=' + encodeURIComponent(category);
 }
 
-function cardTemplate(product) {
+function cardTemplate(product, { hoverWorn = false } = {}) {
   const v = lowestVariant(product);
   const enquiry = isEnquiryProduct(product);
   const name = escapeHtml(product.name);
+  const worn = product.images.onBody || product.images.detail;
+  const showWorn = hoverWorn && worn && worn !== product.images.primary &&
+    window.matchMedia('(hover: hover) and (pointer: fine)').matches;
   return `
     <a class="card" href="${productUrl(product)}">
-      <div class="imgwrap"><img src="${imageUrl(product.images.primary)}" alt="${name}${enquiry ? ' — illustrated hero view' : ''}" loading="lazy" decoding="async" width="1254" height="1254"></div>
+      <div class="imgwrap">
+        <img src="${imageUrl(product.images.primary)}" alt="${name}${enquiry ? ' — illustrated hero view' : ''}" loading="lazy" decoding="async" width="1254" height="1254">
+        ${showWorn ? `<img class="card-worn" src="${imageUrl(worn)}" alt="" aria-hidden="true" loading="lazy" decoding="async" width="1254" height="1254">` : ''}
+      </div>
       <div class="info">
         <p class="name">${name}</p>
         <p class="material">${enquiry ? escapeHtml(product.appearanceLabel) : 'Sample specification: ' + materialLabel(v)}</p>
@@ -86,7 +92,16 @@ function renderGrid(el, products) {
       </div>`;
     return;
   }
-  el.innerHTML = products.map(cardTemplate).join('');
+  el.innerHTML = products.map(product => cardTemplate(product, { hoverWorn: el.id === 'product-grid' })).join('');
+  el.querySelectorAll('.card-worn').forEach(image => {
+    // Keep the hero visible until the replacement is decoded and ready to draw.
+    const reveal = () => {
+      if (!image.naturalWidth) return;
+      image.decode().then(() => image.classList.add('is-ready')).catch(() => {});
+    };
+    image.addEventListener('load', reveal, { once: true });
+    if (image.complete) reveal();
+  });
 }
 
 /* Mobile drawer + search wiring shared by every page */

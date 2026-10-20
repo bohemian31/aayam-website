@@ -7,7 +7,7 @@ Current source revision: 21 October 2026. Read PROGRESS.md for current scope, CH
 - Public Git repository: https://github.com/bohemian31/aayam-website, main branch. Pages preview: https://bohemian31.github.io/aayam-website/preview/index.html.
 - The root index.html, styles.css, script.js and assets/ implement the separate launching-soon site used by Netlify/thehouseofaayam.com. The current ring integration does not edit those files or Netlify settings.
 - The preview is static HTML/CSS/JavaScript with no build step, CMS, backend, account or checkout. Run a local HTTP server from the repository root because catalogue JSON is fetched over HTTP.
-- Preview asset/JSON cache queries use 20261021-rings-1. Advance them for later runtime data or frontend changes. Keep all asset URLs relative so they work beneath the GitHub Pages repository prefix.
+- Preview CSS/shared-helper cache queries use 20261021-rings-2; JSON and unchanged collection/gallery modules retain 20261021-rings-1. Advance them for later runtime data or frontend changes. Keep all asset URLs relative so they work beneath the GitHub Pages repository prefix.
 - Local source photos, pitch, competitor screenshots and output/catalogue-images/ are ignored. Only approved delivery exports belong in catalog/images/rings/. Do not publish annotations, deferred photos, unfinished alternative attempts or raw image-production output.
 
 ## File map
@@ -41,6 +41,8 @@ Images.primary/alternate/detail point to distinct hero/alternate/worn WebPs; ima
 The other 25 product records preserve their prior sample weights, variants, dimensions, sizes, care and photo mappings. Their primary/alternate/detail fields repeat a single reference photo and the gallery continues to say so. Keep their sample labels until facts are verified. The root catalogue filename remains products.sample.json to avoid breaking existing consumers.
 
 ## Frontend behaviour
+
+- Collection image hover crossfades to the distinct worn/third view in 360ms and returns on exit. The overlay is decorative, decoded before reveal, and enabled only with fine-pointer hover support; keyboard focus also reveals it. Touch devices, missing images and records without a distinct worn view retain the hero. Reduced motion disables the animation. Home cards do not receive an overlay.
 
 - Rings displays image-based design filters, featured/alphabetical sorting and Price on enquiry. Unconfirmed gold/karat filters and sample variant selectors are not presented on ring-only routes. Switching categories clears incompatible filter state. In a mixed collection price sort, unknown prices appear after priced sample records in either direction.
 - Search covers product name, ID, category, design description and tags. Active-filter text is escaped before insertion. Empty results support clearing filters.

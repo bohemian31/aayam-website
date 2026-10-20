@@ -153,8 +153,13 @@ body.drawer-open .drawer { transform: translateX(0); }
 @media (min-width: 1024px) { .grid { grid-template-columns: repeat(4, 1fr); } }
 
 .card { background: var(--tile); display: flex; flex-direction: column; }
-.card .imgwrap { order: 1; aspect-ratio: 1/1; overflow: hidden; }
+.card .imgwrap { order: 1; aspect-ratio: 1/1; overflow: hidden; position: relative; }
 .card .imgwrap img { width: 100%; height: 100%; object-fit: contain; transition: opacity 180ms ease; }
+.card .imgwrap .card-worn { position: absolute; inset: 0; opacity: 0; pointer-events: none; transition: opacity 360ms ease-in-out; }
+@media (hover: hover) and (pointer: fine) {
+  .card .imgwrap:hover .card-worn.is-ready,
+  .card:focus-visible .card-worn.is-ready { opacity: 1; }
+}
 .card .info { order: 2; padding: 12px; text-align: left; }
 @media (min-width: 768px) {
   .card .imgwrap { order: 2; }
