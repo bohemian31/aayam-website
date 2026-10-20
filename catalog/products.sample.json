@@ -1,5 +1,5 @@
 {
-  "_readme": "PREVIEW CONTENT — 33 provisional image-backed listings. Photos are reference images, not verified Aayam product photography. Names and visual descriptions are draft interpretations. Prices, weights, variants, sizes, specifications and care remain sample data and must be verified or replaced before live-domain release.",
+  "_readme": "Mixed-stage preview: 20 approved image-led ring designs with generated illustrations and enquiry-only specifications; other categories retain reference photos and explicitly labelled sample facts. No unverified numeric prices or product-specific material claims are supplied for rings.",
   "currency": "INR",
   "sampleContent": true,
   "categories": [
@@ -21,480 +21,1127 @@
   ],
   "products": [
     {
-      "id": "AYM-RG-001",
-      "slug": "kavi-diagonal-inlay-band",
-      "name": "Kavi Diagonal Inlay Band",
+      "id": "AYM-RG-101",
+      "productKey": "green-inlay-band",
+      "slug": "kavi-verdant-inlay-band",
+      "name": "Kavi Verdant Inlay Band",
       "category": "Rings",
-      "shortDescription": "A broad band crossed by a dark diagonal inlay.",
-      "description": "A precise diagonal line cuts across Kavi's broad, clean face. The contrasting detail gives the band its quiet edge.",
-      "weightGrams": 4,
-      "sizeType": "Ring size",
-      "sizeOptions": [
-        "7",
-        "7.5",
-        "8",
-        "8.5",
-        "9",
-        "9.5",
-        "10",
-        "10.5",
-        "11",
-        "11.5",
-        "12",
-        "12.5",
-        "13"
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "A brushed band with a deep-green accent line.",
+      "description": "A deep-green strip brings a quiet point of colour to Kavi's brushed surface. Polished warm-toned borders frame the band, keeping its broad profile clean and considered. Wear it alone to let the contrast speak.",
+      "appearanceLabel": "Brushed finish · green accent",
+      "designTags": [
+        "Inlay",
+        "Textured"
       ],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
+      "weightGrams": null,
+      "sizeType": "Ring size",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for sizing guidance",
+      "variants": [],
+      "details": {
+        "design": "Broad band with an offset green inlay strip and smooth borders.",
+        "finish": "Brushed centre with polished edges and a green accent.",
+        "composition": "Materials, any inset details and karat options are confirmed on enquiry.",
+        "dimensions": "Band dimensions and available sizes are confirmed on enquiry.",
+        "weight": "Confirmed for the final piece and size."
+      },
+      "care": "Keep the piece separate from other jewellery and wipe gently with a soft dry cloth. Ask us for care instructions suited to its confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/rings/green-inlay-band/01-hero.webp",
+        "alternate": "catalog/images/rings/green-inlay-band/02-alternate.webp",
+        "detail": "catalog/images/rings/green-inlay-band/03-worn.webp",
+        "onBody": "catalog/images/rings/green-inlay-band/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
         {
-          "goldColour": "Yellow",
-          "karat": "14K",
-          "priceINR": 51000
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Kavi Verdant Inlay Band — illustrated hero view"
         },
         {
-          "goldColour": "Yellow",
-          "karat": "18K",
-          "priceINR": 65000
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Kavi Verdant Inlay Band — illustrated alternate angle"
         },
         {
-          "goldColour": "Rose",
-          "karat": "14K",
-          "priceINR": 51000
+          "key": "detail",
+          "label": "On hand",
+          "alt": "Kavi Verdant Inlay Band — illustrative styling on a hand"
         }
       ],
-      "details": {
-        "composition": "14K or 18K gold, black onyx",
-        "dimensions": "Face approx. 12mm x 10mm",
-        "fastening": "N/A",
-        "includes": "Ring only"
-      },
-      "care": "Avoid contact with perfume, lotion and chlorinated water. Store separately in a soft pouch to prevent surface scratching.",
-      "images": {
-        "primary": "catalog/images/reference/ring-01.jpg",
-        "alternate": "catalog/images/reference/ring-01.jpg",
-        "detail": "catalog/images/reference/ring-01.jpg",
-        "onBody": null
-      },
-      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
+      "imageStatus": "Approved generated product illustrations. Worn scale is indicative; final product details are confirmed on enquiry."
     },
     {
-      "id": "AYM-RG-002",
-      "slug": "arka-chevron-band",
-      "name": "Arka Chevron Band",
+      "id": "AYM-RG-102",
+      "productKey": "ornate-charcoal-floral-band",
+      "slug": "rudra-scrollwork-band",
+      "name": "Rudra Scrollwork Band",
       "category": "Rings",
-      "shortDescription": "A polished band with a small triangular accent.",
-      "description": "Arka keeps a simple rounded profile, interrupted by a small chevron-shaped detail. It reads as a minimal band from a distance.",
-      "weightGrams": 4,
-      "sizeType": "Ring size",
-      "sizeOptions": [
-        "7",
-        "7.5",
-        "8",
-        "8.5",
-        "9",
-        "9.5",
-        "10",
-        "10.5",
-        "11",
-        "11.5",
-        "12",
-        "12.5",
-        "13"
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "Warm scrollwork across a dark, broad band.",
+      "description": "Rudra pairs a dark background with flowing warm-toned scrollwork. Fine border details frame the repeating pattern, giving the broad band a richly drawn surface. It makes a natural focal point beside understated clothing.",
+      "appearanceLabel": "Scrollwork · dark contrast",
+      "designTags": [
+        "Patterned",
+        "Textured"
       ],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
+      "weightGrams": null,
+      "sizeType": "Ring size",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for sizing guidance",
+      "variants": [],
+      "details": {
+        "design": "Broad band with repeating scroll motifs and patterned borders.",
+        "finish": "Warm raised-looking motifs against a dark contrasting field.",
+        "composition": "Materials, any inset details and karat options are confirmed on enquiry.",
+        "dimensions": "Band dimensions and available sizes are confirmed on enquiry.",
+        "weight": "Confirmed for the final piece and size."
+      },
+      "care": "Keep the piece separate from other jewellery and wipe gently with a soft dry cloth. Ask us for care instructions suited to its confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/rings/ornate-charcoal-floral-band/01-hero.webp",
+        "alternate": "catalog/images/rings/ornate-charcoal-floral-band/02-alternate.webp",
+        "detail": "catalog/images/rings/ornate-charcoal-floral-band/03-worn.webp",
+        "onBody": "catalog/images/rings/ornate-charcoal-floral-band/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
         {
-          "goldColour": "Yellow",
-          "karat": "9K",
-          "priceINR": 33500
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Rudra Scrollwork Band — illustrated hero view"
         },
         {
-          "goldColour": "Rose",
-          "karat": "9K",
-          "priceINR": 33500
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Rudra Scrollwork Band — illustrated alternate angle"
         },
         {
-          "goldColour": "White",
-          "karat": "9K",
-          "priceINR": 33500
-        },
-        {
-          "goldColour": "Yellow",
-          "karat": "14K",
-          "priceINR": 51000
-        },
-        {
-          "goldColour": "Rose",
-          "karat": "14K",
-          "priceINR": 51000
-        },
-        {
-          "goldColour": "White",
-          "karat": "14K",
-          "priceINR": 51000
+          "key": "detail",
+          "label": "On hand",
+          "alt": "Rudra Scrollwork Band — illustrative styling on a hand"
         }
       ],
-      "details": {
-        "composition": "9K or 14K gold",
-        "dimensions": "Band width approx. 2.2mm",
-        "fastening": "N/A",
-        "includes": "Ring only"
-      },
-      "care": "Avoid contact with perfume, lotion and chlorinated water. Store separately in a soft pouch to prevent surface scratching.",
-      "images": {
-        "primary": "catalog/images/reference/ring-02.jpg",
-        "alternate": "catalog/images/reference/ring-02.jpg",
-        "detail": "catalog/images/reference/ring-02.jpg",
-        "onBody": null
-      },
-      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
+      "imageStatus": "Approved generated product illustrations. Worn scale is indicative; final product details are confirmed on enquiry."
     },
     {
-      "id": "AYM-RG-003",
-      "slug": "veyar-bar-signet-ring",
-      "name": "Veyar Bar Signet Ring",
+      "id": "AYM-RG-103",
+      "productKey": "tri-tone-hammered-band",
+      "slug": "arka-tri-tone-hammered-band",
+      "name": "Arka Tri-tone Hammered Band",
       "category": "Rings",
-      "shortDescription": "A narrow bar face with a single bright accent.",
-      "description": "Veyar sets a slim, flat bar above a tapered band. One bright point draws the eye to the otherwise spare shape.",
-      "weightGrams": 4,
-      "sizeType": "Ring size",
-      "sizeOptions": [
-        "8",
-        "8.5",
-        "9",
-        "9.5",
-        "10",
-        "10.5",
-        "11",
-        "11.5",
-        "12",
-        "12.5",
-        "13"
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "Irregular facets in a warm mix of tones.",
+      "description": "Arka takes its character from an uneven rhythm of hammered facets. Rose, pale and warm tones move across the surface, changing the contrast from one plane to the next. The simple band silhouette keeps the texture in focus.",
+      "appearanceLabel": "Hammered facets · mixed tones",
+      "designTags": [
+        "Faceted",
+        "Textured"
       ],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
+      "weightGrams": null,
+      "sizeType": "Ring size",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for sizing guidance",
+      "variants": [],
+      "details": {
+        "design": "Rounded band with a continuous irregular hammered pattern.",
+        "finish": "Small contrasting facets in a mix of warm and pale tones.",
+        "composition": "Materials, any inset details and karat options are confirmed on enquiry.",
+        "dimensions": "Band dimensions and available sizes are confirmed on enquiry.",
+        "weight": "Confirmed for the final piece and size."
+      },
+      "care": "Keep the piece separate from other jewellery and wipe gently with a soft dry cloth. Ask us for care instructions suited to its confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/rings/tri-tone-hammered-band/01-hero.webp",
+        "alternate": "catalog/images/rings/tri-tone-hammered-band/02-alternate.webp",
+        "detail": "catalog/images/rings/tri-tone-hammered-band/03-worn.webp",
+        "onBody": "catalog/images/rings/tri-tone-hammered-band/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
         {
-          "goldColour": "Yellow",
-          "karat": "18K",
-          "priceINR": 65000
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Arka Tri-tone Hammered Band — illustrated hero view"
         },
         {
-          "goldColour": "Yellow",
-          "karat": "22K",
-          "priceINR": 79000
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Arka Tri-tone Hammered Band — illustrated alternate angle"
+        },
+        {
+          "key": "detail",
+          "label": "On hand",
+          "alt": "Arka Tri-tone Hammered Band — illustrative styling on a hand"
         }
       ],
-      "details": {
-        "composition": "18K or 22K gold, malachite",
-        "dimensions": "Face approx. 13mm x 11mm",
-        "fastening": "N/A",
-        "includes": "Ring only"
-      },
-      "care": "Malachite is a soft stone — avoid impact, chemicals and ultrasonic cleaning. Store separately in a soft pouch.",
-      "images": {
-        "primary": "catalog/images/reference/ring-03.jpg",
-        "alternate": "catalog/images/reference/ring-03.jpg",
-        "detail": "catalog/images/reference/ring-03.jpg",
-        "onBody": null
-      },
-      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
+      "imageStatus": "Approved generated product illustrations. Worn scale is indicative; final product details are confirmed on enquiry."
     },
     {
-      "id": "AYM-RG-004",
-      "slug": "rudra-crossover-band",
-      "name": "Rudra Crossover Band",
+      "id": "AYM-RG-104",
+      "productKey": "mosaic-inlay-square-accent-band",
+      "slug": "kiaan-mosaic-accent-band",
+      "name": "Kiaan Mosaic Accent Band",
       "category": "Rings",
-      "shortDescription": "A softly crossing band with a continuous curve.",
-      "description": "Two sweeping lines appear to meet at the front of Rudra. The overlapping form gives a plain band a sense of movement.",
-      "weightGrams": 4,
-      "sizeType": "Ring size",
-      "sizeOptions": [
-        "7",
-        "7.5",
-        "8",
-        "8.5",
-        "9",
-        "9.5",
-        "10",
-        "10.5",
-        "11",
-        "11.5",
-        "12",
-        "12.5",
-        "13"
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "A colourful mosaic line with a square centre accent.",
+      "description": "Kiaan balances a multicoloured mosaic stripe with a crisp square accent. Warm-toned borders keep the composition defined while the inset pattern adds depth and variation. A distinctive band for those drawn to colour and geometry.",
+      "appearanceLabel": "Mosaic inlay · square accent",
+      "designTags": [
+        "Inlay",
+        "Accent details",
+        "Patterned"
       ],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
+      "weightGrams": null,
+      "sizeType": "Ring size",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for sizing guidance",
+      "variants": [],
+      "details": {
+        "design": "Broad band with a colourful inset stripe and central square detail.",
+        "finish": "Polished warm borders around a varied mosaic appearance.",
+        "composition": "Materials, any inset details and karat options are confirmed on enquiry.",
+        "dimensions": "Band dimensions and available sizes are confirmed on enquiry.",
+        "weight": "Confirmed for the final piece and size."
+      },
+      "care": "Keep the piece separate from other jewellery and wipe gently with a soft dry cloth. Ask us for care instructions suited to its confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/rings/mosaic-inlay-square-accent-band/01-hero.webp",
+        "alternate": "catalog/images/rings/mosaic-inlay-square-accent-band/02-alternate.webp",
+        "detail": "catalog/images/rings/mosaic-inlay-square-accent-band/03-worn.webp",
+        "onBody": "catalog/images/rings/mosaic-inlay-square-accent-band/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
         {
-          "goldColour": "Yellow",
-          "karat": "14K",
-          "priceINR": 51000
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Kiaan Mosaic Accent Band — illustrated hero view"
         },
         {
-          "goldColour": "Yellow",
-          "karat": "18K",
-          "priceINR": 65000
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Kiaan Mosaic Accent Band — illustrated alternate angle"
         },
         {
-          "goldColour": "Rose",
-          "karat": "14K",
-          "priceINR": 51000
-        },
-        {
-          "goldColour": "Rose",
-          "karat": "18K",
-          "priceINR": 65000
-        },
-        {
-          "goldColour": "White",
-          "karat": "14K",
-          "priceINR": 51000
-        },
-        {
-          "goldColour": "White",
-          "karat": "18K",
-          "priceINR": 65000
+          "key": "detail",
+          "label": "On hand",
+          "alt": "Kiaan Mosaic Accent Band — illustrative styling on a hand"
         }
       ],
-      "details": {
-        "composition": "14K or 18K gold",
-        "dimensions": "Face approx. 13mm x 11mm",
-        "fastening": "N/A",
-        "includes": "Ring only"
-      },
-      "care": "Avoid contact with perfume, lotion and chlorinated water. Store separately in a soft pouch to prevent surface scratching.",
-      "images": {
-        "primary": "catalog/images/reference/ring-04.jpg",
-        "alternate": "catalog/images/reference/ring-04.jpg",
-        "detail": "catalog/images/reference/ring-04.jpg",
-        "onBody": null
-      },
-      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
+      "imageStatus": "Approved generated product illustrations. Worn scale is indicative; final product details are confirmed on enquiry."
     },
     {
-      "id": "AYM-RG-005",
-      "slug": "kiaan-open-facet-ring",
-      "name": "Kiaan Open Facet Ring",
+      "id": "AYM-RG-105",
+      "productKey": "charcoal-leaf-interior-band",
+      "slug": "vana-leafwork-band",
+      "name": "Vana Leafwork Band",
       "category": "Rings",
-      "shortDescription": "An angular ring with an open central line.",
-      "description": "Kiaan frames a narrow opening with polished, faceted edges. Its geometric outline carries the design.",
-      "weightGrams": 4,
-      "sizeType": "Ring size",
-      "sizeOptions": [
-        "7",
-        "7.5",
-        "8",
-        "8.5",
-        "9",
-        "9.5",
-        "10",
-        "10.5",
-        "11",
-        "11.5",
-        "12",
-        "12.5",
-        "13"
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "A dark faceted exterior with leafwork inside.",
+      "description": "Vana keeps its strongest contrast between the outside and the inside. A dark, textured face is framed by fine warm-toned edges, while a leaf motif adds an intimate detail along the inner band. Its character rewards a closer look.",
+      "appearanceLabel": "Dark texture · inner leaf motif",
+      "designTags": [
+        "Textured",
+        "Patterned",
+        "Faceted"
       ],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
+      "weightGrams": null,
+      "sizeType": "Ring size",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for sizing guidance",
+      "variants": [],
+      "details": {
+        "design": "Broad dark band with a leaf pattern visible along the interior.",
+        "finish": "Faceted exterior contrasted with smooth warm edges.",
+        "composition": "Materials, any inset details and karat options are confirmed on enquiry.",
+        "dimensions": "Band dimensions and available sizes are confirmed on enquiry.",
+        "weight": "Confirmed for the final piece and size."
+      },
+      "care": "Keep the piece separate from other jewellery and wipe gently with a soft dry cloth. Ask us for care instructions suited to its confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/rings/charcoal-leaf-interior-band/01-hero.webp",
+        "alternate": "catalog/images/rings/charcoal-leaf-interior-band/02-alternate.webp",
+        "detail": "catalog/images/rings/charcoal-leaf-interior-band/03-worn.webp",
+        "onBody": "catalog/images/rings/charcoal-leaf-interior-band/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
         {
-          "goldColour": "Yellow",
-          "karat": "9K",
-          "priceINR": 33500
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Vana Leafwork Band — illustrated hero view"
         },
         {
-          "goldColour": "Yellow",
-          "karat": "14K",
-          "priceINR": 51000
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Vana Leafwork Band — illustrated alternate angle"
         },
         {
-          "goldColour": "White",
-          "karat": "9K",
-          "priceINR": 33500
-        },
-        {
-          "goldColour": "White",
-          "karat": "14K",
-          "priceINR": 51000
+          "key": "detail",
+          "label": "On hand",
+          "alt": "Vana Leafwork Band — illustrative styling on a hand"
         }
       ],
-      "details": {
-        "composition": "9K or 14K gold",
-        "dimensions": "Band width approx. 3.5mm",
-        "fastening": "N/A",
-        "includes": "Ring only"
-      },
-      "care": "Avoid contact with perfume, lotion and chlorinated water. Store separately in a soft pouch to prevent surface scratching.",
-      "images": {
-        "primary": "catalog/images/reference/ring-05.jpg",
-        "alternate": "catalog/images/reference/ring-05.jpg",
-        "detail": "catalog/images/reference/ring-05.jpg",
-        "onBody": null
-      },
-      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
+      "imageStatus": "Approved generated product illustrations. Worn scale is indicative; final product details are confirmed on enquiry."
     },
     {
-      "id": "AYM-RG-006",
-      "slug": "aum-stepped-band",
-      "name": "Aum Stepped Band",
+      "id": "AYM-RG-106",
+      "productKey": "segmented-rose-gold-stone-band",
+      "slug": "dhruv-segmented-band",
+      "name": "Dhruv Segmented Band",
       "category": "Rings",
-      "shortDescription": "A polished band with a stepped central detail.",
-      "description": "Aum's profile rises into a small, defined step at the front. The rest of the band remains smooth and restrained.",
-      "weightGrams": 4,
-      "sizeType": "Ring size",
-      "sizeOptions": [
-        "7.5",
-        "8",
-        "8.5",
-        "9",
-        "9.5",
-        "10",
-        "10.5",
-        "11",
-        "11.5",
-        "12",
-        "12.5",
-        "13"
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "Polished rose-toned segments with bright accent panels.",
+      "description": "Dhruv builds a steady rhythm from compact rectangular segments. Bright accent panels interrupt the polished rose-toned surface, adding small points of light without crowding the design. The result is structured and expressive.",
+      "appearanceLabel": "Segmented form · bright accents",
+      "designTags": [
+        "Patterned",
+        "Accent details",
+        "Polished"
       ],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
+      "weightGrams": null,
+      "sizeType": "Ring size",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for sizing guidance",
+      "variants": [],
+      "details": {
+        "design": "Repeating rectangular sections with narrow bright accent panels.",
+        "finish": "Polished rose-toned surfaces and contrasting inset details.",
+        "composition": "Materials, any inset details and karat options are confirmed on enquiry.",
+        "dimensions": "Band dimensions and available sizes are confirmed on enquiry.",
+        "weight": "Confirmed for the final piece and size."
+      },
+      "care": "Keep the piece separate from other jewellery and wipe gently with a soft dry cloth. Ask us for care instructions suited to its confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/rings/segmented-rose-gold-stone-band/01-hero.webp",
+        "alternate": "catalog/images/rings/segmented-rose-gold-stone-band/02-alternate.webp",
+        "detail": "catalog/images/rings/segmented-rose-gold-stone-band/03-worn.webp",
+        "onBody": "catalog/images/rings/segmented-rose-gold-stone-band/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
         {
-          "goldColour": "Yellow",
-          "karat": "14K",
-          "priceINR": 51000
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Dhruv Segmented Band — illustrated hero view"
         },
         {
-          "goldColour": "Yellow",
-          "karat": "18K",
-          "priceINR": 65000
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Dhruv Segmented Band — illustrated alternate angle"
+        },
+        {
+          "key": "detail",
+          "label": "On hand",
+          "alt": "Dhruv Segmented Band — illustrative styling on a hand"
         }
       ],
-      "details": {
-        "composition": "14K or 18K gold",
-        "dimensions": "Face approx. 12mm x 10mm",
-        "fastening": "N/A",
-        "includes": "Ring only"
-      },
-      "care": "Avoid contact with perfume, lotion and chlorinated water. A brushed finish will polish smooth over time with wear; this is expected.",
-      "images": {
-        "primary": "catalog/images/reference/ring-06.jpg",
-        "alternate": "catalog/images/reference/ring-06.jpg",
-        "detail": "catalog/images/reference/ring-06.jpg",
-        "onBody": null
-      },
-      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
+      "imageStatus": "Approved generated product illustrations. Worn scale is indicative; final product details are confirmed on enquiry."
     },
     {
-      "id": "AYM-RG-007",
-      "slug": "zaal-channel-band",
-      "name": "Zaal Channel Band",
+      "id": "AYM-RG-107",
+      "productKey": "two-tone-channel-accent-band",
+      "slug": "zaal-channel-accent-band",
+      "name": "Zaal Channel Accent Band",
       "category": "Rings",
-      "shortDescription": "A wide band with a line of bright inset accents.",
-      "description": "A narrow channel runs across the face of Zaal, giving the broad band a crisp line of contrast. The accents are visually bright; their material is unverified.",
-      "weightGrams": 5,
-      "sizeType": "Ring size",
-      "sizeOptions": [
-        "8",
-        "8.5",
-        "9",
-        "9.5",
-        "10",
-        "10.5",
-        "11",
-        "11.5",
-        "12",
-        "12.5",
-        "13"
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "A pale channel framed by slim warm-toned edges.",
+      "description": "Zaal brings together smooth reflective sections and fine bright detailing. A pale central channel sits between slim warm-toned borders, giving the band a precise, layered outline. Its contrast feels composed from every visible angle.",
+      "appearanceLabel": "Two-tone channel · bright accents",
+      "designTags": [
+        "Accent details",
+        "Polished"
       ],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
+      "weightGrams": null,
+      "sizeType": "Ring size",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for sizing guidance",
+      "variants": [],
+      "details": {
+        "design": "Central channel with alternating smooth and bright accent sections.",
+        "finish": "Reflective pale surfaces bordered by warm tones.",
+        "composition": "Materials, any inset details and karat options are confirmed on enquiry.",
+        "dimensions": "Band dimensions and available sizes are confirmed on enquiry.",
+        "weight": "Confirmed for the final piece and size."
+      },
+      "care": "Keep the piece separate from other jewellery and wipe gently with a soft dry cloth. Ask us for care instructions suited to its confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/rings/two-tone-channel-accent-band/01-hero.webp",
+        "alternate": "catalog/images/rings/two-tone-channel-accent-band/02-alternate.webp",
+        "detail": "catalog/images/rings/two-tone-channel-accent-band/03-worn.webp",
+        "onBody": "catalog/images/rings/two-tone-channel-accent-band/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
         {
-          "goldColour": "White",
-          "karat": "18K",
-          "priceINR": 81000
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Zaal Channel Accent Band — illustrated hero view"
         },
         {
-          "goldColour": "White",
-          "karat": "22K",
-          "priceINR": 99000
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Zaal Channel Accent Band — illustrated alternate angle"
+        },
+        {
+          "key": "detail",
+          "label": "On hand",
+          "alt": "Zaal Channel Accent Band — illustrative styling on a hand"
         }
       ],
-      "details": {
-        "composition": "18K or 22K gold, black spinel",
-        "dimensions": "Face approx. 13mm x 11mm",
-        "fastening": "N/A",
-        "includes": "Ring only"
-      },
-      "care": "Avoid contact with perfume, lotion and chlorinated water. Store separately in a soft pouch.",
-      "images": {
-        "primary": "catalog/images/reference/ring-07.jpg",
-        "alternate": "catalog/images/reference/ring-07.jpg",
-        "detail": "catalog/images/reference/ring-07.jpg",
-        "onBody": null
-      },
-      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
+      "imageStatus": "Approved generated product illustrations. Worn scale is indicative; final product details are confirmed on enquiry."
     },
     {
-      "id": "AYM-RG-008",
-      "slug": "tejas-facet-band",
-      "name": "Tejas Facet Band",
+      "id": "AYM-RG-108",
+      "productKey": "twin-rail-gold-white-accent-ring",
+      "slug": "aum-twin-rail-ring",
+      "name": "Aum Twin Rail Ring",
       "category": "Rings",
-      "shortDescription": "A geometric band with sculpted, angled planes.",
-      "description": "Tejas catches the light across a series of angled surfaces. Its shape is distinctive while the silhouette stays compact.",
-      "weightGrams": 4,
-      "sizeType": "Ring size",
-      "sizeOptions": [
-        "7",
-        "7.5",
-        "8",
-        "8.5",
-        "9",
-        "9.5",
-        "10",
-        "10.5",
-        "11",
-        "11.5",
-        "12",
-        "12.5",
-        "13"
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "Two fine rails joined by a small geometric accent.",
+      "description": "Aum opens up the traditional band into a pair of fine parallel rails. A small geometric accent connects the lines, while pale details add contrast to the warm-toned outline. The spacing gives the design a lighter visual rhythm.",
+      "appearanceLabel": "Twin rails · geometric accent",
+      "designTags": [
+        "Accent details",
+        "Polished"
       ],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
+      "weightGrams": null,
+      "sizeType": "Ring size",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for sizing guidance",
+      "variants": [],
+      "details": {
+        "design": "Parallel fine rails with a central geometric bright detail.",
+        "finish": "Polished warm tones with pale contrasting accents.",
+        "composition": "Materials, any inset details and karat options are confirmed on enquiry.",
+        "dimensions": "Band dimensions and available sizes are confirmed on enquiry.",
+        "weight": "Confirmed for the final piece and size."
+      },
+      "care": "Keep the piece separate from other jewellery and wipe gently with a soft dry cloth. Ask us for care instructions suited to its confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/rings/twin-rail-gold-white-accent-ring/01-hero.webp",
+        "alternate": "catalog/images/rings/twin-rail-gold-white-accent-ring/02-alternate.webp",
+        "detail": "catalog/images/rings/twin-rail-gold-white-accent-ring/03-worn.webp",
+        "onBody": "catalog/images/rings/twin-rail-gold-white-accent-ring/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
         {
-          "goldColour": "Yellow",
-          "karat": "9K",
-          "priceINR": 33500
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Aum Twin Rail Ring — illustrated hero view"
         },
         {
-          "goldColour": "Yellow",
-          "karat": "14K",
-          "priceINR": 51000
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Aum Twin Rail Ring — illustrated alternate angle"
         },
         {
-          "goldColour": "Rose",
-          "karat": "9K",
-          "priceINR": 33500
-        },
-        {
-          "goldColour": "Rose",
-          "karat": "14K",
-          "priceINR": 51000
+          "key": "detail",
+          "label": "On hand",
+          "alt": "Aum Twin Rail Ring — illustrative styling on a hand"
         }
       ],
+      "imageStatus": "Approved generated product illustrations. Worn scale is indicative; final product details are confirmed on enquiry."
+    },
+    {
+      "id": "AYM-RG-109",
+      "productKey": "faceted-two-tone-r1-band",
+      "slug": "tejas-faceted-rail-band",
+      "name": "Tejas Faceted Rail Band",
+      "category": "Rings",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "A line of pale facets held between warm polished rails.",
+      "description": "Tejas sets a continuous run of angular pale facets between warm-toned borders. The alternating planes create a clear rhythm of light and shade across the face. Its crisp detail works well as a single, deliberate accent.",
+      "appearanceLabel": "Pale facets · warm borders",
+      "designTags": [
+        "Faceted",
+        "Polished"
+      ],
+      "weightGrams": null,
+      "sizeType": "Ring size",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for sizing guidance",
+      "variants": [],
       "details": {
-        "composition": "9K or 14K gold",
-        "dimensions": "Band width approx. 3mm",
-        "fastening": "N/A",
-        "includes": "Ring only"
+        "design": "Faceted central strip with two smooth outer rails.",
+        "finish": "Contrasting pale geometric facets and polished warm edges.",
+        "composition": "Materials, any inset details and karat options are confirmed on enquiry.",
+        "dimensions": "Band dimensions and available sizes are confirmed on enquiry.",
+        "weight": "Confirmed for the final piece and size."
       },
-      "care": "Avoid contact with perfume, lotion and chlorinated water. Store separately in a soft pouch to prevent surface scratching.",
+      "care": "Keep the piece separate from other jewellery and wipe gently with a soft dry cloth. Ask us for care instructions suited to its confirmed materials and finish.",
       "images": {
-        "primary": "catalog/images/reference/ring-08.jpg",
-        "alternate": "catalog/images/reference/ring-08.jpg",
-        "detail": "catalog/images/reference/ring-08.jpg",
-        "onBody": null
+        "primary": "catalog/images/rings/faceted-two-tone-r1-band/01-hero.webp",
+        "alternate": "catalog/images/rings/faceted-two-tone-r1-band/02-alternate.webp",
+        "detail": "catalog/images/rings/faceted-two-tone-r1-band/03-worn.webp",
+        "onBody": "catalog/images/rings/faceted-two-tone-r1-band/03-worn.webp"
       },
-      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
+      "mediaType": "generated_illustration",
+      "gallery": [
+        {
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Tejas Faceted Rail Band — illustrated hero view"
+        },
+        {
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Tejas Faceted Rail Band — illustrated alternate angle"
+        },
+        {
+          "key": "detail",
+          "label": "On hand",
+          "alt": "Tejas Faceted Rail Band — illustrative styling on a hand"
+        }
+      ],
+      "imageStatus": "Approved generated product illustrations. Worn scale is indicative; final product details are confirmed on enquiry."
+    },
+    {
+      "id": "AYM-RG-110",
+      "productKey": "textured-center-silver-band",
+      "slug": "nirav-textured-curve-band",
+      "name": "Nirav Textured Curve Band",
+      "category": "Rings",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "A fine textured surface beneath a polished curved edge.",
+      "description": "Nirav explores the meeting point between texture and reflection. A fine-grained central surface sits against a smooth sweeping edge, giving the pale-toned band a subtle change in character. The clean profile keeps it easy to style.",
+      "appearanceLabel": "Fine texture · polished curve",
+      "designTags": [
+        "Textured",
+        "Polished"
+      ],
+      "weightGrams": null,
+      "sizeType": "Ring size",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for sizing guidance",
+      "variants": [],
+      "details": {
+        "design": "Pale band with a fine textured panel and smooth curved border.",
+        "finish": "Soft grain contrasted with a reflective polished edge.",
+        "composition": "Materials, any inset details and karat options are confirmed on enquiry.",
+        "dimensions": "Band dimensions and available sizes are confirmed on enquiry.",
+        "weight": "Confirmed for the final piece and size."
+      },
+      "care": "Keep the piece separate from other jewellery and wipe gently with a soft dry cloth. Ask us for care instructions suited to its confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/rings/textured-center-silver-band/01-hero.webp",
+        "alternate": "catalog/images/rings/textured-center-silver-band/02-alternate.webp",
+        "detail": "catalog/images/rings/textured-center-silver-band/03-worn.webp",
+        "onBody": "catalog/images/rings/textured-center-silver-band/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
+        {
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Nirav Textured Curve Band — illustrated hero view"
+        },
+        {
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Nirav Textured Curve Band — illustrated alternate angle"
+        },
+        {
+          "key": "detail",
+          "label": "On hand",
+          "alt": "Nirav Textured Curve Band — illustrative styling on a hand"
+        }
+      ],
+      "imageStatus": "Approved generated product illustrations. Worn scale is indicative; final product details are confirmed on enquiry."
+    },
+    {
+      "id": "AYM-RG-111",
+      "productKey": "multicolor-mosaic-stripe-band",
+      "slug": "rang-mosaic-band",
+      "name": "Rang Mosaic Band",
+      "category": "Rings",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "Small coloured tiles arranged in a precise repeating stripe.",
+      "description": "Rang brings a measured sense of colour to a compact band. Small mosaic-like tiles form a continuous stripe, framed by polished warm-toned edges. The repeating squares give the design both playfulness and order.",
+      "appearanceLabel": "Colourful mosaic · polished frame",
+      "designTags": [
+        "Inlay",
+        "Patterned",
+        "Accent details"
+      ],
+      "weightGrams": null,
+      "sizeType": "Ring size",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for sizing guidance",
+      "variants": [],
+      "details": {
+        "design": "A repeating grid of small coloured inset squares.",
+        "finish": "Multicoloured central pattern with polished warm borders.",
+        "composition": "Materials, any inset details and karat options are confirmed on enquiry.",
+        "dimensions": "Band dimensions and available sizes are confirmed on enquiry.",
+        "weight": "Confirmed for the final piece and size."
+      },
+      "care": "Keep the piece separate from other jewellery and wipe gently with a soft dry cloth. Ask us for care instructions suited to its confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/rings/multicolor-mosaic-stripe-band/01-hero.webp",
+        "alternate": "catalog/images/rings/multicolor-mosaic-stripe-band/02-alternate.webp",
+        "detail": "catalog/images/rings/multicolor-mosaic-stripe-band/03-worn.webp",
+        "onBody": "catalog/images/rings/multicolor-mosaic-stripe-band/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
+        {
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Rang Mosaic Band — illustrated hero view"
+        },
+        {
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Rang Mosaic Band — illustrated alternate angle"
+        },
+        {
+          "key": "detail",
+          "label": "On hand",
+          "alt": "Rang Mosaic Band — illustrative styling on a hand"
+        }
+      ],
+      "imageStatus": "Approved generated product illustrations. Worn scale is indicative; final product details are confirmed on enquiry."
+    },
+    {
+      "id": "AYM-RG-112",
+      "productKey": "woven-tritone-faceted-band",
+      "slug": "samar-woven-facet-band",
+      "name": "Samar Woven Facet Band",
+      "category": "Rings",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "Interlaced angular shapes in three contrasting tones.",
+      "description": "Samar follows an interlaced rhythm of angular facets. Rose, pale and warm tones meet across the broad face, giving the woven pattern a changing sense of depth. Its compact outline keeps an intricate design grounded.",
+      "appearanceLabel": "Woven facets · three tones",
+      "designTags": [
+        "Faceted",
+        "Patterned"
+      ],
+      "weightGrams": null,
+      "sizeType": "Ring size",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for sizing guidance",
+      "variants": [],
+      "details": {
+        "design": "Repeating interlaced geometric segments around the band.",
+        "finish": "Contrasting rose, pale and warm-toned angled surfaces.",
+        "composition": "Materials, any inset details and karat options are confirmed on enquiry.",
+        "dimensions": "Band dimensions and available sizes are confirmed on enquiry.",
+        "weight": "Confirmed for the final piece and size."
+      },
+      "care": "Keep the piece separate from other jewellery and wipe gently with a soft dry cloth. Ask us for care instructions suited to its confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/rings/woven-tritone-faceted-band/01-hero.webp",
+        "alternate": "catalog/images/rings/woven-tritone-faceted-band/02-alternate.webp",
+        "detail": "catalog/images/rings/woven-tritone-faceted-band/03-worn.webp",
+        "onBody": "catalog/images/rings/woven-tritone-faceted-band/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
+        {
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Samar Woven Facet Band — illustrated hero view"
+        },
+        {
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Samar Woven Facet Band — illustrated alternate angle"
+        },
+        {
+          "key": "detail",
+          "label": "On hand",
+          "alt": "Samar Woven Facet Band — illustrative styling on a hand"
+        }
+      ],
+      "imageStatus": "Approved generated product illustrations. Worn scale is indicative; final product details are confirmed on enquiry."
+    },
+    {
+      "id": "AYM-RG-113",
+      "productKey": "green-double-inlay-band",
+      "slug": "neer-green-line-band",
+      "name": "Neer Green Line Band",
+      "category": "Rings",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "A slender green accent framed by warm geometric surfaces.",
+      "description": "Neer uses a deep-green line to draw the eye around the band. Warm-toned surfaces frame the accent, with small angled changes adding a quiet geometric edge. It offers a restrained way to introduce colour.",
+      "appearanceLabel": "Green line · warm contrast",
+      "designTags": [
+        "Inlay",
+        "Faceted"
+      ],
+      "weightGrams": null,
+      "sizeType": "Ring size",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for sizing guidance",
+      "variants": [],
+      "details": {
+        "design": "Green inset stripe framed by warm-toned geometric detailing.",
+        "finish": "Polished and angled surfaces around a contrasting green accent.",
+        "composition": "Materials, any inset details and karat options are confirmed on enquiry.",
+        "dimensions": "Band dimensions and available sizes are confirmed on enquiry.",
+        "weight": "Confirmed for the final piece and size."
+      },
+      "care": "Keep the piece separate from other jewellery and wipe gently with a soft dry cloth. Ask us for care instructions suited to its confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/rings/green-double-inlay-band/01-hero.webp",
+        "alternate": "catalog/images/rings/green-double-inlay-band/02-alternate.webp",
+        "detail": "catalog/images/rings/green-double-inlay-band/03-worn.webp",
+        "onBody": "catalog/images/rings/green-double-inlay-band/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
+        {
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Neer Green Line Band — illustrated hero view"
+        },
+        {
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Neer Green Line Band — illustrated alternate angle"
+        },
+        {
+          "key": "detail",
+          "label": "On hand",
+          "alt": "Neer Green Line Band — illustrative styling on a hand"
+        }
+      ],
+      "imageStatus": "Approved generated product illustrations. Worn scale is indicative; final product details are confirmed on enquiry."
+    },
+    {
+      "id": "AYM-RG-114",
+      "productKey": "faceted-two-tone-wide-band",
+      "slug": "veyar-hammered-facet-band",
+      "name": "Veyar Hammered Facet Band",
+      "category": "Rings",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "Broad irregular facets in a pale and warm tonal mix.",
+      "description": "Veyar has a broad, softly rounded profile broken into irregular facets. Pale planes meet warmer sections across the surface, creating a subdued patchwork of light and shade. Its texture gives a simple silhouette a distinct presence.",
+      "appearanceLabel": "Broad facets · tonal contrast",
+      "designTags": [
+        "Faceted",
+        "Textured"
+      ],
+      "weightGrams": null,
+      "sizeType": "Ring size",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for sizing guidance",
+      "variants": [],
+      "details": {
+        "design": "Wide rounded band with irregular polygon facets.",
+        "finish": "A hammered appearance combining pale and warmer reflective planes.",
+        "composition": "Materials, any inset details and karat options are confirmed on enquiry.",
+        "dimensions": "Band dimensions and available sizes are confirmed on enquiry.",
+        "weight": "Confirmed for the final piece and size."
+      },
+      "care": "Keep the piece separate from other jewellery and wipe gently with a soft dry cloth. Ask us for care instructions suited to its confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/rings/faceted-two-tone-wide-band/01-hero.webp",
+        "alternate": "catalog/images/rings/faceted-two-tone-wide-band/02-alternate.webp",
+        "detail": "catalog/images/rings/faceted-two-tone-wide-band/03-worn.webp",
+        "onBody": "catalog/images/rings/faceted-two-tone-wide-band/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
+        {
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Veyar Hammered Facet Band — illustrated hero view"
+        },
+        {
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Veyar Hammered Facet Band — illustrated alternate angle"
+        },
+        {
+          "key": "detail",
+          "label": "On hand",
+          "alt": "Veyar Hammered Facet Band — illustrative styling on a hand"
+        }
+      ],
+      "imageStatus": "Approved generated product illustrations. Worn scale is indicative; final product details are confirmed on enquiry."
+    },
+    {
+      "id": "AYM-RG-115",
+      "productKey": "hammered-faceted-gold-band",
+      "slug": "bhanu-hammered-band",
+      "name": "Bhanu Hammered Band",
+      "category": "Rings",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "Large warm-toned facets with a softly rounded profile.",
+      "description": "Bhanu gives a broad band the character of hammered texture. Large irregular facets break up the warm-toned surface, while the inner line remains smooth and simple. The pattern is bold enough to wear on its own.",
+      "appearanceLabel": "Warm facets · hammered texture",
+      "designTags": [
+        "Faceted",
+        "Textured"
+      ],
+      "weightGrams": null,
+      "sizeType": "Ring size",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for sizing guidance",
+      "variants": [],
+      "details": {
+        "design": "Broad band with a repeating irregular polygon surface.",
+        "finish": "Warm-toned facets with fine visible surface texture.",
+        "composition": "Materials, any inset details and karat options are confirmed on enquiry.",
+        "dimensions": "Band dimensions and available sizes are confirmed on enquiry.",
+        "weight": "Confirmed for the final piece and size."
+      },
+      "care": "Keep the piece separate from other jewellery and wipe gently with a soft dry cloth. Ask us for care instructions suited to its confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/rings/hammered-faceted-gold-band/01-hero.webp",
+        "alternate": "catalog/images/rings/hammered-faceted-gold-band/02-alternate.webp",
+        "detail": "catalog/images/rings/hammered-faceted-gold-band/03-worn.webp",
+        "onBody": "catalog/images/rings/hammered-faceted-gold-band/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
+        {
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Bhanu Hammered Band — illustrated hero view"
+        },
+        {
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Bhanu Hammered Band — illustrated alternate angle"
+        },
+        {
+          "key": "detail",
+          "label": "On hand",
+          "alt": "Bhanu Hammered Band — illustrative styling on a hand"
+        }
+      ],
+      "imageStatus": "Approved generated product illustrations. Worn scale is indicative; final product details are confirmed on enquiry."
+    },
+    {
+      "id": "AYM-RG-116",
+      "productKey": "angular-rose-inlay-silver-band",
+      "slug": "kairo-angular-inlay-band",
+      "name": "Kairo Angular Inlay Band",
+      "category": "Rings",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "A squared pale band traced by a warm inlaid line.",
+      "description": "Kairo follows a more architectural outline, with broad pale surfaces and squared shoulders. A warm-toned inset bends with the form, punctuated by a short dark accent. The design balances a clean face with an unexpected profile.",
+      "appearanceLabel": "Angular profile · warm inlay",
+      "designTags": [
+        "Inlay",
+        "Textured"
+      ],
+      "weightGrams": null,
+      "sizeType": "Ring size",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for sizing guidance",
+      "variants": [],
+      "details": {
+        "design": "Squared band with a bent warm inset line and short dark detail.",
+        "finish": "Brushed pale surfaces with polished warm contrast.",
+        "composition": "Materials, any inset details and karat options are confirmed on enquiry.",
+        "dimensions": "Band dimensions and available sizes are confirmed on enquiry.",
+        "weight": "Confirmed for the final piece and size."
+      },
+      "care": "Keep the piece separate from other jewellery and wipe gently with a soft dry cloth. Ask us for care instructions suited to its confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/rings/angular-rose-inlay-silver-band/01-hero.webp",
+        "alternate": "catalog/images/rings/angular-rose-inlay-silver-band/02-alternate.webp",
+        "detail": "catalog/images/rings/angular-rose-inlay-silver-band/03-worn.webp",
+        "onBody": "catalog/images/rings/angular-rose-inlay-silver-band/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
+        {
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Kairo Angular Inlay Band — illustrated hero view"
+        },
+        {
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Kairo Angular Inlay Band — illustrated alternate angle"
+        },
+        {
+          "key": "detail",
+          "label": "On hand",
+          "alt": "Kairo Angular Inlay Band — illustrative styling on a hand"
+        }
+      ],
+      "imageStatus": "Approved generated product illustrations. Worn scale is indicative; final product details are confirmed on enquiry."
+    },
+    {
+      "id": "AYM-RG-117",
+      "productKey": "dark-two-tone-contour-band",
+      "slug": "rihan-contour-band",
+      "name": "Rihan Contour Band",
+      "category": "Rings",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "A dark face edged by sweeping pale and warm lines.",
+      "description": "Rihan draws its shape through contrast. A broad dark face meets a sweeping pale contour and a fine warm edge, creating a fluid line around the band. Its reflective detail brings definition to an otherwise quiet surface.",
+      "appearanceLabel": "Dark face · flowing contrast",
+      "designTags": [
+        "Polished"
+      ],
+      "weightGrams": null,
+      "sizeType": "Ring size",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for sizing guidance",
+      "variants": [],
+      "details": {
+        "design": "Broad dark band with sweeping pale and warm-toned edge details.",
+        "finish": "Smooth dark surfaces and narrow polished borders.",
+        "composition": "Materials, any inset details and karat options are confirmed on enquiry.",
+        "dimensions": "Band dimensions and available sizes are confirmed on enquiry.",
+        "weight": "Confirmed for the final piece and size."
+      },
+      "care": "Keep the piece separate from other jewellery and wipe gently with a soft dry cloth. Ask us for care instructions suited to its confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/rings/dark-two-tone-contour-band/01-hero.webp",
+        "alternate": "catalog/images/rings/dark-two-tone-contour-band/02-alternate.webp",
+        "detail": "catalog/images/rings/dark-two-tone-contour-band/03-worn.webp",
+        "onBody": "catalog/images/rings/dark-two-tone-contour-band/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
+        {
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Rihan Contour Band — illustrated hero view"
+        },
+        {
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Rihan Contour Band — illustrated alternate angle"
+        },
+        {
+          "key": "detail",
+          "label": "On hand",
+          "alt": "Rihan Contour Band — illustrative styling on a hand"
+        }
+      ],
+      "imageStatus": "Approved generated product illustrations. Worn scale is indicative; final product details are confirmed on enquiry."
+    },
+    {
+      "id": "AYM-RG-118",
+      "productKey": "double-rose-rail-brushed-band",
+      "slug": "tarun-twin-line-band",
+      "name": "Tarun Twin Line Band",
+      "category": "Rings",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "Two fine warm lines across a broad brushed band.",
+      "description": "Tarun finds its rhythm in two fine parallel lines. Their warm tone cuts across the pale brushed face, giving the rounded band a measured sense of structure. The simplicity makes the small details count.",
+      "appearanceLabel": "Brushed pale finish · twin lines",
+      "designTags": [
+        "Textured",
+        "Polished"
+      ],
+      "weightGrams": null,
+      "sizeType": "Ring size",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for sizing guidance",
+      "variants": [],
+      "details": {
+        "design": "Broad rounded band with two fine parallel warm-toned rails.",
+        "finish": "Brushed pale surface with polished linear accents.",
+        "composition": "Materials, any inset details and karat options are confirmed on enquiry.",
+        "dimensions": "Band dimensions and available sizes are confirmed on enquiry.",
+        "weight": "Confirmed for the final piece and size."
+      },
+      "care": "Keep the piece separate from other jewellery and wipe gently with a soft dry cloth. Ask us for care instructions suited to its confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/rings/double-rose-rail-brushed-band/01-hero.webp",
+        "alternate": "catalog/images/rings/double-rose-rail-brushed-band/02-alternate.webp",
+        "detail": "catalog/images/rings/double-rose-rail-brushed-band/03-worn.webp",
+        "onBody": "catalog/images/rings/double-rose-rail-brushed-band/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
+        {
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Tarun Twin Line Band — illustrated hero view"
+        },
+        {
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Tarun Twin Line Band — illustrated alternate angle"
+        },
+        {
+          "key": "detail",
+          "label": "On hand",
+          "alt": "Tarun Twin Line Band — illustrative styling on a hand"
+        }
+      ],
+      "imageStatus": "Approved generated product illustrations. Worn scale is indicative; final product details are confirmed on enquiry."
+    },
+    {
+      "id": "AYM-RG-119",
+      "productKey": "rose-edge-brushed-band",
+      "slug": "aarav-edge-band",
+      "name": "Aarav Edge Band",
+      "category": "Rings",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "A broad pale surface framed by one warm polished edge.",
+      "description": "Aarav keeps the composition deliberately spare. A broad brushed face meets a single warm-toned edge, creating a quiet change in colour and reflection. Its smooth outline lets the contrast remain the focus.",
+      "appearanceLabel": "Brushed face · warm edge",
+      "designTags": [
+        "Textured",
+        "Polished"
+      ],
+      "weightGrams": null,
+      "sizeType": "Ring size",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for sizing guidance",
+      "variants": [],
+      "details": {
+        "design": "Broad pale band with a single contrasting warm edge rail.",
+        "finish": "Brushed central surface beside a polished warm border.",
+        "composition": "Materials, any inset details and karat options are confirmed on enquiry.",
+        "dimensions": "Band dimensions and available sizes are confirmed on enquiry.",
+        "weight": "Confirmed for the final piece and size."
+      },
+      "care": "Keep the piece separate from other jewellery and wipe gently with a soft dry cloth. Ask us for care instructions suited to its confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/rings/rose-edge-brushed-band/01-hero.webp",
+        "alternate": "catalog/images/rings/rose-edge-brushed-band/02-alternate.webp",
+        "detail": "catalog/images/rings/rose-edge-brushed-band/03-worn.webp",
+        "onBody": "catalog/images/rings/rose-edge-brushed-band/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
+        {
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Aarav Edge Band — illustrated hero view"
+        },
+        {
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Aarav Edge Band — illustrated alternate angle"
+        },
+        {
+          "key": "detail",
+          "label": "On hand",
+          "alt": "Aarav Edge Band — illustrative styling on a hand"
+        }
+      ],
+      "imageStatus": "Approved generated product illustrations. Worn scale is indicative; final product details are confirmed on enquiry."
+    },
+    {
+      "id": "AYM-RG-120",
+      "productKey": "tritone-stripe-band",
+      "slug": "mihir-tri-tone-band",
+      "name": "Mihir Tri-tone Band",
+      "category": "Rings",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "Three smooth horizontal stripes in complementary tones.",
+      "description": "Mihir brings rose, pale and warm tones together in three clear horizontal stripes. Fine dividing lines give each surface its own space while the band reads as a single, simple form. It is an easy starting point for those who enjoy tonal contrast.",
+      "appearanceLabel": "Three tones · polished stripes",
+      "designTags": [
+        "Polished",
+        "Patterned"
+      ],
+      "weightGrams": null,
+      "sizeType": "Ring size",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for sizing guidance",
+      "variants": [],
+      "details": {
+        "design": "Broad band with three continuous contrasting horizontal stripes.",
+        "finish": "Smooth polished tones separated by fine lines.",
+        "composition": "Materials, any inset details and karat options are confirmed on enquiry.",
+        "dimensions": "Band dimensions and available sizes are confirmed on enquiry.",
+        "weight": "Confirmed for the final piece and size."
+      },
+      "care": "Keep the piece separate from other jewellery and wipe gently with a soft dry cloth. Ask us for care instructions suited to its confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/rings/tritone-stripe-band/01-hero.webp",
+        "alternate": "catalog/images/rings/tritone-stripe-band/02-alternate.webp",
+        "detail": "catalog/images/rings/tritone-stripe-band/03-worn.webp",
+        "onBody": "catalog/images/rings/tritone-stripe-band/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
+        {
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Mihir Tri-tone Band — illustrated hero view"
+        },
+        {
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Mihir Tri-tone Band — illustrated alternate angle"
+        },
+        {
+          "key": "detail",
+          "label": "On hand",
+          "alt": "Mihir Tri-tone Band — illustrative styling on a hand"
+        }
+      ],
+      "imageStatus": "Approved generated product illustrations. Worn scale is indicative; final product details are confirmed on enquiry."
     },
     {
       "id": "AYM-BR-001",

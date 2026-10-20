@@ -5,10 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>All Jewellery — The House of Aayam (Draft Preview)</title>
 <meta name="robots" content="noindex">
-<link rel="stylesheet" href="styles.css?v=20260929">
+<link rel="stylesheet" href="styles.css?v=20261021-rings-1">
 </head>
 <body>
-<div class="preview-notice">Design preview — reference photos and sample specifications and prices.</div>
+<div class="preview-notice">Catalogue preview — illustrated ring designs; other categories include sample details.</div>
 <header class="site-header">
   <div class="nav-row">
     <a class="nav-logo" href="index.html"><img src="../assets/logo.png" alt="The House of Aayam"></a>
@@ -42,20 +42,28 @@
 </aside>
 
 <main>
+  <section class="collection-intro" id="ring-intro" hidden>
+    <h1>Rings</h1>
+    <p>Bands shaped by texture, clean lines and contrast. Explore the illustrated designs and enquire about materials, sizing and pricing.</p>
+  </section>
   <div class="toolbar">
     <div class="crumbs" id="crumbs">Home / <strong id="crumb-current">All Jewellery</strong></div>
     <div class="controls">
       <select id="filter-category" aria-label="Category">
         <option value="">Category: All</option>
       </select>
-      <select id="filter-colour" aria-label="Gold colour">
-        <option value="">Gold colour: All</option>
+      <select id="filter-design" aria-label="Ring design" hidden>
+        <option value="">Design: All</option>
       </select>
-      <select id="filter-karat" aria-label="Karat">
-        <option value="">Karat: All</option>
+      <select id="filter-colour" aria-label="Sample gold colour">
+        <option value="">Sample gold colour: All</option>
+      </select>
+      <select id="filter-karat" aria-label="Sample karat">
+        <option value="">Sample karat: All</option>
       </select>
       <select id="sort" aria-label="Sort by">
         <option value="featured">Sort: Featured</option>
+        <option value="name-asc">Name: A to Z</option>
         <option value="price-asc">Price: Low to high</option>
         <option value="price-desc">Price: High to low</option>
       </select>
@@ -91,107 +99,7 @@
   <p class="footer-bottom">&copy; 2026 The House of Aayam · Design preview — sample content</p>
 </footer>
 
-<script src="catalog.js?v=20260929-2"></script>
-<script>
-let ALL = [];
-
-function paramsFromUrl() {
-  const p = new URLSearchParams(window.location.search);
-  return {
-    category: p.get('category') || '',
-    colour: p.get('colour') || '',
-    karat: p.get('karat') || '',
-    sort: p.get('sort') || 'featured',
-    q: p.get('q') || ''
-  };
-}
-
-function pushParams(state) {
-  const p = new URLSearchParams();
-  if (state.category) p.set('category', state.category);
-  if (state.colour) p.set('colour', state.colour);
-  if (state.karat) p.set('karat', state.karat);
-  if (state.sort && state.sort !== 'featured') p.set('sort', state.sort);
-  if (state.q) p.set('q', state.q);
-  const qs = p.toString();
-  history.replaceState(null, '', 'all-jewellery.html' + (qs ? '?' + qs : ''));
-}
-
-function apply(state) {
-  let items = ALL.filter(p => {
-    if (state.category && p.category !== state.category) return false;
-    if (state.colour && !p.variants.some(v => v.goldColour === state.colour)) return false;
-    if (state.karat && !p.variants.some(v => v.karat === state.karat)) return false;
-    if (state.q) {
-      const hay = (p.name + ' ' + p.category + ' ' + p.shortDescription).toLowerCase();
-      if (!hay.includes(state.q.toLowerCase())) return false;
-    }
-    return true;
-  });
-  if (state.sort === 'price-asc') items = items.slice().sort((a, b) => lowestVariant(a).priceINR - lowestVariant(b).priceINR);
-  if (state.sort === 'price-desc') items = items.slice().sort((a, b) => lowestVariant(b).priceINR - lowestVariant(a).priceINR);
-
-  renderGrid(document.getElementById('product-grid'), items);
-
-  const count = document.getElementById('result-count');
-  count.textContent = state.q
-    ? items.length + ' results for “' + state.q + '”'
-    : items.length + (items.length === 1 ? ' piece' : ' pieces');
-
-  const crumb = document.getElementById('crumb-current');
-  crumb.textContent = state.category || 'All Jewellery';
-
-  const chipsEl = document.getElementById('active-filters');
-  const chips = [];
-  if (state.category) chips.push(['category', 'Category: ' + state.category]);
-  if (state.colour) chips.push(['colour', 'Colour: ' + state.colour]);
-  if (state.karat) chips.push(['karat', 'Karat: ' + state.karat]);
-  if (state.q) chips.push(['q', 'Search: ' + state.q]);
-  chipsEl.innerHTML = chips.map(([key, label]) =>
-    `<span class="chip">${label} <button data-clear="${key}" aria-label="Remove filter">×</button></span>`
-  ).join('') + (chips.length ? '<button class="clear-all" id="clear-all">Clear all</button>' : '');
-
-  chipsEl.querySelectorAll('[data-clear]').forEach(btn => {
-    btn.addEventListener('click', () => { state[btn.dataset.clear] = ''; pushParams(state); apply(state); syncControls(state); });
-  });
-  const clearAll = document.getElementById('clear-all');
-  if (clearAll) clearAll.addEventListener('click', () => {
-    const fresh = { category: '', colour: '', karat: '', sort: state.sort, q: '' };
-    Object.assign(state, fresh);
-    pushParams(state); apply(state); syncControls(state);
-  });
-}
-
-function syncControls(state) {
-  document.getElementById('filter-category').value = state.category;
-  document.getElementById('filter-colour').value = state.colour;
-  document.getElementById('filter-karat').value = state.karat;
-  document.getElementById('sort').value = state.sort;
-}
-
-loadCatalog().then(data => {
-  ALL = data.products;
-  const catSel = document.getElementById('filter-category');
-  data.categories.forEach(c => catSel.insertAdjacentHTML('beforeend', `<option value="${c}">${c}</option>`));
-  const colSel = document.getElementById('filter-colour');
-  data.goldColours.forEach(c => colSel.insertAdjacentHTML('beforeend', `<option value="${c}">${c}</option>`));
-  const karSel = document.getElementById('filter-karat');
-  data.karats.forEach(k => karSel.insertAdjacentHTML('beforeend', `<option value="${k}">${k}</option>`));
-
-  const state = paramsFromUrl();
-  syncControls(state);
-  apply(state);
-
-  ['filter-category', 'filter-colour', 'filter-karat', 'sort'].forEach(id => {
-    document.getElementById(id).addEventListener('change', e => {
-      const key = { 'filter-category': 'category', 'filter-colour': 'colour', 'filter-karat': 'karat', 'sort': 'sort' }[id];
-      state[key] = e.target.value;
-      pushParams(state); apply(state);
-    });
-  });
-}).catch(err => {
-  document.getElementById('product-grid').innerHTML = '<p style="padding:24px;color:#c00">' + err.message + '</p>';
-});
-</script>
+<script src="catalog.js?v=20261021-rings-1"></script>
+<script src="collection.js?v=20261021-rings-1"></script>
 </body>
 </html>

@@ -1,0 +1,762 @@
+[
+  {
+    "id": "AYM-RG-101",
+    "productKey": "green-inlay-band",
+    "name": "Kavi Verdant Inlay Band",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/rings/green-inlay-band/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "ef932a0efa769e27897afbce63cb81767269daaf6680d725e980050e1f5e3671",
+        "exportSha256": "3894d60fe5626c676a249e58e55406ec210c40b36435e7f8d5d3270e881189bf"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/rings/green-inlay-band/02-alternate.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "dd43afcea0a385aa1ef7a5c61ae8b18a65d2c2207ff0d0e6a1b6a9b178995a6d",
+        "exportSha256": "caebd27c2ebe858adf0e6bde91a05aac6eed47832e8e5d59a8ff8471998f9d4e"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/rings/green-inlay-band/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "fbdd5142372ebdaecf9932f97f04e9651bc2450f732b69574d0d0c35b3b15014",
+        "exportSha256": "db117b310efc7c6f4981fdcf9f2c381a2467d2a85fdca16fc8777db2ec071483"
+      }
+    ]
+  },
+  {
+    "id": "AYM-RG-102",
+    "productKey": "ornate-charcoal-floral-band",
+    "name": "Rudra Scrollwork Band",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/rings/ornate-charcoal-floral-band/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "82b2c9e6b1e9077cb825e9d77b769c5600b59b12ba0b4a0e303f22ddfe10aa75",
+        "exportSha256": "fc2f1845934750ec1f83a5926a3f7b70574a497fdb12429cc4cfa89c345c7917"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/rings/ornate-charcoal-floral-band/02-alternate.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "4254244a98ff5ef82e9b5676df5b3910d30a83f9cf7d33d708472242fed0d3bf",
+        "exportSha256": "26a84c49c52fad7db7528bf02493709299522784631ab2b2d09145cb31e8f17e"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/rings/ornate-charcoal-floral-band/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "d6e8a69bfcb50c41775c64222f08d2d60b4e027141fedbf1bbce9797ec5c84cc",
+        "exportSha256": "0992652170f589bf1870a7b618d295ecdb66a2190b215b82eb568c86159ae510"
+      }
+    ]
+  },
+  {
+    "id": "AYM-RG-103",
+    "productKey": "tri-tone-hammered-band",
+    "name": "Arka Tri-tone Hammered Band",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/rings/tri-tone-hammered-band/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "18587f5431fd4ceeb67d79aadce0a2459fca9e93bd691268d57dc06b55e47f43",
+        "exportSha256": "d3fc28550c6f4421e4d01ad828afedc216039a188aa7706dbcfc199de21ed404"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/rings/tri-tone-hammered-band/02-alternate.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "9ff1061f46649d3c1588c614cb6e23a49c7e4d42ee9c831076fcdebd1ea1d265",
+        "exportSha256": "c4736869c3cbcbe17e4cd7ef02185018393cecd14cdd1301c1778b96c4be8a97"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/rings/tri-tone-hammered-band/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "c137985d591c1b2e0b5cd24c8e2e2c4bff089cd148800e9c2771ded5d24ae82a",
+        "exportSha256": "cc766f9093ba91b2ddb5bfcc0622210516b49dfa1429ee1db41460cdd09f05d3"
+      }
+    ]
+  },
+  {
+    "id": "AYM-RG-104",
+    "productKey": "mosaic-inlay-square-accent-band",
+    "name": "Kiaan Mosaic Accent Band",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/rings/mosaic-inlay-square-accent-band/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "3b74621d54ba9eb838ec0e6eb1e98c898044916def17d062ff7cef06eb69ac1a",
+        "exportSha256": "0ff184923f4c8d38631707c60ba7d33ad2c1f818c1de8e27e43e3f56fa9e8ba1"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/rings/mosaic-inlay-square-accent-band/02-alternate.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "fc89a36a0487e2371296a48624ec6613cf665308da3185433c05d74be0ecd91d",
+        "exportSha256": "119b113163e3d8a5bf8a7163465fb6de0f78590acafe5a2a0cb773cb965eb158"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/rings/mosaic-inlay-square-accent-band/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "1b343aaef8e6334f900170c5f95edb66fe7a8e6b99b6e0faabee95e6ea3de6bb",
+        "exportSha256": "343555050eaf2c66dd57ac3083abc6b1b44ec361e231def4c40004485ca72358"
+      }
+    ]
+  },
+  {
+    "id": "AYM-RG-105",
+    "productKey": "charcoal-leaf-interior-band",
+    "name": "Vana Leafwork Band",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/rings/charcoal-leaf-interior-band/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "69e5411a29d6f8e43f2146d13abd5696f0922201f305f0b5e038e0526b2f4297",
+        "exportSha256": "323739041f2f098dabf1c660ec2ffa3d47a02c4cbbb1f9069a5060cc4647649e"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/rings/charcoal-leaf-interior-band/02-alternate.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "2bb670f94a2bd909632a2a67d1617a1753336cbb8a5b92d36e9e69c92bc34dce",
+        "exportSha256": "8d66e135ef17699ce2ab49ca12c5c2e5326aa468e04025f52fe6b1483f91af69"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/rings/charcoal-leaf-interior-band/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "f0263819a5b380600f7d327121d27fd8c4c105fb5e182b9d721f39b9228cce20",
+        "exportSha256": "4826d2eb9f9a1fb818a7c4efcfab5f0be8a50a5e05a4f4b10d2a4476bfab96c5"
+      }
+    ]
+  },
+  {
+    "id": "AYM-RG-106",
+    "productKey": "segmented-rose-gold-stone-band",
+    "name": "Dhruv Segmented Band",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/rings/segmented-rose-gold-stone-band/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "e6c04f8c569f32978ccfd87dc87de3bda7a7fd0eabb83082a5f6362a9112ef34",
+        "exportSha256": "06b02919b7030286bc51f4b4797652d9762a92767c67b2e826e36f032e7f049e"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/rings/segmented-rose-gold-stone-band/02-alternate.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "16f388fbdcf4da94ddbcf3fe5c36fef6cd36393b0c2ca620cb179d7c04227d99",
+        "exportSha256": "e15193a926e09fbfae70d5f7c968aeb1b4d08dc469279fd05b8b51f7d948fe18"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/rings/segmented-rose-gold-stone-band/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "58dc4a9d878b1917b34d4bb80ba7dda0ec64ce4c3b8fd373a0402ae7548fd313",
+        "exportSha256": "8f397b789fff8d9cebe0bc91bf616f83d50eea272f6faa1e56eb1e5aef0c8de0"
+      }
+    ]
+  },
+  {
+    "id": "AYM-RG-107",
+    "productKey": "two-tone-channel-accent-band",
+    "name": "Zaal Channel Accent Band",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/rings/two-tone-channel-accent-band/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "4b2a9eb4b3bf1df74e4daeab2ad87f247b2830de2e4b52169f0796048571649f",
+        "exportSha256": "3a09eb5c2901cf28f5493606bfe17c67a5a08c4d772e47025f293fd21a5d10b1"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/rings/two-tone-channel-accent-band/02-alternate.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "d9918a1f093c23c143dcdd96eabdbf5d2b51f0502fcd395c56b8e29b30035f64",
+        "exportSha256": "f86a92ea8d9d4648296f0b2895b4a97c43389e62b1b8cd6c09c995c5c811a152"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/rings/two-tone-channel-accent-band/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "b5967012d53d674a92d7ccc5757f01a40fbb20b2651d8dfe9e6ccb233afabd9a",
+        "exportSha256": "aebe2b48ad4eae7735d402f94d1ecada423c2dacee0bbebf8744ce1e83b099e7"
+      }
+    ]
+  },
+  {
+    "id": "AYM-RG-108",
+    "productKey": "twin-rail-gold-white-accent-ring",
+    "name": "Aum Twin Rail Ring",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/rings/twin-rail-gold-white-accent-ring/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "b0a86a52b024d318b5e5f808527dcf6bf7e8e709013bf60d11517b9cbab17f27",
+        "exportSha256": "2f802d290044ba5319c20f5f3c5da07b442b30ff3941baa3004a66d439bf5d49"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/rings/twin-rail-gold-white-accent-ring/02-alternate.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "3f15a00237bf1ddd20dd551818a2f485af46ec26d710a58a7e88a078f213a409",
+        "exportSha256": "460e99418efd457dd9cd88c5c5142d497f9ba08f78ea800daa7b2f234a7a6063"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/rings/twin-rail-gold-white-accent-ring/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "454665f9acabbe7ab6843687d4d0b0375b5cba437e188c38f20eceb5c321764a",
+        "exportSha256": "722e984030f2828915e44a0e9d0b082a52b7d8f464cc4e14496cf21ff33c1fe5"
+      }
+    ]
+  },
+  {
+    "id": "AYM-RG-109",
+    "productKey": "faceted-two-tone-r1-band",
+    "name": "Tejas Faceted Rail Band",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/rings/faceted-two-tone-r1-band/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "eea956f7dd63780a9e08643892564da06eef733e9b612073e29cd49799fb61b7",
+        "exportSha256": "87a32538d9e0560bf512447c80ee9453339ffd9ee4e94d88d413a7e54067a364"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/rings/faceted-two-tone-r1-band/02-alternate.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "dbc7feb5e0a29ccfea383d8327d79e524c814769c6e00744cea7e30ed7f58a59",
+        "exportSha256": "24f1bc3b80e7a2eeea7b692c5cda08632095d240cdd8d574802064d5b2c84f79"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/rings/faceted-two-tone-r1-band/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "2ec746f3e0b5c8879f387dfa338332e3e4b126fa5562e072fe5e5c7813ea8d53",
+        "exportSha256": "0357f0708c4a1ba818eccdc2c1986e139e37ae981be70b48d3342300e9d7ce74"
+      }
+    ]
+  },
+  {
+    "id": "AYM-RG-110",
+    "productKey": "textured-center-silver-band",
+    "name": "Nirav Textured Curve Band",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/rings/textured-center-silver-band/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "e29fee8b53a43be2500a8fb1e980d49bc3fc9ec51b8a2cabfc1f9958fd459d73",
+        "exportSha256": "9e75fc4981f8ac82f94c9577cf2a6ae06cb53ed39aa1ab0ae01a58a26699ee8e"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/rings/textured-center-silver-band/02-alternate.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "2fab67456d0e16e7509acfcdbb7eac42008799fc3b162d9f72173333eeb37c7e",
+        "exportSha256": "ae92ddd1c73a249a42cbc7e83331a5857ec497c51e671ffbfa35a8de0c5f3936"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/rings/textured-center-silver-band/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "8e0a1f02d70f669e7d0f3051324f9af5ee6f9ddb6659f652480e3ceb2806ecbe",
+        "exportSha256": "5919a5567e74dd21e6da9cba3837233cae26c54db82cabf116f01eb28b6ec224"
+      }
+    ]
+  },
+  {
+    "id": "AYM-RG-111",
+    "productKey": "multicolor-mosaic-stripe-band",
+    "name": "Rang Mosaic Band",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/rings/multicolor-mosaic-stripe-band/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "41410ecf762664e288d5a421ef4fe7c63383cf345eb2693955a20f44c0e74c39",
+        "exportSha256": "8ee7c342a3e41e2e964defb94508461b6495e8d6b5a5588d439df4283cff1820"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/rings/multicolor-mosaic-stripe-band/02-alternate.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "4cc5b2ad9c3e89f7cd549a9b61d88eddf0631ac0c8903e376f0b11ad467aa17f",
+        "exportSha256": "f4f2176e3453c2726391ed2fa6dae2d021ec3d0b986955f4051c511d2aa65a2f"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/rings/multicolor-mosaic-stripe-band/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "859575c5fff13f930fdf5f734acadc367f9552b2ae4a893e7654853a21b62deb",
+        "exportSha256": "5f38ab3b43bd1806206a18dfe82baaf386030065d23b44319ddb1e5459114a82"
+      }
+    ]
+  },
+  {
+    "id": "AYM-RG-112",
+    "productKey": "woven-tritone-faceted-band",
+    "name": "Samar Woven Facet Band",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/rings/woven-tritone-faceted-band/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "e8cb3ba83289b2ab59e5cdb8e54f26d03b739ee1d1b8c00a3b14b758b5e7910b",
+        "exportSha256": "8e2d859e3ec578f7f63b051eb243a3bbd8da81c1d783a5bf25f3862ab09f2951"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/rings/woven-tritone-faceted-band/02-alternate.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "90dd540a77cd044d09a08a3693deec54eb45ec3fb7ff04dbeee894a6880f33c0",
+        "exportSha256": "c227b8f9cd65d9baa6305f74aba82caf0ac2a182c166906ecf9060eaa5f3fbd3"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/rings/woven-tritone-faceted-band/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "5cf321b7bfbd0157e9e0222d3ab01d48fc5486c6db7354ebd88b59d0cf2d363f",
+        "exportSha256": "33350b9afc8c13d760ffa697d44a6c824e3359f991ce0920a05aa8753579fbbd"
+      }
+    ]
+  },
+  {
+    "id": "AYM-RG-113",
+    "productKey": "green-double-inlay-band",
+    "name": "Neer Green Line Band",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/rings/green-double-inlay-band/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "2c346e600563c6f3e80f09324ca71ea5f08d377cd3ca7eaedc666fbe84c3a105",
+        "exportSha256": "d720861fd3be5ec508ced88229910f6a781a4bfa902856b9e9b1ae547cd0c5f8"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/rings/green-double-inlay-band/02-alternate.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "4a9bf4c77178985b4258d59f876f379158c0f31e06fa3db64d5e48bbbfdbbdca",
+        "exportSha256": "0ee8d6a01b307d81635b926934e1ad4782eaaaa935cdfb433aff0e291cb07b18"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/rings/green-double-inlay-band/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "5917aab1d69a8c91916e865c72a71628c520b170581e86a025cc3ef7117c4bf4",
+        "exportSha256": "e1968c6330d6bd1c8cb5230df981f4e9a107a30b47b0e927ea082b0cf69249e8"
+      }
+    ]
+  },
+  {
+    "id": "AYM-RG-114",
+    "productKey": "faceted-two-tone-wide-band",
+    "name": "Veyar Hammered Facet Band",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/rings/faceted-two-tone-wide-band/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "95eb97cc57884456464146fc90425989b73823764c19622f21272e4843722f2c",
+        "exportSha256": "db98dda32a953ace708faacc4430beff89af99e2343d97ac711ceb3e4e0e5218"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/rings/faceted-two-tone-wide-band/02-alternate.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "dfd16fbc7135d9f74286dc7cc7b32e40b069868e70a2f7ff935e75d84930e393",
+        "exportSha256": "8383e470f358858958f2b3a3ad2f4267aeed8a7145cb10afab0398fb828d172d"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/rings/faceted-two-tone-wide-band/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "27a44ee7d8efb3f3891757fde175e8d400bce6199de7b5215e61656b39230379",
+        "exportSha256": "b92c107c958d9ed07df55bfb688c1235d6273cbe18b524226e2fe543c6ca2493"
+      }
+    ]
+  },
+  {
+    "id": "AYM-RG-115",
+    "productKey": "hammered-faceted-gold-band",
+    "name": "Bhanu Hammered Band",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/rings/hammered-faceted-gold-band/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "3bd90039125289cbb78761df2c6ba7b98827093783836db712d52a2cae0307c1",
+        "exportSha256": "d9fb3c4c1c5a3b9d51472584e19b7db961dd72bd96b0e2dedee0e6b24ab458f4"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/rings/hammered-faceted-gold-band/02-alternate.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "987499902141667a3df3ba56f9baef4e07dd5cc652204b892cfe07d21201646b",
+        "exportSha256": "b6c7eeb9ab192a5371080809f5f9132a7a118078dff1594ca46ca6593d24457d"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/rings/hammered-faceted-gold-band/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "8fe767e662735e2b64ded294eb0a14ab863eba9996a813ea13557df8f60ed7f7",
+        "exportSha256": "01ea657612c1144cedc100a07e55f3f411eb33b491b6f85f2c20332bf42d0b9f"
+      }
+    ]
+  },
+  {
+    "id": "AYM-RG-116",
+    "productKey": "angular-rose-inlay-silver-band",
+    "name": "Kairo Angular Inlay Band",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/rings/angular-rose-inlay-silver-band/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "9542f00c6df7990457c22da20b801787fc5f09201c85be5806b276fe8db1e213",
+        "exportSha256": "4a8e4cdc393c97eb259c5a14bcf533d8ca4c8a367eb29bbb367cb99af70d12f0"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/rings/angular-rose-inlay-silver-band/02-alternate.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "d6f21ad29760e20bff9d7f414ae6249a5fe1cc247a65c8e80719081b3dac7e0e",
+        "exportSha256": "77e7bf0a460f0a90b89a07cbb02f6e1c678ca5c1bf06bc9ff7cb12e37339a0af"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/rings/angular-rose-inlay-silver-band/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "4e0520cc042ab43e3e868af9fc9475e0aed0ea47967663e80a8464baedeb2f99",
+        "exportSha256": "5f420f4006b09ce04bf53a060464d3db1482768aaf9c4dde43c75f6c4051e02f"
+      }
+    ]
+  },
+  {
+    "id": "AYM-RG-117",
+    "productKey": "dark-two-tone-contour-band",
+    "name": "Rihan Contour Band",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/rings/dark-two-tone-contour-band/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "a84f527609fea5661e15de48e12d3ad497d14630338ccd0be537ea688c07b45a",
+        "exportSha256": "b9f2b1ee8aa1583358c51c38868c87a5e2d5560c3baae2c0115cc4177bc4cb74"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/rings/dark-two-tone-contour-band/02-alternate.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "ddef08e9ca626ba4eed826fd0ed9cccb7fd99e6188664fe8923fd73564225090",
+        "exportSha256": "30343b565adfd9dacffaadbc1e3427476171df4e066bc79b257e125276ada55c"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/rings/dark-two-tone-contour-band/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "069286819e5b35284fd90471b5b60e9669b6f153acd01c39898d580a1ea36173",
+        "exportSha256": "fb4aa5c1515454f0384d613bd80061e504662be0e9a6037bf297661c7805d486"
+      }
+    ]
+  },
+  {
+    "id": "AYM-RG-118",
+    "productKey": "double-rose-rail-brushed-band",
+    "name": "Tarun Twin Line Band",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/rings/double-rose-rail-brushed-band/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "ac95d6d19a047851f4172fd49fb9235ad52f9216bca188cb4414ccf9d69ac80f",
+        "exportSha256": "32bfe9ce934f1f5d00c284c05aadf2f04be94d1e55858313b1d41a55c113cde1"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/rings/double-rose-rail-brushed-band/02-alternate.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "b9ef2604238bccc696617670aa096f500b834232fc1b464c09c8520a27ca9ef7",
+        "exportSha256": "61fd6e2182efd0d1288907052166ffe362ab59a6ae40adf8634683fdf834b2d5"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/rings/double-rose-rail-brushed-band/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "67b0e9c91d25e91808a43a7a46e850a1d599951e0e8c7f7722c645bda4b4f93f",
+        "exportSha256": "01c130ba3b9653682095602005a26c0ec9cd3074b1ad2b68a546d047012c508b"
+      }
+    ]
+  },
+  {
+    "id": "AYM-RG-119",
+    "productKey": "rose-edge-brushed-band",
+    "name": "Aarav Edge Band",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/rings/rose-edge-brushed-band/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "d53d74d074a18041e9880aca38f0fa16a214905062ca6561fce937a9323b1fd1",
+        "exportSha256": "97f5140fa5fcdfcb23aa704e2f80123feda1aebb718f700c5236eeffecb606c3"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/rings/rose-edge-brushed-band/02-alternate.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "774824bda6c5fc36b053cfefb51310c1ae6e6f642b31bac1030c671ef39cc555",
+        "exportSha256": "44d66c4ccdc50e3b07607ad842f9c2616f5bb44585a865e1fdc15ba89564b316"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/rings/rose-edge-brushed-band/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "dbc3502a610b0fe52205540283519097c5ab748218712244c896598307e16f3a",
+        "exportSha256": "5822897d7141808e8c1b14a6308e835ecbba1a8159803b314855b977401d2cf5"
+      }
+    ]
+  },
+  {
+    "id": "AYM-RG-120",
+    "productKey": "tritone-stripe-band",
+    "name": "Mihir Tri-tone Band",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/rings/tritone-stripe-band/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "0da8d9b62349e092c19f3923e56729ef9bceb4ff4d2ee4f233cf719b950509b1",
+        "exportSha256": "47f062197baba247701d469f72a4c0d4cc2ca879f1f906342b093340f100f3dd"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/rings/tritone-stripe-band/02-alternate.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "68fb42de8bd8c7f94d2ac782ad3d46106654a526eda70cdb797577f5a5c2916b",
+        "exportSha256": "b399a4ef9a519fa06939486de061b265460609cc1f96b35a2f1859293be4b66e"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/rings/tritone-stripe-band/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "18aa2f1e21606ed73915734f4500ce45a29e50e9eddfbe8af77fc3bb6c2f6abf",
+        "exportSha256": "6db83bf30b5d6820538a68928945bc7a835293e35e90e9ed0e952ce7b0d89f9b"
+      }
+    ]
+  }
+]

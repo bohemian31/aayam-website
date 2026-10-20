@@ -10,3 +10,9 @@ Business Context/Visual Specifications - Screenshots/
 
 # Founder-supplied originals; selected preview copies live in catalog/images/reference/
 Products Images/
+
+# Local image-production candidates pending review; never auto-publish to Pages
+output/catalogue-image-pilot/
+
+# Production masters, references and local review reports stay local; selected web exports live in catalog/images/rings/
+output/catalogue-images/

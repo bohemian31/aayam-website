@@ -1,66 +1,64 @@
 # Developer reference — The House of Aayam
 
-Current as of 29 September 2026. Read PROGRESS.md for status and CHANGELOG.md for historical changes. This file describes the current implementation, not the earlier 45-product state.
+Current source revision: 21 October 2026. Read PROGRESS.md for current scope, CHANGELOG.md for history and docs/rings-integration.md for the implementation sequence and 20-product mapping.
 
-## Repository, runtime and hosting
+## Repository and hosting
 
-- Public repository: https://github.com/bohemian31/aayam-website, branch main. GitHub Pages serves the repository root. The preview entry point is https://bohemian31.github.io/aayam-website/preview/index.html.
-- The live domain thehouseofaayam.com is served separately through Netlify. Root index.html, styles.css, script.js and assets/ are the Launching Soon site; do not replace them until a separate live-domain release is approved.
-- This is a fully static project. There is no package.json, bundler, CMS, backend, checkout or account system. Serve the directory over HTTP because preview/catalog.js fetches JSON. For local development, run python3 -m http.server 8123 from the repository root and open http://localhost:8123/preview/index.html.
-- No secrets or environment variables are needed. .gitignore excludes the local originals in Products Images/, the investor pitch PDF, local tooling and competitor screenshots. Selected normalized copies under catalog/images/reference/ are deliberately included in the public GitHub Pages preview.
-- Relative URLs are intentional. A preview page is one level below the repo root; product images are stored as catalog/images/reference/NAME.jpg in JSON and converted to ../catalog/images/reference/NAME.jpg at render time. This works locally and beneath GitHub Pages' /aayam-website/ prefix.
-- Preview HTML loads styles.css with a 20260929 query and catalog.js plus the JSON request with a 20260929-2 query. Advance affected versions when a later release needs to refresh cached assets.
+- Public Git repository: https://github.com/bohemian31/aayam-website, main branch. Pages preview: https://bohemian31.github.io/aayam-website/preview/index.html.
+- The root index.html, styles.css, script.js and assets/ implement the separate launching-soon site used by Netlify/thehouseofaayam.com. The current ring integration does not edit those files or Netlify settings.
+- The preview is static HTML/CSS/JavaScript with no build step, CMS, backend, account or checkout. Run a local HTTP server from the repository root because catalogue JSON is fetched over HTTP.
+- Preview asset/JSON cache queries use 20261021-rings-1. Advance them for later runtime data or frontend changes. Keep all asset URLs relative so they work beneath the GitHub Pages repository prefix.
+- Local source photos, pitch, competitor screenshots and output/catalogue-images/ are ignored. Only approved delivery exports belong in catalog/images/rings/. Do not publish annotations, deferred photos, unfinished alternative attempts or raw image-production output.
 
-## Current file map
+## File map
 
 | Path | Responsibility |
 | --- | --- |
-| index.html, styles.css, script.js, assets/ | Live-domain launch page; untouched by the current catalogue update |
-| catalog/products.sample.json | Active 33-item reference-image catalogue and sample product data |
-| catalog/images/reference/ | One normalized JPEG per active preview product; these copies are public when pushed |
-| Products Images/ | Founder-supplied original downloaded references; kept locally, ignored by Git |
-| catalog/images/placeholders/ | Historical four-category placeholder set; retained for provenance, no longer used by active products |
-| preview/index.html | Full-site home with existing campaign pair, featured products and new category tiles |
-| preview/all-jewellery.html | Searchable, filterable, sortable collection; category URLs use the category query parameter |
-| preview/product.html | Single dynamic product template using the id query parameter |
-| preview/catalog.js | Catalogue fetch, grid cards, formatting, WhatsApp link, navigation and search helpers |
-| preview/styles.css | Shared responsive design system, gallery, collection and editorial styles |
-| preview/our-story.html, materials-care.html, contact.html | New editorial content pages with current preview caveats |
-| Business Context/ | Historical blueprint, visual specification, original copy draft and phase contract |
-| PROGRESS.md, CHANGELOG.md, DEVELOPER_REFERENCE.md | Status, history and current engineering handoff |
+| catalog/products.sample.json | Runtime catalogue: 20 enquiry-led rings plus 25 sample reference products |
+| catalog/rings.content.json | Authored ring names, descriptions, design tags and source keys |
+| catalog/rings.media.json | Product/role mapping and hashes of approved PNGs and WebP exports |
+| catalog/images/rings/<key>/ | Three web images per approved ring: 01-hero, 02-alternate, 03-worn |
+| catalog/images/reference/ | September reference assets used by the other categories |
+| preview/catalog.js | Fetch, escaping, image/card helpers, unknown-price handling and enquiries |
+| preview/collection.js | Collection search/filter/sort and URL state |
+| preview/product-gallery.js | Accessible gallery and enquiry-led product rendering |
+| preview/product.html | Product route and existing sample variant/size flow |
+| preview/styles.css | Shared responsive presentation |
+| scripts/build_ring_catalogue.py | Local approved-master export and catalogue builder (Pillow) |
+| scripts/verify_ring_catalogue.cjs | Browser checks (Playwright) with optional deployed preview URL |
+| output/catalogue-images/ | Ignored local approved masters, source records, prompts, queues and reports |
 
-## Catalogue contract and exact mapping
+## Data contract
 
-catalog/products.sample.json has sampleContent: true. Active IDs are AYM-RG-001–008, AYM-BR-001–008, AYM-CH-001–010, and AYM-PD-001–007. The visible names and short/long visual descriptions were rewritten for the reference photos; these are provisional and are not product facts. Retained records preserve their original weightGrams, sizeType, sizeOptions, sizeHelpText, variants, details and care values from the 45-product sample catalogue. These values may conflict with the photograph. The _readme and imageStatus fields, notice bar, cards and product page identify the preview state. Do not remove sample labelling until every displayed claim is checked.
+There are **45 unique active IDs**: AYM-RG-101–120, AYM-BR-001–008, AYM-CH-001–010 and AYM-PD-001–007. The former eight AYM-RG-001–008 listings are retired; unknown/removed IDs show an unavailable page. New IDs prevent old shared references from silently changing design.
 
-Each normalized reference file corresponds to a source photo in alphabetic filename order within its category's original folder:
+The top-level sampleContent flag remains true because the non-ring categories still use sample facts. Each ring explicitly sets catalogueStatus=enquiry, sampleContent=false, pricingStatus=on_enquiry, specificationStatus=confirm_on_enquiry, weightGrams=null, variants=[] and sizeOptions=[]. Do not infer available sizes, alloys, gemstones, weights, prices, purity, availability or manufacturing method from a photograph. Numeric ring facts await confirmation.
 
-| Category | Source folder | Used source positions | Target files and IDs |
-| --- | --- | --- | --- |
-| Rings | Products Images/Men_s Rings/ | 3–10 of 10 | ring-01.jpg–ring-08.jpg → AYM-RG-001–008 |
-| Bracelets | Products Images/Men_s bracelets/ | 1–8 of 8 | bracelet-01.jpg–bracelet-08.jpg → AYM-BR-001–008 |
-| Chains | Products Images/Men_s chains/ | 1–10 of 10 | chain-01.jpg–chain-10.jpg → AYM-CH-001–010 |
-| Pendants | Products Images/Men_s Pendants/ | 1–6 and 8 of 8 | pendant-01.jpg–pendant-07.jpg → AYM-PD-001–007 |
+Rings have image-led short/long descriptions, appearanceLabel, designTags and details.design/finish. Details.composition, dimensions and weight are confirmation prompts, not invented specifications. Names such as Kavi Verdant Inlay Band describe the design direction and remain editable authored copy.
 
-Held composite sources are Rings/download (1).jpg, Rings/download (10).jpg and Pendants/download (2).jpg. They are not copied to the public preview. The other 12 old dummy IDs have been removed from the active JSON; old data can be recovered from Git history. Product detail URLs for unknown or removed IDs display an unavailable-preview message. The HTML does not claim that a source photo represents an actual Aayam SKU.
+Images.primary/alternate/detail point to distinct hero/alternate/worn WebPs; images.onBody aliases the worn image for compatibility. The gallery array labels the three roles and supplies meaningful alt text. mediaType=generated_illustration and the gallery note disclose that product views are generated illustrations and worn scale is indicative.
 
-Images.primary, images.alternate and images.detail all point to the same file for each product. No physical duplicate files were created; images.onBody remains null. The product gallery renders three positions and says explicitly that they repeat one reference photo. The home category tiles use the first image in each category. Existing campaign images in preview/images/ are unchanged.
+The other 25 product records preserve their prior sample weights, variants, dimensions, sizes, care and photo mappings. Their primary/alternate/detail fields repeat a single reference photo and the gallery continues to say so. Keep their sample labels until facts are verified. The root catalogue filename remains products.sample.json to avoid breaking existing consumers.
 
 ## Frontend behaviour
 
-- preview/catalog.js loads ../catalog/products.sample.json. All Jewellery builds its cards from this data and supports category, gold-colour and karat filters, search, price sort and active-filter chips. Four homepage featured cards take the first record of each category.
-- Product pages use product.html?id=SKU. The variant selector reads each record's explicit sample variants; it does not invent colour/karat combinations. Selected sample price changes with the variant. Size selection or the sizing-help path enables the enquiry link.
-- The enquiry link opens a prepared wa.me URL to demo number +91 7265000916, containing product name, ID, selected colour/karat/size and the product URL. The visitor chooses whether to send it. Contact lists the demo number and thehouseofaayam@gmail.com. No form or checkout exists.
-- Header, mobile drawer and footer markup are duplicated across the six preview HTML files. Keep them consistent when changing navigation or notice copy. The editorial pages use shared CSS classes; Materials & Care retains the #fit anchor used by Find your size.
-- The preview pages have noindex metadata and a visible notice. Root robots.txt currently disallows crawlers. These do not make the GitHub Pages preview private.
-- The visual direction is white/pale-grey with restrained charcoal typography and rules, based on the Phase 2 Miansai audit. Use Aayam's own copy and assets, and do not ship competitor screenshots.
+- Rings displays image-based design filters, featured/alphabetical sorting and Price on enquiry. Unconfirmed gold/karat filters and sample variant selectors are not presented on ring-only routes. Switching categories clears incompatible filter state. In a mixed collection price sort, unknown prices appear after priced sample records in either direction.
+- Search covers product name, ID, category, design description and tags. Active-filter text is escaped before insertion. Empty results support clearing filters.
+- Ring gallery buttons expose aria-pressed, descriptive labels, updated image alt text and an announced caption. Hero, alternate and on-hand images are distinct. Native details elements expose the ring description, visible details, fit/care and enquiry information.
+- Ring WhatsApp/email links contain the correct product name, ID and product URL and request confirmed price/material/karat/size/weight/availability. No outgoing message is sent automatically. The sample-category flow still takes a sample variant plus size/help selection. WhatsApp +91 7265000916 remains visibly demo; email is thehouseofaayam@gmail.com.
+- Four homepage featured cards select the first record per category. The Rings tile points at the approved Kavi hero. Campaign assets are unchanged.
+- Preview pages retain noindex and visible preview notice; these do not make the public Pages site private. Keep header/footer/drawer changes consistent across the six HTML pages.
 
-## Current editorial boundaries
+## Media approvals and deferred queue
 
-Our Story uses broad brand positioning drawn from the local pitch: everyday self-expression, considered design and clarity in choosing. It intentionally omits founder names, the family business, manufacturing history and future service promises. Materials & Care gives general education but states that preview product compositions, sizes, karats, care and prices are samples. Contact provides WhatsApp and email actions, with the WhatsApp number visibly marked as demo. Do not add unverified hallmarking, alloy, stone, sizing, warranty, exchange, shipping, stock or response-time claims.
+Twenty canonical ring folders are approved: the green-inlay sample and batches 001–004. Batch 004 approval covers the six previously selected circled designs only. The latest production state is reconciled from approved manifests; stale planned folders and alternative names in review history are not extra approved products.
 
-## Verification and release
+All remaining sources are together in output/catalogue-images/deferred/rings/to-do/ with original copies, applicable annotations, hashes and next steps. no-1/2/3 need selection; no-3 may duplicate an approved design. no-5 is obscured at low resolution, no-6 has limited low-resolution construction evidence and no-7 shows a front-only view. Do not use them without further source/selection work. The old no-12 source copy outside to-do has already been processed and is provenance only.
 
-For a preview change, check JSON parses; exactly 33 active IDs and 33 files exist; category counts remain 8/8/10/7; all image references resolve; titles/slugs are unique; retained sample fields remain intact unless intentionally changed; and node --check preview/catalog.js passes. Check home, all four categories, search/filter/sort, a product with variants and size, an unknown ID, the three repeated gallery positions, prepared WhatsApp URL, #fit anchor and the editorial pages at desktop and mobile widths. Inspect git diff --check before committing.
+## Build, checks and release
 
-Pushing main updates the public GitHub Pages preview. Verify that URL after the Pages build. A GitHub push does not deploy to Netlify. Before a live-domain release, replace reference imagery with photos Aayam may publish and verify every product price, weight, metal, stone, colour/karat pairing, dimension, fit, care and availability; confirm business contact and ordering information; review page copy; then approve a separate Netlify/domain switch.
+Run python3 scripts/build_ring_catalogue.py with Pillow and the approved PNG folders present. It exports native-size 1254 × 1254 WebPs at quality 90, rebuilds only ring records and writes the media hash map; the other category records remain intact. The 60 delivery images total about 6.18 MB. Do not put paid API calls in this path.
+
+Serve the repository over HTTP and run node scripts/verify_ring_catalogue.cjs with Playwright available. An optional argument is the preview base URL, e.g. https://bohemian31.github.io/aayam-website/preview/. BROWSER_EXECUTABLE can select an installed browser. Detailed reports/screenshots are saved in the ignored output/catalogue-images/integration-review/ folder. Current local checks passed for all 20 ring routes and all 60 gallery views, contact payloads, filter/search/sort, old-ID handling, sample-product flow, home links/noindex, desktop and 375px layouts. Inspect git diff --check and source asset counts before publishing.
+
+Push main for the requested GitHub Pages preview, then verify the deployed catalogue IDs, assets and frontend. A separate live-domain release still needs confirmed business/product facts and an explicit Netlify/domain instruction. The pitch remains local; avoid unverified founder, manufacturing, alloy, gemstone, hallmarking, policy, availability or service promises in customer copy.

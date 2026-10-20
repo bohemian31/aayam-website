@@ -1,6 +1,75 @@
 # Project changelog
 
-This records decisions and artifacts visible in the project and conversation. All entries are dated 26 September 2026 unless a date is explicitly part of a launch target. It is a handoff history, not proof that a remote service or deployed site was verified.
+This records decisions and artifacts visible in the project and conversation. Earlier phase entries use 26 September 2026; later records carry their actual dates. It is a handoff history, not proof that a remote service or deployed site was verified.
+
+## 21 October 2026 — integrate 20 approved ring designs into the GitHub preview source
+
+- Accepted the six selected batch-004 sets, bringing approved ring media to 20 products / 60 views. Reconciled production metadata against approved manifests, excluding stale duplicate/planned entries.
+- Curated no-1/2/3/5/6/7 into the local deferred/rings/to-do folder with copies, available annotations, hashes, reasons and next steps.
+- Replaced the eight old ring records with AYM-RG-101–120; authored names, descriptions, appearance labels, design tags and product details from the images. Retired old IDs display unavailable rather than a different ring. Removed their unused public export JPEGs; Git history retains them.
+- Exported 60 native-size square WebPs and a public media hash map; kept approved PNGs and source/provenance files locally. The other 25 category records and campaign assets are preserved.
+- Added enquiry-only ring presentation without invented numeric prices or specifications, correctly labelled hero/alternate/worn galleries, email/WhatsApp product messages, design filtering and safe unknown-price sorting. Updated home media, preview notices and asset cache versions.
+- Added a reproducible export script, browser verification and an implementation/mapping document. Local checks passed all 20 product routes, 60 gallery views, enquiry payloads, filters/search/sort, sample-category and removed-ID states, home/noindex and desktop/mobile layouts. Root launch-page/Netlify files are outside the change.
+
+## 21 October 2026 — batch 003 approved; annotated no-# Rings batch 004 ready
+
+- Founder approved all five batch 003 ring sets. Copied their 15 selected square PNGs byte-for-byte to approved/rings/ with approved manifests and source provenance.
+- Matched the nine new cyan-circled annotations to no-4 through no-12. Selected exactly six ring designs from no-4, no-8, no-9, no-10, no-11 and no-12. The lower hammered ring in no-12 is now included. Kept no-5 through no-7 deferred for obstruction, low resolution or inadequate angle; no-1 through no-3 had no annotation.
+- Generated 18 square 1254 × 1254 review images in batch 004: one low frontal hero, one distinct elevated view and one illustrative worn image per selected ring. Six first heroes needed scale corrections, yielding 24 built-in image calls in total.
+- Archived the supplied annotated images, selection map and reasons, original-source copies, exact prompts, hashes, attempt history, manifests and contact sheet in output/catalogue-images/review/rings/batch-004/. Batch 004 awaits founder review; no website integration, commit, push or deployment occurred.
+
+## 21 October 2026 — batch 002 approved; batch 003 ready for review
+
+- Founder approved batch 002. Copied all 12 selected square images byte-for-byte to approved/rings/ with updated approval manifests.
+- Generated five remaining single-ring products: textured centre band, multicolour mosaic stripe, woven tri-tone facets, green inlay, and wide faceted two-tone band. Three source images had visible third-party marks; the founder confirmed usage rights, and generated catalogue images omit the marks.
+- Saved 15 selected 1254 × 1254 images, exact role prompts, source copies/hashes, manifests, scale-attempt history and a contact sheet under output/catalogue-images/review/rings/batch-003/. The five heroes required multiple scale attempts; the selected versions were reviewed together for framing.
+- Copied the two-ring photo to deferred/rings/no-12.jpg at the founder’s request, alongside the deferred no-# group. The supplied original remains untouched. No eligible single-ring source groups remain.
+- Batch 003 awaits review. No website integration, commit, push or deployment occurred. After review, Rings are complete and work may advance to the next category.
+
+## 21 October 2026 — Rings batch 001 prepared for review
+
+- Grouped the ornate charcoal-and-gold floral ring photos 06f51e0... and 7a7282... as two views of one product. Generated four distinct ring products: ornate floral band, tri-tone hammered band, mosaic inlay band with square accent, and charcoal band with leaf-engraved interior.
+- Created three separate square 1254 × 1254 image candidates per product. Each hero was regenerated once to bring its scale into line with the accepted green-inlay reference; the oversized attempts are retained only in each product's _attempts folder. Alternates are distinct product views; worn mockups use one approved mock-for-ring reference per ring.
+- Saved the 12 selected candidates, source hashes, exact 16-call prompt log, four product manifests and contact sheet in output/catalogue-images/review/rings/batch-001/. All are local review candidates. The founder has not yet approved this batch.
+- Held source files 3084b691... and 309c328... for later review because their visible photographs carry another jewellery house's branding/watermarks. No- exclusions and the previously accepted green-inlay ring remain unchanged.
+- No website integration, publishing, commit or push occurred. Next batch is paused pending founder review of batch 001.
+
+## 21 October 2026 — batch 001 accepted; batch 002 underway
+
+- Founder approved all four batch 001 product sets. Copied the 12 square images byte-for-byte into approved/rings/<product-key>/ with approved manifests, source mapping and product-specific exact prompts. The review folder remains as history; its initial oversized hero attempts are not in approved folders.
+- Began the next four distinct ring groups: segmented rose-gold band (814fa...), two-tone stone-detail band (74631...), two-tone multi-band design (8ad714...), and the faceted two-tone r1 ring (r1.jpg plus r1-1.jpg).
+- After this batch, six source groups are expected to remain, including three held for visible branding/watermarks. The image with two rings may be a set or separate items; final distinct-product count is provisional.
+- Batch 002 outputs are local review candidates only. Website integration and publication are outside this image-production step.
+
+
+## 21 October 2026 — Rings batch 002 prepared for review
+
+- Generated batch 002 for four ring groups: segmented rose-gold accent band (814fa...), two-tone channel accent band (74631...), twin-rail gold/white accent ring (8ad714...), and faceted two-tone r1 band (r1.jpg plus r1-1.jpg).
+- Saved 12 square 1254 × 1254 candidate images, source/output hashes, exact prompt records and contact sheet under output/catalogue-images/review/rings/batch-002/. Awaiting founder review; no website integration or publication.
+- Six source groups remain after this batch, estimated at 6–7 products because one remaining photograph shows two similar rings that may be one set or separate listings. Three remaining images are held for visible brand/watermark marks.
+
+## 20 October 2026 — accepted ring masters, production handoff and batches of four
+
+- Founder accepted the green-inlay ring's hero, alternate and worn sample. Copied the three final PNGs byte-for-byte to output/catalogue-images/approved/rings/green-inlay-band/ and verified unchanged SHA-256 values and 1254 × 1254 dimensions.
+- Saved exact historical prompts, approval/provenance metadata, a source copy, durable composition/hand references, reusable three-role prompt templates and a compact production-state file. Kept pilot history; the rejected first hero is provenance only. Added the new production output tree to .gitignore.
+- Added Business Context/Rings Batch Handoff.md and recorded the next workflow: Rings first, four distinct products per batch, three separate square assets each. Product grouping must precede batch counting; no- sources remain excluded and the approved sample must not be regenerated.
+- Checked official model/usage guidance. Recommended GPT-6 Luna High, Standard speed, as an economical starting configuration for the locked workflow; use GPT-6.1 Sol Medium for difficult fidelity work. The built-in image generator remains separate and consumes included usage. No measured savings or identical-output guarantee is asserted.
+- No new images were generated. No next batch, website/catalogue integration, commit, push or deployment was performed.
+
+## 20 October 2026 — rings-first workflow and three square image sample
+
+- Founder narrowed image scope to exactly hero, alternate angle and worn mockup, processing category folders sequentially with Rings first. Skip ring filenames beginning with no-; current scan found 17 eligible image files and 11 excluded files.
+- Confirmed both collection and product-detail containers already use a 1:1 aspect ratio; portrait inputs with contain fitting explain the side gaps. Locked all three output roles to 1:1.
+- Founder supplied a new level, low-frontal hero orientation/framing master and selectively reintroduced mock-for-ring-1 through mock-for-ring-4 as hand references. Saved durable local reference copies in the ignored pilot output directory.
+- Produced the selected green-inlay-band sample from eligible source 94a7f97ce823870ef5d7108e72044f64.jpg: three native 1254 × 1254 files, using mock-for-ring-4 for the worn image. Four built-in image calls included one hero scale correction. Recorded exact prompts, provenance, exclusions and review notes. No paid API, source-image alteration, website replacement or deployment was performed.
+- Added Business Context/Rings Image Production Specification v1.md and updated the broader production plan and handoff to supersede the earlier five/six-image and cross-category pilot proposals.
+
+## 20 October 2026 — new catalogue imagery scope and first included-tool pilot
+
+- Inspected 103 new source/reference image files at /Users/kp/Documents/PJC/New Images. The founder confirmed exact intended product designs, customer-facing enquiry use, all six product folders and exclusion of References for Mockup. Only these photos are available for now.
+- Added Business Context/Catalogue Image Production Plan v1.md with the audit, five-image core plus optional styling slot, fidelity requirements, grouping/gap work and staged pilot. Budget constraint is zero additional spend initially; paid tools/API services require a later explicit choice.
+- Produced two review candidates using the built-in image tool and the original ring sources r1-1.jpg and r1.jpg: a white-background hero and a neutral-light worn edit. Used two generation calls with no paid API or external service. Saved exact prompts, output/source hashes and review notes alongside the local images.
+- Kept the pilot under output/catalogue-image-pilot/ and added that path to .gitignore. Original sources are untouched. No website image/data replacement, commit, push or deployment was performed. Candidates need visual and product-fidelity review before expansion or customer use.
 
 ## Initial launch page
 

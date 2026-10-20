@@ -1,0 +1,202 @@
+[
+  {
+    "productKey": "green-inlay-band",
+    "name": "Kavi Verdant Inlay Band",
+    "shortDescription": "A brushed band with a deep-green accent line.",
+    "description": "A deep-green strip brings a quiet point of colour to Kavi's brushed surface. Polished warm-toned borders frame the band, keeping its broad profile clean and considered. Wear it alone to let the contrast speak.",
+    "appearanceLabel": "Brushed finish · green accent",
+    "design": "Broad band with an offset green inlay strip and smooth borders.",
+    "finish": "Brushed centre with polished edges and a green accent.",
+    "designTags": ["Inlay", "Textured"]
+  },
+  {
+    "productKey": "ornate-charcoal-floral-band",
+    "name": "Rudra Scrollwork Band",
+    "shortDescription": "Warm scrollwork across a dark, broad band.",
+    "description": "Rudra pairs a dark background with flowing warm-toned scrollwork. Fine border details frame the repeating pattern, giving the broad band a richly drawn surface. It makes a natural focal point beside understated clothing.",
+    "appearanceLabel": "Scrollwork · dark contrast",
+    "design": "Broad band with repeating scroll motifs and patterned borders.",
+    "finish": "Warm raised-looking motifs against a dark contrasting field.",
+    "designTags": ["Patterned", "Textured"]
+  },
+  {
+    "productKey": "tri-tone-hammered-band",
+    "name": "Arka Tri-tone Hammered Band",
+    "shortDescription": "Irregular facets in a warm mix of tones.",
+    "description": "Arka takes its character from an uneven rhythm of hammered facets. Rose, pale and warm tones move across the surface, changing the contrast from one plane to the next. The simple band silhouette keeps the texture in focus.",
+    "appearanceLabel": "Hammered facets · mixed tones",
+    "design": "Rounded band with a continuous irregular hammered pattern.",
+    "finish": "Small contrasting facets in a mix of warm and pale tones.",
+    "designTags": ["Faceted", "Textured"]
+  },
+  {
+    "productKey": "mosaic-inlay-square-accent-band",
+    "name": "Kiaan Mosaic Accent Band",
+    "shortDescription": "A colourful mosaic line with a square centre accent.",
+    "description": "Kiaan balances a multicoloured mosaic stripe with a crisp square accent. Warm-toned borders keep the composition defined while the inset pattern adds depth and variation. A distinctive band for those drawn to colour and geometry.",
+    "appearanceLabel": "Mosaic inlay · square accent",
+    "design": "Broad band with a colourful inset stripe and central square detail.",
+    "finish": "Polished warm borders around a varied mosaic appearance.",
+    "designTags": ["Inlay", "Accent details", "Patterned"]
+  },
+  {
+    "productKey": "charcoal-leaf-interior-band",
+    "name": "Vana Leafwork Band",
+    "shortDescription": "A dark faceted exterior with leafwork inside.",
+    "description": "Vana keeps its strongest contrast between the outside and the inside. A dark, textured face is framed by fine warm-toned edges, while a leaf motif adds an intimate detail along the inner band. Its character rewards a closer look.",
+    "appearanceLabel": "Dark texture · inner leaf motif",
+    "design": "Broad dark band with a leaf pattern visible along the interior.",
+    "finish": "Faceted exterior contrasted with smooth warm edges.",
+    "designTags": ["Textured", "Patterned", "Faceted"]
+  },
+  {
+    "productKey": "segmented-rose-gold-stone-band",
+    "name": "Dhruv Segmented Band",
+    "shortDescription": "Polished rose-toned segments with bright accent panels.",
+    "description": "Dhruv builds a steady rhythm from compact rectangular segments. Bright accent panels interrupt the polished rose-toned surface, adding small points of light without crowding the design. The result is structured and expressive.",
+    "appearanceLabel": "Segmented form · bright accents",
+    "design": "Repeating rectangular sections with narrow bright accent panels.",
+    "finish": "Polished rose-toned surfaces and contrasting inset details.",
+    "designTags": ["Patterned", "Accent details", "Polished"]
+  },
+  {
+    "productKey": "two-tone-channel-accent-band",
+    "name": "Zaal Channel Accent Band",
+    "shortDescription": "A pale channel framed by slim warm-toned edges.",
+    "description": "Zaal brings together smooth reflective sections and fine bright detailing. A pale central channel sits between slim warm-toned borders, giving the band a precise, layered outline. Its contrast feels composed from every visible angle.",
+    "appearanceLabel": "Two-tone channel · bright accents",
+    "design": "Central channel with alternating smooth and bright accent sections.",
+    "finish": "Reflective pale surfaces bordered by warm tones.",
+    "designTags": ["Accent details", "Polished"]
+  },
+  {
+    "productKey": "twin-rail-gold-white-accent-ring",
+    "name": "Aum Twin Rail Ring",
+    "shortDescription": "Two fine rails joined by a small geometric accent.",
+    "description": "Aum opens up the traditional band into a pair of fine parallel rails. A small geometric accent connects the lines, while pale details add contrast to the warm-toned outline. The spacing gives the design a lighter visual rhythm.",
+    "appearanceLabel": "Twin rails · geometric accent",
+    "design": "Parallel fine rails with a central geometric bright detail.",
+    "finish": "Polished warm tones with pale contrasting accents.",
+    "designTags": ["Accent details", "Polished"]
+  },
+  {
+    "productKey": "faceted-two-tone-r1-band",
+    "name": "Tejas Faceted Rail Band",
+    "shortDescription": "A line of pale facets held between warm polished rails.",
+    "description": "Tejas sets a continuous run of angular pale facets between warm-toned borders. The alternating planes create a clear rhythm of light and shade across the face. Its crisp detail works well as a single, deliberate accent.",
+    "appearanceLabel": "Pale facets · warm borders",
+    "design": "Faceted central strip with two smooth outer rails.",
+    "finish": "Contrasting pale geometric facets and polished warm edges.",
+    "designTags": ["Faceted", "Polished"]
+  },
+  {
+    "productKey": "textured-center-silver-band",
+    "name": "Nirav Textured Curve Band",
+    "shortDescription": "A fine textured surface beneath a polished curved edge.",
+    "description": "Nirav explores the meeting point between texture and reflection. A fine-grained central surface sits against a smooth sweeping edge, giving the pale-toned band a subtle change in character. The clean profile keeps it easy to style.",
+    "appearanceLabel": "Fine texture · polished curve",
+    "design": "Pale band with a fine textured panel and smooth curved border.",
+    "finish": "Soft grain contrasted with a reflective polished edge.",
+    "designTags": ["Textured", "Polished"]
+  },
+  {
+    "productKey": "multicolor-mosaic-stripe-band",
+    "name": "Rang Mosaic Band",
+    "shortDescription": "Small coloured tiles arranged in a precise repeating stripe.",
+    "description": "Rang brings a measured sense of colour to a compact band. Small mosaic-like tiles form a continuous stripe, framed by polished warm-toned edges. The repeating squares give the design both playfulness and order.",
+    "appearanceLabel": "Colourful mosaic · polished frame",
+    "design": "A repeating grid of small coloured inset squares.",
+    "finish": "Multicoloured central pattern with polished warm borders.",
+    "designTags": ["Inlay", "Patterned", "Accent details"]
+  },
+  {
+    "productKey": "woven-tritone-faceted-band",
+    "name": "Samar Woven Facet Band",
+    "shortDescription": "Interlaced angular shapes in three contrasting tones.",
+    "description": "Samar follows an interlaced rhythm of angular facets. Rose, pale and warm tones meet across the broad face, giving the woven pattern a changing sense of depth. Its compact outline keeps an intricate design grounded.",
+    "appearanceLabel": "Woven facets · three tones",
+    "design": "Repeating interlaced geometric segments around the band.",
+    "finish": "Contrasting rose, pale and warm-toned angled surfaces.",
+    "designTags": ["Faceted", "Patterned"]
+  },
+  {
+    "productKey": "green-double-inlay-band",
+    "name": "Neer Green Line Band",
+    "shortDescription": "A slender green accent framed by warm geometric surfaces.",
+    "description": "Neer uses a deep-green line to draw the eye around the band. Warm-toned surfaces frame the accent, with small angled changes adding a quiet geometric edge. It offers a restrained way to introduce colour.",
+    "appearanceLabel": "Green line · warm contrast",
+    "design": "Green inset stripe framed by warm-toned geometric detailing.",
+    "finish": "Polished and angled surfaces around a contrasting green accent.",
+    "designTags": ["Inlay", "Faceted"]
+  },
+  {
+    "productKey": "faceted-two-tone-wide-band",
+    "name": "Veyar Hammered Facet Band",
+    "shortDescription": "Broad irregular facets in a pale and warm tonal mix.",
+    "description": "Veyar has a broad, softly rounded profile broken into irregular facets. Pale planes meet warmer sections across the surface, creating a subdued patchwork of light and shade. Its texture gives a simple silhouette a distinct presence.",
+    "appearanceLabel": "Broad facets · tonal contrast",
+    "design": "Wide rounded band with irregular polygon facets.",
+    "finish": "A hammered appearance combining pale and warmer reflective planes.",
+    "designTags": ["Faceted", "Textured"]
+  },
+  {
+    "productKey": "hammered-faceted-gold-band",
+    "name": "Bhanu Hammered Band",
+    "shortDescription": "Large warm-toned facets with a softly rounded profile.",
+    "description": "Bhanu gives a broad band the character of hammered texture. Large irregular facets break up the warm-toned surface, while the inner line remains smooth and simple. The pattern is bold enough to wear on its own.",
+    "appearanceLabel": "Warm facets · hammered texture",
+    "design": "Broad band with a repeating irregular polygon surface.",
+    "finish": "Warm-toned facets with fine visible surface texture.",
+    "designTags": ["Faceted", "Textured"]
+  },
+  {
+    "productKey": "angular-rose-inlay-silver-band",
+    "name": "Kairo Angular Inlay Band",
+    "shortDescription": "A squared pale band traced by a warm inlaid line.",
+    "description": "Kairo follows a more architectural outline, with broad pale surfaces and squared shoulders. A warm-toned inset bends with the form, punctuated by a short dark accent. The design balances a clean face with an unexpected profile.",
+    "appearanceLabel": "Angular profile · warm inlay",
+    "design": "Squared band with a bent warm inset line and short dark detail.",
+    "finish": "Brushed pale surfaces with polished warm contrast.",
+    "designTags": ["Inlay", "Textured"]
+  },
+  {
+    "productKey": "dark-two-tone-contour-band",
+    "name": "Rihan Contour Band",
+    "shortDescription": "A dark face edged by sweeping pale and warm lines.",
+    "description": "Rihan draws its shape through contrast. A broad dark face meets a sweeping pale contour and a fine warm edge, creating a fluid line around the band. Its reflective detail brings definition to an otherwise quiet surface.",
+    "appearanceLabel": "Dark face · flowing contrast",
+    "design": "Broad dark band with sweeping pale and warm-toned edge details.",
+    "finish": "Smooth dark surfaces and narrow polished borders.",
+    "designTags": ["Polished"]
+  },
+  {
+    "productKey": "double-rose-rail-brushed-band",
+    "name": "Tarun Twin Line Band",
+    "shortDescription": "Two fine warm lines across a broad brushed band.",
+    "description": "Tarun finds its rhythm in two fine parallel lines. Their warm tone cuts across the pale brushed face, giving the rounded band a measured sense of structure. The simplicity makes the small details count.",
+    "appearanceLabel": "Brushed pale finish · twin lines",
+    "design": "Broad rounded band with two fine parallel warm-toned rails.",
+    "finish": "Brushed pale surface with polished linear accents.",
+    "designTags": ["Textured", "Polished"]
+  },
+  {
+    "productKey": "rose-edge-brushed-band",
+    "name": "Aarav Edge Band",
+    "shortDescription": "A broad pale surface framed by one warm polished edge.",
+    "description": "Aarav keeps the composition deliberately spare. A broad brushed face meets a single warm-toned edge, creating a quiet change in colour and reflection. Its smooth outline lets the contrast remain the focus.",
+    "appearanceLabel": "Brushed face · warm edge",
+    "design": "Broad pale band with a single contrasting warm edge rail.",
+    "finish": "Brushed central surface beside a polished warm border.",
+    "designTags": ["Textured", "Polished"]
+  },
+  {
+    "productKey": "tritone-stripe-band",
+    "name": "Mihir Tri-tone Band",
+    "shortDescription": "Three smooth horizontal stripes in complementary tones.",
+    "description": "Mihir brings rose, pale and warm tones together in three clear horizontal stripes. Fine dividing lines give each surface its own space while the band reads as a single, simple form. It is an easy starting point for those who enjoy tonal contrast.",
+    "appearanceLabel": "Three tones · polished stripes",
+    "design": "Broad band with three continuous contrasting horizontal stripes.",
+    "finish": "Smooth polished tones separated by fine lines.",
+    "designTags": ["Polished", "Patterned"]
+  }
+]
