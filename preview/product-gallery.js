@@ -33,6 +33,11 @@ function initGallery(product) {
 function renderEnquiryProduct(product) {
   const e = escapeHtml;
   const ring = product.category === 'Rings';
+  const earring = product.category === 'Earrings';
+  const guidance = ring ? 'We’ll confirm materials, karat options, ring size, weight and availability for your piece.'
+    : earring ? 'We’ll confirm the materials, dimensions, closure or backing, price and availability for this design.'
+    : 'We’ll confirm materials, wrist fit, fastening, weight and availability for your piece.';
+  const fitLink = ring ? 'Help with ring sizing' : earring ? 'Help with earring fit' : 'Help with wrist sizing';
   document.getElementById('page-title').textContent = product.name + ' — The House of Aayam';
   document.querySelector('meta[name="description"]').content = product.shortDescription + ' Enquire about materials, sizing and price at The House of Aayam.';
   document.getElementById('app').innerHTML = `
@@ -45,11 +50,11 @@ function renderEnquiryProduct(product) {
         <p class="variant-line">${e(product.appearanceLabel)}</p>
         <p class="product-intro">${e(product.shortDescription)}</p>
         <p class="price">Price on enquiry</p>
-        <p class="enquiry-guidance">${ring ? 'We’ll confirm materials, karat options, ring size, weight and availability for your piece.' : 'We’ll confirm materials, wrist fit, fastening, weight and availability for your piece.'}</p>
+        <p class="enquiry-guidance">${guidance}</p>
         <a class="btn-primary" id="enquire-btn" href="${e(whatsAppLink(product))}" target="_blank" rel="noopener">Enquire about this piece</a>
         <a class="btn-secondary email-enquiry" href="${e(emailEnquiryLink(product))}">Enquire by email</a>
         <p class="support-line">WhatsApp currently uses the demo contact shown below.</p>
-        <a class="text-link sizing-link" href="materials-care.html#fit">${ring ? 'Help with ring sizing' : 'Help with wrist sizing'}</a>
+        <a class="text-link sizing-link" href="materials-care.html#fit">${fitLink}</a>
         <div class="product-sections">
           <details open><summary>Description</summary><p>${e(product.description)}</p></details>
           <details><summary>Design &amp; details</summary><dl>
@@ -57,7 +62,7 @@ function renderEnquiryProduct(product) {
             <dt>Finish shown</dt><dd>${e(product.details.finish)}</dd>
             <dt>Materials &amp; karat</dt><dd>${e(product.details.composition)}</dd>
             <dt>Dimensions &amp; size</dt><dd>${e(product.details.dimensions)}</dd>
-            ${product.details.fastening ? `<dt>Fastening &amp; adjustment</dt><dd>${e(product.details.fastening)}</dd>` : ''}
+            ${product.details.fastening ? `<dt>${earring ? 'Closure &amp; backing' : 'Fastening &amp; adjustment'}</dt><dd>${e(product.details.fastening)}</dd>` : ''}
             <dt>Weight</dt><dd>${e(product.details.weight)}</dd>
           </dl></details>
           <details><summary>Fit &amp; care</summary><p>${e(product.fitGuidance || 'Ask us for sizing guidance before choosing your ring. The on-hand image is an illustration of styling and scale.')}</p><p>${e(product.care)}</p></details>

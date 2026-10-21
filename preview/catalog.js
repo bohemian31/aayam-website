@@ -1,6 +1,6 @@
 /* Shared helpers for enquiry-led designs and the remaining sample categories. */
 
-const CATALOG_URL = '../catalog/products.sample.json?v=20261021-bracelets-1';
+const CATALOG_URL = '../catalog/products.sample.json?v=20261021-earrings-1';
 
 function escapeHtml(value) {
   return String(value ?? '').replace(/[&<>"']/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]));
@@ -39,7 +39,9 @@ function materialLabel(variant) {
 function enquiryMessage(product, selection = {}) {
   const url = new URL(productUrl(product), window.location.href).href;
   if (isEnquiryProduct(product)) {
-    const sizing = product.category === 'Bracelets' ? 'wrist sizing, length, fastening and adjustment options' : 'karat options, sizing';
+    const sizing = product.category === 'Bracelets' ? 'wrist sizing, length, fastening and adjustment options'
+      : product.category === 'Earrings' ? 'earring dimensions, closure or backing, and whether it is supplied singly or as a pair'
+      : 'karat options, sizing';
     return `Hello, I'm interested in ${product.name} (${product.id}). Please share the price, materials, ${sizing}, weight and availability for this design. ${url}`;
   }
   const size = selection.size || 'I need guidance';

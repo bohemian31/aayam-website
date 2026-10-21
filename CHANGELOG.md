@@ -2,6 +2,50 @@
 
 This records decisions and artifacts visible in the project and conversation. Earlier phase entries use 26 September 2026; later records carry their actual dates. It is a handoff history, not proof that a remote service or deployed site was verified.
 
+## 21 October 2026 — approved Earrings integrated into preview source
+
+- The founder selected the penultimate Kiaan and Ayaan alternate views with the thin top detail. Archived the later bar-less versions locally, then approved the five final batch-003 sets. Rion's alternate remains excluded; its gallery has hero and worn only. The dropped Aarav design remains excluded.
+- Exported 38 selected WebP views for 13 Earrings from hash-checked approved masters. Added AYM-ER-101–113 with image-led names, descriptions, appearance and design details, and enquiry-only facts. The other 46 catalogue records remain unchanged.
+- Added Earrings to homepage, navigation, category filtering/search, product galleries, fit/care content and WhatsApp/email enquiry prompts. The All Jewellery hero-to-worn dissolve works for all Earrings, including Rion. Updated preview copy and cache versions; root launch page and Netlify are unchanged.
+- Added the repeatable earring builder, media hash map and integration documentation. Local browser verification covers 42 enquiry routes and 125 selected gallery images across the full catalogue. Publication to GitHub Pages follows the checked source change.
+
+## 21 October 2026 — Earring batch 003 founder corrections
+
+- Rebuilt Kiaan and Ayaan alternates around circular, front-facing outlines after the angled renderings looked distorted. Archived all previous attempts and kept the exact correction prompts.
+- Reduced the visible earring on the worn Ayaan and Rion images by about 20–25%, preserving the model crop and placement.
+- Removed Rion's alternate from the selected output at the founder's direction, preserving it only as an archived attempt. Refreshed the local gallery, contact sheets, hashes and manifests to reflect fourteen selected images across five designs. No website change.
+
+## 21 October 2026 — Final five Earrings review sets; Ojas approved
+
+- Recorded founder approval of corrected Ojas Ball-End Hoop and copied its three selected images into the canonical `approved/earrings/` set, bringing approved earring designs to eight.
+- Generated the remaining five designs from e2, e9, e10, e11-1/e11-2 and e12 as hero, alternate and worn sets. Saved fifteen native 1254 ×1254 review PNGs with exact prompts, source copies, attempt history, hashes, contact sheets and a local review gallery under `review/earrings/batch-003/`.
+- Refined four hero frames to the small earring scale and corrected Kiaan's alternate view. Isolated Devan's lower hoop without the upper stud and one Neer hoop from the two-hoop source. Documented illustrative rear hardware and low-detail source limits. The five sets await founder review; no website or deployment changed.
+
+## 21 October 2026 — Earring batch 002 selection and Ojas correction
+
+- Founder approved Samar Accent Hoop and Tejas Facet Hoop; their unchanged selected images and source records are saved under `approved/earrings/`.
+- Removed the dropped Aarav Round-Front Hoop from batch 002's selected gallery, manifest and review sheets. Retained its earlier files only under `excluded/earrings/`, marked do not use.
+- Replaced Ojas's U-shaped hero and alternate with a rounded, continuous C-shaped design. Kept the already approved worn PNG byte-for-byte unchanged. Revised the local nine-image gallery, prompts, hashes and state. The two replacement product views await founder review; no website change.
+
+## 21 October 2026 — Earrings batch 001 approved; batch 002 prepared
+
+- Copied four user-approved batch 001 sets into `approved/earrings/` with source provenance and selected images intact, joining the approved Avir sample.
+- Produced four batch 002 review sets from `e1.jpg`, `e5.jpg`, `e6.jpg` and the distinct `e13-1.jpg` design: 12 selected square PNGs, exact prompts, source copies, contact sheets and clickable gallery. Eighteen built-in calls include six targeted corrections; earlier attempts are archived locally.
+- Recorded one-view source limits, the presumed two-view relationship in `e13-1.jpg`, illustrative hidden hardware/fit and unverified physical specifications. No earring assets were added to the public website.
+
+## 21 October 2026 — smaller Earrings hero approved; four-product batch 001
+
+- Reduced the Avir sample hero to about49% of its original width/height, preserving the approved alternate and worn images byte-for-byte. Saved the three canonical masters under approved/earrings/. Archived old/intermediate heroes and locked v2 smaller-hero rules; two edit calls, sample lifetime total six.
+- Selected four further designs: Nirav Disc Stud (e3), Rihan Framed Disc Stud (e4-2), Kavi Matte Disc Stud (e7) and Arka Petal Crescent Hoop (e13-2). Kept e13-1 separate as a different, unprocessed design. Isolated one earring from paired/composite sources without asserting sales configuration.
+- Saved12 separate native1254 ×1254 PNGs under review/earrings/batch-001/, with exact prompts, source copies, selected hashes, source notes, contact sheets and a local clickable gallery.17 batch calls include four framing refinements and one hoop worn-attachment correction;19 calls this pass including the approved sample edits.
+- Verified selected file counts/unique hashes, dimensions, unchanged source copies, product identity and intended three-view presentation. No hard blockers for these four; fine motifs, unseen construction and physical worn scale remain illustrative. Four new sets await review. Public website/deployment is unchanged.
+
+## 21 October 2026 — Earrings sample 001
+
+- Inspected 20 earring source files and selected the e8 rounded hoop for the first sample. e8-1 is product geometry; e8-2 supplies ear placement/pose only.
+- Generated Avir Curve Hoop Earring hero, tilted alternate and worn images as three separate 1254 × 1254 PNGs in the pale ivory visual system. Corrected an alternate that was initially too close to the hero angle; four built-in calls in total.
+- Saved selected images, exact requests, source copies, hashes, contact sheet, proposed category specification/template and source limitations locally. Sample awaits visual review; no Earrings website integration or publication occurred.
+
 ## 21 October 2026 — integrate nine bracelet designs and worn-image hover
 
 - Accepted batch 001 for website preview use, alongside the approved crimson sample. Copied nine canonical master sets and exported 27 square WebPs with hashes. Replaced eight placeholders with AYM-BR-101–109; retired IDs show unavailable. All 37 other records remain unchanged; total 46.

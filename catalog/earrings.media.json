@@ -1,0 +1,486 @@
+[
+  {
+    "id": "AYM-ER-101",
+    "productKey": "rounded-tapered-warm-hoop-earring",
+    "name": "Avir Curve Hoop Earring",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/earrings/rounded-tapered-warm-hoop-earring/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "395c7991421924a850d768388dee9fb4ef4ee71ad84e46dc5b94d44b5252990e",
+        "exportSha256": "9a30d8b8bdf3d33d3a22edf2b55a8ee8fdcfa307939100aa054ed87eda9b32b3"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/earrings/rounded-tapered-warm-hoop-earring/02-alternate.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "97fe3c5ac49f611a9a9b7f8e53689a5fde69acddc92ccad189e44e048e680e6d",
+        "exportSha256": "847b982f8465b8bce1cd5ec2e1402eec190ec270f377824bac9f4e5144df5632"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/earrings/rounded-tapered-warm-hoop-earring/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "5a07dfff5fc5a9fbf53161e634e2ab5a858aac9866296ebcc3164b15f4d428e1",
+        "exportSha256": "c8bbb7bab012a7bb09e9c63b99e1f891750c09fdda745bbddc4d9f5a640dbc9a"
+      }
+    ]
+  },
+  {
+    "id": "AYM-ER-102",
+    "productKey": "plain-warm-disc-stud",
+    "name": "Nirav Disc Stud",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/earrings/plain-warm-disc-stud/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "9f852856e7dfb259dfb572eb318d697cdc7e828dd9b6f8839739d71cc025c682",
+        "exportSha256": "c46b051ed2ce917d3347035883a56517acb3437725e5037e7508ebdc7c13b580"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/earrings/plain-warm-disc-stud/02-alternate.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "44122f80375d36c623a6f147be3f68b79c7776901fde0d315c90a3ceef9b5467",
+        "exportSha256": "aa65da5d629a459160c789ffa485477571799e39d35a388b64934e31e44303f5"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/earrings/plain-warm-disc-stud/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "63cf3d2dd79885ad2b9e6ede458812adb9096aeeb7754980a9b5ef630c081dcd",
+        "exportSha256": "30e5d4733b2a957908f2ad23e1e1d8981a18bfe8dd44ff04c33af7c440ff441d"
+      }
+    ]
+  },
+  {
+    "id": "AYM-ER-103",
+    "productKey": "warm-meander-dark-disc-stud",
+    "name": "Rihan Framed Disc Stud",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/earrings/warm-meander-dark-disc-stud/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "92dd0dccd829de14c7b6a9f4b05565a340491ff1c2e8938535291629cc92fe25",
+        "exportSha256": "bcf5fcfd1b61d00e6fd189128c749b9af6fb32a4747cc4dd02fc91dab0b5d735"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/earrings/warm-meander-dark-disc-stud/02-alternate.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "11f21ddbef87187c6cb3e7548448b46353e91605456ca697b63ce9d3da3445f9",
+        "exportSha256": "3ede81b8b3755e90cbcdc30057d0c5fab4279b8efa24b14ec5aac47bd1e472fc"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/earrings/warm-meander-dark-disc-stud/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "4f13d497c364906b4ba1ca9394ad795a73dbc6a493189c99874b49d980f7782e",
+        "exportSha256": "68dc95a8ad8e494f513566bd9470730091a2a3728a5bab0c341adccc0ebc36a2"
+      }
+    ]
+  },
+  {
+    "id": "AYM-ER-104",
+    "productKey": "matte-black-disc-stud",
+    "name": "Kavi Matte Disc Stud",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/earrings/matte-black-disc-stud/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "d062fc42c3b670582b18e776127be7ed95ace75ef697dd22464c3d620c573226",
+        "exportSha256": "c557101536c0a7224d9c1a1f40c27ad60fecf9be96b1eab7bdf3c7f2bcc82445"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/earrings/matte-black-disc-stud/02-alternate.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "042f9f344326fdbfe87f9d6e1176566e90523110132c6a2b2028a0d3d2beacb9",
+        "exportSha256": "781d2930797f944cc2e80c39763db0f76244a1eb31433b27ae42d0771bc4dbde"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/earrings/matte-black-disc-stud/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "8959beb3bdd313d631dfb809aad26911a2d1894daba7eeb237373e8d8c069d7e",
+        "exportSha256": "eaac32270051351ade566ec081125c05f06a2a40afed1f938f319dc933c24252"
+      }
+    ]
+  },
+  {
+    "id": "AYM-ER-105",
+    "productKey": "petal-engraved-crescent-hoop",
+    "name": "Arka Petal Crescent Hoop",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/earrings/petal-engraved-crescent-hoop/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "afc59aed7aaeb9a72ec34a670a35aae0165577f9b8df610d367004c54852d00a",
+        "exportSha256": "0500a5ccff0be51df900cc95523beb0fa828e1d8fe732f56882440b78dd90e0c"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/earrings/petal-engraved-crescent-hoop/02-alternate.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "6f764716077f99c264a2fc68adad54e72f829be43fa3bccd8f9166126f3a4e4b",
+        "exportSha256": "190b98486dea3b853abb169fef1d75210c45a0191af621909a4a45b0ab1f223a"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/earrings/petal-engraved-crescent-hoop/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "cdd27765fbe71b5a31728cbf80b587868e43085cc4ed2dd82c702bd8b9ee8396",
+        "exportSha256": "a0e3de97726e1fb9ccf054352d572c8169bd5ef0b7d52bd9cfeae2bb36e70cfe"
+      }
+    ]
+  },
+  {
+    "id": "AYM-ER-106",
+    "productKey": "silver-ball-ended-horseshoe-hoop",
+    "name": "Ojas Ball-End Hoop",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/earrings/silver-ball-ended-horseshoe-hoop/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "c0e41eba78b0bc1d3593182934d2c6e1db53b45efc361fca9b380323687ab484",
+        "exportSha256": "bc3919c3e74ee9af083ab78c0cc008038f6a27aca57d365cf58bc7b6e5476f5b"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/earrings/silver-ball-ended-horseshoe-hoop/02-alternate.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "768a33b959a3a18e742d860d4c3914ebaae338ff62cffb5ac49f07a326ac74f3",
+        "exportSha256": "304e06f2b1cbde809ca527d562f8de23ec4b6d4f80bc7115f6c87069cf758c49"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/earrings/silver-ball-ended-horseshoe-hoop/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "82fd5b9d1474786216727f976d1d7f9a6aaa85b4b4537de87504e61f4b456dbb",
+        "exportSha256": "e5c393bee12b43afc168ee26644fc9505e882c38971ed27a178589f13d9353f3"
+      }
+    ]
+  },
+  {
+    "id": "AYM-ER-107",
+    "productKey": "dark-accented-hoop",
+    "name": "Samar Accent Hoop",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/earrings/dark-accented-hoop/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "4e0fe086acbeda18a26474f16d92eb1e415fbec8d4444c04f796055f847e45cd",
+        "exportSha256": "1608ceaeab18b66dbab09e84ac9470583fcf2d5f352eb8af0ebb7c8556831105"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/earrings/dark-accented-hoop/02-alternate.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "afe98b63d535330757e895d6bfdc35ba83d1de71aa536046224572f20c2b7e3b",
+        "exportSha256": "c6e21f2fc77b693539baab60b4884e3442f3db69130f91f3830daeaece7db888"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/earrings/dark-accented-hoop/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "d9287337a0cd70b75c895be994af79fef36edecf6b5876c3cbfca3731b766af3",
+        "exportSha256": "f0b453a1c074261767ae18066aa07c69a3eb2940af16106a886c8c9b720c4b84"
+      }
+    ]
+  },
+  {
+    "id": "AYM-ER-108",
+    "productKey": "faceted-dark-hoop",
+    "name": "Tejas Facet Hoop",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/earrings/faceted-dark-hoop/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "206de30b2f175aba7a816d188c991e80cd7e7ff9e0a154262aaef03428e218ab",
+        "exportSha256": "587098352cc8c2160338594d7b3d823471a7ce25e45f22f392777dac868df1ab"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/earrings/faceted-dark-hoop/02-alternate.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "44bc2963d3a91dc9597363e2b457c247e8bd98bb78f5d4bda9efe42eeab3819e",
+        "exportSha256": "4e4f3031638e848a367349ceec7459d9901a858b9af1e52177ad6c2efa1ec006"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/earrings/faceted-dark-hoop/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "cd75104fc304c16ebdc8d676102cac49875f513764a8f6fe694d4eee58dd05d8",
+        "exportSha256": "7ba061110f80374a74046e732fbd82e6b5fdbbcc2b7657a426129b3fc7ec734e"
+      }
+    ]
+  },
+  {
+    "id": "AYM-ER-109",
+    "productKey": "small-warm-ball-stud",
+    "name": "Rion Ball Stud",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/earrings/small-warm-ball-stud/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "2f479453349b2c825a62a78d839070c91c550a53cadeb8599d06ce10be6b4444",
+        "exportSha256": "4bc178d3b1cc331028a895d10a6647b9ded2742d2fc9064d9f077c5ec79763c4"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/earrings/small-warm-ball-stud/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "79d3270a3a68f49d92d2890a455178ad6ee44d74a2ea1bd168ac76d3ab6b5a8a",
+        "exportSha256": "1c885b061a6bbd17943b3cd12214b683c3aefb14030e338dd7bd7b51a9ca7abb"
+      }
+    ]
+  },
+  {
+    "id": "AYM-ER-110",
+    "productKey": "plain-dark-flat-hoop",
+    "name": "Kiaan Flat Hoop",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/earrings/plain-dark-flat-hoop/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "23d0e5986f4b095638bc82eb70568097763e4186720b14581161bbbff9c27900",
+        "exportSha256": "389c10046c23d71817c8268dc5cfa2b444cec04ae2c3c4b5c810dfac7daacfdf"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/earrings/plain-dark-flat-hoop/02-alternate.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "858d8f3eb5687ef36e9ce8591b6464ba5324d5741ba2cc0cf4f61d2fa3630070",
+        "exportSha256": "43047be9490ce1a3d7a54f5e29c93d2de7a51beafcb2fa3d11fbe4d5e6dcbab8"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/earrings/plain-dark-flat-hoop/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "ae611b2ff4dd87491b767478364fdffda61ff5cc9c00e8fd7b5a080bb2493a52",
+        "exportSha256": "5e8be2dae819ca84114ed11f56acb3e56830e57f12c0e9772d08fcf0144869a8"
+      }
+    ]
+  },
+  {
+    "id": "AYM-ER-111",
+    "productKey": "warm-bevelled-hoop",
+    "name": "Ayaan Bevel Hoop",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/earrings/warm-bevelled-hoop/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "116e9ceb2fbbdacc8838dcec78ce92901b319430b0b2e92ef0d70488d968bb97",
+        "exportSha256": "155d2f23e1565edaf5f4d00ab30b6f00381b9f6a353f629eba2622113ce28cfd"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/earrings/warm-bevelled-hoop/02-alternate.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "d57e08719dc5fb36e27ee3b2ed5609114afc1e3c0594e0363041037692e11e30",
+        "exportSha256": "060318d7a560bec5b7cb0e2f17b37efff8ed7f8fa8153b17d0682cc485008278"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/earrings/warm-bevelled-hoop/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "793fc984e1faca9d376935392970ea9ca532ed77c8a4b38218410da9016fd5ab",
+        "exportSha256": "aba5d973f8b28980d8717b7846d9b2a1312e2798585be1138d6388615bfe557d"
+      }
+    ]
+  },
+  {
+    "id": "AYM-ER-112",
+    "productKey": "fine-silver-tone-hoop",
+    "name": "Devan Fine Hoop",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/earrings/fine-silver-tone-hoop/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "97e1356c6f7bdc54f3885229fbd5fcb310f66893b95ad9f0c45069c7509a146d",
+        "exportSha256": "d833d5bb6a5453eca66a1320127f5fa7a6d16d2b2003fff6692b951daa672092"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/earrings/fine-silver-tone-hoop/02-alternate.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "954dee3b4e1e4cb599aea66744fbe98cbeee2052b938be74d823a2fdc97df3a1",
+        "exportSha256": "e5608784f6dcffc557bdd4ada3ac6ad8b3524b58745ef68fd21470b3769d0f59"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/earrings/fine-silver-tone-hoop/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "b425b325b3b8799dc5acc272791fd028a5d1e0e8cc5865d351bae846b6336679",
+        "exportSha256": "830b3942702fa51be94ed3028ea0bd35f1dcf53937ea6d737bc85c58b84b321a"
+      }
+    ]
+  },
+  {
+    "id": "AYM-ER-113",
+    "productKey": "slim-dark-round-hoop",
+    "name": "Neer Slim Hoop",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/earrings/slim-dark-round-hoop/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "001e8221e2b9bbf118ac4e03576f161609220dcb7112ff72bb3a53343b8af640",
+        "exportSha256": "34dc43f3ff9175a223265ad9fab640c81d6fc3114bae7705104285d35eb5dbfa"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/earrings/slim-dark-round-hoop/02-alternate.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "cd385db8d51e5fce8fdc6d7ea833061b636879a70b76def31a93d2bc0563587a",
+        "exportSha256": "990ab32ac7c499bd923a3b30de329c507e0fa5aacbf2d605f0aeeaf17022d6a9"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/earrings/slim-dark-round-hoop/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "d4d50618cc950b379423eb0853b04be5b1dbe374ac8bae1169f327dae1f6b0ea",
+        "exportSha256": "cd8c9f43db8a40e8e6f1a46758a900cc5673a7054388d32b6269748c2ad6dbd0"
+      }
+    ]
+  }
+]

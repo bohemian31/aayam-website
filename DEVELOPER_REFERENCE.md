@@ -1,74 +1,63 @@
 # Developer reference — The House of Aayam
 
-Current source revision: 21 October 2026. Read PROGRESS.md for current scope, CHANGELOG.md for history and docs/rings-integration.md and docs/bracelets-integration.md for implementation sequences and mappings.
+Current source revision: 21 October 2026. Read PROGRESS.md for current scope, CHANGELOG.md for history, and `docs/*-integration.md` for product mappings and validation limits.
 
 ## Repository and hosting
 
-- Public Git repository: https://github.com/bohemian31/aayam-website, main branch. Pages preview: https://bohemian31.github.io/aayam-website/preview/index.html.
-- The root index.html, styles.css, script.js and assets/ implement the separate launching-soon site used by Netlify/thehouseofaayam.com. The ring/bracelet integrations do not edit those files or Netlify settings.
-- The preview is static HTML/CSS/JavaScript with no build step, CMS, backend, account or checkout. Run a local HTTP server from the repository root because catalogue JSON is fetched over HTTP.
-- Preview CSS, frontend modules and catalogue JSON use cache query 20261021-bracelets-1. Advance them for later runtime data or frontend changes. Keep all asset URLs relative so they work beneath the GitHub Pages repository prefix.
-- Local source photos, pitch, competitor screenshots and output/catalogue-images/ are ignored. Only approved delivery exports belong in catalog/images/rings/ and catalog/images/bracelets/. Do not publish annotations, deferred photos, unfinished alternative attempts or raw image-production output.
+- Repository: https://github.com/bohemian31/aayam-website, branch `main`. Preview: https://bohemian31.github.io/aayam-website/preview/index.html.
+- Root `index.html`, `styles.css`, `script.js` and `assets/` implement the separate launching-soon site used by Netlify/thehouseofaayam.com. Earring integration does not edit these files or Netlify settings.
+- The preview is static HTML/CSS/JavaScript without CMS, backend, accounts or checkout. Serve the repository over HTTP because catalogue JSON is fetched by the browser.
+- Current preview CSS/JS/data cache query: `20261021-earrings-1`. Advance it when frontend or catalogue data changes. Asset URLs remain relative to support the GitHub Pages repository prefix.
+- Local source photos, pitch, prompts, annotations, excluded attempts and `output/catalogue-images/` are ignored. Only selected WebP exports belong in `catalog/images/{rings,bracelets,earrings}/`.
 
 ## File map
 
 | Path | Responsibility |
 | --- | --- |
-| catalog/products.sample.json | Runtime catalogue: 20 rings + 9 bracelets with enquiry-only facts, plus 17 sample reference products |
-| catalog/rings.content.json | Authored ring names, descriptions, design tags and source keys |
-| catalog/rings.media.json | Product/role mapping and hashes of approved PNGs and WebP exports |
-| catalog/images/rings/<key>/ | Three web images per approved ring: 01-hero, 02-alternate, 03-worn |
-| catalog/bracelets.content.json | Authored bracelet names, descriptions, design tags and source keys |
-| catalog/bracelets.media.json | Bracelet role mapping and approved-master/export hashes |
-| catalog/images/bracelets/<key>/ | Three web images per bracelet: 01-hero, 02-detail, 03-worn |
-| catalog/images/reference/ | September reference assets used by Chains/Pendants |
-| preview/catalog.js | Fetch, escaping, image/card helpers, unknown-price handling and enquiries |
-| preview/collection.js | Collection search/filter/sort and URL state |
-| preview/product-gallery.js | Accessible gallery and enquiry-led product rendering |
-| preview/product.html | Product route and existing sample variant/size flow |
-| preview/styles.css | Shared responsive presentation |
-| scripts/build_ring_catalogue.py | Local approved-master export and catalogue builder (Pillow) |
-| scripts/build_bracelet_catalogue.py | Approved-master bracelet export and catalogue builder (Pillow) |
-| scripts/verify_catalogue.cjs | Shared browser checks; prior ring script is a compatibility entry point |
-| output/catalogue-images/ | Ignored local approved masters, source records, prompts, queues and reports |
+| `catalog/products.sample.json` | Runtime catalogue: 20 Rings + 9 Bracelets + 13 Earrings (enquiry only), 10 Chains + 7 Pendants (sample) |
+| `catalog/{rings,bracelets,earrings}.content.json` | Authored names, summaries, descriptions, visual details and source keys |
+| `catalog/{rings,bracelets,earrings}.media.json` | Approved PNG and exported WebP hashes/roles |
+| `catalog/images/rings/` | 60 selected web views |
+| `catalog/images/bracelets/` | 27 selected web views |
+| `catalog/images/earrings/` | 38 selected web views; Rion has no alternate |
+| `catalog/images/reference/` | September sample reference assets for Chains/Pendants |
+| `preview/catalog.js` | Fetch, escaping, card images, hover support and enquiries |
+| `preview/collection.js` | Search/filter/sort and category state |
+| `preview/product-gallery.js` | Accessible gallery and enquiry-led pages |
+| `preview/styles.css` | Shared responsive styles |
+| `scripts/build_{ring,bracelet,earring}_catalogue.py` | Approved-master export and category builders (Pillow) |
+| `scripts/verify_catalogue.cjs` | Local/deployed browser checks (Playwright) |
+| `output/catalogue-images/` | Ignored local masters, provenance, excluded attempts and reports |
 
 ## Data contract
 
-There are **46 unique active IDs**: AYM-RG-101–120, AYM-BR-101–109, AYM-CH-001–010 and AYM-PD-001–007. Former AYM-RG-001–008 and AYM-BR-001–008 references are retired and show unavailable. New IDs prevent old references from silently changing design.
+There are **59 unique active IDs**: AYM-RG-101–120, AYM-BR-101–109, AYM-ER-101–113, AYM-CH-001–010 and AYM-PD-001–007. Former AYM-RG-001–008 and AYM-BR-001–008 references show an unavailable state; do not reuse their IDs for different products.
 
-The top-level sampleContent flag remains true because the 17 chain/pendant records retain sample facts. Rings and Bracelets set catalogueStatus=enquiry, sampleContent=false, pricingStatus=on_enquiry, specificationStatus=confirm_on_enquiry, weightGrams=null, variants=[] and sizeOptions=[]. Do not infer physical materials, gemstones, weights, prices, purity, size, fastening, availability or manufacturing method from imagery.
+Top-level `sampleContent` remains true because 17 Chain/Pendant records retain labelled sample facts. Rings, Bracelets and Earrings use `catalogueStatus=enquiry`, `sampleContent=false`, `pricingStatus=on_enquiry`, `specificationStatus=confirm_on_enquiry`, `weightGrams=null`, `variants=[]` and `sizeOptions=[]`. Descriptions are based on visible form. Do not infer metal, gemstones, purity, sizes, weight, fastening, availability, price or manufacturing method from images.
 
-Both enquiry categories have image-led descriptions, appearanceLabel, designTags and details.design/finish. Composition, dimensions, weight and (for bracelets) fastening are confirmation prompts. Bracelet fitGuidance requests wrist measurements and preferred fit without inventing lengths or adjustment ranges. No sample variant selectors appear on these pages.
+Enquiry records have `appearanceLabel`, `designTags`, design/finish details, and questions about unverified physical facts. Bracelet fit asks for wrist measurement; Earring fit asks about scale, closure/backing and whether sold singly or as a pair. Explicit gallery arrays set labels and alt text. `images.onBody` points to the worn image for collection hover. Rings use hero/alternate/on-hand; Bracelets hero/diagonal detail/on-wrist; Earrings hero/alternate/on-ear except Rion, whose gallery is hero/on-ear only. Rion's `images.alternate` compatibility field points to its worn view, but no duplicate thumbnail is rendered. `mediaType=generated_illustration` and gallery notes disclose illustrative details and fit.
 
-Images.primary/alternate/detail map to three distinct files and images.onBody aliases the third/worn file for hover. Rings use hero / alternate / on-hand roles. Bracelets use hero / diagonal detail / on-wrist roles, even though the compatibility field for the second image remains images.alternate. Explicit gallery labels/alt text determine their visible names. mediaType=generated_illustration and gallery notes disclose that fine geometry and worn fit remain illustrative. Bracelet hidden closures are not asserted as verified construction.
-
-Chains and Pendants retain sample variants, weights, sizes, care and single-photo mapping. Repeated galleries remain labelled and their sample selection flow still works. The runtime filename products.sample.json stays stable for existing consumers.
+Chains/Pendants retain sample variants, weights, sizes, care and repeated single-photo galleries. Their sample selection flow remains. The runtime filename `products.sample.json` is deliberately stable.
 
 ## Frontend behaviour
 
-- Collection image hover crossfades to the distinct worn/third view in 360ms and returns on exit. The overlay is decorative, decoded before reveal, and enabled only with fine-pointer hover support; keyboard focus also reveals it. Touch devices, missing images and records without a distinct worn view retain the hero. Reduced motion disables the animation. Home cards do not receive an overlay.
+- Collection cards with a distinct worn view crossfade hero to worn in 360ms on fine-pointer hover and keyboard focus, after image decode; exit restores hero. Touch keeps hero; reduced motion skips animation; missing worn images leave hero usable. Homepage cards do not have this overlay.
+- Enquiry categories show design filters and “Price on enquiry”; unconfirmed gold/karat filters and variant selectors are hidden. Mixed-category price sorts put unknown prices after priced sample listings. Search covers name, ID, category, descriptions and tags; user-visible filter text is escaped.
+- Gallery controls expose `aria-pressed`, labels, image alt and announced captions. The product page includes category-aware description, fit/care and enquiry sections. Earring messages request confirmed dimensions, closure/backing, and single/pair availability; bracelet messages ask about fit/fastening; ring messages ask about sizing/karat. WhatsApp/email links include correct product name, ID and URL. No message is sent automatically. WhatsApp +91 7265000916 is visibly demo; email is thehouseofaayam@gmail.com.
+- Homepage featured tiles now cover Rings, Bracelets, Earrings, Chains and Pendants. Preview pages retain `noindex` and visible preview notice; Pages remains a public site. Keep navigation/footer/drawer consistent across the six HTML pages.
 
-- Rings and Bracelets display category-specific design tags, featured/alphabetical sorting and Price on enquiry. Unconfirmed gold/karat filters and sample variant selectors are hidden on these category routes. Switching categories clears incompatible filter state. In a mixed collection price sort, unknown prices appear after priced sample records in either direction.
-- Search covers product name, ID, category, design description and tags. Active-filter text is escaped before insertion. Empty results support clearing filters.
-- Enquiry gallery buttons expose aria-pressed, descriptive labels, updated image alt text and an announced caption. Ring hero/alternate/on-hand and bracelet hero/detail/on-wrist images are distinct. Native details elements expose the ring description, visible details, fit/care and enquiry information.
-- Enquiry WhatsApp/email links contain the correct product name, ID and product URL and request confirmed facts. Bracelet messages include wrist sizing, length, fastening and adjustment; ring messages retain karat/sizing guidance. No outgoing message is sent automatically. The sample-category flow still takes a sample variant plus size/help selection. WhatsApp +91 7265000916 remains visibly demo; email is thehouseofaayam@gmail.com.
-- Four homepage featured cards select the first record per category. The Rings tile points at the approved Kavi hero and the Bracelets tile at Ravik Crimson Weave. Campaign assets are unchanged.
-- Preview pages retain noindex and visible preview notice; these do not make the public Pages site private. Keep header/footer/drawer changes consistent across the six HTML pages.
+## Media approvals and limits
 
-## Media approvals and deferred queue
+All 13 selected Earring sets are approved under `output/catalogue-images/approved/earrings/`: Avir sample, four batch-001, three batch-002 and five batch-003. Avir's small hero is about 49% of its original linear framing; the template keeps an earring hero small and centred, with a larger alternate and natural ear/jaw worn crop. The dropped Aarav design stays under local `excluded/earrings/` and is absent from the website.
 
-Nine bracelet sets are approved for website preview use under output/catalogue-images/approved/bracelets/: crimson sample 002 and eight batch-001 sets. The founder’s implementation request accepted batch 001 for this website use; it did not verify physical construction. V2 specifications lock 80–85% hero width, straight diagonal detail and permitted wrist references. Source filenames mock-for-bracalet-# have durable normalised copies mock-for-bracelet-# under _references/bracelets/. Sample 001 is historical. The blue/crimson variants remain separate; only the left interlocking-link cord design in b8.jpg is included.
+Batch-003's final Kiaan and Ayaan alternate selections are the **earlier front-facing versions with a thin top detail**. Later bar-less versions are archived in `_attempts/` and excluded from exports. Ayaan and Rion worn images were reduced about 20–25%. Rion is an explicit two-image exception: `01-hero.png` and `03-worn.png`; its alternate is archived only. These choices are recorded in selected manifests and `catalog/earrings.media.json` hashes. Original sources, exact prompts, SHA256s and contact sheets remain in ignored local review folders. Fine motifs, rear construction, closure and exact on-ear scale are interpretations requiring physical verification.
 
-Source evidence, exact prompts, hashes and source-specific limitations remain local. The rose-geometric, graphite-chevron, two-tone-angular and olive-interlocking groups lack full rear/closure evidence. Angular overlaps and mosaic tiny accents need clearer source detail; all dimensions and worn fit remain indicative. Public copy describes visible forms and asks for final fastening/specification confirmation. Do not replace those prompts with inferred physical facts. Only the selected 27 approved WebP exports and authored data are published.
-
-Twenty canonical ring folders are approved: the green-inlay sample and batches 001–004. Batch 004 approval covers the six previously selected circled designs only. The latest production state is reconciled from approved manifests; stale planned folders and alternative names in review history are not extra approved products.
-
-All remaining sources are together in output/catalogue-images/deferred/rings/to-do/ with original copies, applicable annotations, hashes and next steps. no-1/2/3 need selection; no-3 may duplicate an approved design. no-5 is obscured at low resolution, no-6 has limited low-resolution construction evidence and no-7 shows a front-only view. Do not use them without further source/selection work. The old no-12 source copy outside to-do has already been processed and is provenance only.
+Nine Bracelet sets and 20 Ring sets remain approved. Bracelet heroes occupy roughly 80–85% of canvas width; detail images follow a straight diagonal; Ring heroes, distinct angles and worn views retain their earlier specification. The six difficult Ring sources remain under `output/catalogue-images/deferred/rings/to-do/`. Do not publish raw sources, annotations, deferred photos or rejected attempts.
 
 ## Build, checks and release
 
-Run python3 scripts/build_ring_catalogue.py for the 20 Rings, or python3 scripts/build_bracelet_catalogue.py for the nine Bracelets, with Pillow and the respective local approved masters present. Each builder updates only its category and media map. Bracelet export verifies selected master hashes and produces 27 native 1254 × 1254 WebPs at quality 90, about 4.14 MB. Ring delivery assets total about 6.18 MB. No paid API or generation calls are part of the builders.
+Run `python3 scripts/build_earring_catalogue.py` with Pillow and approved local masters to validate selected hashes, native 1254 × 1254 PNG dimensions and export 38 quality-90 WebPs. The Ring and Bracelet builders work similarly for their own categories. No image-generation or paid API call is part of these builders.
 
-Serve the repository over HTTP and run node scripts/verify_catalogue.cjs with Playwright available. Optional argument: deployed preview base URL. BROWSER_EXECUTABLE can select an installed Chromium browser. scripts/verify_ring_catalogue.cjs forwards to these shared checks. Latest local checks passed 29 enquiry routes and all 87 gallery images, WhatsApp/email identity, category copy and design filters, search/sort, hover in bracelet/mixed grids, return/focus/reduced motion, missing worn-image fallback, retired IDs, remaining sample flow, homepage/noindex, and 375px touch layouts. Reports/screenshots: output/catalogue-images/integration-review/bracelets/. Static checks confirm all 37 non-bracelet records are unchanged and all selected exports match recorded hashes.
+Serve the repository over HTTP and run `node scripts/verify_catalogue.cjs` with Playwright available; pass an optional base URL to test the deployed preview. `BROWSER_EXECUTABLE` can select Chromium. The old ring verifier forwards to these shared checks. Latest local checks cover 42 enquiry routes, 125 gallery images, card hover/focus/touch/reduced motion/fallback, search/filters/sort, enquiry identity, sample-category flow, retired IDs, homepage, noindex and responsive layouts. Reports/screenshots are under `output/catalogue-images/integration-review/earrings/`. Static checks should verify that all 46 prior non-earring records are unchanged and excluded files never enter public exports.
 
-Push main for the requested GitHub Pages preview, then verify the deployed catalogue IDs, assets and frontend. A separate live-domain release still needs confirmed business/product facts and an explicit Netlify/domain instruction. The pitch remains local; avoid unverified founder, manufacturing, alloy, gemstone, hallmarking, policy, availability or service promises in customer copy.
+Push `main` to update the requested GitHub Pages preview, then verify deployed IDs, assets and frontend. A separate live-domain release needs confirmed business/product facts and explicit Netlify/domain instruction. The pitch remains local; avoid unverified founder, alloy, gemstone, hallmarking, policy, service, availability or fulfilment claims.

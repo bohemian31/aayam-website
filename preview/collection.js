@@ -1,7 +1,8 @@
 let ALL = [];
 const COLLECTION_INTROS = {
   Rings: 'Bands shaped by texture, clean lines and contrast. Explore the illustrated designs and enquire about materials, sizing and pricing.',
-  Bracelets: 'Linked forms, woven textures and considered contrasts for the wrist. Explore the illustrated designs and enquire about materials, fit and pricing.'
+  Bracelets: 'Linked forms, woven textures and considered contrasts for the wrist. Explore the illustrated designs and enquire about materials, fit and pricing.',
+  Earrings: 'Compact hoops and considered studs, from quiet curves to textured details. Explore the illustrated designs and enquire about materials, size and pricing.'
 };
 
 function categoryDesigns(category) {

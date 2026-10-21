@@ -1,10 +1,11 @@
 {
-  "_readme": "Mixed-stage preview: approved illustrated rings and bracelets use enquiry-only product specifications; chains and pendants retain reference photos and explicitly labelled sample facts. Generated details, unseen construction and worn fit are indicative, not verified physical specifications.",
+  "_readme": "Mixed-stage preview: approved illustrated rings, bracelets and earrings use enquiry-only specifications; chains and pendants retain reference photos and labelled sample facts. Generated details, unseen construction and worn fit are indicative, not verified physical specifications.",
   "currency": "INR",
   "sampleContent": true,
   "categories": [
     "Rings",
     "Bracelets",
+    "Earrings",
     "Chains",
     "Pendants"
   ],
@@ -1677,6 +1678,781 @@
       ],
       "galleryNote": "Generated product illustrations. Fine details, fastening and worn fit are indicative; confirm final specifications on enquiry.",
       "imageStatus": "Approved for website preview use. Generated details, hidden construction and worn scale remain illustrative."
+    },
+    {
+      "id": "AYM-ER-101",
+      "productKey": "rounded-tapered-warm-hoop-earring",
+      "slug": "avir-curve-hoop-earring",
+      "name": "Avir Curve Hoop Earring",
+      "category": "Earrings",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "A rounded warm-toned hoop with a softly tapered profile.",
+      "description": "Avir keeps the hoop simple and sculptural. Its smooth, rounded front catches the light across a warm-toned surface, while the profile narrows toward the opening. A quiet curve that sits close to the lobe.",
+      "appearanceLabel": "Warm tone · rounded curve",
+      "designTags": [
+        "Hoops",
+        "Polished",
+        "Sculptural"
+      ],
+      "weightGrams": null,
+      "sizeType": "Ear fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us about dimensions and closure",
+      "variants": [],
+      "fitGuidance": "Ask us for the finished diameter or front size, fit on the lobe, and closure or backing before choosing. The on-ear image illustrates styling; it is not a measured fit guide.",
+      "details": {
+        "design": "Compact hoop with a rounded face and a tapered-looking profile.",
+        "finish": "Smooth polished warm-toned surface.",
+        "composition": "The metal, any accents and applicable karat options are confirmed on enquiry.",
+        "dimensions": "Diameter, front size, thickness and worn fit are confirmed on enquiry.",
+        "fastening": "Confirm the final closure or backing on enquiry; generated rear views are illustrative.",
+        "weight": "Confirmed for the finished piece."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Ask us for care instructions suited to the confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/earrings/rounded-tapered-warm-hoop-earring/01-hero.webp",
+        "alternate": "catalog/images/earrings/rounded-tapered-warm-hoop-earring/02-alternate.webp",
+        "detail": "catalog/images/earrings/rounded-tapered-warm-hoop-earring/03-worn.webp",
+        "onBody": "catalog/images/earrings/rounded-tapered-warm-hoop-earring/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
+        {
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Avir Curve Hoop Earring — illustrated hero view"
+        },
+        {
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Avir Curve Hoop Earring — illustrated alternate view"
+        },
+        {
+          "key": "detail",
+          "label": "On ear",
+          "alt": "Avir Curve Hoop Earring — illustrative styling on an ear"
+        }
+      ],
+      "galleryNote": "Generated product illustrations. Rear construction, closure and worn size are indicative; confirm final specifications and whether supplied singly or as a pair on enquiry.",
+      "imageStatus": "Approved for website preview use. Hidden construction and worn scale remain illustrative."
+    },
+    {
+      "id": "AYM-ER-102",
+      "productKey": "plain-warm-disc-stud",
+      "slug": "nirav-disc-stud",
+      "name": "Nirav Disc Stud",
+      "category": "Earrings",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "A small polished disc with an even warm-toned face.",
+      "description": "Nirav is pared back to a single circular plane. Its smooth face reflects light softly, making the compact stud easy to wear as a subtle point of warmth.",
+      "appearanceLabel": "Warm tone · plain disc",
+      "designTags": [
+        "Studs",
+        "Disc",
+        "Polished"
+      ],
+      "weightGrams": null,
+      "sizeType": "Ear fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us about dimensions and closure",
+      "variants": [],
+      "fitGuidance": "Ask us for the finished diameter or front size, fit on the lobe, and closure or backing before choosing. The on-ear image illustrates styling; it is not a measured fit guide.",
+      "details": {
+        "design": "Circular stud with a flat, unadorned front.",
+        "finish": "Smooth reflective warm-toned face.",
+        "composition": "The metal, any accents and applicable karat options are confirmed on enquiry.",
+        "dimensions": "Diameter, front size, thickness and worn fit are confirmed on enquiry.",
+        "fastening": "Confirm the final closure or backing on enquiry; generated rear views are illustrative.",
+        "weight": "Confirmed for the finished piece."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Ask us for care instructions suited to the confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/earrings/plain-warm-disc-stud/01-hero.webp",
+        "alternate": "catalog/images/earrings/plain-warm-disc-stud/02-alternate.webp",
+        "detail": "catalog/images/earrings/plain-warm-disc-stud/03-worn.webp",
+        "onBody": "catalog/images/earrings/plain-warm-disc-stud/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
+        {
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Nirav Disc Stud — illustrated hero view"
+        },
+        {
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Nirav Disc Stud — illustrated alternate view"
+        },
+        {
+          "key": "detail",
+          "label": "On ear",
+          "alt": "Nirav Disc Stud — illustrative styling on an ear"
+        }
+      ],
+      "galleryNote": "Generated product illustrations. Rear construction, closure and worn size are indicative; confirm final specifications and whether supplied singly or as a pair on enquiry.",
+      "imageStatus": "Approved for website preview use. Hidden construction and worn scale remain illustrative."
+    },
+    {
+      "id": "AYM-ER-103",
+      "productKey": "warm-meander-dark-disc-stud",
+      "slug": "rihan-framed-disc-stud",
+      "name": "Rihan Framed Disc Stud",
+      "category": "Earrings",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "A dark round centre framed by warm geometric detail.",
+      "description": "Rihan brings contrast to the stud silhouette. A dark circular centre sits within a warm-toned border, with a repeating angular motif visible along the edge. The detail appears gradually as the piece turns.",
+      "appearanceLabel": "Dark centre · geometric warm border",
+      "designTags": [
+        "Studs",
+        "Disc",
+        "Patterned",
+        "Colour contrast"
+      ],
+      "weightGrams": null,
+      "sizeType": "Ear fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us about dimensions and closure",
+      "variants": [],
+      "fitGuidance": "Ask us for the finished diameter or front size, fit on the lobe, and closure or backing before choosing. The on-ear image illustrates styling; it is not a measured fit guide.",
+      "details": {
+        "design": "Round stud with a dark centre and a patterned outer frame.",
+        "finish": "Smooth dark face against a reflective warm-toned border.",
+        "composition": "The metal, any accents and applicable karat options are confirmed on enquiry.",
+        "dimensions": "Diameter, front size, thickness and worn fit are confirmed on enquiry.",
+        "fastening": "Confirm the final closure or backing on enquiry; generated rear views are illustrative.",
+        "weight": "Confirmed for the finished piece."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Ask us for care instructions suited to the confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/earrings/warm-meander-dark-disc-stud/01-hero.webp",
+        "alternate": "catalog/images/earrings/warm-meander-dark-disc-stud/02-alternate.webp",
+        "detail": "catalog/images/earrings/warm-meander-dark-disc-stud/03-worn.webp",
+        "onBody": "catalog/images/earrings/warm-meander-dark-disc-stud/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
+        {
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Rihan Framed Disc Stud — illustrated hero view"
+        },
+        {
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Rihan Framed Disc Stud — illustrated alternate view"
+        },
+        {
+          "key": "detail",
+          "label": "On ear",
+          "alt": "Rihan Framed Disc Stud — illustrative styling on an ear"
+        }
+      ],
+      "galleryNote": "Generated product illustrations. Rear construction, closure and worn size are indicative; confirm final specifications and whether supplied singly or as a pair on enquiry.",
+      "imageStatus": "Approved for website preview use. Hidden construction and worn scale remain illustrative."
+    },
+    {
+      "id": "AYM-ER-104",
+      "productKey": "matte-black-disc-stud",
+      "slug": "kavi-matte-disc-stud",
+      "name": "Kavi Matte Disc Stud",
+      "category": "Earrings",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "A clean dark disc with a softly matte appearance.",
+      "description": "Kavi makes its statement through restraint. A plain, flat round face and dark, low-sheen finish give the stud a crisp outline without additional decoration.",
+      "appearanceLabel": "Dark tone · matte-looking disc",
+      "designTags": [
+        "Studs",
+        "Disc",
+        "Minimal"
+      ],
+      "weightGrams": null,
+      "sizeType": "Ear fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us about dimensions and closure",
+      "variants": [],
+      "fitGuidance": "Ask us for the finished diameter or front size, fit on the lobe, and closure or backing before choosing. The on-ear image illustrates styling; it is not a measured fit guide.",
+      "details": {
+        "design": "Plain circular stud with a flat front.",
+        "finish": "Dark matte-looking face with subtle edge definition.",
+        "composition": "The metal, any accents and applicable karat options are confirmed on enquiry.",
+        "dimensions": "Diameter, front size, thickness and worn fit are confirmed on enquiry.",
+        "fastening": "Confirm the final closure or backing on enquiry; generated rear views are illustrative.",
+        "weight": "Confirmed for the finished piece."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Ask us for care instructions suited to the confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/earrings/matte-black-disc-stud/01-hero.webp",
+        "alternate": "catalog/images/earrings/matte-black-disc-stud/02-alternate.webp",
+        "detail": "catalog/images/earrings/matte-black-disc-stud/03-worn.webp",
+        "onBody": "catalog/images/earrings/matte-black-disc-stud/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
+        {
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Kavi Matte Disc Stud — illustrated hero view"
+        },
+        {
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Kavi Matte Disc Stud — illustrated alternate view"
+        },
+        {
+          "key": "detail",
+          "label": "On ear",
+          "alt": "Kavi Matte Disc Stud — illustrative styling on an ear"
+        }
+      ],
+      "galleryNote": "Generated product illustrations. Rear construction, closure and worn size are indicative; confirm final specifications and whether supplied singly or as a pair on enquiry.",
+      "imageStatus": "Approved for website preview use. Hidden construction and worn scale remain illustrative."
+    },
+    {
+      "id": "AYM-ER-105",
+      "productKey": "petal-engraved-crescent-hoop",
+      "slug": "arka-petal-crescent-hoop",
+      "name": "Arka Petal Crescent Hoop",
+      "category": "Earrings",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "A warm crescent form with fine petal-like markings.",
+      "description": "Arka draws the eye to a softly rounded crescent. Fine petal-like lines and a small floral accent interrupt the polished warm-toned surface, bringing character to a compact hoop silhouette.",
+      "appearanceLabel": "Warm tone · petal-like detail",
+      "designTags": [
+        "Hoops",
+        "Patterned",
+        "Sculptural"
+      ],
+      "weightGrams": null,
+      "sizeType": "Ear fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us about dimensions and closure",
+      "variants": [],
+      "fitGuidance": "Ask us for the finished diameter or front size, fit on the lobe, and closure or backing before choosing. The on-ear image illustrates styling; it is not a measured fit guide.",
+      "details": {
+        "design": "Open-centre crescent hoop with fine decorative lines and a small floral-looking accent.",
+        "finish": "Polished warm-toned surface with fine contrasting markings.",
+        "composition": "The metal, any accents and applicable karat options are confirmed on enquiry.",
+        "dimensions": "Diameter, front size, thickness and worn fit are confirmed on enquiry.",
+        "fastening": "Confirm the final closure or backing on enquiry; generated rear views are illustrative.",
+        "weight": "Confirmed for the finished piece."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Ask us for care instructions suited to the confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/earrings/petal-engraved-crescent-hoop/01-hero.webp",
+        "alternate": "catalog/images/earrings/petal-engraved-crescent-hoop/02-alternate.webp",
+        "detail": "catalog/images/earrings/petal-engraved-crescent-hoop/03-worn.webp",
+        "onBody": "catalog/images/earrings/petal-engraved-crescent-hoop/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
+        {
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Arka Petal Crescent Hoop — illustrated hero view"
+        },
+        {
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Arka Petal Crescent Hoop — illustrated alternate view"
+        },
+        {
+          "key": "detail",
+          "label": "On ear",
+          "alt": "Arka Petal Crescent Hoop — illustrative styling on an ear"
+        }
+      ],
+      "galleryNote": "Generated product illustrations. Rear construction, closure and worn size are indicative; confirm final specifications and whether supplied singly or as a pair on enquiry.",
+      "imageStatus": "Approved for website preview use. Hidden construction and worn scale remain illustrative."
+    },
+    {
+      "id": "AYM-ER-106",
+      "productKey": "silver-ball-ended-horseshoe-hoop",
+      "slug": "ojas-ball-end-hoop",
+      "name": "Ojas Ball-End Hoop",
+      "category": "Earrings",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "A pale-toned C curve finished with two rounded ends.",
+      "description": "Ojas traces a compact, open curve. Two polished rounded ends give the simple pale-toned form its identity, while the space between them keeps the silhouette light.",
+      "appearanceLabel": "Pale tone · ball-ended curve",
+      "designTags": [
+        "Hoops",
+        "Open curve",
+        "Polished"
+      ],
+      "weightGrams": null,
+      "sizeType": "Ear fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us about dimensions and closure",
+      "variants": [],
+      "fitGuidance": "Ask us for the finished diameter or front size, fit on the lobe, and closure or backing before choosing. The on-ear image illustrates styling; it is not a measured fit guide.",
+      "details": {
+        "design": "Open C-shaped hoop with two rounded terminal details.",
+        "finish": "Smooth, reflective pale-toned surface.",
+        "composition": "The metal, any accents and applicable karat options are confirmed on enquiry.",
+        "dimensions": "Diameter, front size, thickness and worn fit are confirmed on enquiry.",
+        "fastening": "Confirm the final closure or backing on enquiry; generated rear views are illustrative.",
+        "weight": "Confirmed for the finished piece."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Ask us for care instructions suited to the confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/earrings/silver-ball-ended-horseshoe-hoop/01-hero.webp",
+        "alternate": "catalog/images/earrings/silver-ball-ended-horseshoe-hoop/02-alternate.webp",
+        "detail": "catalog/images/earrings/silver-ball-ended-horseshoe-hoop/03-worn.webp",
+        "onBody": "catalog/images/earrings/silver-ball-ended-horseshoe-hoop/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
+        {
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Ojas Ball-End Hoop — illustrated hero view"
+        },
+        {
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Ojas Ball-End Hoop — illustrated alternate view"
+        },
+        {
+          "key": "detail",
+          "label": "On ear",
+          "alt": "Ojas Ball-End Hoop — illustrative styling on an ear"
+        }
+      ],
+      "galleryNote": "Generated product illustrations. Rear construction, closure and worn size are indicative; confirm final specifications and whether supplied singly or as a pair on enquiry.",
+      "imageStatus": "Approved for website preview use. Hidden construction and worn scale remain illustrative."
+    },
+    {
+      "id": "AYM-ER-107",
+      "productKey": "dark-accented-hoop",
+      "slug": "samar-accent-hoop",
+      "name": "Samar Accent Hoop",
+      "category": "Earrings",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "A dark hoop with a line of small raised accents.",
+      "description": "Samar adds texture to a compact hoop. A row of small rounded details follows its outer face, catching points of light against the dark surface while keeping the overall profile neat.",
+      "appearanceLabel": "Dark tone · raised accents",
+      "designTags": [
+        "Hoops",
+        "Textured",
+        "Accent details"
+      ],
+      "weightGrams": null,
+      "sizeType": "Ear fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us about dimensions and closure",
+      "variants": [],
+      "fitGuidance": "Ask us for the finished diameter or front size, fit on the lobe, and closure or backing before choosing. The on-ear image illustrates styling; it is not a measured fit guide.",
+      "details": {
+        "design": "Compact hoop with a line of raised rounded details on its outer face.",
+        "finish": "Dark reflective surface with brighter raised points.",
+        "composition": "The metal, any accents and applicable karat options are confirmed on enquiry.",
+        "dimensions": "Diameter, front size, thickness and worn fit are confirmed on enquiry.",
+        "fastening": "Confirm the final closure or backing on enquiry; generated rear views are illustrative.",
+        "weight": "Confirmed for the finished piece."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Ask us for care instructions suited to the confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/earrings/dark-accented-hoop/01-hero.webp",
+        "alternate": "catalog/images/earrings/dark-accented-hoop/02-alternate.webp",
+        "detail": "catalog/images/earrings/dark-accented-hoop/03-worn.webp",
+        "onBody": "catalog/images/earrings/dark-accented-hoop/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
+        {
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Samar Accent Hoop — illustrated hero view"
+        },
+        {
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Samar Accent Hoop — illustrated alternate view"
+        },
+        {
+          "key": "detail",
+          "label": "On ear",
+          "alt": "Samar Accent Hoop — illustrative styling on an ear"
+        }
+      ],
+      "galleryNote": "Generated product illustrations. Rear construction, closure and worn size are indicative; confirm final specifications and whether supplied singly or as a pair on enquiry.",
+      "imageStatus": "Approved for website preview use. Hidden construction and worn scale remain illustrative."
+    },
+    {
+      "id": "AYM-ER-108",
+      "productKey": "faceted-dark-hoop",
+      "slug": "tejas-facet-hoop",
+      "name": "Tejas Facet Hoop",
+      "category": "Earrings",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "A dark hoop shaped by small angular facets.",
+      "description": "Tejas shifts the light across a series of compact planes. The faceted dark outer face gives a familiar hoop shape a textured, architectural edge.",
+      "appearanceLabel": "Dark tone · faceted surface",
+      "designTags": [
+        "Hoops",
+        "Faceted",
+        "Textured"
+      ],
+      "weightGrams": null,
+      "sizeType": "Ear fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us about dimensions and closure",
+      "variants": [],
+      "fitGuidance": "Ask us for the finished diameter or front size, fit on the lobe, and closure or backing before choosing. The on-ear image illustrates styling; it is not a measured fit guide.",
+      "details": {
+        "design": "Compact hoop with a series of angular facets along the visible outer face.",
+        "finish": "Dark low-sheen surface with changing facet reflections.",
+        "composition": "The metal, any accents and applicable karat options are confirmed on enquiry.",
+        "dimensions": "Diameter, front size, thickness and worn fit are confirmed on enquiry.",
+        "fastening": "Confirm the final closure or backing on enquiry; generated rear views are illustrative.",
+        "weight": "Confirmed for the finished piece."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Ask us for care instructions suited to the confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/earrings/faceted-dark-hoop/01-hero.webp",
+        "alternate": "catalog/images/earrings/faceted-dark-hoop/02-alternate.webp",
+        "detail": "catalog/images/earrings/faceted-dark-hoop/03-worn.webp",
+        "onBody": "catalog/images/earrings/faceted-dark-hoop/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
+        {
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Tejas Facet Hoop — illustrated hero view"
+        },
+        {
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Tejas Facet Hoop — illustrated alternate view"
+        },
+        {
+          "key": "detail",
+          "label": "On ear",
+          "alt": "Tejas Facet Hoop — illustrative styling on an ear"
+        }
+      ],
+      "galleryNote": "Generated product illustrations. Rear construction, closure and worn size are indicative; confirm final specifications and whether supplied singly or as a pair on enquiry.",
+      "imageStatus": "Approved for website preview use. Hidden construction and worn scale remain illustrative."
+    },
+    {
+      "id": "AYM-ER-109",
+      "productKey": "small-warm-ball-stud",
+      "slug": "rion-ball-stud",
+      "name": "Rion Ball Stud",
+      "category": "Earrings",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "A tiny polished sphere for a restrained point of warmth.",
+      "description": "Rion is a single, smooth round detail. Its small scale and warm reflection make it one of the collection's quietest expressions, suited to a minimal everyday look.",
+      "appearanceLabel": "Warm tone · polished sphere",
+      "designTags": [
+        "Studs",
+        "Minimal",
+        "Polished"
+      ],
+      "weightGrams": null,
+      "sizeType": "Ear fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us about dimensions and closure",
+      "variants": [],
+      "fitGuidance": "Ask us for the finished diameter or front size, fit on the lobe, and closure or backing before choosing. The on-ear image illustrates styling; it is not a measured fit guide.",
+      "details": {
+        "design": "Small spherical stud with a plain front.",
+        "finish": "Smooth reflective warm-toned surface.",
+        "composition": "The metal, any accents and applicable karat options are confirmed on enquiry.",
+        "dimensions": "Diameter, front size, thickness and worn fit are confirmed on enquiry.",
+        "fastening": "Confirm the final closure or backing on enquiry; generated rear views are illustrative.",
+        "weight": "Confirmed for the finished piece."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Ask us for care instructions suited to the confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/earrings/small-warm-ball-stud/01-hero.webp",
+        "detail": "catalog/images/earrings/small-warm-ball-stud/03-worn.webp",
+        "onBody": "catalog/images/earrings/small-warm-ball-stud/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
+        {
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Rion Ball Stud — illustrated hero view"
+        },
+        {
+          "key": "detail",
+          "label": "On ear",
+          "alt": "Rion Ball Stud — illustrative styling on an ear"
+        }
+      ],
+      "galleryNote": "Generated product illustrations. Rear construction, closure and worn size are indicative; confirm final specifications and whether supplied singly or as a pair on enquiry.",
+      "imageStatus": "Approved for website preview use. Hidden construction and worn scale remain illustrative."
+    },
+    {
+      "id": "AYM-ER-110",
+      "productKey": "plain-dark-flat-hoop",
+      "slug": "kiaan-flat-hoop",
+      "name": "Kiaan Flat Hoop",
+      "category": "Earrings",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "A compact dark hoop with a broad, plain face.",
+      "description": "Kiaan gives the hoop a clean graphic outline. The broad flat-looking outer face carries a dark, softly reflective finish, with no surface pattern to distract from its shape.",
+      "appearanceLabel": "Dark tone · broad flat face",
+      "designTags": [
+        "Hoops",
+        "Minimal",
+        "Polished"
+      ],
+      "weightGrams": null,
+      "sizeType": "Ear fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us about dimensions and closure",
+      "variants": [],
+      "fitGuidance": "Ask us for the finished diameter or front size, fit on the lobe, and closure or backing before choosing. The on-ear image illustrates styling; it is not a measured fit guide.",
+      "details": {
+        "design": "Compact circular hoop with a broad plain outer face.",
+        "finish": "Smooth dark surface with restrained reflections.",
+        "composition": "The metal, any accents and applicable karat options are confirmed on enquiry.",
+        "dimensions": "Diameter, front size, thickness and worn fit are confirmed on enquiry.",
+        "fastening": "Confirm the final closure or backing on enquiry; generated rear views are illustrative.",
+        "weight": "Confirmed for the finished piece."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Ask us for care instructions suited to the confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/earrings/plain-dark-flat-hoop/01-hero.webp",
+        "alternate": "catalog/images/earrings/plain-dark-flat-hoop/02-alternate.webp",
+        "detail": "catalog/images/earrings/plain-dark-flat-hoop/03-worn.webp",
+        "onBody": "catalog/images/earrings/plain-dark-flat-hoop/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
+        {
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Kiaan Flat Hoop — illustrated hero view"
+        },
+        {
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Kiaan Flat Hoop — illustrated alternate view"
+        },
+        {
+          "key": "detail",
+          "label": "On ear",
+          "alt": "Kiaan Flat Hoop — illustrative styling on an ear"
+        }
+      ],
+      "galleryNote": "Generated product illustrations. Rear construction, closure and worn size are indicative; confirm final specifications and whether supplied singly or as a pair on enquiry.",
+      "imageStatus": "Approved for website preview use. Hidden construction and worn scale remain illustrative."
+    },
+    {
+      "id": "AYM-ER-111",
+      "productKey": "warm-bevelled-hoop",
+      "slug": "ayaan-bevel-hoop",
+      "name": "Ayaan Bevel Hoop",
+      "category": "Earrings",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "A warm-toned circular hoop with a broad bevelled face.",
+      "description": "Ayaan balances a broad polished face with a clean angled edge. Its circular shape feels structured without losing the softness of a classic hoop.",
+      "appearanceLabel": "Warm tone · bevelled face",
+      "designTags": [
+        "Hoops",
+        "Bevelled",
+        "Polished"
+      ],
+      "weightGrams": null,
+      "sizeType": "Ear fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us about dimensions and closure",
+      "variants": [],
+      "fitGuidance": "Ask us for the finished diameter or front size, fit on the lobe, and closure or backing before choosing. The on-ear image illustrates styling; it is not a measured fit guide.",
+      "details": {
+        "design": "Circular compact hoop with a broad front plane and bevelled edge.",
+        "finish": "Polished warm-toned surface with a defined reflective bevel.",
+        "composition": "The metal, any accents and applicable karat options are confirmed on enquiry.",
+        "dimensions": "Diameter, front size, thickness and worn fit are confirmed on enquiry.",
+        "fastening": "Confirm the final closure or backing on enquiry; generated rear views are illustrative.",
+        "weight": "Confirmed for the finished piece."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Ask us for care instructions suited to the confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/earrings/warm-bevelled-hoop/01-hero.webp",
+        "alternate": "catalog/images/earrings/warm-bevelled-hoop/02-alternate.webp",
+        "detail": "catalog/images/earrings/warm-bevelled-hoop/03-worn.webp",
+        "onBody": "catalog/images/earrings/warm-bevelled-hoop/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
+        {
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Ayaan Bevel Hoop — illustrated hero view"
+        },
+        {
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Ayaan Bevel Hoop — illustrated alternate view"
+        },
+        {
+          "key": "detail",
+          "label": "On ear",
+          "alt": "Ayaan Bevel Hoop — illustrative styling on an ear"
+        }
+      ],
+      "galleryNote": "Generated product illustrations. Rear construction, closure and worn size are indicative; confirm final specifications and whether supplied singly or as a pair on enquiry.",
+      "imageStatus": "Approved for website preview use. Hidden construction and worn scale remain illustrative."
+    },
+    {
+      "id": "AYM-ER-112",
+      "productKey": "fine-silver-tone-hoop",
+      "slug": "devan-fine-hoop",
+      "name": "Devan Fine Hoop",
+      "category": "Earrings",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "A slender pale-toned hoop with an understated profile.",
+      "description": "Devan draws a fine line around the lobe. The slim, smooth-looking circular form keeps the focus on proportion, making it an easy detail to wear alone.",
+      "appearanceLabel": "Pale tone · fine hoop",
+      "designTags": [
+        "Hoops",
+        "Minimal",
+        "Polished"
+      ],
+      "weightGrams": null,
+      "sizeType": "Ear fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us about dimensions and closure",
+      "variants": [],
+      "fitGuidance": "Ask us for the finished diameter or front size, fit on the lobe, and closure or backing before choosing. The on-ear image illustrates styling; it is not a measured fit guide.",
+      "details": {
+        "design": "Slim circular hoop with no visible decorative motif.",
+        "finish": "Smooth reflective pale-toned surface.",
+        "composition": "The metal, any accents and applicable karat options are confirmed on enquiry.",
+        "dimensions": "Diameter, front size, thickness and worn fit are confirmed on enquiry.",
+        "fastening": "Confirm the final closure or backing on enquiry; generated rear views are illustrative.",
+        "weight": "Confirmed for the finished piece."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Ask us for care instructions suited to the confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/earrings/fine-silver-tone-hoop/01-hero.webp",
+        "alternate": "catalog/images/earrings/fine-silver-tone-hoop/02-alternate.webp",
+        "detail": "catalog/images/earrings/fine-silver-tone-hoop/03-worn.webp",
+        "onBody": "catalog/images/earrings/fine-silver-tone-hoop/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
+        {
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Devan Fine Hoop — illustrated hero view"
+        },
+        {
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Devan Fine Hoop — illustrated alternate view"
+        },
+        {
+          "key": "detail",
+          "label": "On ear",
+          "alt": "Devan Fine Hoop — illustrative styling on an ear"
+        }
+      ],
+      "galleryNote": "Generated product illustrations. Rear construction, closure and worn size are indicative; confirm final specifications and whether supplied singly or as a pair on enquiry.",
+      "imageStatus": "Approved for website preview use. Hidden construction and worn scale remain illustrative."
+    },
+    {
+      "id": "AYM-ER-113",
+      "productKey": "slim-dark-round-hoop",
+      "slug": "neer-slim-hoop",
+      "name": "Neer Slim Hoop",
+      "category": "Earrings",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "A fine dark hoop with a rounded profile.",
+      "description": "Neer keeps the hoop spare and fluid. Its narrow dark curve has a soft reflection along the edge, offering a quiet contrast against the skin.",
+      "appearanceLabel": "Dark tone · slim round curve",
+      "designTags": [
+        "Hoops",
+        "Minimal",
+        "Polished"
+      ],
+      "weightGrams": null,
+      "sizeType": "Ear fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us about dimensions and closure",
+      "variants": [],
+      "fitGuidance": "Ask us for the finished diameter or front size, fit on the lobe, and closure or backing before choosing. The on-ear image illustrates styling; it is not a measured fit guide.",
+      "details": {
+        "design": "Slim circular hoop with a smooth rounded-looking profile.",
+        "finish": "Dark reflective surface with a clean outline.",
+        "composition": "The metal, any accents and applicable karat options are confirmed on enquiry.",
+        "dimensions": "Diameter, front size, thickness and worn fit are confirmed on enquiry.",
+        "fastening": "Confirm the final closure or backing on enquiry; generated rear views are illustrative.",
+        "weight": "Confirmed for the finished piece."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Ask us for care instructions suited to the confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/earrings/slim-dark-round-hoop/01-hero.webp",
+        "alternate": "catalog/images/earrings/slim-dark-round-hoop/02-alternate.webp",
+        "detail": "catalog/images/earrings/slim-dark-round-hoop/03-worn.webp",
+        "onBody": "catalog/images/earrings/slim-dark-round-hoop/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
+        {
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Neer Slim Hoop — illustrated hero view"
+        },
+        {
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Neer Slim Hoop — illustrated alternate view"
+        },
+        {
+          "key": "detail",
+          "label": "On ear",
+          "alt": "Neer Slim Hoop — illustrative styling on an ear"
+        }
+      ],
+      "galleryNote": "Generated product illustrations. Rear construction, closure and worn size are indicative; confirm final specifications and whether supplied singly or as a pair on enquiry.",
+      "imageStatus": "Approved for website preview use. Hidden construction and worn scale remain illustrative."
     },
     {
       "id": "AYM-CH-001",

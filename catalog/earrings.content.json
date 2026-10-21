@@ -1,0 +1,132 @@
+[
+  {
+    "productKey": "rounded-tapered-warm-hoop-earring",
+    "name": "Avir Curve Hoop Earring",
+    "shortDescription": "A rounded warm-toned hoop with a softly tapered profile.",
+    "description": "Avir keeps the hoop simple and sculptural. Its smooth, rounded front catches the light across a warm-toned surface, while the profile narrows toward the opening. A quiet curve that sits close to the lobe.",
+    "appearanceLabel": "Warm tone · rounded curve",
+    "design": "Compact hoop with a rounded face and a tapered-looking profile.",
+    "finish": "Smooth polished warm-toned surface.",
+    "designTags": ["Hoops", "Polished", "Sculptural"]
+  },
+  {
+    "productKey": "plain-warm-disc-stud",
+    "name": "Nirav Disc Stud",
+    "shortDescription": "A small polished disc with an even warm-toned face.",
+    "description": "Nirav is pared back to a single circular plane. Its smooth face reflects light softly, making the compact stud easy to wear as a subtle point of warmth.",
+    "appearanceLabel": "Warm tone · plain disc",
+    "design": "Circular stud with a flat, unadorned front.",
+    "finish": "Smooth reflective warm-toned face.",
+    "designTags": ["Studs", "Disc", "Polished"]
+  },
+  {
+    "productKey": "warm-meander-dark-disc-stud",
+    "name": "Rihan Framed Disc Stud",
+    "shortDescription": "A dark round centre framed by warm geometric detail.",
+    "description": "Rihan brings contrast to the stud silhouette. A dark circular centre sits within a warm-toned border, with a repeating angular motif visible along the edge. The detail appears gradually as the piece turns.",
+    "appearanceLabel": "Dark centre · geometric warm border",
+    "design": "Round stud with a dark centre and a patterned outer frame.",
+    "finish": "Smooth dark face against a reflective warm-toned border.",
+    "designTags": ["Studs", "Disc", "Patterned", "Colour contrast"]
+  },
+  {
+    "productKey": "matte-black-disc-stud",
+    "name": "Kavi Matte Disc Stud",
+    "shortDescription": "A clean dark disc with a softly matte appearance.",
+    "description": "Kavi makes its statement through restraint. A plain, flat round face and dark, low-sheen finish give the stud a crisp outline without additional decoration.",
+    "appearanceLabel": "Dark tone · matte-looking disc",
+    "design": "Plain circular stud with a flat front.",
+    "finish": "Dark matte-looking face with subtle edge definition.",
+    "designTags": ["Studs", "Disc", "Minimal"]
+  },
+  {
+    "productKey": "petal-engraved-crescent-hoop",
+    "name": "Arka Petal Crescent Hoop",
+    "shortDescription": "A warm crescent form with fine petal-like markings.",
+    "description": "Arka draws the eye to a softly rounded crescent. Fine petal-like lines and a small floral accent interrupt the polished warm-toned surface, bringing character to a compact hoop silhouette.",
+    "appearanceLabel": "Warm tone · petal-like detail",
+    "design": "Open-centre crescent hoop with fine decorative lines and a small floral-looking accent.",
+    "finish": "Polished warm-toned surface with fine contrasting markings.",
+    "designTags": ["Hoops", "Patterned", "Sculptural"]
+  },
+  {
+    "productKey": "silver-ball-ended-horseshoe-hoop",
+    "name": "Ojas Ball-End Hoop",
+    "shortDescription": "A pale-toned C curve finished with two rounded ends.",
+    "description": "Ojas traces a compact, open curve. Two polished rounded ends give the simple pale-toned form its identity, while the space between them keeps the silhouette light.",
+    "appearanceLabel": "Pale tone · ball-ended curve",
+    "design": "Open C-shaped hoop with two rounded terminal details.",
+    "finish": "Smooth, reflective pale-toned surface.",
+    "designTags": ["Hoops", "Open curve", "Polished"]
+  },
+  {
+    "productKey": "dark-accented-hoop",
+    "name": "Samar Accent Hoop",
+    "shortDescription": "A dark hoop with a line of small raised accents.",
+    "description": "Samar adds texture to a compact hoop. A row of small rounded details follows its outer face, catching points of light against the dark surface while keeping the overall profile neat.",
+    "appearanceLabel": "Dark tone · raised accents",
+    "design": "Compact hoop with a line of raised rounded details on its outer face.",
+    "finish": "Dark reflective surface with brighter raised points.",
+    "designTags": ["Hoops", "Textured", "Accent details"]
+  },
+  {
+    "productKey": "faceted-dark-hoop",
+    "name": "Tejas Facet Hoop",
+    "shortDescription": "A dark hoop shaped by small angular facets.",
+    "description": "Tejas shifts the light across a series of compact planes. The faceted dark outer face gives a familiar hoop shape a textured, architectural edge.",
+    "appearanceLabel": "Dark tone · faceted surface",
+    "design": "Compact hoop with a series of angular facets along the visible outer face.",
+    "finish": "Dark low-sheen surface with changing facet reflections.",
+    "designTags": ["Hoops", "Faceted", "Textured"]
+  },
+  {
+    "productKey": "small-warm-ball-stud",
+    "name": "Rion Ball Stud",
+    "shortDescription": "A tiny polished sphere for a restrained point of warmth.",
+    "description": "Rion is a single, smooth round detail. Its small scale and warm reflection make it one of the collection's quietest expressions, suited to a minimal everyday look.",
+    "appearanceLabel": "Warm tone · polished sphere",
+    "design": "Small spherical stud with a plain front.",
+    "finish": "Smooth reflective warm-toned surface.",
+    "designTags": ["Studs", "Minimal", "Polished"]
+  },
+  {
+    "productKey": "plain-dark-flat-hoop",
+    "name": "Kiaan Flat Hoop",
+    "shortDescription": "A compact dark hoop with a broad, plain face.",
+    "description": "Kiaan gives the hoop a clean graphic outline. The broad flat-looking outer face carries a dark, softly reflective finish, with no surface pattern to distract from its shape.",
+    "appearanceLabel": "Dark tone · broad flat face",
+    "design": "Compact circular hoop with a broad plain outer face.",
+    "finish": "Smooth dark surface with restrained reflections.",
+    "designTags": ["Hoops", "Minimal", "Polished"]
+  },
+  {
+    "productKey": "warm-bevelled-hoop",
+    "name": "Ayaan Bevel Hoop",
+    "shortDescription": "A warm-toned circular hoop with a broad bevelled face.",
+    "description": "Ayaan balances a broad polished face with a clean angled edge. Its circular shape feels structured without losing the softness of a classic hoop.",
+    "appearanceLabel": "Warm tone · bevelled face",
+    "design": "Circular compact hoop with a broad front plane and bevelled edge.",
+    "finish": "Polished warm-toned surface with a defined reflective bevel.",
+    "designTags": ["Hoops", "Bevelled", "Polished"]
+  },
+  {
+    "productKey": "fine-silver-tone-hoop",
+    "name": "Devan Fine Hoop",
+    "shortDescription": "A slender pale-toned hoop with an understated profile.",
+    "description": "Devan draws a fine line around the lobe. The slim, smooth-looking circular form keeps the focus on proportion, making it an easy detail to wear alone.",
+    "appearanceLabel": "Pale tone · fine hoop",
+    "design": "Slim circular hoop with no visible decorative motif.",
+    "finish": "Smooth reflective pale-toned surface.",
+    "designTags": ["Hoops", "Minimal", "Polished"]
+  },
+  {
+    "productKey": "slim-dark-round-hoop",
+    "name": "Neer Slim Hoop",
+    "shortDescription": "A fine dark hoop with a rounded profile.",
+    "description": "Neer keeps the hoop spare and fluid. Its narrow dark curve has a soft reflection along the edge, offering a quiet contrast against the skin.",
+    "appearanceLabel": "Dark tone · slim round curve",
+    "design": "Slim circular hoop with a smooth rounded-looking profile.",
+    "finish": "Dark reflective surface with a clean outline.",
+    "designTags": ["Hoops", "Minimal", "Polished"]
+  }
+]

@@ -1,4 +1,4 @@
-/* Browser checks for enquiry-led rings/bracelets and remaining sample categories.
+/* Browser checks for enquiry-led rings/bracelets/earrings and remaining sample categories.
  * Optional argument: existing GitHub Pages preview base URL.
  */
 const assert = require('node:assert/strict');
@@ -10,10 +10,11 @@ const catalogue = JSON.parse(fs.readFileSync(path.join(root, 'catalog/products.s
 const illustrated = catalogue.products.filter(p => p.catalogueStatus === 'enquiry');
 const bracelets = illustrated.filter(p => p.category === 'Bracelets');
 const rings = illustrated.filter(p => p.category === 'Rings');
+const earrings = illustrated.filter(p => p.category === 'Earrings');
 const total = catalogue.products.length;
 const base = process.argv[2] || 'http://127.0.0.1:8123/preview/';
 const prefix = base.startsWith('https:') ? 'deployed' : 'local';
-const out = path.join(root, 'output/catalogue-images/integration-review/bracelets');
+const out = path.join(root, 'output/catalogue-images/integration-review/earrings');
 fs.mkdirSync(out, { recursive: true });
 
 (async () => {
@@ -39,9 +40,10 @@ fs.mkdirSync(out, { recursive: true });
     assert.equal(served.status(), 200);
     assert.deepEqual(await served.json(), catalogue, 'Served catalogue differs from checked source');
     assert.equal(bracelets.length, 9);
+    assert.equal(earrings.length, 13);
     assert.equal(new Set(catalogue.products.map(p => p.id)).size, total);
 
-    for (const [category, products, tag] of [['Rings', rings, 'Inlay'], ['Bracelets', bracelets, 'Woven texture']]) {
+    for (const [category, products, tag] of [['Rings', rings, 'Inlay'], ['Bracelets', bracelets, 'Woven texture'], ['Earrings', earrings, 'Hoops']]) {
       await go('all-jewellery.html?category=' + category + '&karat=18K&sort=price-asc');
       await count(products.length); await fit();
       assert(await page.locator('#filter-karat').isHidden());
@@ -73,27 +75,30 @@ fs.mkdirSync(out, { recursive: true });
     assert.deepEqual(names, bracelets.map(p => p.name).sort((a, b) => a.localeCompare(b)));
 
     // Verify the actual opacity transition, including return, keyboard and reduced motion.
-    for (const category of ['Bracelets', '']) {
-      await go('all-jewellery.html' + (category ? '?category=' + category : '')); await count(category ? 9 : total); await loadCards();
-      const card = page.locator('.card').filter({ hasText: bracelets[0].name });
+    for (const category of ['Bracelets', 'Earrings', '']) {
+      await go('all-jewellery.html' + (category ? '?category=' + category : '')); await count(category === 'Bracelets' ? 9 : category === 'Earrings' ? 13 : total); await loadCards();
+      const target = category === 'Earrings' ? earrings[0] : bracelets[0];
+      const card = page.locator('.card').filter({ hasText: target.name });
       const overlay = card.locator('.card-worn');
       await overlay.waitFor({ state: 'attached' });
-      await page.waitForFunction(id => document.querySelector(`.card[href="product.html?id=${id}"] .card-worn`)?.classList.contains('is-ready'), bracelets[0].id);
+      await page.waitForFunction(id => document.querySelector(`.card[href="product.html?id=${id}"] .card-worn`)?.classList.contains('is-ready'), target.id);
       assert((await overlay.getAttribute('src')).includes('03-worn.webp'));
       assert.equal(await overlay.evaluate(el => getComputedStyle(el).transitionDuration), '0.36s');
       await card.locator('.imgwrap').hover();
-      await page.waitForFunction(id => getComputedStyle(document.querySelector(`.card[href="product.html?id=${id}"] .card-worn`)).opacity === '1', bracelets[0].id);
+      await page.waitForFunction(id => getComputedStyle(document.querySelector(`.card[href="product.html?id=${id}"] .card-worn`)).opacity === '1', target.id);
       await page.mouse.move(0, 0);
-      await page.waitForFunction(id => getComputedStyle(document.querySelector(`.card[href="product.html?id=${id}"] .card-worn`)).opacity === '0', bracelets[0].id);
+      await page.waitForFunction(id => getComputedStyle(document.querySelector(`.card[href="product.html?id=${id}"] .card-worn`)).opacity === '0', target.id);
       await page.keyboard.press('Tab');
       await card.focus();
-      await page.waitForFunction(id => getComputedStyle(document.querySelector(`.card[href="product.html?id=${id}"] .card-worn`)).opacity === '1', bracelets[0].id);
+      await page.waitForFunction(id => getComputedStyle(document.querySelector(`.card[href="product.html?id=${id}"] .card-worn`)).opacity === '1', target.id);
       await page.emulateMedia({ reducedMotion: 'reduce' });
       assert.equal(await overlay.evaluate(el => getComputedStyle(el).transitionDuration), '0s');
       await page.emulateMedia({ reducedMotion: 'no-preference' });
     }
     await go('all-jewellery.html?category=Bracelets'); await count(9); await loadCards();
     await page.screenshot({ path: path.join(out, prefix + '-bracelets-desktop.png'), fullPage: true });
+    await go('all-jewellery.html?category=Earrings'); await count(13); await loadCards();
+    await page.screenshot({ path: path.join(out, prefix + '-earrings-desktop.png'), fullPage: true });
     await go('all-jewellery.html?category=Chains'); await count(10);
     assert.equal(await page.locator('.card-worn').count(), 0);
 
@@ -101,9 +106,10 @@ fs.mkdirSync(out, { recursive: true });
       await go('product.html?id=' + product.id); await page.locator('h1').waitFor();
       assert.equal(await page.locator('h1').textContent(), product.name);
       assert.equal(await page.locator('.product-crumbs a').last().textContent(), product.category);
-      assert.equal(await page.locator('.thumbs button').count(), 3);
-      assert.equal(new Set(['primary', 'alternate', 'detail'].map(role => product.images[role])).size, 3);
-      for (const role of ['primary', 'alternate', 'detail']) {
+      const roles = product.gallery.map(view => view.key);
+      assert.equal(await page.locator('.thumbs button').count(), roles.length);
+      assert.equal(new Set(roles.map(role => product.images[role])).size, roles.length);
+      for (const role of roles) {
         await page.locator(`[data-img="${role}"]`).click();
         await galleryLoaded(path.basename(product.images[role]));
         assert.equal(await page.locator(`[data-img="${role}"]`).getAttribute('aria-pressed'), 'true');
@@ -125,6 +131,12 @@ fs.mkdirSync(out, { recursive: true });
         assert(!(await page.locator('.product-info').textContent()).includes('your ring'));
         assert((await page.locator('.gallery-note').textContent()).includes('fastening'));
       }
+      if (product.category === 'Earrings') {
+        assert(text.includes('closure or backing') && text.includes('singly or as a pair'));
+        assert((await page.locator('.sizing-link').textContent()).includes('earring fit'));
+        assert((await page.locator('.gallery-note').textContent()).includes('singly or as a pair'));
+        assert(!(await page.locator('.product-info').textContent()).includes('wrist fit'));
+      }
       await fit();
     }
     for (const id of ['AYM-RG-001', 'AYM-BR-001', 'AYM-BR-008', 'unknown']) {
@@ -137,6 +149,7 @@ fs.mkdirSync(out, { recursive: true });
     assert((await page.locator('#enquire-btn').getAttribute('href')).startsWith('https://wa.me/'));
     await go('index.html'); await page.locator('#featured-grid .card').first().waitFor();
     assert((await page.locator('.category-tile img').nth(1).getAttribute('src')).includes('/bracelets/'));
+    assert((await page.locator('.category-tile img').nth(2).getAttribute('src')).includes('/earrings/'));
     assert((await page.locator('#featured-grid .card').nth(1).getAttribute('href')).includes(bracelets[0].id));
     assert.equal(await page.locator('#featured-grid .card-worn').count(), 0);
     assert.equal(await page.locator('meta[name="robots"]').getAttribute('content'), 'noindex');
@@ -164,6 +177,12 @@ fs.mkdirSync(out, { recursive: true });
     assert(await mp.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
     await mp.evaluate(async () => { const images = [...document.querySelectorAll('.card img')]; images.forEach(img => { img.loading = 'eager'; }); await Promise.all(images.map(img => img.decode())); });
     await mp.screenshot({ path: path.join(out, prefix + '-bracelets-mobile.png'), fullPage: true });
+    await mp.goto(new URL('all-jewellery.html?category=Earrings', base).href);
+    await mp.waitForFunction(() => document.querySelectorAll('#product-grid .card').length === 13);
+    assert.equal(await mp.locator('.card-worn').count(), 0);
+    assert(await mp.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
+    await mp.evaluate(async () => { const images = [...document.querySelectorAll('.card img')]; images.forEach(img => { img.loading = 'eager'; }); await Promise.all(images.map(img => img.decode())); });
+    await mp.screenshot({ path: path.join(out, prefix + '-earrings-mobile.png'), fullPage: true });
     await mp.locator('[data-menu-open]').click();
     assert(await mp.locator('body').evaluate(el => el.classList.contains('drawer-open')));
     await mp.locator('[data-menu-close]').click();
@@ -172,8 +191,17 @@ fs.mkdirSync(out, { recursive: true });
     await mp.waitForFunction(() => document.getElementById('main-img')?.naturalWidth === 1254 && document.getElementById('main-img').getAttribute('src').includes('03-worn'));
     assert(await mp.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
     await mp.screenshot({ path: path.join(out, prefix + '-bracelet-product-mobile.png'), fullPage: true });
+    const rion = earrings.find(p => p.productKey === 'small-warm-ball-stud');
+    await mp.goto(new URL('product.html?id=' + rion.id, base).href);
+    await mp.locator('.thumbs button').first().waitFor();
+    assert.equal(await mp.locator('.thumbs button').count(), 2);
+    assert.equal(await mp.locator('[data-img="alternate"]').count(), 0);
+    await mp.locator('[data-img="detail"]').click();
+    await mp.waitForFunction(() => document.getElementById('main-img')?.naturalWidth === 1254 && document.getElementById('main-img').getAttribute('src').includes('03-worn'));
+    assert(await mp.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
+    await mp.screenshot({ path: path.join(out, prefix + '-rion-product-mobile.png'), fullPage: true });
     assert.deepEqual(errors, []);
-    const result = { base, checkedAt: new Date().toISOString(), ringProducts: rings.length, braceletProducts: bracelets.length, distinctGalleryAssets: illustrated.length * 3, catalogueProducts: total, result: 'passed', checks: ['29 product routes and all 87 gallery images', 'Bracelet/category copy and enquiry identity', 'Category-specific design filters, search and sorting', '360ms hover in bracelet and mixed grid, return, focus, reduced motion', 'Missing worn-image fallback and sample-category hero', 'Old product IDs unavailable', 'Homepage tile and noindex', '375px touch layout and three-view gallery'] };
+    const result = { base, checkedAt: new Date().toISOString(), ringProducts: rings.length, braceletProducts: bracelets.length, earringProducts: earrings.length, distinctGalleryAssets: illustrated.reduce((n, p) => n + p.gallery.length, 0), catalogueProducts: total, result: 'passed', checks: ['42 enquiry product routes and 125 selected gallery views', 'Earring category copy, two-view Rion exception and enquiry identity', 'Category-specific design filters, search and sorting', '360ms hero-to-worn hover, keyboard focus and reduced motion', 'Missing worn-image fallback and sample-category hero', 'Old product IDs unavailable', 'Homepage tile and noindex', '375px touch layout and variable-view gallery'] };
     fs.writeFileSync(path.join(out, prefix + '-verification.json'), JSON.stringify(result, null, 2) + '\n');
     console.log(JSON.stringify(result));
   } finally { await browser.close(); }
