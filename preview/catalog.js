@@ -1,6 +1,6 @@
-/* Shared helpers for enquiry-led rings and the remaining sample categories. */
+/* Shared helpers for enquiry-led designs and the remaining sample categories. */
 
-const CATALOG_URL = '../catalog/products.sample.json?v=20261021-rings-1';
+const CATALOG_URL = '../catalog/products.sample.json?v=20261021-bracelets-1';
 
 function escapeHtml(value) {
   return String(value ?? '').replace(/[&<>"']/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]));
@@ -39,7 +39,8 @@ function materialLabel(variant) {
 function enquiryMessage(product, selection = {}) {
   const url = new URL(productUrl(product), window.location.href).href;
   if (isEnquiryProduct(product)) {
-    return `Hello, I'm interested in ${product.name} (${product.id}). Please share the price, materials, karat options, sizing, weight and availability for this design. ${url}`;
+    const sizing = product.category === 'Bracelets' ? 'wrist sizing, length, fastening and adjustment options' : 'karat options, sizing';
+    return `Hello, I'm interested in ${product.name} (${product.id}). Please share the price, materials, ${sizing}, weight and availability for this design. ${url}`;
   }
   const size = selection.size || 'I need guidance';
   return `Hello, I'm interested in ${product.name} (${product.id}). My sample selection is ${selection.goldColour}, ${selection.karat}, ${size}. Please confirm the actual materials, price, availability and ordering details. ${url}`;

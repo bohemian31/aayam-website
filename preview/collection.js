@@ -1,4 +1,12 @@
 let ALL = [];
+const COLLECTION_INTROS = {
+  Rings: 'Bands shaped by texture, clean lines and contrast. Explore the illustrated designs and enquire about materials, sizing and pricing.',
+  Bracelets: 'Linked forms, woven textures and considered contrasts for the wrist. Explore the illustrated designs and enquire about materials, fit and pricing.'
+};
+
+function categoryDesigns(category) {
+  return [...new Set(ALL.filter(product => product.category === category).flatMap(product => product.designTags || []))].sort();
+}
 
 function paramsFromUrl() {
   const params = new URLSearchParams(window.location.search);
@@ -8,9 +16,10 @@ function paramsFromUrl() {
 }
 
 function normaliseFilters(state) {
-  if (state.category === 'Rings') {
+  if (COLLECTION_INTROS[state.category]) {
     state.colour = ''; state.karat = '';
     if (state.sort.startsWith('price-')) state.sort = 'featured';
+    if (!categoryDesigns(state.category).includes(state.design)) state.design = '';
   } else { state.design = ''; }
 }
 
@@ -32,15 +41,21 @@ function compareByPrice(a, b, descending) {
 }
 
 function syncControls(state) {
-  const rings = state.category === 'Rings';
+  const enquiry = Boolean(COLLECTION_INTROS[state.category]);
+  const design = document.getElementById('filter-design');
+  design.innerHTML = '<option value="">Design: All</option>' + (enquiry ? categoryDesigns(state.category).map(value => `<option value="${escapeHtml(value)}">${escapeHtml(value)}</option>`).join('') : '');
   ['category', 'colour', 'karat', 'design', 'sort'].forEach(key => {
     document.getElementById(key === 'sort' ? 'sort' : 'filter-' + key).value = state[key];
   });
-  document.getElementById('filter-colour').hidden = rings;
-  document.getElementById('filter-karat').hidden = rings;
-  document.getElementById('filter-design').hidden = !rings;
-  document.getElementById('ring-intro').hidden = !rings;
-  document.querySelectorAll('#sort option[value^="price-"]').forEach(option => { option.disabled = rings; });
+  document.getElementById('filter-colour').hidden = enquiry;
+  document.getElementById('filter-karat').hidden = enquiry;
+  design.hidden = !enquiry;
+  design.setAttribute('aria-label', enquiry ? state.category + ' design' : 'Product design');
+  const intro = document.getElementById('collection-intro');
+  intro.hidden = !enquiry;
+  intro.querySelector('h1').textContent = state.category;
+  intro.querySelector('p').textContent = COLLECTION_INTROS[state.category] || '';
+  document.querySelectorAll('#sort option[value^="price-"]').forEach(option => { option.disabled = enquiry; });
 }
 
 function apply(state) {
@@ -90,9 +105,9 @@ loadCatalog().then(data => {
   fill('filter-category', data.categories);
   fill('filter-colour', data.goldColours);
   fill('filter-karat', data.karats);
-  fill('filter-design', [...new Set(ALL.filter(p => p.category === 'Rings').flatMap(p => p.designTags || []))].sort());
   const state = paramsFromUrl();
   ['category', 'colour', 'karat', 'design', 'sort'].forEach(key => {
+    if (key === 'design') return; // Category-specific options are checked after normalisation.
     const select = document.getElementById(key === 'sort' ? 'sort' : 'filter-' + key);
     if (![...select.options].some(option => option.value === state[key])) state[key] = key === 'sort' ? 'featured' : '';
   });

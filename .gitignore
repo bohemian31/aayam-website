@@ -14,5 +14,5 @@ Products Images/
 # Local image-production candidates pending review; never auto-publish to Pages
 output/catalogue-image-pilot/
 
-# Production masters, references and local review reports stay local; selected web exports live in catalog/images/rings/
+# Production masters, references and local review reports stay local; selected web exports live in catalog/images/rings/ and catalog/images/bracelets/
 output/catalogue-images/

@@ -71,7 +71,7 @@ def main():
                       'mediaType': 'generated_illustration', 'assets': assets})
     catalogue = json.loads(CATALOGUE.read_text())
     catalogue['products'] = records + [p for p in catalogue['products'] if p['category'] != 'Rings']
-    catalogue['_readme'] = 'Mixed-stage preview: 20 approved image-led ring designs with generated illustrations and enquiry-only specifications; other categories retain reference photos and explicitly labelled sample facts. No unverified numeric prices or product-specific material claims are supplied for rings.'
+    catalogue['_readme'] = 'Mixed-stage preview: approved illustrated designs use enquiry-only product specifications; remaining categories retain reference photos and explicitly labelled sample facts. Generated details and worn fit are indicative, not verified physical specifications.'
     CATALOGUE.write_text(json.dumps(catalogue, ensure_ascii=False, indent=2) + '\n')
     (ROOT / 'catalog/rings.media.json').write_text(json.dumps(media, ensure_ascii=False, indent=2) + '\n')
     print(f'Exported {len(records)} rings / {len(media) * 3} views; {len(catalogue["products"])} catalogue records.')

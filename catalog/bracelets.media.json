@@ -1,0 +1,344 @@
+[
+  {
+    "id": "AYM-BR-101",
+    "productKey": "textured-oval-link-bracelet",
+    "name": "Rudra Oval Link Bracelet",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/bracelets/textured-oval-link-bracelet/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "f6e3039ba4cf833dde18e94af303059a72615654a45b91a5ed72f306a54860cd",
+        "exportSha256": "2f86e58c6a29da9d1f5f79b61ab601098c051a0ea2ad5672dd2c11861ca4988c"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/bracelets/textured-oval-link-bracelet/02-detail.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "da2a2d7928b63d6b771fd7ebb40d0a537c14d8e7da4615516734a39ca8d9b361",
+        "exportSha256": "d71cb66cee9d903d2692f637edcdf84322847e44b0216565f9d1846cfb613f2a"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/bracelets/textured-oval-link-bracelet/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "9785947950ecf99efc06a48df4db80615ff829f071ad1134755a5b2638640d0c",
+        "exportSha256": "07d85cb3dbe693209d4ba0e6b9ac3ec448f2981bc1fd654dbf4899a3c50533af"
+      }
+    ]
+  },
+  {
+    "id": "AYM-BR-102",
+    "productKey": "rose-geometric-accent-bracelet",
+    "name": "Arka Geometric Line Bracelet",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/bracelets/rose-geometric-accent-bracelet/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "97e9c7f2b1566fc91f3f3a0c24f0dc157df7960439a27fcd4d2c18d896398d2a",
+        "exportSha256": "78d993df1b937c086826aafa2a621e4bb47420a056bcdc582854e3f29311c540"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/bracelets/rose-geometric-accent-bracelet/02-detail.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "7ec4fb99d9eb8ab555355b067ca4a863dd39e1f2628b5469e06411fa70f81b1d",
+        "exportSha256": "ac66affa7725551f9d84453517a051e567b7e224cdd2166a0d61dfdc63accfaa"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/bracelets/rose-geometric-accent-bracelet/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "4a620cb54ae8e69e634017ebdf3cd653ec519d023c41e50b31fa9eef051c4f2c",
+        "exportSha256": "66b33a0361e2a796307a5ec1a7aa96251dcce8e8cf83f37e6ed099a46f19231e"
+      }
+    ]
+  },
+  {
+    "id": "AYM-BR-103",
+    "productKey": "dark-curb-link-bracelet",
+    "name": "Nirav Curb Link Bracelet",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/bracelets/dark-curb-link-bracelet/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "34b03475d640826c0d293a4b99ef26afa71583927f584de1b3f11abd0b2560f0",
+        "exportSha256": "95d0c8fadd8472f931754d560a325d24dbf9703b5a121cc212b1e29e908ccf5c"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/bracelets/dark-curb-link-bracelet/02-detail.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "656ee7c9ccaa9e7c4363f9d80c300e00832cd8d14c017e02a182fc64460828a4",
+        "exportSha256": "a61e906f93b31589fb090cc9fb2a37f5bfc07940aa38831bf751638664f07463"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/bracelets/dark-curb-link-bracelet/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "22adab23b0e5264f2f5bab81d6ce3cd5ab079d7e475838909e04873a855fb637",
+        "exportSha256": "38d599399efa3c645525aeb7ac63ce800e2f559301a78dbc95e7fe48e3413144"
+      }
+    ]
+  },
+  {
+    "id": "AYM-BR-104",
+    "productKey": "graphite-chevron-link-bracelet",
+    "name": "Tejas Chevron Link Bracelet",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/bracelets/graphite-chevron-link-bracelet/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "4dd0077a93fb8fc9797ffd7972fd2c55add5adc538a894fbbc3159c94424ccad",
+        "exportSha256": "6aab8810721d560f05a96206dc93316c0b36393b615804bc65d3e6bb4b226a09"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/bracelets/graphite-chevron-link-bracelet/02-detail.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "c8261c466ab6be2888d561a95c1c5704ae8523b0b93874441cdbaf175146f329",
+        "exportSha256": "b6764b5b1bb328d329f7483f342ae21f177d0f681301a4fe5a49a33ad183096e"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/bracelets/graphite-chevron-link-bracelet/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "f015da96126a18c27aa81218a16405f174734c116acc9f9a7f8e38ec87578dee",
+        "exportSha256": "236db271ce48b9ab8224476aae6dc55c8ff84962c86d7ecd9c260c73d80f1d56"
+      }
+    ]
+  },
+  {
+    "id": "AYM-BR-105",
+    "productKey": "two-tone-angular-link-bracelet",
+    "name": "Zaal Angular Link Bracelet",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/bracelets/two-tone-angular-link-bracelet/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "809d44b02cfc621dbb9a7d0ee39a725b63099976857be0371c36882be9d12983",
+        "exportSha256": "586ea7a48fbafd829fefe524241042eda6f458bc155158e8cef6dd572f94f627"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/bracelets/two-tone-angular-link-bracelet/02-detail.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "ba6de70816baf69f423d3db54d1a5e969d6a2dfa9a6cd16ac203199e91c15ef0",
+        "exportSha256": "b90cc9324d5f4c0b687b425ee0cbf199349a0badce2cae57eb905eb477a73e40"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/bracelets/two-tone-angular-link-bracelet/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "72b408958b6721eb6f4d695efd6f45c87e81899c4849d2eb7eb70abbd576f56c",
+        "exportSha256": "aad887de72289f53db20ca9b9b50575ac1aac8c4325d76d5a7d61e7b87350d2b"
+      }
+    ]
+  },
+  {
+    "id": "AYM-BR-106",
+    "productKey": "crimson-woven-link-bracelet",
+    "name": "Ravik Crimson Weave Bracelet",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/bracelets/crimson-woven-link-bracelet/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "68efe93dd2e4b48185c8f863e9e480a93e37c8fa51badf5b391f2ef8a4692c6a",
+        "exportSha256": "e3eaed4c1d937421780550777d67d6332d5f7f00441629e00a2276fb74e52731"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/bracelets/crimson-woven-link-bracelet/02-detail.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "abe1222eb427fc888bf6c111e1f4d6bc908a2157c9c7abdf66c05a61692a2717",
+        "exportSha256": "521c00677c79698a613bcced74c3901d5446758b47ce969670ee971663ffd422"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/bracelets/crimson-woven-link-bracelet/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "55899f5311600ae1c39165650b77327a9efac658a88a74af2f9d6175468360ef",
+        "exportSha256": "fbcc6fd9746746b7c7c9441beeb41392820c451f5d2f1c57a65cddb3f584861d"
+      }
+    ]
+  },
+  {
+    "id": "AYM-BR-107",
+    "productKey": "blue-woven-link-bracelet",
+    "name": "Ravik Indigo Weave Bracelet",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/bracelets/blue-woven-link-bracelet/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "f874baed7fbefecbf1e140a88d18b1d98836d0e3f62dcf6b1eadd63c6b96c6e8",
+        "exportSha256": "10d83d5f72ac4cad25e4cde3f226ee5899b4bd11004627daa2f9d317ecf0e799"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/bracelets/blue-woven-link-bracelet/02-detail.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "592936b66f9a406b50219289bc700bf99f42c34c8dcb0f6bc7a4dc686ba4cb58",
+        "exportSha256": "ceab96d7ef672729c66161420e5921925faeb7f523abdb13f88330dd21895215"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/bracelets/blue-woven-link-bracelet/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "fc1ddc1570faef17f44e30577a807ebbb994fe3dd59e1b61ad654caa3fd3644c",
+        "exportSha256": "17ac9a60c26b4c92d8c4c4fcc6b4903ee600af22012fef58fb6cefcab696b173"
+      }
+    ]
+  },
+  {
+    "id": "AYM-BR-108",
+    "productKey": "two-tone-mosaic-link-bracelet",
+    "name": "Kavi Mosaic Link Bracelet",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/bracelets/two-tone-mosaic-link-bracelet/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "4977552f7fdbdf9e1f157dec9c440a3203b257ee8d666dab0c6fc0e2adef55f7",
+        "exportSha256": "4178aa268f5c8573d44653dc9f894dbc29851ef2284125780f6fa1ea108575fd"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/bracelets/two-tone-mosaic-link-bracelet/02-detail.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "240357bc6b7a8861b4550704824f260e5be7d41534a2c87b1dcae11b6c025066",
+        "exportSha256": "783e420df8b0fcc4a6b7288359a6aa4f5e9b9a73ec82704508d93c0fd1ba1d34"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/bracelets/two-tone-mosaic-link-bracelet/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "72a476823374009f44a206e96b302cc7b9ff7562e0271553d86a4f9d3c3daa6f",
+        "exportSha256": "66cba1a64f3e982bd5dcd0d00a0be46f03f452ef46b0dd131e6cd0d07cb1c117"
+      }
+    ]
+  },
+  {
+    "id": "AYM-BR-109",
+    "productKey": "olive-interlocking-link-cord-bracelet",
+    "name": "Ansh Interlock Cord Bracelet",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/bracelets/olive-interlocking-link-cord-bracelet/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "27308e891fe5a028727f0e673d9385659ad8d0cb02332386321c377589a0d09b",
+        "exportSha256": "50264b4cce1879cadc86f53cdbaab69df39b31f0c1453044ec6c6901d7cb0181"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/bracelets/olive-interlocking-link-cord-bracelet/02-detail.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "2a4c42ce16b0bff81acca98e0518bb06388bf8afd95b4e6f68b3544b558dba8b",
+        "exportSha256": "28407a695e8811299334435a064381399fb3ff9c7f7a755623fc74f1919a36ee"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/bracelets/olive-interlocking-link-cord-bracelet/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "296ea518d30a47a7c06628ed815a92240a2b6b867837b050ff35aa77fcafc795",
+        "exportSha256": "0b680e349bf8db0a30dc05b56a3576b5fdab67829112982d7945686d46886b8e"
+      }
+    ]
+  }
+]

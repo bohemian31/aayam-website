@@ -2,6 +2,33 @@
 
 This records decisions and artifacts visible in the project and conversation. Earlier phase entries use 26 September 2026; later records carry their actual dates. It is a handoff history, not proof that a remote service or deployed site was verified.
 
+## 21 October 2026 — integrate nine bracelet designs and worn-image hover
+
+- Accepted batch 001 for website preview use, alongside the approved crimson sample. Copied nine canonical master sets and exported 27 square WebPs with hashes. Replaced eight placeholders with AYM-BR-101–109; retired IDs show unavailable. All 37 other records remain unchanged; total 46.
+- Added authored product names, descriptions, design/finish details and wrist-fit/care/fastening guidance. Prices, materials, karat, sizes, weights and availability are confirmed on enquiry, with no fabricated product specifications. The worn image and fine geometry are labelled illustrative.
+- Used the existing 360ms hero-to-worn collection dissolve for bracelets, including keyboard focus, touch, reduced motion and missing-image fallback. Generalised ring-specific page/filter copy, added bracelet design filters/category intro, updated the homepage tile, preview notices and cache versions.
+- Added a repeatable approved-master bracelet builder, integration documentation and shared browser checks; the prior ring verifier forwards to them. Removed eight unused public bracelet reference exports; retained originals locally/Git history.
+- Local static and browser checks passed: 29 enquiry routes, 87 gallery images, enquiry identity, design/search/sort, hover/mixed grid/focus/reduced motion, failed worn images, retired IDs, remaining sample flow, home/noindex and mobile touch layouts. GitHub Pages publication follows these checks; Netlify/root launch page is unchanged.
+
+## 21 October 2026 — approved Bracelet sample and remaining eight sets
+
+- Saved the founder-approved crimson weave sample 002 to approved/bracelets/ and locked v2 specifications and reusable prompts.
+- Audited 17 source files; grouped repeated views, kept crimson/blue variants distinct, and generated eight remaining product sets (24 separate 1254 × 1254 PNGs). Reworked the historical dark-curb sample to v2. Founder selected the left interlocking-link cord design in b8.jpg; excluded the right screw-clasp version.
+- Used the built-in image tool with the approved hero framing, straight diagonal detail and four supplied wrist references. Made 25 calls including one small dark-curb hero correction. Saved exact prompts, original source copies, hashes, per-product limitations, contact sheets, a local review gallery and verification records. Original source files are unchanged.
+- All eight sets are complete review candidates. Four wrist-only designs need complete closure/underside evidence; intricate angular plate geometry and mosaic accents need clearer verification. No bracelet catalogue change or publication occurred.
+
+## 21 October 2026 — revised Bracelet sample 002
+
+- Founder changed bracelet heroes to 80–85% frame width, replaced the alternate angle with a straight diagonal middle-section macro, and supplied four bracelet wrist references. Recorded v2 rules and preserved sample 001 as history.
+- Generated Ravik Crimson Weave Bracelet from b-6-1.jpg and b-6.jpg; excluded the blue variant. Used wrist reference 1 for pose/clothing only. Saved three 1254 × 1254 images, exact prompts, source/reference copies, hashes and contact sheet under sample-002/.
+- One hero framing correction brought its approximate product width to 81%; four built-in calls in total. The macro is a straight top-right/bottom-left strip. Founder review is pending; website content is unchanged.
+
+## 21 October 2026 — first three-view Bracelet sample
+
+- Inspected 17 bracelet source photos and chose the b3 group, which has two clean product views and an on-wrist image of one dark curb-link design.
+- Created three separate 1254 × 1254 sample images: ivory studio hero, elevated alternate showing the clasp, and on-wrist styling in pale neutral clothing. One hero scale correction yielded four built-in image calls.
+- Saved all selected images, source copies, exact prompts, hashes, review contact sheet and proposed bracelet specification under output/catalogue-images/review/bracelets/sample-001/. Working name: Nirav Curb Link Bracelet. Founder review is pending; no bracelet website change or publication occurred.
+
 ## 21 October 2026 — worn-image dissolve on collection hover
 
 - Collection cards with a distinct worn/third image dissolve from hero to that view on image hover, and back on pointer exit. Keyboard focus offers the same preview on devices with a fine pointer.

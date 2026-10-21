@@ -1,5 +1,5 @@
 {
-  "_readme": "Mixed-stage preview: 20 approved image-led ring designs with generated illustrations and enquiry-only specifications; other categories retain reference photos and explicitly labelled sample facts. No unverified numeric prices or product-specific material claims are supplied for rings.",
+  "_readme": "Mixed-stage preview: approved illustrated rings and bracelets use enquiry-only product specifications; chains and pendants retain reference photos and explicitly labelled sample facts. Generated details, unseen construction and worn fit are indicative, not verified physical specifications.",
   "currency": "INR",
   "sampleContent": true,
   "categories": [
@@ -1144,353 +1144,539 @@
       "imageStatus": "Approved generated product illustrations. Worn scale is indicative; final product details are confirmed on enquiry."
     },
     {
-      "id": "AYM-BR-001",
-      "slug": "dhruv-fine-link-bracelet",
-      "name": "Dhruv Fine Link Bracelet",
+      "id": "AYM-BR-101",
+      "productKey": "textured-oval-link-bracelet",
+      "slug": "rudra-oval-link-bracelet",
+      "name": "Rudra Oval Link Bracelet",
       "category": "Bracelets",
-      "shortDescription": "A fine-link bracelet with a compact clasp.",
-      "description": "Dhruv forms a light, continuous line around the wrist. Its small repeating links keep the silhouette understated.",
-      "weightGrams": 8,
-      "sizeType": "Bracelet length",
-      "sizeOptions": [
-        "S (6.5\")",
-        "M (7\")",
-        "L (7.5\")"
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "Rust-brown textured ovals joined by fine warm-toned links.",
+      "description": "Rudra follows a quiet rhythm of small oval centres with an irregular, rust-brown texture. Warm-toned rims frame each oval, while fine connecting links leave a little space between them. The contrast of texture and reflection gives this slender bracelet its character.",
+      "appearanceLabel": "Textured ovals · warm-toned links",
+      "designTags": [
+        "Oval links",
+        "Textured"
       ],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
+      "weightGrams": null,
+      "sizeType": "Wrist fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for wrist sizing guidance",
+      "variants": [],
+      "fitGuidance": "Share your wrist measurement and whether you prefer a close or relaxed fit. We’ll confirm the bracelet length, fastening and any adjustment options. The worn image illustrates styling; it is not a measured fit guide.",
+      "details": {
+        "design": "A single line of oval settings with raised textured brown centres and small connecting links.",
+        "finish": "Reflective warm-toned borders against a rough-textured brown centre.",
+        "composition": "Materials, any accent details and any applicable karat options are confirmed on enquiry.",
+        "dimensions": "Band width, bracelet length and wrist fit are confirmed on enquiry.",
+        "fastening": "Confirm the final fastening and any adjustment options on enquiry.",
+        "weight": "Confirmed for the final piece and size."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Until the materials are confirmed, avoid soaking or using jewellery cleaners; ask us for care instructions suited to the piece.",
+      "images": {
+        "primary": "catalog/images/bracelets/textured-oval-link-bracelet/01-hero.webp",
+        "alternate": "catalog/images/bracelets/textured-oval-link-bracelet/02-detail.webp",
+        "detail": "catalog/images/bracelets/textured-oval-link-bracelet/03-worn.webp",
+        "onBody": "catalog/images/bracelets/textured-oval-link-bracelet/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
         {
-          "goldColour": "Yellow",
-          "karat": "14K",
-          "priceINR": 101000
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Rudra Oval Link Bracelet — illustrated hero view"
         },
         {
-          "goldColour": "White",
-          "karat": "14K",
-          "priceINR": 101000
+          "key": "alternate",
+          "label": "Detail view",
+          "alt": "Rudra Oval Link Bracelet — illustrated diagonal design detail"
+        },
+        {
+          "key": "detail",
+          "label": "On wrist",
+          "alt": "Rudra Oval Link Bracelet — illustrative styling on a wrist"
         }
       ],
-      "details": {
-        "composition": "14K gold",
-        "dimensions": "Link width approx. 5mm",
-        "fastening": "Concealed box clasp with safety catch",
-        "includes": "Bracelet only"
-      },
-      "care": "Remove before swimming, exercise or manual work. Wipe with a soft cloth after wear.",
-      "images": {
-        "primary": "catalog/images/reference/bracelet-01.jpg",
-        "alternate": "catalog/images/reference/bracelet-01.jpg",
-        "detail": "catalog/images/reference/bracelet-01.jpg",
-        "onBody": null
-      },
-      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
+      "galleryNote": "Generated product illustrations. Fine details, fastening and worn fit are indicative; confirm final specifications on enquiry.",
+      "imageStatus": "Approved for website preview use. Generated details, hidden construction and worn scale remain illustrative."
     },
     {
-      "id": "AYM-BR-002",
-      "slug": "nirav-open-cuff",
-      "name": "Nirav Open Cuff",
+      "id": "AYM-BR-102",
+      "productKey": "rose-geometric-accent-bracelet",
+      "slug": "arka-geometric-line-bracelet",
+      "name": "Arka Geometric Line Bracelet",
       "category": "Bracelets",
-      "shortDescription": "A smooth open cuff with gently rounded ends.",
-      "description": "Nirav pares the cuff back to a clean arc. The open shape and soft edges let its outline lead.",
-      "weightGrams": 8,
-      "sizeType": "Bracelet length",
-      "sizeOptions": [
-        "S (6.5\")",
-        "M (7\")",
-        "L (7.5\")"
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "Rose-toned geometric links frame a fine line of bright accents.",
+      "description": "Arka brings a measured rhythm to the wrist. Two rows of rose-toned geometric facets frame a narrow central line of bright details, balancing clean edges with small points of light. Its repeating structure sits naturally beside a simple shirt cuff.",
+      "appearanceLabel": "Rose-toned facets · bright accents",
+      "designTags": [
+        "Geometric",
+        "Accent details",
+        "Polished"
       ],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
+      "weightGrams": null,
+      "sizeType": "Wrist fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for wrist sizing guidance",
+      "variants": [],
+      "fitGuidance": "Share your wrist measurement and whether you prefer a close or relaxed fit. We’ll confirm the bracelet length, fastening and any adjustment options. The worn image illustrates styling; it is not a measured fit guide.",
+      "details": {
+        "design": "Two outer rows of compact geometric sections flanking a narrow central accent line.",
+        "finish": "Polished rose-toned planes with bright pale detailing along the centre.",
+        "composition": "Materials, any accent details and any applicable karat options are confirmed on enquiry.",
+        "dimensions": "Band width, bracelet length and wrist fit are confirmed on enquiry.",
+        "fastening": "Confirm the final fastening and any adjustment options on enquiry.",
+        "weight": "Confirmed for the final piece and size."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Until the materials are confirmed, avoid soaking or using jewellery cleaners; ask us for care instructions suited to the piece.",
+      "images": {
+        "primary": "catalog/images/bracelets/rose-geometric-accent-bracelet/01-hero.webp",
+        "alternate": "catalog/images/bracelets/rose-geometric-accent-bracelet/02-detail.webp",
+        "detail": "catalog/images/bracelets/rose-geometric-accent-bracelet/03-worn.webp",
+        "onBody": "catalog/images/bracelets/rose-geometric-accent-bracelet/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
         {
-          "goldColour": "Yellow",
-          "karat": "9K",
-          "priceINR": 65000
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Arka Geometric Line Bracelet — illustrated hero view"
         },
         {
-          "goldColour": "Yellow",
-          "karat": "14K",
-          "priceINR": 101000
+          "key": "alternate",
+          "label": "Detail view",
+          "alt": "Arka Geometric Line Bracelet — illustrated diagonal design detail"
+        },
+        {
+          "key": "detail",
+          "label": "On wrist",
+          "alt": "Arka Geometric Line Bracelet — illustrative styling on a wrist"
         }
       ],
-      "details": {
-        "composition": "9K or 14K gold",
-        "dimensions": "Link width approx. 3mm",
-        "fastening": "Lobster clasp",
-        "includes": "Bracelet only"
-      },
-      "care": "Remove before swimming, exercise or manual work. Wipe with a soft cloth after wear.",
-      "images": {
-        "primary": "catalog/images/reference/bracelet-02.jpg",
-        "alternate": "catalog/images/reference/bracelet-02.jpg",
-        "detail": "catalog/images/reference/bracelet-02.jpg",
-        "onBody": null
-      },
-      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
+      "galleryNote": "Generated product illustrations. Fine details, fastening and worn fit are indicative; confirm final specifications on enquiry.",
+      "imageStatus": "Approved for website preview use. Generated details, hidden construction and worn scale remain illustrative."
     },
     {
-      "id": "AYM-BR-003",
-      "slug": "samar-facet-cuff",
-      "name": "Samar Facet Cuff",
+      "id": "AYM-BR-103",
+      "productKey": "dark-curb-link-bracelet",
+      "slug": "nirav-curb-link-bracelet",
+      "name": "Nirav Curb Link Bracelet",
       "category": "Bracelets",
-      "shortDescription": "An open cuff shaped by angular planes.",
-      "description": "Samar gives the classic cuff a series of crisp facets. The changing planes add definition without ornament.",
-      "weightGrams": 3,
-      "sizeType": "Bracelet length",
-      "sizeOptions": [
-        "One size (adjustable)"
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "A slim curb-link chain with a dark reflective finish.",
+      "description": "Nirav keeps the familiar curb-chain form spare and precise. Flattened interlocking links create a continuous line, with pale reflections moving across the dark graphite-toned surface. Wear it alone for a quiet point of contrast at the wrist.",
+      "appearanceLabel": "Dark graphite tone · curb links",
+      "designTags": [
+        "Curb links",
+        "Polished"
       ],
-      "sizeHelpText": null,
-      "variants": [
+      "weightGrams": null,
+      "sizeType": "Wrist fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for wrist sizing guidance",
+      "variants": [],
+      "fitGuidance": "Share your wrist measurement and whether you prefer a close or relaxed fit. We’ll confirm the bracelet length, fastening and any adjustment options. The worn image illustrates styling; it is not a measured fit guide.",
+      "details": {
+        "design": "One continuous row of flattened, interlocking oval curb links.",
+        "finish": "Smooth dark reflective surfaces with bright edges.",
+        "composition": "Materials, any accent details and any applicable karat options are confirmed on enquiry.",
+        "dimensions": "Band width, bracelet length and wrist fit are confirmed on enquiry.",
+        "fastening": "Confirm the final fastening and any adjustment options on enquiry.",
+        "weight": "Confirmed for the final piece and size."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Until the materials are confirmed, avoid soaking or using jewellery cleaners; ask us for care instructions suited to the piece.",
+      "images": {
+        "primary": "catalog/images/bracelets/dark-curb-link-bracelet/01-hero.webp",
+        "alternate": "catalog/images/bracelets/dark-curb-link-bracelet/02-detail.webp",
+        "detail": "catalog/images/bracelets/dark-curb-link-bracelet/03-worn.webp",
+        "onBody": "catalog/images/bracelets/dark-curb-link-bracelet/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
         {
-          "goldColour": "Yellow",
-          "karat": "18K",
-          "priceINR": 65000
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Nirav Curb Link Bracelet — illustrated hero view"
+        },
+        {
+          "key": "alternate",
+          "label": "Detail view",
+          "alt": "Nirav Curb Link Bracelet — illustrated diagonal design detail"
+        },
+        {
+          "key": "detail",
+          "label": "On wrist",
+          "alt": "Nirav Curb Link Bracelet — illustrative styling on a wrist"
         }
       ],
-      "details": {
-        "composition": "18K gold roundels, black onyx beads, elasticated cord",
-        "dimensions": "Fits most wrists 6–7.5\"",
-        "fastening": "None — stretch fit",
-        "includes": "Bracelet only"
-      },
-      "care": "Avoid stretching the cord excessively when putting on or removing. Keep away from lotion and perfume.",
-      "images": {
-        "primary": "catalog/images/reference/bracelet-03.jpg",
-        "alternate": "catalog/images/reference/bracelet-03.jpg",
-        "detail": "catalog/images/reference/bracelet-03.jpg",
-        "onBody": null
-      },
-      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
+      "galleryNote": "Generated product illustrations. Fine details, fastening and worn fit are indicative; confirm final specifications on enquiry.",
+      "imageStatus": "Approved for website preview use. Generated details, hidden construction and worn scale remain illustrative."
     },
     {
-      "id": "AYM-BR-004",
-      "slug": "kian-engraved-cuff",
-      "name": "Kian Engraved Cuff",
+      "id": "AYM-BR-104",
+      "productKey": "graphite-chevron-link-bracelet",
+      "slug": "tejas-chevron-link-bracelet",
+      "name": "Tejas Chevron Link Bracelet",
       "category": "Bracelets",
-      "shortDescription": "An open cuff with a patterned face.",
-      "description": "A repeating surface detail runs along Kian's outer edge. Its simple open form balances the more detailed finish.",
-      "weightGrams": 8,
-      "sizeType": "Bracelet length",
-      "sizeOptions": [
-        "S (6.5\")",
-        "M (7\")",
-        "L (7.5\")"
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "Pale chevron links trace a zigzag across a dark backing.",
+      "description": "Tejas draws its character from a repeating chevron. Pale diagonal surfaces cross a dark background, creating a clear rhythm of light and shadow. Small rounded details along the edges soften the angular pattern without losing its definition.",
+      "appearanceLabel": "Chevron pattern · pale and dark contrast",
+      "designTags": [
+        "Geometric",
+        "Chevron",
+        "Polished"
       ],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
+      "weightGrams": null,
+      "sizeType": "Wrist fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for wrist sizing guidance",
+      "variants": [],
+      "fitGuidance": "Share your wrist measurement and whether you prefer a close or relaxed fit. We’ll confirm the bracelet length, fastening and any adjustment options. The worn image illustrates styling; it is not a measured fit guide.",
+      "details": {
+        "design": "Repeating diagonal link faces with dark triangular gaps and small rounded edge details.",
+        "finish": "Reflective pale faces against darker recessed sections.",
+        "composition": "Materials, any accent details and any applicable karat options are confirmed on enquiry.",
+        "dimensions": "Band width, bracelet length and wrist fit are confirmed on enquiry.",
+        "fastening": "Confirm the final fastening and any adjustment options on enquiry.",
+        "weight": "Confirmed for the final piece and size."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Until the materials are confirmed, avoid soaking or using jewellery cleaners; ask us for care instructions suited to the piece.",
+      "images": {
+        "primary": "catalog/images/bracelets/graphite-chevron-link-bracelet/01-hero.webp",
+        "alternate": "catalog/images/bracelets/graphite-chevron-link-bracelet/02-detail.webp",
+        "detail": "catalog/images/bracelets/graphite-chevron-link-bracelet/03-worn.webp",
+        "onBody": "catalog/images/bracelets/graphite-chevron-link-bracelet/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
         {
-          "goldColour": "Yellow",
-          "karat": "9K",
-          "priceINR": 65000
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Tejas Chevron Link Bracelet — illustrated hero view"
         },
         {
-          "goldColour": "Yellow",
-          "karat": "14K",
-          "priceINR": 101000
+          "key": "alternate",
+          "label": "Detail view",
+          "alt": "Tejas Chevron Link Bracelet — illustrated diagonal design detail"
         },
         {
-          "goldColour": "Rose",
-          "karat": "9K",
-          "priceINR": 65000
-        },
-        {
-          "goldColour": "Rose",
-          "karat": "14K",
-          "priceINR": 101000
+          "key": "detail",
+          "label": "On wrist",
+          "alt": "Tejas Chevron Link Bracelet — illustrative styling on a wrist"
         }
       ],
-      "details": {
-        "composition": "9K or 14K gold",
-        "dimensions": "Link width approx. 3mm",
-        "fastening": "Lobster clasp",
-        "includes": "Bracelet only"
-      },
-      "care": "Remove before swimming, exercise or manual work. Wipe with a soft cloth after wear.",
-      "images": {
-        "primary": "catalog/images/reference/bracelet-04.jpg",
-        "alternate": "catalog/images/reference/bracelet-04.jpg",
-        "detail": "catalog/images/reference/bracelet-04.jpg",
-        "onBody": null
-      },
-      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
+      "galleryNote": "Generated product illustrations. Fine details, fastening and worn fit are indicative; confirm final specifications on enquiry.",
+      "imageStatus": "Approved for website preview use. Generated details, hidden construction and worn scale remain illustrative."
     },
     {
-      "id": "AYM-BR-005",
-      "slug": "devan-slim-cuff",
-      "name": "Devan Slim Cuff",
+      "id": "AYM-BR-105",
+      "productKey": "two-tone-angular-link-bracelet",
+      "slug": "zaal-angular-link-bracelet",
+      "name": "Zaal Angular Link Bracelet",
       "category": "Bracelets",
-      "shortDescription": "A slender open cuff with a polished face.",
-      "description": "Devan traces a narrow line around the wrist. The slim profile keeps its presence light and easy to layer.",
-      "weightGrams": 8,
-      "sizeType": "Bracelet length",
-      "sizeOptions": [
-        "S (6.5\")",
-        "M (7\")",
-        "L (7.5\")"
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "Warm and graphite-toned plates form a compact angular rhythm.",
+      "description": "Zaal brings warm and dark tones together in a sequence of angular plates. Diagonal overlaps give the surface a layered appearance, while small rounded edge details mark the joins. Its changing planes add depth to an otherwise compact silhouette.",
+      "appearanceLabel": "Angular plates · warm and dark tones",
+      "designTags": [
+        "Geometric",
+        "Textured"
       ],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
+      "weightGrams": null,
+      "sizeType": "Wrist fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for wrist sizing guidance",
+      "variants": [],
+      "fitGuidance": "Share your wrist measurement and whether you prefer a close or relaxed fit. We’ll confirm the bracelet length, fastening and any adjustment options. The worn image illustrates styling; it is not a measured fit guide.",
+      "details": {
+        "design": "A single articulated-looking band of angular warm and dark sections with small rounded edge details.",
+        "finish": "Softly grained warm-toned faces contrasted with dark graphite sections.",
+        "composition": "Materials, any accent details and any applicable karat options are confirmed on enquiry.",
+        "dimensions": "Band width, bracelet length and wrist fit are confirmed on enquiry.",
+        "fastening": "Confirm the final fastening and any adjustment options on enquiry.",
+        "weight": "Confirmed for the final piece and size."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Until the materials are confirmed, avoid soaking or using jewellery cleaners; ask us for care instructions suited to the piece.",
+      "images": {
+        "primary": "catalog/images/bracelets/two-tone-angular-link-bracelet/01-hero.webp",
+        "alternate": "catalog/images/bracelets/two-tone-angular-link-bracelet/02-detail.webp",
+        "detail": "catalog/images/bracelets/two-tone-angular-link-bracelet/03-worn.webp",
+        "onBody": "catalog/images/bracelets/two-tone-angular-link-bracelet/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
         {
-          "goldColour": "Yellow",
-          "karat": "9K",
-          "priceINR": 65000
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Zaal Angular Link Bracelet — illustrated hero view"
         },
         {
-          "goldColour": "Yellow",
-          "karat": "14K",
-          "priceINR": 101000
+          "key": "alternate",
+          "label": "Detail view",
+          "alt": "Zaal Angular Link Bracelet — illustrated diagonal design detail"
         },
         {
-          "goldColour": "Yellow",
-          "karat": "18K",
-          "priceINR": 130000
+          "key": "detail",
+          "label": "On wrist",
+          "alt": "Zaal Angular Link Bracelet — illustrative styling on a wrist"
         }
       ],
-      "details": {
-        "composition": "9K, 14K or 18K gold",
-        "dimensions": "Link width approx. 2mm",
-        "fastening": "Lobster clasp",
-        "includes": "Bracelet only"
-      },
-      "care": "Remove before swimming, exercise or manual work. Wipe with a soft cloth after wear.",
-      "images": {
-        "primary": "catalog/images/reference/bracelet-05.jpg",
-        "alternate": "catalog/images/reference/bracelet-05.jpg",
-        "detail": "catalog/images/reference/bracelet-05.jpg",
-        "onBody": null
-      },
-      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
+      "galleryNote": "Generated product illustrations. Fine details, fastening and worn fit are indicative; confirm final specifications on enquiry.",
+      "imageStatus": "Approved for website preview use. Generated details, hidden construction and worn scale remain illustrative."
     },
     {
-      "id": "AYM-BR-006",
-      "slug": "aksh-textured-cuff",
-      "name": "Aksh Textured Cuff",
+      "id": "AYM-BR-106",
+      "productKey": "crimson-woven-link-bracelet",
+      "slug": "ravik-crimson-weave-bracelet",
+      "name": "Ravik Crimson Weave Bracelet",
       "category": "Bracelets",
-      "shortDescription": "An open cuff with a fine, directional texture.",
-      "description": "Aksh pairs a straightforward cuff shape with a closely patterned surface. The texture becomes clearer up close.",
-      "weightGrams": 9,
-      "sizeType": "Bracelet length",
-      "sizeOptions": [
-        "S (6.5\")",
-        "M (7\")",
-        "L (7.5\")"
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "A deep crimson woven-looking centre edged by pale links.",
+      "description": "Ravik introduces colour through a deep crimson centre with a woven texture. Two fine rows of pale links frame the band, bringing a reflective edge to the softer-looking surface. The contrast feels expressive while keeping the overall line restrained.",
+      "appearanceLabel": "Crimson weave · pale linked edges",
+      "designTags": [
+        "Woven texture",
+        "Colour contrast"
       ],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
+      "weightGrams": null,
+      "sizeType": "Wrist fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for wrist sizing guidance",
+      "variants": [],
+      "fitGuidance": "Share your wrist measurement and whether you prefer a close or relaxed fit. We’ll confirm the bracelet length, fastening and any adjustment options. The worn image illustrates styling; it is not a measured fit guide.",
+      "details": {
+        "design": "A crimson woven-looking centre between two continuous rows of small pale edge links.",
+        "finish": "Rich red texture with smooth reflective pale edging.",
+        "composition": "Materials, any accent details and any applicable karat options are confirmed on enquiry.",
+        "dimensions": "Band width, bracelet length and wrist fit are confirmed on enquiry.",
+        "fastening": "Confirm the final fastening and any adjustment options on enquiry.",
+        "weight": "Confirmed for the final piece and size."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Until the materials are confirmed, avoid soaking or using jewellery cleaners; ask us for care instructions suited to the piece.",
+      "images": {
+        "primary": "catalog/images/bracelets/crimson-woven-link-bracelet/01-hero.webp",
+        "alternate": "catalog/images/bracelets/crimson-woven-link-bracelet/02-detail.webp",
+        "detail": "catalog/images/bracelets/crimson-woven-link-bracelet/03-worn.webp",
+        "onBody": "catalog/images/bracelets/crimson-woven-link-bracelet/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
         {
-          "goldColour": "Yellow",
-          "karat": "14K",
-          "priceINR": 101000
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Ravik Crimson Weave Bracelet — illustrated hero view"
         },
         {
-          "goldColour": "White",
-          "karat": "14K",
-          "priceINR": 101000
+          "key": "alternate",
+          "label": "Detail view",
+          "alt": "Ravik Crimson Weave Bracelet — illustrated diagonal design detail"
+        },
+        {
+          "key": "detail",
+          "label": "On wrist",
+          "alt": "Ravik Crimson Weave Bracelet — illustrative styling on a wrist"
         }
       ],
-      "details": {
-        "composition": "14K gold",
-        "dimensions": "Band width approx. 6mm",
-        "fastening": "Box clasp with safety catch",
-        "includes": "Bracelet only"
-      },
-      "care": "Remove before swimming, exercise or manual work. A woven mesh should not be pulled or twisted.",
-      "images": {
-        "primary": "catalog/images/reference/bracelet-06.jpg",
-        "alternate": "catalog/images/reference/bracelet-06.jpg",
-        "detail": "catalog/images/reference/bracelet-06.jpg",
-        "onBody": null
-      },
-      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
+      "galleryNote": "Generated product illustrations. Fine details, fastening and worn fit are indicative; confirm final specifications on enquiry.",
+      "imageStatus": "Approved for website preview use. Generated details, hidden construction and worn scale remain illustrative."
     },
     {
-      "id": "AYM-BR-007",
-      "slug": "saarth-link-bracelet",
-      "name": "Saarth Link Bracelet",
+      "id": "AYM-BR-107",
+      "productKey": "blue-woven-link-bracelet",
+      "slug": "ravik-indigo-weave-bracelet",
+      "name": "Ravik Indigo Weave Bracelet",
       "category": "Bracelets",
-      "shortDescription": "A close-set link bracelet with a flexible line.",
-      "description": "Saarth follows the wrist through a neat sequence of small links. Its repeated pattern is the main detail.",
-      "weightGrams": 8,
-      "sizeType": "Bracelet length",
-      "sizeOptions": [
-        "S (6.5\")",
-        "M (7\")",
-        "L (7.5\")"
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "An indigo woven-looking centre bordered by pale linked edges.",
+      "description": "This indigo interpretation of Ravik pairs a deep blue woven texture with two fine rows of pale links. The linked borders give the colour a clear outline and catch the light along the edges. It offers a cooler expression of the same restrained, layered design.",
+      "appearanceLabel": "Indigo weave · pale linked edges",
+      "designTags": [
+        "Woven texture",
+        "Colour contrast"
       ],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
+      "weightGrams": null,
+      "sizeType": "Wrist fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for wrist sizing guidance",
+      "variants": [],
+      "fitGuidance": "Share your wrist measurement and whether you prefer a close or relaxed fit. We’ll confirm the bracelet length, fastening and any adjustment options. The worn image illustrates styling; it is not a measured fit guide.",
+      "details": {
+        "design": "An indigo woven-looking centre framed by two rows of small pale links.",
+        "finish": "Deep blue texture contrasted with reflective pale edging.",
+        "composition": "Materials, any accent details and any applicable karat options are confirmed on enquiry.",
+        "dimensions": "Band width, bracelet length and wrist fit are confirmed on enquiry.",
+        "fastening": "Confirm the final fastening and any adjustment options on enquiry.",
+        "weight": "Confirmed for the final piece and size."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Until the materials are confirmed, avoid soaking or using jewellery cleaners; ask us for care instructions suited to the piece.",
+      "images": {
+        "primary": "catalog/images/bracelets/blue-woven-link-bracelet/01-hero.webp",
+        "alternate": "catalog/images/bracelets/blue-woven-link-bracelet/02-detail.webp",
+        "detail": "catalog/images/bracelets/blue-woven-link-bracelet/03-worn.webp",
+        "onBody": "catalog/images/bracelets/blue-woven-link-bracelet/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
         {
-          "goldColour": "Yellow",
-          "karat": "14K",
-          "priceINR": 101000
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Ravik Indigo Weave Bracelet — illustrated hero view"
         },
         {
-          "goldColour": "Yellow",
-          "karat": "18K",
-          "priceINR": 130000
+          "key": "alternate",
+          "label": "Detail view",
+          "alt": "Ravik Indigo Weave Bracelet — illustrated diagonal design detail"
+        },
+        {
+          "key": "detail",
+          "label": "On wrist",
+          "alt": "Ravik Indigo Weave Bracelet — illustrative styling on a wrist"
         }
       ],
-      "details": {
-        "composition": "14K or 18K gold",
-        "dimensions": "Link width approx. 4mm",
-        "fastening": "Lobster clasp",
-        "includes": "Bracelet only"
-      },
-      "care": "Remove before swimming, exercise or manual work. Wipe with a soft cloth after wear.",
-      "images": {
-        "primary": "catalog/images/reference/bracelet-07.jpg",
-        "alternate": "catalog/images/reference/bracelet-07.jpg",
-        "detail": "catalog/images/reference/bracelet-07.jpg",
-        "onBody": null
-      },
-      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
+      "galleryNote": "Generated product illustrations. Fine details, fastening and worn fit are indicative; confirm final specifications on enquiry.",
+      "imageStatus": "Approved for website preview use. Generated details, hidden construction and worn scale remain illustrative."
     },
     {
-      "id": "AYM-BR-008",
-      "slug": "uday-angle-cuff",
-      "name": "Uday Angle Cuff",
+      "id": "AYM-BR-108",
+      "productKey": "two-tone-mosaic-link-bracelet",
+      "slug": "kavi-mosaic-link-bracelet",
+      "name": "Kavi Mosaic Link Bracelet",
       "category": "Bracelets",
-      "shortDescription": "An open cuff with sharp, architectural edges.",
-      "description": "Uday takes a clean open curve and gives it a more angular outline. The faceted edge defines its shape.",
-      "weightGrams": 8,
-      "sizeType": "Bracelet length",
-      "sizeOptions": [
-        "S (6.5\")",
-        "M (7\")",
-        "L (7.5\")"
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "Warm polygon links and bright pale accents form a broad mosaic.",
+      "description": "Kavi builds a broad bracelet from small repeating shapes. Warm-toned polygon links sit between rows of pale accent details, creating a mosaic with a steady, ordered rhythm. The wider surface lets the alternating tones become the focus.",
+      "appearanceLabel": "Broad mosaic · warm and pale contrast",
+      "designTags": [
+        "Mosaic",
+        "Geometric",
+        "Accent details"
       ],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
+      "weightGrams": null,
+      "sizeType": "Wrist fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for wrist sizing guidance",
+      "variants": [],
+      "fitGuidance": "Share your wrist measurement and whether you prefer a close or relaxed fit. We’ll confirm the bracelet length, fastening and any adjustment options. The worn image illustrates styling; it is not a measured fit guide.",
+      "details": {
+        "design": "A broad arrangement of staggered polygon links with contrasting bright pale accent sections.",
+        "finish": "Polished warm-toned faces alternating with fine bright pale details.",
+        "composition": "Materials, any accent details and any applicable karat options are confirmed on enquiry.",
+        "dimensions": "Band width, bracelet length and wrist fit are confirmed on enquiry.",
+        "fastening": "Confirm the final fastening and any adjustment options on enquiry.",
+        "weight": "Confirmed for the final piece and size."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Until the materials are confirmed, avoid soaking or using jewellery cleaners; ask us for care instructions suited to the piece.",
+      "images": {
+        "primary": "catalog/images/bracelets/two-tone-mosaic-link-bracelet/01-hero.webp",
+        "alternate": "catalog/images/bracelets/two-tone-mosaic-link-bracelet/02-detail.webp",
+        "detail": "catalog/images/bracelets/two-tone-mosaic-link-bracelet/03-worn.webp",
+        "onBody": "catalog/images/bracelets/two-tone-mosaic-link-bracelet/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
         {
-          "goldColour": "Yellow",
-          "karat": "9K",
-          "priceINR": 65000
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Kavi Mosaic Link Bracelet — illustrated hero view"
         },
         {
-          "goldColour": "Rose",
-          "karat": "9K",
-          "priceINR": 65000
+          "key": "alternate",
+          "label": "Detail view",
+          "alt": "Kavi Mosaic Link Bracelet — illustrated diagonal design detail"
         },
         {
-          "goldColour": "White",
-          "karat": "9K",
-          "priceINR": 65000
+          "key": "detail",
+          "label": "On wrist",
+          "alt": "Kavi Mosaic Link Bracelet — illustrative styling on a wrist"
         }
       ],
+      "galleryNote": "Generated product illustrations. Fine details, fastening and worn fit are indicative; confirm final specifications on enquiry.",
+      "imageStatus": "Approved for website preview use. Generated details, hidden construction and worn scale remain illustrative."
+    },
+    {
+      "id": "AYM-BR-109",
+      "productKey": "olive-interlocking-link-cord-bracelet",
+      "slug": "ansh-interlock-cord-bracelet",
+      "name": "Ansh Interlock Cord Bracelet",
+      "category": "Bracelets",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "Olive cord meets two warm-toned interlocking links.",
+      "description": "Ansh centres on a pair of rounded rectangular links, joined together and held by muted olive cord. Small knots make the connection part of the visible design. The simple pairing of soft-looking cord and reflective links gives the bracelet an understated character.",
+      "appearanceLabel": "Olive cord · interlocking links",
+      "designTags": [
+        "Cord",
+        "Interlocking links",
+        "Colour contrast"
+      ],
+      "weightGrams": null,
+      "sizeType": "Wrist fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for wrist sizing guidance",
+      "variants": [],
+      "fitGuidance": "Share your wrist measurement and whether you prefer a close or relaxed fit. We’ll confirm the bracelet length, fastening and any adjustment options. The worn image illustrates styling; it is not a measured fit guide.",
       "details": {
-        "composition": "9K gold",
-        "dimensions": "Link width approx. 2.5mm",
-        "fastening": "Lobster clasp",
-        "includes": "Bracelet only"
+        "design": "Two smooth rounded rectangular links connected to olive cord with small visible knots.",
+        "finish": "Reflective warm-toned links against a fine braided-looking olive surface.",
+        "composition": "Materials, any accent details and any applicable karat options are confirmed on enquiry.",
+        "dimensions": "Band width, bracelet length and wrist fit are confirmed on enquiry.",
+        "fastening": "Confirm the final fastening and any adjustment options on enquiry.",
+        "weight": "Confirmed for the final piece and size."
       },
-      "care": "Remove before swimming, exercise or manual work. Wipe with a soft cloth after wear.",
+      "care": "Store separately and wipe gently with a soft dry cloth. Until the materials are confirmed, avoid soaking or using jewellery cleaners; ask us for care instructions suited to the piece.",
       "images": {
-        "primary": "catalog/images/reference/bracelet-08.jpg",
-        "alternate": "catalog/images/reference/bracelet-08.jpg",
-        "detail": "catalog/images/reference/bracelet-08.jpg",
-        "onBody": null
+        "primary": "catalog/images/bracelets/olive-interlocking-link-cord-bracelet/01-hero.webp",
+        "alternate": "catalog/images/bracelets/olive-interlocking-link-cord-bracelet/02-detail.webp",
+        "detail": "catalog/images/bracelets/olive-interlocking-link-cord-bracelet/03-worn.webp",
+        "onBody": "catalog/images/bracelets/olive-interlocking-link-cord-bracelet/03-worn.webp"
       },
-      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
+      "mediaType": "generated_illustration",
+      "gallery": [
+        {
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Ansh Interlock Cord Bracelet — illustrated hero view"
+        },
+        {
+          "key": "alternate",
+          "label": "Detail view",
+          "alt": "Ansh Interlock Cord Bracelet — illustrated diagonal design detail"
+        },
+        {
+          "key": "detail",
+          "label": "On wrist",
+          "alt": "Ansh Interlock Cord Bracelet — illustrative styling on a wrist"
+        }
+      ],
+      "galleryNote": "Generated product illustrations. Fine details, fastening and worn fit are indicative; confirm final specifications on enquiry.",
+      "imageStatus": "Approved for website preview use. Generated details, hidden construction and worn scale remain illustrative."
     },
     {
       "id": "AYM-CH-001",

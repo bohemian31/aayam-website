@@ -1,0 +1,92 @@
+[
+  {
+    "productKey": "textured-oval-link-bracelet",
+    "name": "Rudra Oval Link Bracelet",
+    "shortDescription": "Rust-brown textured ovals joined by fine warm-toned links.",
+    "description": "Rudra follows a quiet rhythm of small oval centres with an irregular, rust-brown texture. Warm-toned rims frame each oval, while fine connecting links leave a little space between them. The contrast of texture and reflection gives this slender bracelet its character.",
+    "appearanceLabel": "Textured ovals · warm-toned links",
+    "design": "A single line of oval settings with raised textured brown centres and small connecting links.",
+    "finish": "Reflective warm-toned borders against a rough-textured brown centre.",
+    "designTags": ["Oval links", "Textured"]
+  },
+  {
+    "productKey": "rose-geometric-accent-bracelet",
+    "name": "Arka Geometric Line Bracelet",
+    "shortDescription": "Rose-toned geometric links frame a fine line of bright accents.",
+    "description": "Arka brings a measured rhythm to the wrist. Two rows of rose-toned geometric facets frame a narrow central line of bright details, balancing clean edges with small points of light. Its repeating structure sits naturally beside a simple shirt cuff.",
+    "appearanceLabel": "Rose-toned facets · bright accents",
+    "design": "Two outer rows of compact geometric sections flanking a narrow central accent line.",
+    "finish": "Polished rose-toned planes with bright pale detailing along the centre.",
+    "designTags": ["Geometric", "Accent details", "Polished"]
+  },
+  {
+    "productKey": "dark-curb-link-bracelet",
+    "name": "Nirav Curb Link Bracelet",
+    "shortDescription": "A slim curb-link chain with a dark reflective finish.",
+    "description": "Nirav keeps the familiar curb-chain form spare and precise. Flattened interlocking links create a continuous line, with pale reflections moving across the dark graphite-toned surface. Wear it alone for a quiet point of contrast at the wrist.",
+    "appearanceLabel": "Dark graphite tone · curb links",
+    "design": "One continuous row of flattened, interlocking oval curb links.",
+    "finish": "Smooth dark reflective surfaces with bright edges.",
+    "designTags": ["Curb links", "Polished"]
+  },
+  {
+    "productKey": "graphite-chevron-link-bracelet",
+    "name": "Tejas Chevron Link Bracelet",
+    "shortDescription": "Pale chevron links trace a zigzag across a dark backing.",
+    "description": "Tejas draws its character from a repeating chevron. Pale diagonal surfaces cross a dark background, creating a clear rhythm of light and shadow. Small rounded details along the edges soften the angular pattern without losing its definition.",
+    "appearanceLabel": "Chevron pattern · pale and dark contrast",
+    "design": "Repeating diagonal link faces with dark triangular gaps and small rounded edge details.",
+    "finish": "Reflective pale faces against darker recessed sections.",
+    "designTags": ["Geometric", "Chevron", "Polished"]
+  },
+  {
+    "productKey": "two-tone-angular-link-bracelet",
+    "name": "Zaal Angular Link Bracelet",
+    "shortDescription": "Warm and graphite-toned plates form a compact angular rhythm.",
+    "description": "Zaal brings warm and dark tones together in a sequence of angular plates. Diagonal overlaps give the surface a layered appearance, while small rounded edge details mark the joins. Its changing planes add depth to an otherwise compact silhouette.",
+    "appearanceLabel": "Angular plates · warm and dark tones",
+    "design": "A single articulated-looking band of angular warm and dark sections with small rounded edge details.",
+    "finish": "Softly grained warm-toned faces contrasted with dark graphite sections.",
+    "designTags": ["Geometric", "Textured"]
+  },
+  {
+    "productKey": "crimson-woven-link-bracelet",
+    "name": "Ravik Crimson Weave Bracelet",
+    "shortDescription": "A deep crimson woven-looking centre edged by pale links.",
+    "description": "Ravik introduces colour through a deep crimson centre with a woven texture. Two fine rows of pale links frame the band, bringing a reflective edge to the softer-looking surface. The contrast feels expressive while keeping the overall line restrained.",
+    "appearanceLabel": "Crimson weave · pale linked edges",
+    "design": "A crimson woven-looking centre between two continuous rows of small pale edge links.",
+    "finish": "Rich red texture with smooth reflective pale edging.",
+    "designTags": ["Woven texture", "Colour contrast"]
+  },
+  {
+    "productKey": "blue-woven-link-bracelet",
+    "name": "Ravik Indigo Weave Bracelet",
+    "shortDescription": "An indigo woven-looking centre bordered by pale linked edges.",
+    "description": "This indigo interpretation of Ravik pairs a deep blue woven texture with two fine rows of pale links. The linked borders give the colour a clear outline and catch the light along the edges. It offers a cooler expression of the same restrained, layered design.",
+    "appearanceLabel": "Indigo weave · pale linked edges",
+    "design": "An indigo woven-looking centre framed by two rows of small pale links.",
+    "finish": "Deep blue texture contrasted with reflective pale edging.",
+    "designTags": ["Woven texture", "Colour contrast"]
+  },
+  {
+    "productKey": "two-tone-mosaic-link-bracelet",
+    "name": "Kavi Mosaic Link Bracelet",
+    "shortDescription": "Warm polygon links and bright pale accents form a broad mosaic.",
+    "description": "Kavi builds a broad bracelet from small repeating shapes. Warm-toned polygon links sit between rows of pale accent details, creating a mosaic with a steady, ordered rhythm. The wider surface lets the alternating tones become the focus.",
+    "appearanceLabel": "Broad mosaic · warm and pale contrast",
+    "design": "A broad arrangement of staggered polygon links with contrasting bright pale accent sections.",
+    "finish": "Polished warm-toned faces alternating with fine bright pale details.",
+    "designTags": ["Mosaic", "Geometric", "Accent details"]
+  },
+  {
+    "productKey": "olive-interlocking-link-cord-bracelet",
+    "name": "Ansh Interlock Cord Bracelet",
+    "shortDescription": "Olive cord meets two warm-toned interlocking links.",
+    "description": "Ansh centres on a pair of rounded rectangular links, joined together and held by muted olive cord. Small knots make the connection part of the visible design. The simple pairing of soft-looking cord and reflective links gives the bracelet an understated character.",
+    "appearanceLabel": "Olive cord · interlocking links",
+    "design": "Two smooth rounded rectangular links connected to olive cord with small visible knots.",
+    "finish": "Reflective warm-toned links against a fine braided-looking olive surface.",
+    "designTags": ["Cord", "Interlocking links", "Colour contrast"]
+  }
+]
