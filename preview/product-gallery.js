@@ -34,8 +34,10 @@ function renderEnquiryProduct(product) {
   const e = escapeHtml;
   const ring = product.category === 'Rings';
   const earring = product.category === 'Earrings';
+  const kada = product.category === 'Kada';
   const guidance = ring ? 'We’ll confirm materials, karat options, ring size, weight and availability for your piece.'
     : earring ? 'We’ll confirm the materials, dimensions, closure or backing, price and availability for this design.'
+    : kada ? 'We’ll confirm the materials, inner opening, band width, fastening, price and availability for this design.'
     : 'We’ll confirm materials, wrist fit, fastening, weight and availability for your piece.';
   const fitLink = ring ? 'Help with ring sizing' : earring ? 'Help with earring fit' : 'Help with wrist sizing';
   document.getElementById('page-title').textContent = product.name + ' — The House of Aayam';
@@ -48,6 +50,7 @@ function renderEnquiryProduct(product) {
         <p class="product-reference">${e(product.id)}</p>
         <h1>${e(product.name)}</h1>
         <p class="variant-line">${e(product.appearanceLabel)}</p>
+        ${product.colourways ? `<div class="colourway-group"><span>Illustrated colourway</span><div class="colourway-links">${product.colourways.map(option => `<a href="product.html?id=${encodeURIComponent(option.id)}"${option.id === product.id ? ' aria-current="page"' : ''}>${e(option.label)}</a>`).join('')}</div></div>` : ''}
         <p class="product-intro">${e(product.shortDescription)}</p>
         <p class="price">Price on enquiry</p>
         <p class="enquiry-guidance">${guidance}</p>

@@ -1,11 +1,12 @@
 {
-  "_readme": "Mixed-stage preview: approved illustrated rings, bracelets and earrings use enquiry-only specifications; chains and pendants retain reference photos and labelled sample facts. Generated details, unseen construction and worn fit are indicative, not verified physical specifications.",
+  "_readme": "Mixed-stage preview: approved illustrated rings, bracelets, earrings and Kada use enquiry-only specifications; chains and pendants retain reference photos and labelled sample facts. Generated details, hidden construction and worn fit are indicative, not verified physical specifications.",
   "currency": "INR",
   "sampleContent": true,
   "categories": [
     "Rings",
     "Bracelets",
     "Earrings",
+    "Kada",
     "Chains",
     "Pendants"
   ],
@@ -2453,6 +2454,330 @@
       ],
       "galleryNote": "Generated product illustrations. Rear construction, closure and worn size are indicative; confirm final specifications and whether supplied singly or as a pair on enquiry.",
       "imageStatus": "Approved for website preview use. Hidden construction and worn scale remain illustrative."
+    },
+    {
+      "id": "AYM-KD-101",
+      "productKey": "gold-clasp-open-kada",
+      "slug": "veyar-cutout-kada-gold-tone",
+      "name": "Veyar Cutout Kada — Gold Tone",
+      "category": "Kada",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "A warm-toned broad kada with angular cutouts and a polished keeper detail.",
+      "description": "Veyar brings a belt-like rhythm to a curved kada. Small angular openings punctuate one side of its smooth, warm-toned band; a raised oval accent and rectangular keeper-like detail mark the transition to a plain section. The clean surface keeps those few details in focus.",
+      "appearanceLabel": "Gold-tone look · angular cutouts",
+      "designTags": [
+        "Cutout",
+        "Polished",
+        "Statement"
+      ],
+      "weightGrams": null,
+      "sizeType": "Wrist fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for wrist sizing guidance",
+      "variants": [],
+      "fitGuidance": "Share your wrist measurement and whether you prefer a close or relaxed fit. We’ll confirm the finished opening, band width and how this rigid kada sits on the wrist. The worn image is a styling illustration, not a measured fit guide.",
+      "details": {
+        "design": "Broad curved band with small angular openings, an oval raised accent and a rectangular keeper-like detail.",
+        "finish": "Smooth, polished warm-toned appearance in the illustrations.",
+        "composition": "Metal composition, accent materials and applicable karat options are confirmed on enquiry.",
+        "dimensions": "Inner opening, band width and wrist fit are confirmed on enquiry.",
+        "fastening": "Confirm whether and how this piece opens or adjusts before ordering; generated hidden views are illustrative.",
+        "weight": "Confirmed for the finished piece."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Ask us for care instructions suited to the confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/kada/gold-clasp-open-kada/01-hero.webp",
+        "alternate": "catalog/images/kada/gold-clasp-open-kada/02-detail.webp",
+        "detail": "catalog/images/kada/gold-clasp-open-kada/03-worn.webp",
+        "onBody": "catalog/images/kada/gold-clasp-open-kada/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
+        {
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Veyar Cutout Kada — Gold Tone — illustrated hero view"
+        },
+        {
+          "key": "alternate",
+          "label": "Detail view",
+          "alt": "Veyar Cutout Kada — Gold Tone — illustrated detail view"
+        },
+        {
+          "key": "detail",
+          "label": "On wrist",
+          "alt": "Veyar Cutout Kada — Gold Tone — illustrative styling on a wrist"
+        }
+      ],
+      "galleryNote": "Generated product illustrations. The source photograph shows two partly cropped pieces. The completed oval, hidden construction and worn fit are illustrative. Confirm final metal, dimensions and fastening on enquiry.",
+      "imageStatus": "Approved for website preview use. Generated details and worn scale remain illustrative.",
+      "colourwayGroup": "veyar-cutout-kada",
+      "colourwayLabel": "Gold tone",
+      "colourways": [
+        {
+          "id": "AYM-KD-101",
+          "label": "Gold tone"
+        },
+        {
+          "id": "AYM-KD-102",
+          "label": "Silver tone"
+        }
+      ]
+    },
+    {
+      "id": "AYM-KD-102",
+      "productKey": "silver-clasp-open-kada",
+      "slug": "veyar-cutout-kada-silver-tone",
+      "name": "Veyar Cutout Kada — Silver Tone",
+      "category": "Kada",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "A pale-toned broad kada with angular cutouts and a polished keeper detail.",
+      "description": "The pale-toned Veyar keeps the same graphic contrast between a pierced section and a plain band. Angular openings, a raised oval accent and a keeper-like rectangle make the curved form distinctive without adding surface pattern.",
+      "appearanceLabel": "Silver-tone look · angular cutouts",
+      "designTags": [
+        "Cutout",
+        "Polished",
+        "Statement"
+      ],
+      "weightGrams": null,
+      "sizeType": "Wrist fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for wrist sizing guidance",
+      "variants": [],
+      "fitGuidance": "Share your wrist measurement and whether you prefer a close or relaxed fit. We’ll confirm the finished opening, band width and how this rigid kada sits on the wrist. The worn image is a styling illustration, not a measured fit guide.",
+      "details": {
+        "design": "Broad curved band with small angular openings, an oval raised accent and a rectangular keeper-like detail.",
+        "finish": "Smooth, polished pale-toned appearance in the illustrations.",
+        "composition": "Metal composition, accent materials and applicable karat options are confirmed on enquiry.",
+        "dimensions": "Inner opening, band width and wrist fit are confirmed on enquiry.",
+        "fastening": "Confirm whether and how this piece opens or adjusts before ordering; generated hidden views are illustrative.",
+        "weight": "Confirmed for the finished piece."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Ask us for care instructions suited to the confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/kada/silver-clasp-open-kada/01-hero.webp",
+        "alternate": "catalog/images/kada/silver-clasp-open-kada/02-detail.webp",
+        "detail": "catalog/images/kada/silver-clasp-open-kada/03-worn.webp",
+        "onBody": "catalog/images/kada/silver-clasp-open-kada/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
+        {
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Veyar Cutout Kada — Silver Tone — illustrated hero view"
+        },
+        {
+          "key": "alternate",
+          "label": "Detail view",
+          "alt": "Veyar Cutout Kada — Silver Tone — illustrated detail view"
+        },
+        {
+          "key": "detail",
+          "label": "On wrist",
+          "alt": "Veyar Cutout Kada — Silver Tone — illustrative styling on a wrist"
+        }
+      ],
+      "galleryNote": "Generated product illustrations. The source photograph shows two partly cropped pieces. The completed oval, hidden construction and worn fit are illustrative. Confirm final metal, dimensions and fastening on enquiry.",
+      "imageStatus": "Approved for website preview use. Generated details and worn scale remain illustrative.",
+      "colourwayGroup": "veyar-cutout-kada",
+      "colourwayLabel": "Silver tone",
+      "colourways": [
+        {
+          "id": "AYM-KD-101",
+          "label": "Gold tone"
+        },
+        {
+          "id": "AYM-KD-102",
+          "label": "Silver tone"
+        }
+      ]
+    },
+    {
+      "id": "AYM-KD-103",
+      "productKey": "tri-tone-hinged-kada",
+      "slug": "samar-tri-tone-kada",
+      "name": "Samar Tri-Tone Kada",
+      "category": "Kada",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "Three slender contrasting tones trace a restrained oval.",
+      "description": "Samar sets three narrow bands side by side, moving from pale to rose to warm tone. A small cylindrical accent interrupts the smooth oval, giving the otherwise spare silhouette a point of detail.",
+      "appearanceLabel": "Three-tone look · slim profile",
+      "designTags": [
+        "Mixed tones",
+        "Minimal",
+        "Polished"
+      ],
+      "weightGrams": null,
+      "sizeType": "Wrist fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for wrist sizing guidance",
+      "variants": [],
+      "fitGuidance": "Share your wrist measurement and whether you prefer a close or relaxed fit. We’ll confirm the finished opening, band width and how this rigid kada sits on the wrist. The worn image is a styling illustration, not a measured fit guide.",
+      "details": {
+        "design": "Slim oval kada with three parallel colour bands and a small cylindrical accent visible on one side.",
+        "finish": "Polished-looking pale, rose and warm-toned surfaces.",
+        "composition": "Metal composition, accent materials and applicable karat options are confirmed on enquiry.",
+        "dimensions": "Inner opening, band width and wrist fit are confirmed on enquiry.",
+        "fastening": "Confirm whether and how this piece opens or adjusts before ordering; generated hidden views are illustrative.",
+        "weight": "Confirmed for the finished piece."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Ask us for care instructions suited to the confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/kada/tri-tone-hinged-kada/01-hero.webp",
+        "alternate": "catalog/images/kada/tri-tone-hinged-kada/02-alternate.webp",
+        "detail": "catalog/images/kada/tri-tone-hinged-kada/03-worn.webp",
+        "onBody": "catalog/images/kada/tri-tone-hinged-kada/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
+        {
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Samar Tri-Tone Kada — illustrated hero view"
+        },
+        {
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Samar Tri-Tone Kada — illustrated alternate view"
+        },
+        {
+          "key": "detail",
+          "label": "On wrist",
+          "alt": "Samar Tri-Tone Kada — illustrative styling on a wrist"
+        }
+      ],
+      "galleryNote": "Generated product illustrations. Unseen construction and worn fit are illustrative. Confirm final metal, dimensions and fastening on enquiry.",
+      "imageStatus": "Approved for website preview use. Generated details and worn scale remain illustrative."
+    },
+    {
+      "id": "AYM-KD-104",
+      "productKey": "engraved-scroll-kada",
+      "slug": "rudra-scrollwork-kada",
+      "name": "Rudra Scrollwork Kada",
+      "category": "Kada",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "A warm-toned open kada with a flowing engraved-looking motif.",
+      "description": "Rudra draws on ornament without losing the clarity of a single curved band. Floral and scroll-like marks travel across its broad outer face, while coiled details finish the open ends visible in the source view. The worn illustration keeps those ends tucked away from the camera.",
+      "appearanceLabel": "Warm tone · scrollwork",
+      "designTags": [
+        "Open cuff",
+        "Patterned",
+        "Textured"
+      ],
+      "weightGrams": null,
+      "sizeType": "Wrist fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for wrist sizing guidance",
+      "variants": [],
+      "fitGuidance": "Share your wrist measurement and whether you prefer a close or relaxed fit. We’ll confirm the finished opening, band width and how this rigid kada sits on the wrist. The worn image is a styling illustration, not a measured fit guide.",
+      "details": {
+        "design": "Open curved band with floral and scrolling surface motifs and coiled-looking terminal details.",
+        "finish": "Softly aged warm-toned appearance with fine engraved-looking markings.",
+        "composition": "Metal composition, accent materials and applicable karat options are confirmed on enquiry.",
+        "dimensions": "Inner opening, band width and wrist fit are confirmed on enquiry.",
+        "fastening": "Confirm whether and how this piece opens or adjusts before ordering; generated hidden views are illustrative.",
+        "weight": "Confirmed for the finished piece."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Ask us for care instructions suited to the confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/kada/engraved-scroll-kada/01-hero.webp",
+        "alternate": "catalog/images/kada/engraved-scroll-kada/02-detail.webp",
+        "detail": "catalog/images/kada/engraved-scroll-kada/03-worn.webp",
+        "onBody": "catalog/images/kada/engraved-scroll-kada/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
+        {
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Rudra Scrollwork Kada — illustrated hero view"
+        },
+        {
+          "key": "alternate",
+          "label": "Detail view",
+          "alt": "Rudra Scrollwork Kada — illustrated detail view"
+        },
+        {
+          "key": "detail",
+          "label": "On wrist",
+          "alt": "Rudra Scrollwork Kada — illustrative styling on a wrist"
+        }
+      ],
+      "galleryNote": "Generated product illustrations. Unseen construction and worn fit are illustrative. Confirm final metal, dimensions and fastening on enquiry.",
+      "imageStatus": "Approved for website preview use. Generated details and worn scale remain illustrative."
+    },
+    {
+      "id": "AYM-KD-105",
+      "productKey": "twin-line-open-kada",
+      "slug": "arka-twin-line-kada",
+      "name": "Arka Twin-Line Kada",
+      "category": "Kada",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "A satin-looking pale cuff crossed by two fine warm lines.",
+      "description": "Arka keeps its open cuff silhouette quiet and architectural. Two narrow warm-toned lines run across the pale outer surface and stop before the ends, giving the otherwise unadorned band a measured graphic detail.",
+      "appearanceLabel": "Pale satin look · twin warm lines",
+      "designTags": [
+        "Open cuff",
+        "Linear",
+        "Minimal"
+      ],
+      "weightGrams": null,
+      "sizeType": "Wrist fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for wrist sizing guidance",
+      "variants": [],
+      "fitGuidance": "Share your wrist measurement and whether you prefer a close or relaxed fit. We’ll confirm the finished opening, band width and how this rigid kada sits on the wrist. The worn image is a styling illustration, not a measured fit guide.",
+      "details": {
+        "design": "Open curved cuff with two narrow parallel lines along the visible outer face.",
+        "finish": "Satin-looking pale surface with subdued warm-toned linear accents.",
+        "composition": "Metal composition, accent materials and applicable karat options are confirmed on enquiry.",
+        "dimensions": "Inner opening, band width and wrist fit are confirmed on enquiry.",
+        "fastening": "Confirm whether and how this piece opens or adjusts before ordering; generated hidden views are illustrative.",
+        "weight": "Confirmed for the finished piece."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Ask us for care instructions suited to the confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/kada/twin-line-open-kada/01-hero.webp",
+        "alternate": "catalog/images/kada/twin-line-open-kada/02-alternate.webp",
+        "detail": "catalog/images/kada/twin-line-open-kada/03-worn.webp",
+        "onBody": "catalog/images/kada/twin-line-open-kada/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
+        {
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Arka Twin-Line Kada — illustrated hero view"
+        },
+        {
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Arka Twin-Line Kada — illustrated alternate view"
+        },
+        {
+          "key": "detail",
+          "label": "On wrist",
+          "alt": "Arka Twin-Line Kada — illustrative styling on a wrist"
+        }
+      ],
+      "galleryNote": "Generated product illustrations. Unseen construction and worn fit are illustrative. Confirm final metal, dimensions and fastening on enquiry.",
+      "imageStatus": "Approved for website preview use. Generated details and worn scale remain illustrative."
     },
     {
       "id": "AYM-CH-001",

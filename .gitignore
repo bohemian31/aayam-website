@@ -1,6 +1,10 @@
 # OS
 .DS_Store
 
+# Generated Python bytecode
+__pycache__/
+*.pyc
+
 # Local Claude Code tooling (session-specific, not part of the deliverable)
 .claude/
 
@@ -14,5 +18,5 @@ Products Images/
 # Local image-production candidates pending review; never auto-publish to Pages
 output/catalogue-image-pilot/
 
-# Production masters, references and local review reports stay local; selected web exports live in catalog/images/rings/ and catalog/images/bracelets/
+# Production masters, references and local review reports stay local; selected WebP exports live in catalog/images/
 output/catalogue-images/

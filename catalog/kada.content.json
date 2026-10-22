@@ -1,0 +1,61 @@
+[
+  {
+    "productKey": "gold-clasp-open-kada",
+    "sourceGroup": "k1",
+    "name": "Veyar Cutout Kada — Gold Tone",
+    "colourwayGroup": "veyar-cutout-kada",
+    "colourwayLabel": "Gold tone",
+    "shortDescription": "A warm-toned broad kada with angular cutouts and a polished keeper detail.",
+    "description": "Veyar brings a belt-like rhythm to a curved kada. Small angular openings punctuate one side of its smooth, warm-toned band; a raised oval accent and rectangular keeper-like detail mark the transition to a plain section. The clean surface keeps those few details in focus.",
+    "appearanceLabel": "Gold-tone look · angular cutouts",
+    "design": "Broad curved band with small angular openings, an oval raised accent and a rectangular keeper-like detail.",
+    "finish": "Smooth, polished warm-toned appearance in the illustrations.",
+    "designTags": ["Cutout", "Polished", "Statement"]
+  },
+  {
+    "productKey": "silver-clasp-open-kada",
+    "sourceGroup": "k1",
+    "name": "Veyar Cutout Kada — Silver Tone",
+    "colourwayGroup": "veyar-cutout-kada",
+    "colourwayLabel": "Silver tone",
+    "shortDescription": "A pale-toned broad kada with angular cutouts and a polished keeper detail.",
+    "description": "The pale-toned Veyar keeps the same graphic contrast between a pierced section and a plain band. Angular openings, a raised oval accent and a keeper-like rectangle make the curved form distinctive without adding surface pattern.",
+    "appearanceLabel": "Silver-tone look · angular cutouts",
+    "design": "Broad curved band with small angular openings, an oval raised accent and a rectangular keeper-like detail.",
+    "finish": "Smooth, polished pale-toned appearance in the illustrations.",
+    "designTags": ["Cutout", "Polished", "Statement"]
+  },
+  {
+    "productKey": "tri-tone-hinged-kada",
+    "sourceGroup": "k2",
+    "name": "Samar Tri-Tone Kada",
+    "shortDescription": "Three slender contrasting tones trace a restrained oval.",
+    "description": "Samar sets three narrow bands side by side, moving from pale to rose to warm tone. A small cylindrical accent interrupts the smooth oval, giving the otherwise spare silhouette a point of detail.",
+    "appearanceLabel": "Three-tone look · slim profile",
+    "design": "Slim oval kada with three parallel colour bands and a small cylindrical accent visible on one side.",
+    "finish": "Polished-looking pale, rose and warm-toned surfaces.",
+    "designTags": ["Mixed tones", "Minimal", "Polished"]
+  },
+  {
+    "productKey": "engraved-scroll-kada",
+    "sourceGroup": "k3",
+    "name": "Rudra Scrollwork Kada",
+    "shortDescription": "A warm-toned open kada with a flowing engraved-looking motif.",
+    "description": "Rudra draws on ornament without losing the clarity of a single curved band. Floral and scroll-like marks travel across its broad outer face, while coiled details finish the open ends visible in the source view. The worn illustration keeps those ends tucked away from the camera.",
+    "appearanceLabel": "Warm tone · scrollwork",
+    "design": "Open curved band with floral and scrolling surface motifs and coiled-looking terminal details.",
+    "finish": "Softly aged warm-toned appearance with fine engraved-looking markings.",
+    "designTags": ["Open cuff", "Patterned", "Textured"]
+  },
+  {
+    "productKey": "twin-line-open-kada",
+    "sourceGroup": "k4",
+    "name": "Arka Twin-Line Kada",
+    "shortDescription": "A satin-looking pale cuff crossed by two fine warm lines.",
+    "description": "Arka keeps its open cuff silhouette quiet and architectural. Two narrow warm-toned lines run across the pale outer surface and stop before the ends, giving the otherwise unadorned band a measured graphic detail.",
+    "appearanceLabel": "Pale satin look · twin warm lines",
+    "design": "Open curved cuff with two narrow parallel lines along the visible outer face.",
+    "finish": "Satin-looking pale surface with subdued warm-toned linear accents.",
+    "designTags": ["Open cuff", "Linear", "Minimal"]
+  }
+]

@@ -1,0 +1,192 @@
+[
+  {
+    "id": "AYM-KD-101",
+    "productKey": "gold-clasp-open-kada",
+    "name": "Veyar Cutout Kada — Gold Tone",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/kada/gold-clasp-open-kada/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "c2bff6f087fbb1e6f85856646305bd1ebf3b13d370dcea122fb54601c0213f35",
+        "exportSha256": "b9da4e2f0d505ed071361ed1dce73995e07521018c874ef3e78d10e930025522"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/kada/gold-clasp-open-kada/02-detail.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "5a8abad316be653be31cba962d19c0b757d9a56a88f47411977cf8375376776e",
+        "exportSha256": "67e451eb7b33708f89ec749f6634f199a45b60abcd8ba9e979d2927086e9b70b"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/kada/gold-clasp-open-kada/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "36cf7f6d860f681d99f22642e11a69a54e43ab04afc36e2e0ddd88f72a350b86",
+        "exportSha256": "78cd2570c6a327688f0e6eee743af5581dcbc9de08fbb5397dcddcf7a5bca8c4"
+      }
+    ]
+  },
+  {
+    "id": "AYM-KD-102",
+    "productKey": "silver-clasp-open-kada",
+    "name": "Veyar Cutout Kada — Silver Tone",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/kada/silver-clasp-open-kada/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "081b18d70b89883a2ed75303dc27e3f0b6f00e4a36bace910386f5827960eea2",
+        "exportSha256": "cb0e900074579c5d1cefb643ddf2f11e7a6eb07e97becd5b47a97b1b406eeddb"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/kada/silver-clasp-open-kada/02-detail.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "b9b2af87f98fcc597807f3616e4fc0c4aaa2842fdf4146c2db3d54d6ae3aeef6",
+        "exportSha256": "3ee5b53a4da3dd70f06cb515ac04ec801e328e258d7b156101c7f046686a7d45"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/kada/silver-clasp-open-kada/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "40684a3f98d3253591dad04d8142de57d3962129a1a82c704f59884c47ef556a",
+        "exportSha256": "e0089757b5cfc01e89e9561d0ee6543da7134e19767b27c90e4ed9f8a9fa0416"
+      }
+    ]
+  },
+  {
+    "id": "AYM-KD-103",
+    "productKey": "tri-tone-hinged-kada",
+    "name": "Samar Tri-Tone Kada",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/kada/tri-tone-hinged-kada/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "7b7324e7493fd0cf50b01f13f4929891954687a1d9bb5aaaecaeee82840d22d9",
+        "exportSha256": "9041137b8be1267b1d78f94a8f62704d8709c6d85f2588c0ccdb810947df44d1"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/kada/tri-tone-hinged-kada/02-alternate.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "3287e55e1e4cdde5b04032b63fa1b2f2cd4ad59bb9dc63dc9926832458789874",
+        "exportSha256": "02f4ebad4486e95c351a64476976044316ee5092a2e8369ef58a1145168cd5ca"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/kada/tri-tone-hinged-kada/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "622d27f8fee30ccdc86b09f0ffa072b357db37b7f2bc6933175b3ff4c46b62da",
+        "exportSha256": "f520d541fc43a344ffc2e4ea4fdf9f62c1bce519c2b267c2db290c57d6468f20"
+      }
+    ]
+  },
+  {
+    "id": "AYM-KD-104",
+    "productKey": "engraved-scroll-kada",
+    "name": "Rudra Scrollwork Kada",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/kada/engraved-scroll-kada/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "37ad68d69470b47bb38383ea1f9084055ab575150db7b9ddaa0311958590a689",
+        "exportSha256": "f5f5774c7416f041cb278307893f0b8c3d7d99d4fce518d7ace7fb7b979eac59"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/kada/engraved-scroll-kada/02-detail.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "0cc216b7954ecbedad9476f8bcd0c19d40365a92ef91b5891b6eb9e1aa2cb3b7",
+        "exportSha256": "ef4e9b96fed11a73f9713e8e2ac8b0624847c435932c175e855b7698e906f8da"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/kada/engraved-scroll-kada/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "5e9c4d2410576ec57ebf391b5eb9cc0424df07e1ec7c9f10fa0bb16bd0b1c99a",
+        "exportSha256": "d464eb2edc014aa1bd038edc66efea900b5f0100148ae017dcec942861bcf382"
+      }
+    ]
+  },
+  {
+    "id": "AYM-KD-105",
+    "productKey": "twin-line-open-kada",
+    "name": "Arka Twin-Line Kada",
+    "mediaType": "generated_illustration",
+    "assets": [
+      {
+        "role": "primary",
+        "path": "catalog/images/kada/twin-line-open-kada/01-hero.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "9370483e11f53b1491340d6d9efb7e890e151681d5ddea537e814f398eed7c15",
+        "exportSha256": "a9ccff9357fd70b1eec3298b45d4c72ad31d0c37d2ac8ea3006a5b9895c10b59"
+      },
+      {
+        "role": "alternate",
+        "path": "catalog/images/kada/twin-line-open-kada/02-alternate.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "8573fdd730d03b81b1d3272bb3a81b82a6816fe90e038bc34d7e2a14be4e9ba3",
+        "exportSha256": "656441783fc0126f09c9946d302a57f3dff07d3cefeeb33772effff62cc1c5f8"
+      },
+      {
+        "role": "detail",
+        "path": "catalog/images/kada/twin-line-open-kada/03-worn.webp",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "approvedMasterSha256": "360a37a45211c6c64b47fe22e37c161fe0143d0a605e228a66f1e2b9689d1120",
+        "exportSha256": "eb1a6a5a1b8a12a4bf2d4d298bacf2186c965e215a427e79e94b60004763ec9f"
+      }
+    ]
+  }
+]

@@ -2,6 +2,13 @@
 
 This records decisions and artifacts visible in the project and conversation. Earlier phase entries use 26 September 2026; later records carry their actual dates. It is a handoff history, not proof that a remote service or deployed site was verified.
 
+## 22 October 2026 — approved Kada images and preview integration
+
+- Finalized five 1254 × 1254 Kada triplets. K1 gold and silver are linked colourways with level, centered heroes; k2 retains the founder-selected symmetrical hero and first revised worn view; k3's worn artifact was removed; k4 uses the founder-selected **second revised worn option**. Approved masters, hashes, source evidence and rejected attempts remain in ignored local production folders.
+- Exported 15 selected WebPs and added enquiry-only AYM-KD-101–105 records, names and visually grounded product copy. K1's two colourways link on their product pages. Unverified metal, price, size, weight, fastening and availability remain questions for enquiry.
+- Added Kada to the homepage, category navigation and filter, product-page fit guidance and enquiry message. The collection card reuses the existing hero-to-worn dissolve. The 59 prior products remain unchanged. Root launch files and Netlify were untouched.
+- Added the repeatable `build_kada_catalogue.py`, media hash map and `docs/kada-integration.md`. Local browser verification passed across 47 enquiry pages and 140 selected gallery views, including desktop/mobile, hover, colourways and enquiries. GitHub Pages publication is recorded separately once deployed.
+
 ## 21 October 2026 — approved Earrings integrated into preview source
 
 - The founder selected the penultimate Kiaan and Ayaan alternate views with the thin top detail. Archived the later bar-less versions locally, then approved the five final batch-003 sets. Rion's alternate remains excluded; its gallery has hero and worn only. The dropped Aarav design remains excluded.

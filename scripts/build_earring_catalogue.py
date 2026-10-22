@@ -85,10 +85,14 @@ def main():
                       'mediaType': 'generated_illustration', 'assets': assets})
     catalogue = json.loads(CATALOGUE.read_text())
     existing = [product for product in catalogue['products'] if product['category'] != 'Earrings']
-    first = next(i for i, product in enumerate(existing) if product['category'] == 'Chains')
+    first = next(i for i, product in enumerate(existing) if product['category'] in {'Kada', 'Chains'})
     catalogue['products'] = existing[:first] + records + existing[first:]
-    catalogue['categories'] = ['Rings', 'Bracelets', 'Earrings', 'Chains', 'Pendants']
-    catalogue['_readme'] = 'Mixed-stage preview: approved illustrated rings, bracelets and earrings use enquiry-only specifications; chains and pendants retain reference photos and labelled sample facts. Generated details, unseen construction and worn fit are indicative, not verified physical specifications.'
+    catalogue['categories'] = ['Rings', 'Bracelets', 'Earrings'] + (['Kada'] if any(p['category'] == 'Kada' for p in existing) else []) + ['Chains', 'Pendants']
+    catalogue['_readme'] = ('Mixed-stage preview: approved illustrated rings, bracelets and earrings'
+                            + (', and Kada' if any(p['category'] == 'Kada' for p in existing) else '')
+                            + ' use enquiry-only specifications; chains and pendants retain reference photos '
+                              'and labelled sample facts. Generated details, unseen construction and worn fit '
+                              'are indicative, not verified physical specifications.')
     CATALOGUE.write_text(json.dumps(catalogue, ensure_ascii=False, indent=2) + '\n')
     (ROOT / 'catalog/earrings.media.json').write_text(json.dumps(media, ensure_ascii=False, indent=2) + '\n')
     print(f'Exported {len(records)} earrings / {sum(len(item["assets"]) for item in media)} views; {len(catalogue["products"])} catalogue records.')
