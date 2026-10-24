@@ -20,3 +20,8 @@ output/catalogue-image-pilot/
 
 # Production masters, references and local review reports stay local; selected WebP exports live in catalog/images/
 output/catalogue-images/
+
+# Locally assembled production bundle for manual Netlify deployment
+dist/
+output/live-release-*.json
+output/aayam-live-site-*.zip

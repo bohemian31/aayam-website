@@ -2,6 +2,10 @@
 
 Last updated: 24 October 2026. See CHANGELOG.md for the history and DEVELOPER_REFERENCE.md for the current build contract.
 
+## Live-domain release preparation
+
+A separate production bundle is prepared at ignored `dist/`, with a matching ZIP under `output/aayam-live-site-2026-10-24.zip`. It is built from the checked 60-product catalogue by `scripts/build_live_site.py` and passed `scripts/verify_live_site.cjs` locally. It uses the founder's real WhatsApp number **+91 94294 32142**, serves the catalogue at the domain root, removes preview-only copy and indexing blocks, and keeps product details on enquiry. `docs/live-deployment.md` gives the deployment and rollback steps. **The live Netlify site has not yet been replaced; it still serves the launch page.** Netlify is currently at a sign-in screen, and the founder has been asked to sign in to the existing project so the production folder can be uploaded there.
+
 ## Current preview
 
 The GitHub Pages preview source contains **60 enquiry-only products**: 20 Rings, 9 Bracelets, 13 Earrings, 5 Kada, 2 Chains, 7 Cufflinks and 4 Accessories. The 10 older Chain and 7 Pendant reference listings and their sample prices/specifications have been removed from the active catalogue. The warm oval Chain remains deferred. The graphite bridged-link Chain was included at the founder's direction. The 6 difficult deferred Rings remain outside the catalogue. The root launching-soon page and Netlify/live domain are unchanged.

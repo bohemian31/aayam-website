@@ -2,6 +2,12 @@
 
 This records decisions and artifacts visible in the project and conversation. Earlier phase entries use 26 September 2026; later records carry their actual dates. It is a handoff history, not proof that a remote service or deployed site was verified.
 
+## 24 October 2026 — live-domain release prepared, upload pending
+
+- The founder requested replacing the Netlify launch page at `thehouseofaayam.com` with the checked enquiry catalogue and supplied the real WhatsApp number, +91 94294 32142. The existing domain still serves the launch page; the founder believes its Netlify project was deployed manually.
+- Added a separate production builder and local browser verifier. The generated, ignored `dist/` contains six domain-root pages, 60 products, 189 unique selected WebPs, public images, allowed robots rules and a sitemap. It removes preview labels and `noindex` while retaining accurate illustration/specification caveats. The GitHub Pages preview and repository root launch files are unchanged.
+- Packaged the verified build for manual Netlify upload and wrote `docs/live-deployment.md`. The existing Netlify dashboard currently requests sign-in, so no production upload has occurred. The founder has been asked to sign in to the existing project.
+
 ## 24 October 2026 — full enquiry catalogue in the GitHub Pages preview
 
 - Founder accepted the Other image sets, approved inclusion of the graphite bridged-link Chain, and requested removal of the 10 older Chain and 7 Pendant sample listings. The warm oval Chain remains deferred. The resulting catalogue has 60 enquiry-only products in seven categories and 183 selected gallery views.

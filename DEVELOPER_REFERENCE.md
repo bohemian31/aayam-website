@@ -2,6 +2,8 @@
 
 Current source revision: 24 October 2026. Read PROGRESS.md for status, CHANGELOG.md for history, and `docs/*-integration.md` for image provenance and limits.
 
+For the pending live-domain release, run `python3 scripts/build_live_site.py` to create ignored `dist/`; run `node scripts/verify_live_site.cjs` against an HTTP server. The production builder leaves the public GitHub Pages preview and root launch source untouched. It moves the six preview pages to the domain root, rewrites asset/data paths, uses WhatsApp +91 94294 32142, removes preview labels/noindex and allows indexing. See `docs/live-deployment.md`. The 24 October production bundle passed local checks but has **not yet been uploaded to Netlify**. The existing Netlify project is believed to use manual uploads; verify in its dashboard after the founder signs in.
+
 ## Hosting and boundaries
 
 Repository: https://github.com/bohemian31/aayam-website (`main`). Preview: https://bohemian31.github.io/aayam-website/preview/index.html. The root `index.html`, `styles.css`, `script.js` and `assets/` are the separate Netlify launching-soon site; this catalogue release does not change them or the live domain. GitHub Pages preview is public even with its visible notice and `noindex`. There is no backend, CMS, account or checkout. Serve this repository over HTTP because the preview fetches JSON.
