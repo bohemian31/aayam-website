@@ -1,26 +1,18 @@
 {
-  "_readme": "Mixed-stage preview: approved illustrated rings, bracelets, earrings and Kada use enquiry-only specifications; chains and pendants retain reference photos and labelled sample facts. Generated details, hidden construction and worn fit are indicative, not verified physical specifications.",
+  "_readme": "Enquiry-only design preview using approved generated product illustrations. Photos of intended designs informed the images; hidden details and worn scale may be interpreted. All materials, dimensions, prices, fit and availability require confirmation for the finished piece.",
   "currency": "INR",
-  "sampleContent": true,
+  "sampleContent": false,
   "categories": [
     "Rings",
     "Bracelets",
     "Earrings",
     "Kada",
     "Chains",
-    "Pendants"
+    "Cufflinks",
+    "Accessories"
   ],
-  "goldColours": [
-    "Yellow",
-    "Rose",
-    "White"
-  ],
-  "karats": [
-    "9K",
-    "14K",
-    "18K",
-    "22K"
-  ],
+  "goldColours": [],
+  "karats": [],
   "products": [
     {
       "id": "AYM-RG-101",
@@ -2780,786 +2772,839 @@
       "imageStatus": "Approved for website preview use. Generated details and worn scale remain illustrative."
     },
     {
-      "id": "AYM-CH-001",
-      "slug": "ansh-flat-chain",
-      "name": "Ansh Flat Chain",
+      "id": "AYM-CH-101",
+      "productKey": "two-tone-pointed-link-chain",
+      "slug": "avir-two-tone-pointed-link-chain",
+      "name": "Avir Two-Tone Pointed-Link Chain",
       "category": "Chains",
-      "shortDescription": "A flat chain that lies in a smooth, continuous line.",
-      "description": "Ansh follows the neckline with a slim, flattened profile. Its simple surface makes the shape the focus.",
-      "weightGrams": 8,
-      "sizeType": "Chain length",
-      "sizeOptions": [
-        "18\"",
-        "20\"",
-        "22\""
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "Alternating warm and cool pointed links form a fine, rhythmic line.",
+      "description": "A series of slender, pointed links gives Avir its gentle rhythm. Warm- and cool-toned surfaces alternate along the chain, bringing contrast without interrupting its light profile. It can sit on its own as a precise detail at the neckline.",
+      "appearanceLabel": "Alternating warm and cool tones · pointed links",
+      "designTags": [
+        "Two-tone",
+        "Linkwork"
       ],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
+      "weightGrams": null,
+      "sizeType": "Fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for fit guidance",
+      "variants": [],
+      "fitGuidance": "Ask us to confirm the finished length, link width and where it will sit on you. The worn image illustrates styling, not a measured length.",
+      "details": {
+        "design": "Fine chain of alternating elongated pointed links.",
+        "finish": "Smooth warm- and cool-toned surfaces shown.",
+        "composition": "Metal, accent materials and any karat options are confirmed on enquiry.",
+        "dimensions": "Finished length, link width and clasp are confirmed on enquiry.",
+        "fastening": "Clasp design and operation require confirmation.",
+        "weight": "Confirmed for the finished piece."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Ask for care instructions suited to the confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/chains/two-tone-pointed-link-chain/01-hero.webp",
+        "alternate": "catalog/images/chains/two-tone-pointed-link-chain/02-alternate.webp",
+        "detail": "catalog/images/chains/two-tone-pointed-link-chain/03-worn.webp",
+        "onBody": "catalog/images/chains/two-tone-pointed-link-chain/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
         {
-          "goldColour": "Yellow",
-          "karat": "9K",
-          "priceINR": 65000
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Avir Two-Tone Pointed-Link Chain — illustrated hero view"
         },
         {
-          "goldColour": "Rose",
-          "karat": "9K",
-          "priceINR": 65000
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Avir Two-Tone Pointed-Link Chain — illustrated alternate view"
         },
         {
-          "goldColour": "Yellow",
-          "karat": "14K",
-          "priceINR": 101000
-        },
-        {
-          "goldColour": "Rose",
-          "karat": "14K",
-          "priceINR": 101000
+          "key": "detail",
+          "label": "On neck",
+          "alt": "Avir Two-Tone Pointed-Link Chain — illustrative styling on the body"
         }
       ],
-      "details": {
-        "composition": "9K or 14K gold",
-        "dimensions": "Link width approx. 2mm",
-        "fastening": "Lobster clasp",
-        "includes": "Chain only"
-      },
-      "care": "Store flat or hanging to prevent tangling. Avoid contact with perfume and chlorinated water.",
-      "images": {
-        "primary": "catalog/images/reference/chain-01.jpg",
-        "alternate": "catalog/images/reference/chain-01.jpg",
-        "detail": "catalog/images/reference/chain-01.jpg",
-        "onBody": null
-      },
-      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
+      "galleryNote": "Generated product illustrations from a small composite source. Link construction, clasp and worn scale are illustrative; confirm the finished chain before ordering.",
+      "imageStatus": "Approved for website preview. Generated details and worn scale are illustrative."
     },
     {
-      "id": "AYM-CH-002",
-      "slug": "mihir-fine-chain",
-      "name": "Mihir Fine Chain",
+      "id": "AYM-CH-102",
+      "productKey": "graphite-bridged-link-chain",
+      "slug": "neer-graphite-bridge-link-chain",
+      "name": "Neer Graphite Bridge-Link Chain",
       "category": "Chains",
-      "shortDescription": "A slender chain with a quiet, fluid drape.",
-      "description": "Mihir draws a fine line against the skin. Its restrained scale lends itself to a pared-back look.",
-      "weightGrams": 10,
-      "sizeType": "Chain length",
-      "sizeOptions": [
-        "18\"",
-        "20\"",
-        "22\"",
-        "24\""
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "Dark, oval links meet at a narrow bar across each opening.",
+      "description": "Neer draws its rhythm from a repeated open oval link. A slim bridge crosses the centre of each form, giving the chain a clear, architectural pattern. The graphite-toned illustration shows how the links gather into a relaxed line at the neckline.",
+      "appearanceLabel": "Graphite tone · bridged oval links",
+      "designTags": [
+        "Linkwork",
+        "Geometric"
       ],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
+      "weightGrams": null,
+      "sizeType": "Fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for fit guidance",
+      "variants": [],
+      "fitGuidance": "Ask us to confirm the finished length, link width and where it will sit on you. The worn image illustrates styling, not a measured length.",
+      "details": {
+        "design": "Chain of repeating open oval links with a central crossbar detail.",
+        "finish": "Smooth dark graphite-toned surfaces shown.",
+        "composition": "Metal, accent materials and any karat options are confirmed on enquiry.",
+        "dimensions": "Finished length, link width and clasp are confirmed on enquiry.",
+        "fastening": "Clasp design and operation require confirmation.",
+        "weight": "Confirmed for the finished piece."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Ask for care instructions suited to the confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/chains/graphite-bridged-link-chain/01-hero.webp",
+        "alternate": "catalog/images/chains/graphite-bridged-link-chain/02-alternate.webp",
+        "detail": "catalog/images/chains/graphite-bridged-link-chain/03-worn.webp",
+        "onBody": "catalog/images/chains/graphite-bridged-link-chain/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
         {
-          "goldColour": "Yellow",
-          "karat": "9K",
-          "priceINR": 81000
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Neer Graphite Bridge-Link Chain — illustrated hero view"
         },
         {
-          "goldColour": "Yellow",
-          "karat": "14K",
-          "priceINR": 126000
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Neer Graphite Bridge-Link Chain — illustrated alternate view"
         },
         {
-          "goldColour": "Yellow",
-          "karat": "18K",
-          "priceINR": 162000
+          "key": "detail",
+          "label": "On neck",
+          "alt": "Neer Graphite Bridge-Link Chain — illustrative styling on the body"
         }
       ],
-      "details": {
-        "composition": "9K, 14K or 18K gold",
-        "dimensions": "Link width approx. 3.5mm",
-        "fastening": "Lobster clasp",
-        "includes": "Chain only"
-      },
-      "care": "Store flat or hanging to prevent tangling. Avoid contact with perfume and chlorinated water.",
-      "images": {
-        "primary": "catalog/images/reference/chain-02.jpg",
-        "alternate": "catalog/images/reference/chain-02.jpg",
-        "detail": "catalog/images/reference/chain-02.jpg",
-        "onBody": null
-      },
-      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
+      "galleryNote": "Generated from a single worn source. Isolated link construction, hidden back, clasp and worn scale are illustrative and need confirmation.",
+      "imageStatus": "Approved for website preview. Generated details and worn scale are illustrative."
     },
     {
-      "id": "AYM-CH-003",
-      "slug": "kairo-curb-chain",
-      "name": "Kairo Curb Chain",
-      "category": "Chains",
-      "shortDescription": "A classic close-set curb-link chain.",
-      "description": "Kairo is built around repeating, flattened links. The familiar rhythm gives it a clear, defined line.",
-      "weightGrams": 15,
-      "sizeType": "Chain length",
-      "sizeOptions": [
-        "20\"",
-        "22\"",
-        "24\""
+      "id": "AYM-CL-101",
+      "productKey": "gold-chain-loop-blue-end-cufflinks",
+      "slug": "veyar-chain-loop-cufflinks",
+      "name": "Veyar Chain-Loop Cufflinks",
+      "category": "Cufflinks",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "Looped chain forms frame deep-blue round accents.",
+      "description": "Veyar brings a soft sense of movement to a formal detail. Each cufflink pairs a loop of linked warm-toned metal with a compact blue accent at the top, making the shape visible without adding bulk to the cuff.",
+      "appearanceLabel": "Warm tone · chain loop · blue accent",
+      "designTags": [
+        "Linked",
+        "Colour accent"
       ],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
+      "weightGrams": null,
+      "sizeType": "Fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for fit guidance",
+      "variants": [],
+      "fitGuidance": "Ask us to confirm the face dimensions, backing, and whether the design is supplied singly or as a pair. The on-cuff view illustrates styling and scale.",
+      "details": {
+        "design": "Paired looped-link cufflinks with round blue accents.",
+        "finish": "Polished warm-toned links and blue accents shown.",
+        "composition": "Metal, accent materials and any karat options are confirmed on enquiry.",
+        "dimensions": "Face dimensions and shirt-cuff fit are confirmed on enquiry.",
+        "fastening": "Reverse fastening and whether supplied singly or as a pair require confirmation.",
+        "weight": "Confirmed for the finished piece."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Ask for care instructions suited to the confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/cufflinks/gold-chain-loop-blue-end-cufflinks/01-hero.webp",
+        "alternate": "catalog/images/cufflinks/gold-chain-loop-blue-end-cufflinks/02-alternate.webp",
+        "detail": "catalog/images/cufflinks/gold-chain-loop-blue-end-cufflinks/03-worn.webp",
+        "onBody": "catalog/images/cufflinks/gold-chain-loop-blue-end-cufflinks/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
         {
-          "goldColour": "Yellow",
-          "karat": "14K",
-          "priceINR": 185000
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Veyar Chain-Loop Cufflinks — illustrated hero view"
         },
         {
-          "goldColour": "White",
-          "karat": "14K",
-          "priceINR": 185000
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Veyar Chain-Loop Cufflinks — illustrated alternate view"
         },
         {
-          "goldColour": "Yellow",
-          "karat": "18K",
-          "priceINR": 243000
-        },
-        {
-          "goldColour": "White",
-          "karat": "18K",
-          "priceINR": 243000
+          "key": "detail",
+          "label": "On cuff",
+          "alt": "Veyar Chain-Loop Cufflinks — illustrative styling on the body"
         }
       ],
-      "details": {
-        "composition": "14K or 18K gold",
-        "dimensions": "Link width approx. 6mm",
-        "fastening": "Box clasp with safety catch",
-        "includes": "Chain only"
-      },
-      "care": "Store flat or hanging to prevent tangling. Avoid contact with perfume and chlorinated water.",
-      "images": {
-        "primary": "catalog/images/reference/chain-03.jpg",
-        "alternate": "catalog/images/reference/chain-03.jpg",
-        "detail": "catalog/images/reference/chain-03.jpg",
-        "onBody": null
-      },
-      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
+      "galleryNote": "Generated illustrations based on several source photos. Blue material, metal, fastening and exact dimensions require confirmation.",
+      "imageStatus": "Approved for website preview. Generated details and worn scale are illustrative."
     },
     {
-      "id": "AYM-CH-004",
-      "slug": "zoran-bar-link-chain",
-      "name": "Zoran Bar Link Chain",
-      "category": "Chains",
-      "shortDescription": "An elongated link chain with a graphic rhythm.",
-      "description": "Longer segments give Zoran an open, linear pattern. The spacing makes each link part of the design.",
-      "weightGrams": 8,
-      "sizeType": "Chain length",
-      "sizeOptions": [
-        "18\"",
-        "20\"",
-        "22\""
+      "id": "AYM-CL-102",
+      "productKey": "horse-horseshoe-cufflinks",
+      "slug": "rudra-horse-horseshoe-cufflinks",
+      "name": "Rudra Horse & Horseshoe Cufflinks",
+      "category": "Cufflinks",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "A horse profile rests inside a bright-edged horseshoe motif.",
+      "description": "A small horse profile sits within an open horseshoe outline, lending this pair a more expressive silhouette. Bright points along the curved edge catch the light, while the central motif keeps the design recognisable at cuff scale.",
+      "appearanceLabel": "Warm tone · horse and horseshoe motif",
+      "designTags": [
+        "Motif",
+        "Bright accent"
       ],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
+      "weightGrams": null,
+      "sizeType": "Fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for fit guidance",
+      "variants": [],
+      "fitGuidance": "Ask us to confirm the face dimensions, backing, and whether the design is supplied singly or as a pair. The on-cuff view illustrates styling and scale.",
+      "details": {
+        "design": "Horse profile within a horseshoe-shaped cufflink face.",
+        "finish": "Polished warm-toned form with bright accents shown.",
+        "composition": "Metal, accent materials and any karat options are confirmed on enquiry.",
+        "dimensions": "Face dimensions and shirt-cuff fit are confirmed on enquiry.",
+        "fastening": "Reverse fastening and whether supplied singly or as a pair require confirmation.",
+        "weight": "Confirmed for the finished piece."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Ask for care instructions suited to the confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/cufflinks/horse-horseshoe-cufflinks/01-hero.webp",
+        "alternate": "catalog/images/cufflinks/horse-horseshoe-cufflinks/02-alternate.webp",
+        "detail": "catalog/images/cufflinks/horse-horseshoe-cufflinks/03-worn.webp",
+        "onBody": "catalog/images/cufflinks/horse-horseshoe-cufflinks/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
         {
-          "goldColour": "Yellow",
-          "karat": "9K",
-          "priceINR": 65000
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Rudra Horse & Horseshoe Cufflinks — illustrated hero view"
         },
         {
-          "goldColour": "Yellow",
-          "karat": "14K",
-          "priceINR": 101000
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Rudra Horse & Horseshoe Cufflinks — illustrated alternate view"
         },
         {
-          "goldColour": "Rose",
-          "karat": "9K",
-          "priceINR": 65000
-        },
-        {
-          "goldColour": "Rose",
-          "karat": "14K",
-          "priceINR": 101000
+          "key": "detail",
+          "label": "On cuff",
+          "alt": "Rudra Horse & Horseshoe Cufflinks — illustrative styling on the body"
         }
       ],
-      "details": {
-        "composition": "9K or 14K gold",
-        "dimensions": "Link width approx. 3mm",
-        "fastening": "Lobster clasp",
-        "includes": "Chain only"
-      },
-      "care": "Store flat or hanging to prevent tangling. Avoid contact with perfume and chlorinated water.",
-      "images": {
-        "primary": "catalog/images/reference/chain-04.jpg",
-        "alternate": "catalog/images/reference/chain-04.jpg",
-        "detail": "catalog/images/reference/chain-04.jpg",
-        "onBody": null
-      },
-      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
+      "galleryNote": "Generated from one worn source. Fine motif, bright accents and reverse fastening are interpretations that need physical confirmation.",
+      "imageStatus": "Approved for website preview. Generated details and worn scale are illustrative."
     },
     {
-      "id": "AYM-CH-005",
-      "slug": "neer-textured-chain",
-      "name": "Neer Textured Chain",
-      "category": "Chains",
-      "shortDescription": "A close-linked chain with a detailed surface.",
-      "description": "Neer catches the light across a tight repeating pattern. Its texture is subtle at a distance and more defined up close.",
-      "weightGrams": 8,
-      "sizeType": "Chain length",
-      "sizeOptions": [
-        "18\"",
-        "20\"",
-        "22\""
+      "id": "AYM-CL-103",
+      "productKey": "black-spade-plate-cufflinks",
+      "slug": "zaal-spade-cufflinks",
+      "name": "Zaal Spade Cufflinks",
+      "category": "Cufflinks",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "A dark spade shape stands against a finely brightened square face.",
+      "description": "Zaal turns a familiar symbol into a sharp cuff detail. A dark spade sits at the centre of a square face, with a field of small bright points around it. The restrained outline keeps the motif crisp rather than playful.",
+      "appearanceLabel": "Cool tone · dark spade · bright surface",
+      "designTags": [
+        "Geometric",
+        "Motif"
       ],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
+      "weightGrams": null,
+      "sizeType": "Fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for fit guidance",
+      "variants": [],
+      "fitGuidance": "Ask us to confirm the face dimensions, backing, and whether the design is supplied singly or as a pair. The on-cuff view illustrates styling and scale.",
+      "details": {
+        "design": "Square cufflink face with central spade motif.",
+        "finish": "Cool-toned border, dark centre motif and bright textured field shown.",
+        "composition": "Metal, accent materials and any karat options are confirmed on enquiry.",
+        "dimensions": "Face dimensions and shirt-cuff fit are confirmed on enquiry.",
+        "fastening": "Reverse fastening and whether supplied singly or as a pair require confirmation.",
+        "weight": "Confirmed for the finished piece."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Ask for care instructions suited to the confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/cufflinks/black-spade-plate-cufflinks/01-hero.webp",
+        "alternate": "catalog/images/cufflinks/black-spade-plate-cufflinks/02-alternate.webp",
+        "detail": "catalog/images/cufflinks/black-spade-plate-cufflinks/03-worn.webp",
+        "onBody": "catalog/images/cufflinks/black-spade-plate-cufflinks/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
         {
-          "goldColour": "Yellow",
-          "karat": "9K",
-          "priceINR": 65000
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Zaal Spade Cufflinks — illustrated hero view"
         },
         {
-          "goldColour": "Yellow",
-          "karat": "14K",
-          "priceINR": 101000
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Zaal Spade Cufflinks — illustrated alternate view"
         },
         {
-          "goldColour": "Yellow",
-          "karat": "18K",
-          "priceINR": 130000
+          "key": "detail",
+          "label": "On cuff",
+          "alt": "Zaal Spade Cufflinks — illustrative styling on the body"
         }
       ],
-      "details": {
-        "composition": "9K, 14K or 18K gold",
-        "dimensions": "Link width approx. 2.5mm",
-        "fastening": "Lobster clasp",
-        "includes": "Chain only"
-      },
-      "care": "Store flat or hanging to prevent tangling. Avoid contact with perfume and chlorinated water.",
-      "images": {
-        "primary": "catalog/images/reference/chain-05.jpg",
-        "alternate": "catalog/images/reference/chain-05.jpg",
-        "detail": "catalog/images/reference/chain-05.jpg",
-        "onBody": null
-      },
-      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
+      "galleryNote": "Generated from one on-cuff source. Surface details, reverse construction and materials require confirmation.",
+      "imageStatus": "Approved for website preview. Generated details and worn scale are illustrative."
     },
     {
-      "id": "AYM-CH-006",
-      "slug": "ravik-rope-chain",
-      "name": "Ravik Rope Chain",
-      "category": "Chains",
-      "shortDescription": "A twisted chain with a rope-like line.",
-      "description": "Ravik's interlaced pattern adds movement along its length. The twisting form gives a familiar chain a richer surface.",
-      "weightGrams": 10,
-      "sizeType": "Chain length",
-      "sizeOptions": [
-        "18\"",
-        "20\"",
-        "22\"",
-        "24\""
+      "id": "AYM-CL-104",
+      "productKey": "green-round-accent-cufflinks",
+      "slug": "neer-green-accent-cufflinks",
+      "name": "Neer Green Accent Cufflinks",
+      "category": "Cufflinks",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "A rounded green centre gives this pair its single point of colour.",
+      "description": "Neer is built around a clear, rounded green focal point. Its compact cool-toned setting leaves the colour to carry the design, offering a simple accent against a plain shirt cuff.",
+      "appearanceLabel": "Cool tone · green round accent",
+      "designTags": [
+        "Colour accent",
+        "Minimal"
       ],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
+      "weightGrams": null,
+      "sizeType": "Fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for fit guidance",
+      "variants": [],
+      "fitGuidance": "Ask us to confirm the face dimensions, backing, and whether the design is supplied singly or as a pair. The on-cuff view illustrates styling and scale.",
+      "details": {
+        "design": "Pair of compact round-centred cufflinks.",
+        "finish": "Bright cool-toned surround and green focal point shown.",
+        "composition": "Metal, accent materials and any karat options are confirmed on enquiry.",
+        "dimensions": "Face dimensions and shirt-cuff fit are confirmed on enquiry.",
+        "fastening": "Reverse fastening and whether supplied singly or as a pair require confirmation.",
+        "weight": "Confirmed for the finished piece."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Ask for care instructions suited to the confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/cufflinks/green-round-accent-cufflinks/01-hero.webp",
+        "alternate": "catalog/images/cufflinks/green-round-accent-cufflinks/02-alternate.webp",
+        "detail": "catalog/images/cufflinks/green-round-accent-cufflinks/03-worn.webp",
+        "onBody": "catalog/images/cufflinks/green-round-accent-cufflinks/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
         {
-          "goldColour": "White",
-          "karat": "14K",
-          "priceINR": 126000
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Neer Green Accent Cufflinks — illustrated hero view"
         },
         {
-          "goldColour": "White",
-          "karat": "18K",
-          "priceINR": 162000
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Neer Green Accent Cufflinks — illustrated alternate view"
+        },
+        {
+          "key": "detail",
+          "label": "On cuff",
+          "alt": "Neer Green Accent Cufflinks — illustrative styling on the body"
         }
       ],
-      "details": {
-        "composition": "14K or 18K gold",
-        "dimensions": "Link width approx. 4mm",
-        "fastening": "Lobster clasp",
-        "includes": "Chain only"
-      },
-      "care": "Store flat or hanging to prevent tangling. Avoid contact with perfume and chlorinated water.",
-      "images": {
-        "primary": "catalog/images/reference/chain-06.jpg",
-        "alternate": "catalog/images/reference/chain-06.jpg",
-        "detail": "catalog/images/reference/chain-06.jpg",
-        "onBody": null
-      },
-      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
+      "galleryNote": "Generated from one worn source. The green material, setting, reverse and dimensions are unverified.",
+      "imageStatus": "Approved for website preview. Generated details and worn scale are illustrative."
     },
     {
-      "id": "AYM-CH-007",
-      "slug": "jivan-station-chain",
-      "name": "Jivan Station Chain",
-      "category": "Chains",
-      "shortDescription": "A chain punctuated by regular bar-like links.",
-      "description": "Jivan alternates short connecting sections with more defined segments. The measured spacing gives it a clean rhythm.",
-      "weightGrams": 8,
-      "sizeType": "Chain length",
-      "sizeOptions": [
-        "18\"",
-        "20\"",
-        "22\""
+      "id": "AYM-CL-105",
+      "productKey": "five-point-crown-cufflinks",
+      "slug": "arka-five-point-crown-cufflinks",
+      "name": "Arka Five-Point Crown Cufflinks",
+      "category": "Cufflinks",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "Five rising points make a compact crown silhouette.",
+      "description": "A neat line of five raised points gives Arka its sculptural profile. The open crown shape reads clearly from the front, while its polished warm-toned surface keeps the pair light and graphic.",
+      "appearanceLabel": "Warm tone · open crown motif",
+      "designTags": [
+        "Motif",
+        "Sculptural"
       ],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
+      "weightGrams": null,
+      "sizeType": "Fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for fit guidance",
+      "variants": [],
+      "fitGuidance": "Ask us to confirm the face dimensions, backing, and whether the design is supplied singly or as a pair. The on-cuff view illustrates styling and scale.",
+      "details": {
+        "design": "Open five-point crown-shaped cufflink face.",
+        "finish": "Polished warm-toned surface shown.",
+        "composition": "Metal, accent materials and any karat options are confirmed on enquiry.",
+        "dimensions": "Face dimensions and shirt-cuff fit are confirmed on enquiry.",
+        "fastening": "Reverse fastening and whether supplied singly or as a pair require confirmation.",
+        "weight": "Confirmed for the finished piece."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Ask for care instructions suited to the confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/cufflinks/five-point-crown-cufflinks/01-hero.webp",
+        "alternate": "catalog/images/cufflinks/five-point-crown-cufflinks/02-alternate.webp",
+        "detail": "catalog/images/cufflinks/five-point-crown-cufflinks/03-worn.webp",
+        "onBody": "catalog/images/cufflinks/five-point-crown-cufflinks/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
         {
-          "goldColour": "Rose",
-          "karat": "14K",
-          "priceINR": 101000
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Arka Five-Point Crown Cufflinks — illustrated hero view"
+        },
+        {
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Arka Five-Point Crown Cufflinks — illustrated alternate view"
+        },
+        {
+          "key": "detail",
+          "label": "On cuff",
+          "alt": "Arka Five-Point Crown Cufflinks — illustrative styling on the body"
         }
       ],
-      "details": {
-        "composition": "14K gold",
-        "dimensions": "Link width approx. 3mm",
-        "fastening": "Lobster clasp",
-        "includes": "Chain only"
-      },
-      "care": "Store flat or hanging to prevent tangling. Avoid contact with perfume and chlorinated water.",
-      "images": {
-        "primary": "catalog/images/reference/chain-07.jpg",
-        "alternate": "catalog/images/reference/chain-07.jpg",
-        "detail": "catalog/images/reference/chain-07.jpg",
-        "onBody": null
-      },
-      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
+      "galleryNote": "Generated from a low-resolution worn source. Fine point geometry, rear attachment and scale need physical verification.",
+      "imageStatus": "Approved for website preview. Generated details and worn scale are illustrative."
     },
     {
-      "id": "AYM-CH-008",
-      "slug": "aviraj-snake-chain",
-      "name": "Aviraj Snake Chain",
-      "category": "Chains",
-      "shortDescription": "A smooth chain with a fluid, close-set profile.",
-      "description": "Aviraj forms an almost unbroken line around the neck. Its surface lets the curve of the chain stand out.",
-      "weightGrams": 10,
-      "sizeType": "Chain length",
-      "sizeOptions": [
-        "18\"",
-        "20\"",
-        "22\"",
-        "24\""
+      "id": "AYM-CL-106",
+      "productKey": "ace-card-cufflinks",
+      "slug": "kiaan-ace-card-cufflinks",
+      "name": "Kiaan Ace-Card Cufflinks",
+      "category": "Cufflinks",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "Playing-card faces bring a small graphic detail to a shirt cuff.",
+      "description": "Kiaan takes its cue from the face of an ace playing card. A pale square ground, dark central mark and corner symbols create a crisp, graphic pair designed to be noticed at close range.",
+      "appearanceLabel": "Cool tone · playing-card motif",
+      "designTags": [
+        "Graphic",
+        "Motif"
       ],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
+      "weightGrams": null,
+      "sizeType": "Fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for fit guidance",
+      "variants": [],
+      "fitGuidance": "Ask us to confirm the face dimensions, backing, and whether the design is supplied singly or as a pair. The on-cuff view illustrates styling and scale.",
+      "details": {
+        "design": "Paired square cufflink faces with ace-card markings.",
+        "finish": "Brushed cool-toned surface and dark graphic marks shown.",
+        "composition": "Metal, accent materials and any karat options are confirmed on enquiry.",
+        "dimensions": "Face dimensions and shirt-cuff fit are confirmed on enquiry.",
+        "fastening": "Reverse fastening and whether supplied singly or as a pair require confirmation.",
+        "weight": "Confirmed for the finished piece."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Ask for care instructions suited to the confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/cufflinks/ace-card-cufflinks/01-hero.webp",
+        "alternate": "catalog/images/cufflinks/ace-card-cufflinks/02-alternate.webp",
+        "detail": "catalog/images/cufflinks/ace-card-cufflinks/03-worn.webp",
+        "onBody": "catalog/images/cufflinks/ace-card-cufflinks/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
         {
-          "goldColour": "Yellow",
-          "karat": "9K",
-          "priceINR": 81000
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Kiaan Ace-Card Cufflinks — illustrated hero view"
         },
         {
-          "goldColour": "Yellow",
-          "karat": "14K",
-          "priceINR": 126000
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Kiaan Ace-Card Cufflinks — illustrated alternate view"
+        },
+        {
+          "key": "detail",
+          "label": "On cuff",
+          "alt": "Kiaan Ace-Card Cufflinks — illustrative styling on the body"
         }
       ],
-      "details": {
-        "composition": "9K or 14K gold",
-        "dimensions": "Link width approx. 4mm",
-        "fastening": "Lobster clasp",
-        "includes": "Chain only"
-      },
-      "care": "Store flat or hanging to prevent tangling. Avoid contact with perfume and chlorinated water.",
-      "images": {
-        "primary": "catalog/images/reference/chain-08.jpg",
-        "alternate": "catalog/images/reference/chain-08.jpg",
-        "detail": "catalog/images/reference/chain-08.jpg",
-        "onBody": null
-      },
-      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
+      "galleryNote": "Generated from a front-facing source. Exact card symbols, reverse fastening and worn scale require confirmation.",
+      "imageStatus": "Approved for website preview. Generated details and worn scale are illustrative."
     },
     {
-      "id": "AYM-CH-009",
-      "slug": "ansal-fine-chain",
-      "name": "Ansal Fine Chain",
-      "category": "Chains",
-      "shortDescription": "A delicate chain with a minimal silhouette.",
-      "description": "Ansal keeps the line fine and light. The understated profile works alone or beneath a pendant.",
-      "weightGrams": 15,
-      "sizeType": "Chain length",
-      "sizeOptions": [
-        "20\"",
-        "22\"",
-        "24\""
+      "id": "AYM-CL-107",
+      "productKey": "custom-monogram-cufflinks",
+      "slug": "custom-monogram-cufflinks",
+      "name": "Custom Monogram Cufflinks",
+      "category": "Cufflinks",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "Interlaced initials create a personal cuff detail.",
+      "description": "These illustrated examples explore a monogram as a compact piece of jewellery. Interlaced letters form the face, giving the shirt cuff a detail that is personal in both shape and meaning. Ask us which initials, lettering styles and finishes can be made for your pair.",
+      "appearanceLabel": "Interlaced letter examples · warm tone",
+      "designTags": [
+        "Personalised",
+        "Letterwork"
       ],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
+      "weightGrams": null,
+      "sizeType": "Fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for fit guidance",
+      "variants": [],
+      "fitGuidance": "Ask us to confirm the face dimensions, backing, and whether the design is supplied singly or as a pair. The on-cuff view illustrates styling and scale.",
+      "details": {
+        "design": "Monogram cufflink examples with script, serif and angular letter arrangements.",
+        "finish": "Warm-toned polished examples shown; final lettering and finish are confirmed on enquiry.",
+        "composition": "Metal, accent materials and any karat options are confirmed on enquiry.",
+        "dimensions": "Face dimensions and shirt-cuff fit are confirmed on enquiry.",
+        "fastening": "Reverse fastening and whether supplied singly or as a pair require confirmation.",
+        "weight": "Confirmed for the finished piece."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Ask for care instructions suited to the confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/cufflinks/custom-monogram-cufflinks/script-monogram/01-hero.webp",
+        "alternate": "catalog/images/cufflinks/custom-monogram-cufflinks/script-monogram/02-alternate.webp",
+        "detail": "catalog/images/cufflinks/custom-monogram-cufflinks/script-monogram/03-worn.webp",
+        "dnHero": "catalog/images/cufflinks/custom-monogram-cufflinks/serif-dn-monogram/01-hero.webp",
+        "dnAlternate": "catalog/images/cufflinks/custom-monogram-cufflinks/serif-dn-monogram/02-alternate.webp",
+        "dnWorn": "catalog/images/cufflinks/custom-monogram-cufflinks/serif-dn-monogram/03-worn.webp",
+        "ngWorn": "catalog/images/cufflinks/custom-monogram-cufflinks/angular-ng-monogram/03-worn.webp",
+        "onBody": "catalog/images/cufflinks/custom-monogram-cufflinks/script-monogram/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
         {
-          "goldColour": "Yellow",
-          "karat": "18K",
-          "priceINR": 243000
+          "key": "primary",
+          "label": "Script — hero",
+          "alt": "Custom Monogram Cufflinks — Script — hero illustration"
         },
         {
-          "goldColour": "Yellow",
-          "karat": "22K",
-          "priceINR": 297000
+          "key": "alternate",
+          "label": "Script — alternate",
+          "alt": "Custom Monogram Cufflinks — Script — alternate illustration"
+        },
+        {
+          "key": "detail",
+          "label": "Script — worn",
+          "alt": "Custom Monogram Cufflinks — Script — worn illustration"
+        },
+        {
+          "key": "dnHero",
+          "label": "Serif DN — hero",
+          "alt": "Custom Monogram Cufflinks — Serif DN — hero illustration"
+        },
+        {
+          "key": "dnAlternate",
+          "label": "Serif DN — alternate",
+          "alt": "Custom Monogram Cufflinks — Serif DN — alternate illustration"
+        },
+        {
+          "key": "dnWorn",
+          "label": "Serif DN — worn",
+          "alt": "Custom Monogram Cufflinks — Serif DN — worn illustration"
+        },
+        {
+          "key": "ngWorn",
+          "label": "Angular NG — worn",
+          "alt": "Custom Monogram Cufflinks — Angular NG — worn illustration"
         }
       ],
-      "details": {
-        "composition": "18K or 22K gold",
-        "dimensions": "Link width approx. 5mm",
-        "fastening": "Box clasp with safety catch",
-        "includes": "Chain only"
-      },
-      "care": "Store flat or hanging to prevent tangling. Avoid contact with perfume and chlorinated water.",
-      "images": {
-        "primary": "catalog/images/reference/chain-09.jpg",
-        "alternate": "catalog/images/reference/chain-09.jpg",
-        "detail": "catalog/images/reference/chain-09.jpg",
-        "onBody": null
-      },
-      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
+      "galleryNote": "Generated examples of one customizable concept. The NG example has a worn image only. Initials, final letterform, metal, dimensions and fastening must be confirmed before ordering.",
+      "imageStatus": "Approved for website preview. Generated details and worn scale are illustrative."
     },
     {
-      "id": "AYM-CH-010",
-      "slug": "tarun-snake-chain",
-      "name": "Tarun Snake Chain",
-      "category": "Chains",
-      "shortDescription": "A sleek, smooth-profile chain.",
-      "description": "Tarun runs in a continuous, fluid curve. The compact surface brings a quiet polish to a simple shape.",
-      "weightGrams": 8,
-      "sizeType": "Chain length",
-      "sizeOptions": [
-        "18\"",
-        "20\"",
-        "22\""
+      "id": "AYM-AC-101",
+      "productKey": "pearl-drop-sunglasses-charm",
+      "slug": "rihan-teardrop-sunglasses-charm",
+      "name": "Rihan Teardrop Sunglasses Charm",
+      "category": "Accessories",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "An ivory teardrop lends a quiet accent to dark frames.",
+      "description": "A single teardrop form hangs beneath a small cool-toned loop. Its pale sheen is set against the line of a sunglass frame in the worn illustration, creating a detail that moves gently as you wear it.",
+      "appearanceLabel": "Ivory teardrop · cool-toned loop",
+      "designTags": [
+        "Sunglasses charms",
+        "Minimal"
       ],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
+      "weightGrams": null,
+      "sizeType": "Fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for fit guidance",
+      "variants": [],
+      "fitGuidance": "Ask us to confirm the finished dimensions, attachment and compatibility with your own band or frames. The worn view illustrates styling, not guaranteed fit.",
+      "details": {
+        "design": "Single teardrop bead suspended from a small loop.",
+        "finish": "Pale lustrous drop and polished cool-toned loop shown.",
+        "composition": "Metal, accent materials and any karat options are confirmed on enquiry.",
+        "dimensions": "Finished dimensions and fit with your band or frames are confirmed on enquiry.",
+        "fastening": "Attachment method and compatibility require confirmation.",
+        "weight": "Confirmed for the finished piece."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Ask for care instructions suited to the confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/accessories/pearl-drop-sunglasses-charm/01-hero.webp",
+        "alternate": "catalog/images/accessories/pearl-drop-sunglasses-charm/02-alternate.webp",
+        "detail": "catalog/images/accessories/pearl-drop-sunglasses-charm/03-worn.webp",
+        "onBody": "catalog/images/accessories/pearl-drop-sunglasses-charm/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
         {
-          "goldColour": "Yellow",
-          "karat": "9K",
-          "priceINR": 65000
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Rihan Teardrop Sunglasses Charm — illustrated hero view"
         },
         {
-          "goldColour": "White",
-          "karat": "9K",
-          "priceINR": 65000
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Rihan Teardrop Sunglasses Charm — illustrated alternate view"
+        },
+        {
+          "key": "detail",
+          "label": "On frames",
+          "alt": "Rihan Teardrop Sunglasses Charm — illustrative styling on the body"
         }
       ],
-      "details": {
-        "composition": "9K gold",
-        "dimensions": "Approx. 2mm diameter",
-        "fastening": "Lobster clasp",
-        "includes": "Chain only"
-      },
-      "care": "Store flat or hanging to prevent tangling. A snake chain should not be twisted while worn.",
-      "images": {
-        "primary": "catalog/images/reference/chain-10.jpg",
-        "alternate": "catalog/images/reference/chain-10.jpg",
-        "detail": "catalog/images/reference/chain-10.jpg",
-        "onBody": null
-      },
-      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
+      "galleryNote": "Generated from one worn source. Bead material, attachment method and fit with a specific frame are unverified.",
+      "imageStatus": "Approved for website preview. Generated details and worn scale are illustrative."
     },
     {
-      "id": "AYM-PD-001",
-      "slug": "rihan-black-inlay-pendant",
-      "name": "Rihan Black Inlay Pendant",
-      "category": "Pendants",
-      "shortDescription": "A rectangular pendant with a dark central face.",
-      "description": "Rihan frames a deep black panel within a slim outline. Its vertical shape gives the pendant a precise silhouette.",
-      "weightGrams": 7,
-      "sizeType": "Chain length",
-      "sizeOptions": [
-        "18\"",
-        "20\"",
-        "22\""
+      "id": "AYM-AC-102",
+      "productKey": "shell-pearl-sunglasses-charm",
+      "slug": "kaash-shell-bead-sunglasses-charm",
+      "name": "Kaash Shell & Bead Sunglasses Charm",
+      "category": "Accessories",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "A small shell form and pale bead hang from linked hoops.",
+      "description": "Kaash gathers two small moving details beneath a rounded hoop: a shell-like shape with a dark-green accent and a pale round bead. It is shown beside tortoiseshell frames, where the warm-toned links bring another layer of character to a familiar accessory.",
+      "appearanceLabel": "Warm tone · shell form · pale bead",
+      "designTags": [
+        "Sunglasses charms",
+        "Linked"
       ],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
+      "weightGrams": null,
+      "sizeType": "Fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for fit guidance",
+      "variants": [],
+      "fitGuidance": "Ask us to confirm the finished dimensions, attachment and compatibility with your own band or frames. The worn view illustrates styling, not guaranteed fit.",
+      "details": {
+        "design": "Linked hoop assembly with shell-shaped and rounded hanging details.",
+        "finish": "Polished warm-toned links, dark-green accent and pale bead shown.",
+        "composition": "Metal, accent materials and any karat options are confirmed on enquiry.",
+        "dimensions": "Finished dimensions and fit with your band or frames are confirmed on enquiry.",
+        "fastening": "Attachment method and compatibility require confirmation.",
+        "weight": "Confirmed for the finished piece."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Ask for care instructions suited to the confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/accessories/shell-pearl-sunglasses-charm/01-hero.webp",
+        "alternate": "catalog/images/accessories/shell-pearl-sunglasses-charm/02-alternate.webp",
+        "detail": "catalog/images/accessories/shell-pearl-sunglasses-charm/03-worn.webp",
+        "onBody": "catalog/images/accessories/shell-pearl-sunglasses-charm/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
         {
-          "goldColour": "Yellow",
-          "karat": "14K",
-          "priceINR": 88000
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Kaash Shell & Bead Sunglasses Charm — illustrated hero view"
         },
         {
-          "goldColour": "Rose",
-          "karat": "14K",
-          "priceINR": 88000
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Kaash Shell & Bead Sunglasses Charm — illustrated alternate view"
         },
         {
-          "goldColour": "White",
-          "karat": "14K",
-          "priceINR": 88000
+          "key": "detail",
+          "label": "On frames",
+          "alt": "Kaash Shell & Bead Sunglasses Charm — illustrative styling on the body"
         }
       ],
-      "details": {
-        "composition": "14K gold",
-        "dimensions": "Bar approx. 32mm x 4mm",
-        "fastening": "Lobster clasp",
-        "includes": "Pendant and chain"
-      },
-      "care": "Store separately to prevent scratching. Avoid contact with perfume and chlorinated water.",
-      "images": {
-        "primary": "catalog/images/reference/pendant-01.jpg",
-        "alternate": "catalog/images/reference/pendant-01.jpg",
-        "detail": "catalog/images/reference/pendant-01.jpg",
-        "onBody": null
-      },
-      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
+      "galleryNote": "Generated from one frame-only source. Worn placement, attachment, materials and fit with a specific frame are illustrative.",
+      "imageStatus": "Approved for website preview. Generated details and worn scale are illustrative."
     },
     {
-      "id": "AYM-PD-002",
-      "slug": "ojas-green-inlay-pendant",
-      "name": "Ojas Green Inlay Pendant",
-      "category": "Pendants",
-      "shortDescription": "A compact pendant with a green patterned face.",
-      "description": "Ojas places a green, naturally patterned face inside a crisp frame. The contrast keeps the shape clear and considered.",
-      "weightGrams": 7,
-      "sizeType": "Chain length",
-      "sizeOptions": [
-        "18\"",
-        "20\"",
-        "22\""
+      "id": "AYM-AC-103",
+      "productKey": "tennis-racket-charm",
+      "slug": "tavi-tennis-racket-band-charm",
+      "name": "Tavi Tennis-Racket Band Charm",
+      "category": "Accessories",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "A miniature racket adds a precise sporting motif to a woven band.",
+      "description": "Tavi reduces the outline of a tennis racket to a small band detail. An oval string-grid head and short handle give it a recognisable profile. The illustrations show it on beige and black woven bands as two visual colour options.",
+      "appearanceLabel": "Miniature racket · two illustrated colour looks",
+      "designTags": [
+        "Band charms",
+        "Sport motif"
       ],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
+      "weightGrams": null,
+      "sizeType": "Fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for fit guidance",
+      "variants": [],
+      "fitGuidance": "Ask us to confirm the finished dimensions, attachment and compatibility with your own band or frames. The worn view illustrates styling, not guaranteed fit.",
+      "details": {
+        "design": "Small oval tennis-racket motif with an open grid and short handle.",
+        "finish": "Silver-toned and warm-toned examples shown on woven bands.",
+        "composition": "Metal, accent materials and any karat options are confirmed on enquiry.",
+        "dimensions": "Finished dimensions and fit with your band or frames are confirmed on enquiry.",
+        "fastening": "Attachment method and compatibility require confirmation.",
+        "weight": "Confirmed for the finished piece."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Ask for care instructions suited to the confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/accessories/tennis-racket-charm/silver-beige/01-hero.webp",
+        "alternate": "catalog/images/accessories/tennis-racket-charm/silver-beige/02-alternate.webp",
+        "detail": "catalog/images/accessories/tennis-racket-charm/silver-beige/03-worn.webp",
+        "onBody": "catalog/images/accessories/tennis-racket-charm/silver-beige/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
         {
-          "goldColour": "Yellow",
-          "karat": "9K",
-          "priceINR": 57000
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Tavi Tennis-Racket Band Charm — hero view illustration"
         },
         {
-          "goldColour": "Rose",
-          "karat": "9K",
-          "priceINR": 57000
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Tavi Tennis-Racket Band Charm — alternate view illustration"
         },
         {
-          "goldColour": "Yellow",
-          "karat": "14K",
-          "priceINR": 88000
-        },
-        {
-          "goldColour": "Rose",
-          "karat": "14K",
-          "priceINR": 88000
+          "key": "detail",
+          "label": "On band",
+          "alt": "Tavi Tennis-Racket Band Charm — worn view illustration"
         }
       ],
-      "details": {
-        "composition": "9K or 14K gold",
-        "dimensions": "Disc approx. 16mm diameter",
-        "fastening": "Lobster clasp",
-        "includes": "Pendant and chain"
-      },
-      "care": "Store separately to prevent scratching. Avoid contact with perfume and chlorinated water.",
-      "images": {
-        "primary": "catalog/images/reference/pendant-02.jpg",
-        "alternate": "catalog/images/reference/pendant-02.jpg",
-        "detail": "catalog/images/reference/pendant-02.jpg",
-        "onBody": null
-      },
-      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
+      "galleryNote": "Generated from photos that show the racket beside a separate ball charm. Standalone configuration, mounting and fit with any particular band are unverified.",
+      "imageStatus": "Approved for website preview. Generated details and worn scale are illustrative.",
+      "visualOptions": [
+        {
+          "key": "silver-beige",
+          "label": "Silver tone / beige band",
+          "images": {
+            "primary": "catalog/images/accessories/tennis-racket-charm/silver-beige/01-hero.webp",
+            "alternate": "catalog/images/accessories/tennis-racket-charm/silver-beige/02-alternate.webp",
+            "detail": "catalog/images/accessories/tennis-racket-charm/silver-beige/03-worn.webp",
+            "onBody": "catalog/images/accessories/tennis-racket-charm/silver-beige/03-worn.webp"
+          }
+        },
+        {
+          "key": "gold-black",
+          "label": "Gold tone / black band",
+          "images": {
+            "primary": "catalog/images/accessories/tennis-racket-charm/gold-black/01-hero.webp",
+            "alternate": "catalog/images/accessories/tennis-racket-charm/gold-black/02-alternate.webp",
+            "detail": "catalog/images/accessories/tennis-racket-charm/gold-black/03-worn.webp",
+            "onBody": "catalog/images/accessories/tennis-racket-charm/gold-black/03-worn.webp"
+          }
+        }
+      ]
     },
     {
-      "id": "AYM-PD-003",
-      "slug": "tavi-bar-pendant",
-      "name": "Tavi Bar Pendant",
-      "category": "Pendants",
-      "shortDescription": "A smooth vertical bar suspended from a chain.",
-      "description": "Tavi keeps to a rounded rectangular form. Its plain face makes the proportions the defining feature.",
-      "weightGrams": 7,
-      "sizeType": "Chain length",
-      "sizeOptions": [
-        "18\"",
-        "20\"",
-        "22\""
+      "id": "AYM-AC-104",
+      "productKey": "tennis-ball-charm",
+      "slug": "ojas-tennis-ball-band-charm",
+      "name": "Ojas Tennis-Ball Band Charm",
+      "category": "Accessories",
+      "catalogueStatus": "enquiry",
+      "sampleContent": false,
+      "pricingStatus": "on_enquiry",
+      "specificationStatus": "confirm_on_enquiry",
+      "shortDescription": "A bright miniature ball sits at the centre of a slim bar.",
+      "description": "Ojas brings a small flash of colour to a woven wrist band. A rounded yellow-green tennis-ball form, marked by pale curved lines, rests across a narrow vertical bar. The illustrations show both beige and black band looks.",
+      "appearanceLabel": "Yellow-green ball · slim bar · two illustrated looks",
+      "designTags": [
+        "Band charms",
+        "Sport motif"
       ],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
+      "weightGrams": null,
+      "sizeType": "Fit",
+      "sizeOptions": [],
+      "sizeHelpText": "Ask us for fit guidance",
+      "variants": [],
+      "fitGuidance": "Ask us to confirm the finished dimensions, attachment and compatibility with your own band or frames. The worn view illustrates styling, not guaranteed fit.",
+      "details": {
+        "design": "Miniature tennis-ball motif centred on a narrow vertical bar.",
+        "finish": "Bright yellow-green centre with silver- and warm-toned bar examples.",
+        "composition": "Metal, accent materials and any karat options are confirmed on enquiry.",
+        "dimensions": "Finished dimensions and fit with your band or frames are confirmed on enquiry.",
+        "fastening": "Attachment method and compatibility require confirmation.",
+        "weight": "Confirmed for the finished piece."
+      },
+      "care": "Store separately and wipe gently with a soft dry cloth. Ask for care instructions suited to the confirmed materials and finish.",
+      "images": {
+        "primary": "catalog/images/accessories/tennis-ball-charm/silver-beige/01-hero.webp",
+        "alternate": "catalog/images/accessories/tennis-ball-charm/silver-beige/02-alternate.webp",
+        "detail": "catalog/images/accessories/tennis-ball-charm/silver-beige/03-worn.webp",
+        "onBody": "catalog/images/accessories/tennis-ball-charm/silver-beige/03-worn.webp"
+      },
+      "mediaType": "generated_illustration",
+      "gallery": [
         {
-          "goldColour": "Yellow",
-          "karat": "18K",
-          "priceINR": 113000
+          "key": "primary",
+          "label": "Hero view",
+          "alt": "Ojas Tennis-Ball Band Charm — hero view illustration"
         },
         {
-          "goldColour": "Yellow",
-          "karat": "22K",
-          "priceINR": 139000
+          "key": "alternate",
+          "label": "Alternate view",
+          "alt": "Ojas Tennis-Ball Band Charm — alternate view illustration"
+        },
+        {
+          "key": "detail",
+          "label": "On band",
+          "alt": "Ojas Tennis-Ball Band Charm — worn view illustration"
         }
       ],
-      "details": {
-        "composition": "18K or 22K gold",
-        "dimensions": "Arrow approx. 28mm length",
-        "fastening": "Lobster clasp",
-        "includes": "Pendant and chain"
-      },
-      "care": "Store separately to prevent scratching. Avoid contact with perfume and chlorinated water.",
-      "images": {
-        "primary": "catalog/images/reference/pendant-03.jpg",
-        "alternate": "catalog/images/reference/pendant-03.jpg",
-        "detail": "catalog/images/reference/pendant-03.jpg",
-        "onBody": null
-      },
-      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
-    },
-    {
-      "id": "AYM-PD-004",
-      "slug": "kaash-fold-pendant",
-      "name": "Kaash Fold Pendant",
-      "category": "Pendants",
-      "shortDescription": "An abstract pendant with a folded surface.",
-      "description": "Kaash turns an irregular, folded shape into a small focal point. The shifting planes catch light as it moves.",
-      "weightGrams": 7,
-      "sizeType": "Chain length",
-      "sizeOptions": [
-        "18\"",
-        "20\"",
-        "22\""
-      ],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
+      "galleryNote": "Generated from photos that show the ball beside a separate racket charm. Standalone configuration, mounting and fit with any particular band are unverified.",
+      "imageStatus": "Approved for website preview. Generated details and worn scale are illustrative.",
+      "visualOptions": [
         {
-          "goldColour": "Yellow",
-          "karat": "14K",
-          "priceINR": 88000
+          "key": "silver-beige",
+          "label": "Silver tone / beige band",
+          "images": {
+            "primary": "catalog/images/accessories/tennis-ball-charm/silver-beige/01-hero.webp",
+            "alternate": "catalog/images/accessories/tennis-ball-charm/silver-beige/02-alternate.webp",
+            "detail": "catalog/images/accessories/tennis-ball-charm/silver-beige/03-worn.webp",
+            "onBody": "catalog/images/accessories/tennis-ball-charm/silver-beige/03-worn.webp"
+          }
         },
         {
-          "goldColour": "Rose",
-          "karat": "14K",
-          "priceINR": 88000
-        },
-        {
-          "goldColour": "White",
-          "karat": "14K",
-          "priceINR": 88000
+          "key": "gold-black",
+          "label": "Gold tone / black band",
+          "images": {
+            "primary": "catalog/images/accessories/tennis-ball-charm/gold-black/01-hero.webp",
+            "alternate": "catalog/images/accessories/tennis-ball-charm/gold-black/02-alternate.webp",
+            "detail": "catalog/images/accessories/tennis-ball-charm/gold-black/03-worn.webp",
+            "onBody": "catalog/images/accessories/tennis-ball-charm/gold-black/03-worn.webp"
+          }
         }
-      ],
-      "details": {
-        "composition": "14K gold",
-        "dimensions": "Bar approx. 18mm x 4mm",
-        "fastening": "Lobster clasp",
-        "includes": "Pendant and chain"
-      },
-      "care": "Store separately to prevent scratching. Avoid contact with perfume and chlorinated water.",
-      "images": {
-        "primary": "catalog/images/reference/pendant-04.jpg",
-        "alternate": "catalog/images/reference/pendant-04.jpg",
-        "detail": "catalog/images/reference/pendant-04.jpg",
-        "onBody": null
-      },
-      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
-    },
-    {
-      "id": "AYM-PD-005",
-      "slug": "bhanu-black-disc-pendant",
-      "name": "Bhanu Black Disc Pendant",
-      "category": "Pendants",
-      "shortDescription": "A round pendant with a dark central face.",
-      "description": "Bhanu centres a dark disc inside a slim circular border. The simple contrast gives the piece its presence.",
-      "weightGrams": 7,
-      "sizeType": "Chain length",
-      "sizeOptions": [
-        "18\"",
-        "20\"",
-        "22\""
-      ],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
-        {
-          "goldColour": "Yellow",
-          "karat": "18K",
-          "priceINR": 113000
-        },
-        {
-          "goldColour": "Yellow",
-          "karat": "22K",
-          "priceINR": 139000
-        }
-      ],
-      "details": {
-        "composition": "18K or 22K gold",
-        "dimensions": "Medallion approx. 18mm diameter",
-        "fastening": "Lobster clasp",
-        "includes": "Pendant and chain"
-      },
-      "care": "Store separately to prevent scratching. Avoid contact with perfume and chlorinated water.",
-      "images": {
-        "primary": "catalog/images/reference/pendant-05.jpg",
-        "alternate": "catalog/images/reference/pendant-05.jpg",
-        "detail": "catalog/images/reference/pendant-05.jpg",
-        "onBody": null
-      },
-      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
-    },
-    {
-      "id": "AYM-PD-006",
-      "slug": "aarav-facet-pendant",
-      "name": "Aarav Facet Pendant",
-      "category": "Pendants",
-      "shortDescription": "A small pendant with an irregular faceted form.",
-      "description": "Aarav's uneven planes lend the compact shape a sculptural quality. The outline remains easy to wear.",
-      "weightGrams": 7,
-      "sizeType": "Chain length",
-      "sizeOptions": [
-        "18\"",
-        "20\"",
-        "22\""
-      ],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
-        {
-          "goldColour": "Yellow",
-          "karat": "9K",
-          "priceINR": 57000
-        },
-        {
-          "goldColour": "Yellow",
-          "karat": "14K",
-          "priceINR": 88000
-        },
-        {
-          "goldColour": "White",
-          "karat": "9K",
-          "priceINR": 57000
-        },
-        {
-          "goldColour": "White",
-          "karat": "14K",
-          "priceINR": 88000
-        }
-      ],
-      "details": {
-        "composition": "9K or 14K gold",
-        "dimensions": "Face approx. 16mm diameter",
-        "fastening": "Lobster clasp",
-        "includes": "Pendant and chain"
-      },
-      "care": "Store separately to prevent scratching. Avoid contact with perfume and chlorinated water.",
-      "images": {
-        "primary": "catalog/images/reference/pendant-06.jpg",
-        "alternate": "catalog/images/reference/pendant-06.jpg",
-        "detail": "catalog/images/reference/pendant-06.jpg",
-        "onBody": null
-      },
-      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
-    },
-    {
-      "id": "AYM-PD-007",
-      "slug": "rion-textured-tag-pendant",
-      "name": "Rion Textured Tag Pendant",
-      "category": "Pendants",
-      "shortDescription": "A rectangular tag with a rippled surface.",
-      "description": "Rion gives the familiar tag shape a closely textured face. The surface provides the detail without changing its clean outline.",
-      "weightGrams": 10,
-      "sizeType": "Chain length",
-      "sizeOptions": [
-        "20\"",
-        "22\"",
-        "24\""
-      ],
-      "sizeHelpText": "I need sizing help",
-      "variants": [
-        {
-          "goldColour": "Yellow",
-          "karat": "14K",
-          "priceINR": 126000
-        },
-        {
-          "goldColour": "Yellow",
-          "karat": "18K",
-          "priceINR": 162000
-        }
-      ],
-      "details": {
-        "composition": "14K or 18K gold",
-        "dimensions": "Shield approx. 22mm x 18mm",
-        "fastening": "Lobster clasp",
-        "includes": "Pendant and chain"
-      },
-      "care": "Store separately to prevent scratching. Avoid contact with perfume and chlorinated water.",
-      "images": {
-        "primary": "catalog/images/reference/pendant-07.jpg",
-        "alternate": "catalog/images/reference/pendant-07.jpg",
-        "detail": "catalog/images/reference/pendant-07.jpg",
-        "onBody": null
-      },
-      "imageStatus": "Unverified preview reference; one photo repeats in three gallery slots"
+      ]
     }
   ]
 }

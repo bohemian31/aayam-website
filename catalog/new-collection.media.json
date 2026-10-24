@@ -1,0 +1,361 @@
+[
+  {
+    "id": "AYM-CH-101",
+    "assets": [
+      {
+        "source": "output/catalogue-images/approved/chains/two-tone-pointed-link-chain/01-hero.png",
+        "masterSha256": "80e89ce290a20721765eff38e1831e7997096e812aa5e48044e8017a57a73868",
+        "export": "catalog/images/chains/two-tone-pointed-link-chain/01-hero.webp",
+        "exportSha256": "5fa07bd06b550c1ac52c4c0dafefb8c42e7a05e8cd875e09349b7d494df75190"
+      },
+      {
+        "source": "output/catalogue-images/approved/chains/two-tone-pointed-link-chain/02-alternate.png",
+        "masterSha256": "29833bfcade5debc362b13febc705ce0283675b39fab4b22acbdbf1b04045948",
+        "export": "catalog/images/chains/two-tone-pointed-link-chain/02-alternate.webp",
+        "exportSha256": "b55ede13ce2a78de2a3006ac0d7d89774364bc1ab2492144cfd97f84736020e1"
+      },
+      {
+        "source": "output/catalogue-images/approved/chains/two-tone-pointed-link-chain/03-worn.png",
+        "masterSha256": "da05f1710a53261bd94b374d4de48c5c27f9cd7d4e85829071484301aaca6f16",
+        "export": "catalog/images/chains/two-tone-pointed-link-chain/03-worn.webp",
+        "exportSha256": "3d4dac62a2d67e192ffb8879b76e98512a0c3be43feda9b6a485cd821ffed1f0"
+      }
+    ]
+  },
+  {
+    "id": "AYM-CH-102",
+    "assets": [
+      {
+        "source": "output/catalogue-images/approved/chains/graphite-bridged-link-chain/01-hero.png",
+        "masterSha256": "a75ccea62e4d323c3501ec4a06eecadff734bb6f885df9e85825f725a631a060",
+        "export": "catalog/images/chains/graphite-bridged-link-chain/01-hero.webp",
+        "exportSha256": "8f2efcb089ce764773d7c14b0f4eb8a5ef6d0f8e061664cc4858aae417b0f0b3"
+      },
+      {
+        "source": "output/catalogue-images/approved/chains/graphite-bridged-link-chain/02-alternate.png",
+        "masterSha256": "32446c2b550a87714cb90f72d8b59ceb4a5123f0ba695e7fe8ae245ca13ac2c0",
+        "export": "catalog/images/chains/graphite-bridged-link-chain/02-alternate.webp",
+        "exportSha256": "5070bc625c869f5f64149feb7b7971b296196f0369a799685cfd0dca8f3e8101"
+      },
+      {
+        "source": "output/catalogue-images/approved/chains/graphite-bridged-link-chain/03-worn.png",
+        "masterSha256": "dba8d45551b7dfbd9c97d94b1301ecfb8585c69c0b3f32828d6dc19c9c0896a2",
+        "export": "catalog/images/chains/graphite-bridged-link-chain/03-worn.webp",
+        "exportSha256": "8ef6e9f432d17a75a46c209932144638ceba0c0aea50d76dfc6ad2ca22c7e7ea"
+      }
+    ]
+  },
+  {
+    "id": "AYM-CL-101",
+    "assets": [
+      {
+        "source": "output/catalogue-images/approved/cufflinks/sample-001/gold-chain-loop-blue-end-cufflinks/01-hero.png",
+        "masterSha256": "6756cfef37377a6b1c1f823ef08f118371055d81271370e67ca80481e301ddd8",
+        "export": "catalog/images/cufflinks/gold-chain-loop-blue-end-cufflinks/01-hero.webp",
+        "exportSha256": "63b12a79f8c7d38a61d93570941a84e18851349a25c4008808441aa6819dc228"
+      },
+      {
+        "source": "output/catalogue-images/approved/cufflinks/sample-001/gold-chain-loop-blue-end-cufflinks/02-alternate.png",
+        "masterSha256": "14e15010692a566afcdda21212b0f003cb505ed58725bafc9c3707c03fad7730",
+        "export": "catalog/images/cufflinks/gold-chain-loop-blue-end-cufflinks/02-alternate.webp",
+        "exportSha256": "3d13a0b8e54e8ff66954d6fe6ebb261222d50a754ed879bde4689e1ceaa47824"
+      },
+      {
+        "source": "output/catalogue-images/approved/cufflinks/sample-001/gold-chain-loop-blue-end-cufflinks/03-worn.png",
+        "masterSha256": "c3bec4bb597a5b0b16cac24bc10c1aabf9fffd151217cef8e99877eb3de23607",
+        "export": "catalog/images/cufflinks/gold-chain-loop-blue-end-cufflinks/03-worn.webp",
+        "exportSha256": "c648dd84ead94d8c57c0bc655da8b17807eaf0b3f8bcf888e367e7bf8b0e1c5f"
+      }
+    ]
+  },
+  {
+    "id": "AYM-CL-102",
+    "assets": [
+      {
+        "source": "output/catalogue-images/approved/cufflinks/batch-001/horse-horseshoe-cufflinks/01-hero.png",
+        "masterSha256": "aff643e38ed237a2cdbc656745a2157ac913ae9a0d7af480163e1e2490943c30",
+        "export": "catalog/images/cufflinks/horse-horseshoe-cufflinks/01-hero.webp",
+        "exportSha256": "4dfcfb7175670ca9f2d9783af9f91bafaf900a52c1e52fc03c6a778a893478e7"
+      },
+      {
+        "source": "output/catalogue-images/approved/cufflinks/batch-001/horse-horseshoe-cufflinks/02-alternate.png",
+        "masterSha256": "bffc048b4f161d6f65eacc4df06c28b8af574ebbf22505610df2ffae330db3bb",
+        "export": "catalog/images/cufflinks/horse-horseshoe-cufflinks/02-alternate.webp",
+        "exportSha256": "0cc126e30a1c59890ea266f74080b7b0e8192182ef7017350430e4660da53f53"
+      },
+      {
+        "source": "output/catalogue-images/approved/cufflinks/batch-001/horse-horseshoe-cufflinks/03-worn.png",
+        "masterSha256": "29321deda59a22042a1dff4840b8fa5d51172195ec464a18a04edbfa3751f115",
+        "export": "catalog/images/cufflinks/horse-horseshoe-cufflinks/03-worn.webp",
+        "exportSha256": "15ea67586d2034727818f801073ca78cdfbe5530e0705b9ee9002449da6649bd"
+      }
+    ]
+  },
+  {
+    "id": "AYM-CL-103",
+    "assets": [
+      {
+        "source": "output/catalogue-images/approved/cufflinks/batch-001/black-spade-plate-cufflinks/01-hero.png",
+        "masterSha256": "43e75f75bfad15fd3cc0856dcc2db59d5e01d7390bf7eb3e2e09a93933289932",
+        "export": "catalog/images/cufflinks/black-spade-plate-cufflinks/01-hero.webp",
+        "exportSha256": "721048f49b5a5f3485d3eb6fe8dfc180522961be2c4b4d2bfbbb98ac3c5fa119"
+      },
+      {
+        "source": "output/catalogue-images/approved/cufflinks/batch-001/black-spade-plate-cufflinks/02-alternate.png",
+        "masterSha256": "88e67b71a3d011329681b13982bdae73a4ce40805541d22a98e4400728a309bf",
+        "export": "catalog/images/cufflinks/black-spade-plate-cufflinks/02-alternate.webp",
+        "exportSha256": "616d36795ab2f20cac8078a1fa03cd48f09d3c2bf1593a51a93d6460bd1b7b4b"
+      },
+      {
+        "source": "output/catalogue-images/approved/cufflinks/batch-001/black-spade-plate-cufflinks/03-worn.png",
+        "masterSha256": "745c186e283403bba523ea1c50ad78df0a0ffc9a58b39901578636399e3eedd0",
+        "export": "catalog/images/cufflinks/black-spade-plate-cufflinks/03-worn.webp",
+        "exportSha256": "e129498f505058307c3ff0ad463a16baa140c7c0517b277468a64f885d94f91e"
+      }
+    ]
+  },
+  {
+    "id": "AYM-CL-104",
+    "assets": [
+      {
+        "source": "output/catalogue-images/approved/cufflinks/batch-001/green-round-accent-cufflinks/01-hero.png",
+        "masterSha256": "7d41bbf4232437195e45d846584e3cb9743891084d954a7e7114cc3e02cddf82",
+        "export": "catalog/images/cufflinks/green-round-accent-cufflinks/01-hero.webp",
+        "exportSha256": "3f72aa4fe7bc832c765f2da1eef21393bef045ce2540b486b8d6c98a7031cdf9"
+      },
+      {
+        "source": "output/catalogue-images/approved/cufflinks/batch-001/green-round-accent-cufflinks/02-alternate.png",
+        "masterSha256": "9fc213d5f5590e7b4104bcf139ed05b0f782db72756285a6dd9e1786a06d5fb9",
+        "export": "catalog/images/cufflinks/green-round-accent-cufflinks/02-alternate.webp",
+        "exportSha256": "5a9115ae02467677bb564898819b171dd0a76d4c4c86a45038b8e37eeeeeac49"
+      },
+      {
+        "source": "output/catalogue-images/approved/cufflinks/batch-001/green-round-accent-cufflinks/03-worn.png",
+        "masterSha256": "5fe5968778b93e4e7dc90914210567ecf2c4cf8c779946bd2086ea24920f9b87",
+        "export": "catalog/images/cufflinks/green-round-accent-cufflinks/03-worn.webp",
+        "exportSha256": "6d24bafbeddeb05d573f8616b921ad9e5b4f2f3a8c202f334102722363732ce3"
+      }
+    ]
+  },
+  {
+    "id": "AYM-CL-105",
+    "assets": [
+      {
+        "source": "output/catalogue-images/approved/cufflinks/batch-001/five-point-crown-cufflinks/01-hero.png",
+        "masterSha256": "bbe7d415f03694eb2c2b817cc19181fc9ef3f684030e7b1dfa6f80da28367231",
+        "export": "catalog/images/cufflinks/five-point-crown-cufflinks/01-hero.webp",
+        "exportSha256": "4325b320a43e2aba47a8fc8be63add23218a52ca56cd81d3209717d420d41729"
+      },
+      {
+        "source": "output/catalogue-images/approved/cufflinks/batch-001/five-point-crown-cufflinks/02-alternate.png",
+        "masterSha256": "29aa2619b55b1bed77f358a796ee4c4508518e6206366993a19079e23a1dfc15",
+        "export": "catalog/images/cufflinks/five-point-crown-cufflinks/02-alternate.webp",
+        "exportSha256": "5aea68024e354d8c5a9a9564ba3ed01b4174a313aeb0f17afc1aaa0c2e95e350"
+      },
+      {
+        "source": "output/catalogue-images/approved/cufflinks/batch-001/five-point-crown-cufflinks/03-worn.png",
+        "masterSha256": "9d777a905af2b35cfbac2350449f5458df33777ef64ba08152525c415b84e535",
+        "export": "catalog/images/cufflinks/five-point-crown-cufflinks/03-worn.webp",
+        "exportSha256": "5186a23d63fee4fe18078102114151afa91efdf2ed525fa12d364366544fe6b6"
+      }
+    ]
+  },
+  {
+    "id": "AYM-CL-106",
+    "assets": [
+      {
+        "source": "output/catalogue-images/approved/cufflinks/batch-001/ace-card-cufflinks/01-hero.png",
+        "masterSha256": "b79e4e82400e7d672ddcf904d696c1fbfbf3001a87beb6ae5a6083d5d989eef9",
+        "export": "catalog/images/cufflinks/ace-card-cufflinks/01-hero.webp",
+        "exportSha256": "dbe7d6f43541e79fa22d853a38dd3d1b80615cc4cac13efa2e8598064015b947"
+      },
+      {
+        "source": "output/catalogue-images/approved/cufflinks/batch-001/ace-card-cufflinks/02-alternate.png",
+        "masterSha256": "ecd1b5d05e1198d621aca583cf7c4480b69b64a1036d488cf50bc510ec28aedc",
+        "export": "catalog/images/cufflinks/ace-card-cufflinks/02-alternate.webp",
+        "exportSha256": "11b4bd41f2dd92966d80def09bf8823e041858fc7fc2037f9ecb3188d0ad7c0c"
+      },
+      {
+        "source": "output/catalogue-images/approved/cufflinks/batch-001/ace-card-cufflinks/03-worn.png",
+        "masterSha256": "50f579cc8d1974e52039e4c37b166c1dce11f8df9aa746e3e4cce780e1af6f86",
+        "export": "catalog/images/cufflinks/ace-card-cufflinks/03-worn.webp",
+        "exportSha256": "eb1e26c34d8f98c713d03232122d23226100e5172dfd45792d4b4be1b130e1e1"
+      }
+    ]
+  },
+  {
+    "id": "AYM-CL-107",
+    "assets": [
+      {
+        "source": "output/catalogue-images/approved/cufflinks/batch-001/custom-monogram-cufflinks/variants/script-monogram/01-hero.png",
+        "masterSha256": "e717dad2264b4185aa6dc0584907725ee916a1569a0a0b550767e5027e30ffff",
+        "export": "catalog/images/cufflinks/custom-monogram-cufflinks/script-monogram/01-hero.webp",
+        "exportSha256": "9e08d902c752ff323031d7f81966a7c0a2690d6c6c4f86a30e105c004b52f1b3"
+      },
+      {
+        "source": "output/catalogue-images/approved/cufflinks/batch-001/custom-monogram-cufflinks/variants/script-monogram/02-alternate.png",
+        "masterSha256": "f3d2b9eae913015be156c291c86ddf05db717af6ffed509af3b33c3934d285e5",
+        "export": "catalog/images/cufflinks/custom-monogram-cufflinks/script-monogram/02-alternate.webp",
+        "exportSha256": "d486453e078a076f5cf6ca04211353e796ab457d43d0037c0c547dd0e3866553"
+      },
+      {
+        "source": "output/catalogue-images/approved/cufflinks/batch-001/custom-monogram-cufflinks/variants/script-monogram/03-worn.png",
+        "masterSha256": "c9d236b0916dd72a5189b8e151427d354b098514cccd9e29753491344a2c442d",
+        "export": "catalog/images/cufflinks/custom-monogram-cufflinks/script-monogram/03-worn.webp",
+        "exportSha256": "562b7852990549094a89d21807f241f84e768f36a32bc007888105fe4e018bf3"
+      },
+      {
+        "source": "output/catalogue-images/approved/cufflinks/batch-001/custom-monogram-cufflinks/variants/serif-dn-monogram/01-hero.png",
+        "masterSha256": "182dc52de592e4bdc58cc674c62d376d480fbbcbe5d3535763fb8e964d193164",
+        "export": "catalog/images/cufflinks/custom-monogram-cufflinks/serif-dn-monogram/01-hero.webp",
+        "exportSha256": "1eb4ccfc668844f6695618aef647283a039ed2fbc8b4e7a504b6d2c939089469"
+      },
+      {
+        "source": "output/catalogue-images/approved/cufflinks/batch-001/custom-monogram-cufflinks/variants/serif-dn-monogram/02-alternate.png",
+        "masterSha256": "015908456370afa3ba5452dc804dacda47e471eafb40ece492bfaf975f45fa91",
+        "export": "catalog/images/cufflinks/custom-monogram-cufflinks/serif-dn-monogram/02-alternate.webp",
+        "exportSha256": "b1f9e61bade6ad128b77c620c00075094d19f6c64b4504074b00d0859b1c3ad9"
+      },
+      {
+        "source": "output/catalogue-images/approved/cufflinks/batch-001/custom-monogram-cufflinks/variants/serif-dn-monogram/03-worn.png",
+        "masterSha256": "fef3cb7d7a2b417eed007723ca93bc7b217aa3d7f952b32068aa5dc7d46a4606",
+        "export": "catalog/images/cufflinks/custom-monogram-cufflinks/serif-dn-monogram/03-worn.webp",
+        "exportSha256": "8fae1ba3e9e9b2fdf087c69b5158043f788d56d3cf23c28419ff8ca4dd78af71"
+      },
+      {
+        "source": "output/catalogue-images/approved/cufflinks/batch-001/custom-monogram-cufflinks/variants/angular-ng-monogram/03-worn.png",
+        "masterSha256": "27f09bab891542bec9c171ff5b3bb2a112a5ff3151af42aa0dbd9e676eb22973",
+        "export": "catalog/images/cufflinks/custom-monogram-cufflinks/angular-ng-monogram/03-worn.webp",
+        "exportSha256": "7a0da848944e77475a1ad668e451a05ee484b818c4f826f4c8a06243e08cc59e"
+      }
+    ]
+  },
+  {
+    "id": "AYM-AC-101",
+    "assets": [
+      {
+        "source": "output/catalogue-images/approved/other/batch-001/pearl-drop-sunglasses-charm/01-hero.png",
+        "masterSha256": "e8ac7ea46125c5cecdc83f46da03a72a69306a40f94103cb483035368436d8f8",
+        "export": "catalog/images/accessories/pearl-drop-sunglasses-charm/01-hero.webp",
+        "exportSha256": "8030e6496d8a7d4ebe6ef50b48ead385cbef812547ba11cda9344cc1bdaba670"
+      },
+      {
+        "source": "output/catalogue-images/approved/other/batch-001/pearl-drop-sunglasses-charm/02-alternate.png",
+        "masterSha256": "9b15a7e60e5f284ceec97136dfc544978a674f78dc51cd9584648d9c452c9ba3",
+        "export": "catalog/images/accessories/pearl-drop-sunglasses-charm/02-alternate.webp",
+        "exportSha256": "e12047d65f0132dd4cdb129e5a9dfb6dfcf5e86ce7d79ddc095269ab93f29692"
+      },
+      {
+        "source": "output/catalogue-images/approved/other/batch-001/pearl-drop-sunglasses-charm/03-worn.png",
+        "masterSha256": "28237edaf8c2b6057e8417e9b6011c95d464fba85b10b6d191374a5f9a2e7be9",
+        "export": "catalog/images/accessories/pearl-drop-sunglasses-charm/03-worn.webp",
+        "exportSha256": "8a7a0a88827dc7b4efd6bb91c678e9bf5ba2aa5eb7e4491ec8ce192d739aa8c9"
+      }
+    ]
+  },
+  {
+    "id": "AYM-AC-102",
+    "assets": [
+      {
+        "source": "output/catalogue-images/approved/other/batch-001/shell-pearl-sunglasses-charm/01-hero.png",
+        "masterSha256": "39219ea4bbd3a44af01557e582ffdb0e88fb028fc5156603a80e2b20b6456cc6",
+        "export": "catalog/images/accessories/shell-pearl-sunglasses-charm/01-hero.webp",
+        "exportSha256": "4001a64cf9a2b2993a9efb2935b70c6e094bfbdfbe1ae73f9e2ccdf2cbc57fea"
+      },
+      {
+        "source": "output/catalogue-images/approved/other/batch-001/shell-pearl-sunglasses-charm/02-alternate.png",
+        "masterSha256": "ff67da1981c9badee175a9926d0329b6dc5242932f7d6e37d79ce273255c6318",
+        "export": "catalog/images/accessories/shell-pearl-sunglasses-charm/02-alternate.webp",
+        "exportSha256": "ac46f79e25c90eb618c1572337ae9b5b1dd0ffa66199d870c8030b7bb4607154"
+      },
+      {
+        "source": "output/catalogue-images/approved/other/batch-001/shell-pearl-sunglasses-charm/03-worn.png",
+        "masterSha256": "87438d2dd8e5f05cb8490d9015781d0fbd50787ecfcc99222a0a40f1306ef2d8",
+        "export": "catalog/images/accessories/shell-pearl-sunglasses-charm/03-worn.webp",
+        "exportSha256": "0330b3b12181610928271014b11e1e8daa4b72ad72032488b33d115d1e8873f1"
+      }
+    ]
+  },
+  {
+    "id": "AYM-AC-103",
+    "assets": [
+      {
+        "source": "output/catalogue-images/approved/other/batch-001/tennis-racket-charm/variants/silver-beige/01-hero.png",
+        "masterSha256": "2908aa3a38598bd0da8a00456434ebac04bd62898c3fe891768f5a78f7163727",
+        "export": "catalog/images/accessories/tennis-racket-charm/silver-beige/01-hero.webp",
+        "exportSha256": "1468481d28dcff00b6ec78d22676ec2c4eaba2e9598ba8e62e9d6fc371632012"
+      },
+      {
+        "source": "output/catalogue-images/approved/other/batch-001/tennis-racket-charm/variants/silver-beige/02-alternate.png",
+        "masterSha256": "f1c237c75bf87aff227445893b05fe194dc6556b21278c85a4437956274c3d4a",
+        "export": "catalog/images/accessories/tennis-racket-charm/silver-beige/02-alternate.webp",
+        "exportSha256": "ca2edba1e9ba3cb83715f5f4610150f0f0a146f85f5d132f62c1fd0ab8def709"
+      },
+      {
+        "source": "output/catalogue-images/approved/other/batch-001/tennis-racket-charm/variants/silver-beige/03-worn.png",
+        "masterSha256": "d3efcd4d12e09decad3f9059b95d7a267bb6387aac367e9daa5d907ce4309493",
+        "export": "catalog/images/accessories/tennis-racket-charm/silver-beige/03-worn.webp",
+        "exportSha256": "bab7d600e232ffa0269e8662b9032630f1b7f46b8c0450ed8031fa77eb6badef"
+      },
+      {
+        "source": "output/catalogue-images/approved/other/batch-001/tennis-racket-charm/variants/gold-black/01-hero.png",
+        "masterSha256": "f534443482d772563cf23c9e60e4439383c920b9c0c8685ffe5aaacc396927f5",
+        "export": "catalog/images/accessories/tennis-racket-charm/gold-black/01-hero.webp",
+        "exportSha256": "4c193e31e767e7c63af3c50fe26b50a126530c621bb0537791f275c47398e74e"
+      },
+      {
+        "source": "output/catalogue-images/approved/other/batch-001/tennis-racket-charm/variants/gold-black/02-alternate.png",
+        "masterSha256": "3dad7bce6f84bead5993b4c2438225fb34e53c6c2248a5f70ef42c00fb9b92b3",
+        "export": "catalog/images/accessories/tennis-racket-charm/gold-black/02-alternate.webp",
+        "exportSha256": "f0cd025511244dcbdc91bff61d62edb341cfb1b548d65922802b55e7690acb3c"
+      },
+      {
+        "source": "output/catalogue-images/approved/other/batch-001/tennis-racket-charm/variants/gold-black/03-worn.png",
+        "masterSha256": "4424da211e3d803df0b77154b3dd819df59e662d93e46b20e59651784f093ea9",
+        "export": "catalog/images/accessories/tennis-racket-charm/gold-black/03-worn.webp",
+        "exportSha256": "73cde88f08b06dff5bbdc04ad76d1628b067de79624aacad2605280c40a4a25a"
+      }
+    ]
+  },
+  {
+    "id": "AYM-AC-104",
+    "assets": [
+      {
+        "source": "output/catalogue-images/approved/other/batch-001/tennis-ball-charm/variants/silver-beige/01-hero.png",
+        "masterSha256": "464e4a2642fa91070778b457ca6bdf1a63402c236209dc2dc35b13355cc0eafc",
+        "export": "catalog/images/accessories/tennis-ball-charm/silver-beige/01-hero.webp",
+        "exportSha256": "3ae78382b833dff66dac4a17b6f3518e8db834b614e74eab3b04cd4bf5c270ea"
+      },
+      {
+        "source": "output/catalogue-images/approved/other/batch-001/tennis-ball-charm/variants/silver-beige/02-alternate.png",
+        "masterSha256": "1358002a5cc1497c911bc05ffef08a13c151c4286158c6bba5dec0790335c358",
+        "export": "catalog/images/accessories/tennis-ball-charm/silver-beige/02-alternate.webp",
+        "exportSha256": "e861b5c65836a22012ca27e65de9e8f84f5a7a12c1f148981039124f7168db96"
+      },
+      {
+        "source": "output/catalogue-images/approved/other/batch-001/tennis-ball-charm/variants/silver-beige/03-worn.png",
+        "masterSha256": "360a83b5e54f6d7dd355882de6c91b75498c4605344d8f3535ce1724307a2ed8",
+        "export": "catalog/images/accessories/tennis-ball-charm/silver-beige/03-worn.webp",
+        "exportSha256": "bdc0425ac199d71cc7f2da592265a0396089043c88fa0b1cd016eac7f1f91cdf"
+      },
+      {
+        "source": "output/catalogue-images/approved/other/batch-001/tennis-ball-charm/variants/gold-black/01-hero.png",
+        "masterSha256": "42dc425212045b6665f19f553aa832a6b2d9d733cad517fbbb0ab90ae01ef572",
+        "export": "catalog/images/accessories/tennis-ball-charm/gold-black/01-hero.webp",
+        "exportSha256": "84fcd9d6ca2494593c268d96ef16d89c558915db9021b14c7440faac29e9037b"
+      },
+      {
+        "source": "output/catalogue-images/approved/other/batch-001/tennis-ball-charm/variants/gold-black/02-alternate.png",
+        "masterSha256": "09d82a2de75e1f13375c8a64a07c1e4e668a62b2b2776a1af2a001f3391b3a3a",
+        "export": "catalog/images/accessories/tennis-ball-charm/gold-black/02-alternate.webp",
+        "exportSha256": "49ae5bf332613d5e9be7dddfc172f25d9cf6ffc6e81b083546dcc1c211270e97"
+      },
+      {
+        "source": "output/catalogue-images/approved/other/batch-001/tennis-ball-charm/variants/gold-black/03-worn.png",
+        "masterSha256": "4ea2d9db44de5fa3a1007279b6dc948713a7e45f825efaa835b47e6989eea98b",
+        "export": "catalog/images/accessories/tennis-ball-charm/gold-black/03-worn.webp",
+        "exportSha256": "4ee277f069b8e57d4206c9fc725b32b9427489d320c9a08d339ddd3d6fb3cc46"
+      }
+    ]
+  }
+]

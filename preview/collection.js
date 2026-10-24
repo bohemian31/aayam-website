@@ -3,7 +3,10 @@ const COLLECTION_INTROS = {
   Rings: 'Bands shaped by texture, clean lines and contrast. Explore the illustrated designs and enquire about materials, sizing and pricing.',
   Bracelets: 'Linked forms, woven textures and considered contrasts for the wrist. Explore the illustrated designs and enquire about materials, fit and pricing.',
   Earrings: 'Compact hoops and considered studs, from quiet curves to textured details. Explore the illustrated designs and enquire about materials, size and pricing.',
-  Kada: 'Sculptural forms for the wrist, from clean lines to engraved detail. Explore the illustrated designs and enquire about materials, fit and pricing.'
+  Kada: 'Sculptural forms for the wrist, from clean lines to engraved detail. Explore the illustrated designs and enquire about materials, fit and pricing.',
+  Chains: 'Fine links and considered contrast at the neckline. Explore the illustrated design and enquire about length, materials and price.',
+  Cufflinks: 'Small details for a shirt cuff, from graphic motifs to personal lettering. Explore the illustrated designs and enquire about dimensions, backing and price.',
+  Accessories: 'Personal details for frames and woven bands. Explore the illustrated charms and enquire about attachment, fit and price.'
 };
 
 function categoryDesigns(category) {
@@ -18,6 +21,8 @@ function paramsFromUrl() {
 }
 
 function normaliseFilters(state) {
+  state.colour = ''; state.karat = '';
+  if (state.sort.startsWith('price-')) state.sort = 'featured';
   if (COLLECTION_INTROS[state.category]) {
     state.colour = ''; state.karat = '';
     if (state.sort.startsWith('price-')) state.sort = 'featured';
@@ -57,7 +62,7 @@ function syncControls(state) {
   intro.hidden = !enquiry;
   intro.querySelector('h1').textContent = state.category;
   intro.querySelector('p').textContent = COLLECTION_INTROS[state.category] || '';
-  document.querySelectorAll('#sort option[value^="price-"]').forEach(option => { option.disabled = enquiry; });
+  document.querySelectorAll('#sort option[value^="price-"]').forEach(option => { option.disabled = true; });
 }
 
 function apply(state) {

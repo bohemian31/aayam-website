@@ -1,0 +1,122 @@
+[
+  {
+    "id": "AYM-CH-101", "productKey": "two-tone-pointed-link-chain", "category": "Chains",
+    "sourceDir": "approved/chains/two-tone-pointed-link-chain", "name": "Avir Two-Tone Pointed-Link Chain",
+    "shortDescription": "Alternating warm and cool pointed links form a fine, rhythmic line.",
+    "description": "A series of slender, pointed links gives Avir its gentle rhythm. Warm- and cool-toned surfaces alternate along the chain, bringing contrast without interrupting its light profile. It can sit on its own as a precise detail at the neckline.",
+    "appearanceLabel": "Alternating warm and cool tones · pointed links", "designTags": ["Two-tone", "Linkwork"],
+    "design": "Fine chain of alternating elongated pointed links.", "finish": "Smooth warm- and cool-toned surfaces shown.",
+    "fitGuidance": "Ask us to confirm the finished length, link width and where it will sit on you. The worn image illustrates styling, not a measured length.",
+    "galleryNote": "Generated product illustrations from a small composite source. Link construction, clasp and worn scale are illustrative; confirm the finished chain before ordering."
+  },
+  {
+    "id": "AYM-CH-102", "productKey": "graphite-bridged-link-chain", "category": "Chains",
+    "sourceDir": "approved/chains/graphite-bridged-link-chain", "name": "Neer Graphite Bridge-Link Chain",
+    "shortDescription": "Dark, oval links meet at a narrow bar across each opening.",
+    "description": "Neer draws its rhythm from a repeated open oval link. A slim bridge crosses the centre of each form, giving the chain a clear, architectural pattern. The graphite-toned illustration shows how the links gather into a relaxed line at the neckline.",
+    "appearanceLabel": "Graphite tone · bridged oval links", "designTags": ["Linkwork", "Geometric"],
+    "design": "Chain of repeating open oval links with a central crossbar detail.",
+    "finish": "Smooth dark graphite-toned surfaces shown.",
+    "fitGuidance": "Ask us to confirm the finished length, link width and where it will sit on you. The worn image illustrates styling, not a measured length.",
+    "galleryNote": "Generated from a single worn source. Isolated link construction, hidden back, clasp and worn scale are illustrative and need confirmation."
+  },
+  {
+    "id": "AYM-CL-101", "productKey": "gold-chain-loop-blue-end-cufflinks", "category": "Cufflinks",
+    "sourceDir": "approved/cufflinks/sample-001/gold-chain-loop-blue-end-cufflinks", "name": "Veyar Chain-Loop Cufflinks",
+    "shortDescription": "Looped chain forms frame deep-blue round accents.",
+    "description": "Veyar brings a soft sense of movement to a formal detail. Each cufflink pairs a loop of linked warm-toned metal with a compact blue accent at the top, making the shape visible without adding bulk to the cuff.",
+    "appearanceLabel": "Warm tone · chain loop · blue accent", "designTags": ["Linked", "Colour accent"],
+    "design": "Paired looped-link cufflinks with round blue accents.", "finish": "Polished warm-toned links and blue accents shown.",
+    "galleryNote": "Generated illustrations based on several source photos. Blue material, metal, fastening and exact dimensions require confirmation."
+  },
+  {
+    "id": "AYM-CL-102", "productKey": "horse-horseshoe-cufflinks", "category": "Cufflinks",
+    "sourceDir": "approved/cufflinks/batch-001/horse-horseshoe-cufflinks", "name": "Rudra Horse & Horseshoe Cufflinks",
+    "shortDescription": "A horse profile rests inside a bright-edged horseshoe motif.",
+    "description": "A small horse profile sits within an open horseshoe outline, lending this pair a more expressive silhouette. Bright points along the curved edge catch the light, while the central motif keeps the design recognisable at cuff scale.",
+    "appearanceLabel": "Warm tone · horse and horseshoe motif", "designTags": ["Motif", "Bright accent"],
+    "design": "Horse profile within a horseshoe-shaped cufflink face.", "finish": "Polished warm-toned form with bright accents shown.",
+    "galleryNote": "Generated from one worn source. Fine motif, bright accents and reverse fastening are interpretations that need physical confirmation."
+  },
+  {
+    "id": "AYM-CL-103", "productKey": "black-spade-plate-cufflinks", "category": "Cufflinks",
+    "sourceDir": "approved/cufflinks/batch-001/black-spade-plate-cufflinks", "name": "Zaal Spade Cufflinks",
+    "shortDescription": "A dark spade shape stands against a finely brightened square face.",
+    "description": "Zaal turns a familiar symbol into a sharp cuff detail. A dark spade sits at the centre of a square face, with a field of small bright points around it. The restrained outline keeps the motif crisp rather than playful.",
+    "appearanceLabel": "Cool tone · dark spade · bright surface", "designTags": ["Geometric", "Motif"],
+    "design": "Square cufflink face with central spade motif.", "finish": "Cool-toned border, dark centre motif and bright textured field shown.",
+    "galleryNote": "Generated from one on-cuff source. Surface details, reverse construction and materials require confirmation."
+  },
+  {
+    "id": "AYM-CL-104", "productKey": "green-round-accent-cufflinks", "category": "Cufflinks",
+    "sourceDir": "approved/cufflinks/batch-001/green-round-accent-cufflinks", "name": "Neer Green Accent Cufflinks",
+    "shortDescription": "A rounded green centre gives this pair its single point of colour.",
+    "description": "Neer is built around a clear, rounded green focal point. Its compact cool-toned setting leaves the colour to carry the design, offering a simple accent against a plain shirt cuff.",
+    "appearanceLabel": "Cool tone · green round accent", "designTags": ["Colour accent", "Minimal"],
+    "design": "Pair of compact round-centred cufflinks.", "finish": "Bright cool-toned surround and green focal point shown.",
+    "galleryNote": "Generated from one worn source. The green material, setting, reverse and dimensions are unverified."
+  },
+  {
+    "id": "AYM-CL-105", "productKey": "five-point-crown-cufflinks", "category": "Cufflinks",
+    "sourceDir": "approved/cufflinks/batch-001/five-point-crown-cufflinks", "name": "Arka Five-Point Crown Cufflinks",
+    "shortDescription": "Five rising points make a compact crown silhouette.",
+    "description": "A neat line of five raised points gives Arka its sculptural profile. The open crown shape reads clearly from the front, while its polished warm-toned surface keeps the pair light and graphic.",
+    "appearanceLabel": "Warm tone · open crown motif", "designTags": ["Motif", "Sculptural"],
+    "design": "Open five-point crown-shaped cufflink face.", "finish": "Polished warm-toned surface shown.",
+    "galleryNote": "Generated from a low-resolution worn source. Fine point geometry, rear attachment and scale need physical verification."
+  },
+  {
+    "id": "AYM-CL-106", "productKey": "ace-card-cufflinks", "category": "Cufflinks",
+    "sourceDir": "approved/cufflinks/batch-001/ace-card-cufflinks", "name": "Kiaan Ace-Card Cufflinks",
+    "shortDescription": "Playing-card faces bring a small graphic detail to a shirt cuff.",
+    "description": "Kiaan takes its cue from the face of an ace playing card. A pale square ground, dark central mark and corner symbols create a crisp, graphic pair designed to be noticed at close range.",
+    "appearanceLabel": "Cool tone · playing-card motif", "designTags": ["Graphic", "Motif"],
+    "design": "Paired square cufflink faces with ace-card markings.", "finish": "Brushed cool-toned surface and dark graphic marks shown.",
+    "galleryNote": "Generated from a front-facing source. Exact card symbols, reverse fastening and worn scale require confirmation."
+  },
+  {
+    "id": "AYM-CL-107", "productKey": "custom-monogram-cufflinks", "category": "Cufflinks",
+    "sourceDir": "approved/cufflinks/batch-001/custom-monogram-cufflinks", "name": "Custom Monogram Cufflinks",
+    "shortDescription": "Interlaced initials create a personal cuff detail.",
+    "description": "These illustrated examples explore a monogram as a compact piece of jewellery. Interlaced letters form the face, giving the shirt cuff a detail that is personal in both shape and meaning. Ask us which initials, lettering styles and finishes can be made for your pair.",
+    "appearanceLabel": "Interlaced letter examples · warm tone", "designTags": ["Personalised", "Letterwork"],
+    "design": "Monogram cufflink examples with script, serif and angular letter arrangements.", "finish": "Warm-toned polished examples shown; final lettering and finish are confirmed on enquiry.",
+    "galleryNote": "Generated examples of one customizable concept. The NG example has a worn image only. Initials, final letterform, metal, dimensions and fastening must be confirmed before ordering."
+  },
+  {
+    "id": "AYM-AC-101", "productKey": "pearl-drop-sunglasses-charm", "category": "Accessories",
+    "sourceDir": "approved/other/batch-001/pearl-drop-sunglasses-charm", "name": "Rihan Teardrop Sunglasses Charm",
+    "shortDescription": "An ivory teardrop lends a quiet accent to dark frames.",
+    "description": "A single teardrop form hangs beneath a small cool-toned loop. Its pale sheen is set against the line of a sunglass frame in the worn illustration, creating a detail that moves gently as you wear it.",
+    "appearanceLabel": "Ivory teardrop · cool-toned loop", "designTags": ["Sunglasses charms", "Minimal"],
+    "design": "Single teardrop bead suspended from a small loop.", "finish": "Pale lustrous drop and polished cool-toned loop shown.",
+    "galleryNote": "Generated from one worn source. Bead material, attachment method and fit with a specific frame are unverified."
+  },
+  {
+    "id": "AYM-AC-102", "productKey": "shell-pearl-sunglasses-charm", "category": "Accessories",
+    "sourceDir": "approved/other/batch-001/shell-pearl-sunglasses-charm", "name": "Kaash Shell & Bead Sunglasses Charm",
+    "shortDescription": "A small shell form and pale bead hang from linked hoops.",
+    "description": "Kaash gathers two small moving details beneath a rounded hoop: a shell-like shape with a dark-green accent and a pale round bead. It is shown beside tortoiseshell frames, where the warm-toned links bring another layer of character to a familiar accessory.",
+    "appearanceLabel": "Warm tone · shell form · pale bead", "designTags": ["Sunglasses charms", "Linked"],
+    "design": "Linked hoop assembly with shell-shaped and rounded hanging details.", "finish": "Polished warm-toned links, dark-green accent and pale bead shown.",
+    "galleryNote": "Generated from one frame-only source. Worn placement, attachment, materials and fit with a specific frame are illustrative."
+  },
+  {
+    "id": "AYM-AC-103", "productKey": "tennis-racket-charm", "category": "Accessories",
+    "sourceDir": "approved/other/batch-001/tennis-racket-charm", "name": "Tavi Tennis-Racket Band Charm",
+    "shortDescription": "A miniature racket adds a precise sporting motif to a woven band.",
+    "description": "Tavi reduces the outline of a tennis racket to a small band detail. An oval string-grid head and short handle give it a recognisable profile. The illustrations show it on beige and black woven bands as two visual colour options.",
+    "appearanceLabel": "Miniature racket · two illustrated colour looks", "designTags": ["Band charms", "Sport motif"],
+    "design": "Small oval tennis-racket motif with an open grid and short handle.", "finish": "Silver-toned and warm-toned examples shown on woven bands.",
+    "galleryNote": "Generated from photos that show the racket beside a separate ball charm. Standalone configuration, mounting and fit with any particular band are unverified."
+  },
+  {
+    "id": "AYM-AC-104", "productKey": "tennis-ball-charm", "category": "Accessories",
+    "sourceDir": "approved/other/batch-001/tennis-ball-charm", "name": "Ojas Tennis-Ball Band Charm",
+    "shortDescription": "A bright miniature ball sits at the centre of a slim bar.",
+    "description": "Ojas brings a small flash of colour to a woven wrist band. A rounded yellow-green tennis-ball form, marked by pale curved lines, rests across a narrow vertical bar. The illustrations show both beige and black band looks.",
+    "appearanceLabel": "Yellow-green ball · slim bar · two illustrated looks", "designTags": ["Band charms", "Sport motif"],
+    "design": "Miniature tennis-ball motif centred on a narrow vertical bar.", "finish": "Bright yellow-green centre with silver- and warm-toned bar examples.",
+    "galleryNote": "Generated from photos that show the ball beside a separate racket charm. Standalone configuration, mounting and fit with any particular band are unverified."
+  }
+]

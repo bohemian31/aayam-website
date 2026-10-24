@@ -2,6 +2,28 @@
 
 This records decisions and artifacts visible in the project and conversation. Earlier phase entries use 26 September 2026; later records carry their actual dates. It is a handoff history, not proof that a remote service or deployed site was verified.
 
+## 24 October 2026 — full enquiry catalogue in the GitHub Pages preview
+
+- Founder accepted the Other image sets, approved inclusion of the graphite bridged-link Chain, and requested removal of the 10 older Chain and 7 Pendant sample listings. The warm oval Chain remains deferred. The resulting catalogue has 60 enquiry-only products in seven categories and 183 selected gallery views.
+- Added two Chain, seven Cufflink and four Accessory product records with visually grounded names, copy, fit/care questions and price-on-enquiry states. Custom monograms are one listing with script, DN and NG examples; NG has only its selected worn image. Racket and ball band charms are separate listings, each with two illustrated colour looks.
+- Verified selected local PNG hashes and square dimensions, exported 49 new WebPs and recorded their source/export hashes. Added a repeatable final-stage builder and browser checks. No raw source or rejected attempt was added to the public catalogue.
+- Updated category filtering, navigation, enquiry messages, visual-option gallery switching, editorial guidance and the four-tile homepage category row. Removed stale sample-price and pendant copy. The root Netlify launching-soon files remain untouched.
+- Local browser verification passed all 60 routes and 183 gallery slots. The images remain illustrations; exact construction, materials, compatibility, fit, price and availability must be confirmed on enquiry.
+
+## 24 October 2026 — Cufflinks accepted locally; Other accessories drafted
+
+- Founder accepted the Cufflinks image batch without a website update. Clarified the angular two-letter example as **NG** and selected its worn image only; saved 25 accepted images across eight complete sets and the NG worn-only example under `output/catalogue-images/approved/cufflinks/`. The three lettered examples remain one customizable product. The prior excluded note is superseded, while the review history remains intact.
+- Generated six square hero/detail/worn sets from the four `Other` source photos: separate racket and tennis-ball band charms in silver/beige and gold/black visual options, plus pearl-drop and shell-and-bead sunglasses charms. Saved 18 review PNGs, source copies, hashes, manifests, grouping records and a local gallery under `output/catalogue-images/review/other/batch-001/`.
+- Refined both racket triplets to remove invented beaded/spiral handles; the shorter, slimmer handles are the selected review views. Initial racket attempts remain in local `_attempts/` folders.
+- All Other images are generated interpretations from one photo per colourway/design. Attachment, materials, dimensions and device/eyewear fit remain unverified. No website, GitHub Pages, Netlify or live-domain change.
+
+## 24 October 2026 — Cufflinks review image sets
+
+- Set the warm oval Chain aside at the founder's direction; moved its generated set to the local deferred archive. The graphite Chain remains in review, and neither is on the website.
+- Generated and saved seven new Cufflink hero/alternate/worn sets alongside the earlier chain-loop sample. The eight square sets represent seven product groups; two lettered examples are variants of one customizable monogram product.
+- Excluded the source that appears to show a three-letter angular monogram, as the founder requested. Preserved its original photo only in the local excluded archive.
+- Added source copies, per-set manifests with hashes and source limits, a monogram group record and a local review gallery. Reverse construction, fine symbols, letters and materials remain unverified. No website or deployment was changed.
+
 ## 22 October 2026 — approved Kada images and preview integration
 
 - Finalized five 1254 × 1254 Kada triplets. K1 gold and silver are linked colourways with level, centered heroes; k2 retains the founder-selected symmetrical hero and first revised worn view; k3's worn artifact was removed; k4 uses the founder-selected **second revised worn option**. Approved masters, hashes, source evidence and rejected attempts remain in ignored local production folders.

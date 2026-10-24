@@ -1,66 +1,29 @@
 # Developer reference — The House of Aayam
 
-Current source revision: 22 October 2026. Read PROGRESS.md for current scope, CHANGELOG.md for history, and `docs/*-integration.md` for product mappings and validation limits.
+Current source revision: 24 October 2026. Read PROGRESS.md for status, CHANGELOG.md for history, and `docs/*-integration.md` for image provenance and limits.
 
-## Repository and hosting
+## Hosting and boundaries
 
-- Repository: https://github.com/bohemian31/aayam-website, branch `main`. Preview: https://bohemian31.github.io/aayam-website/preview/index.html.
-- Root `index.html`, `styles.css`, `script.js` and `assets/` implement the separate launching-soon site used by Netlify/thehouseofaayam.com. Kada integration does not edit these files or Netlify settings.
-- The preview is static HTML/CSS/JavaScript without CMS, backend, accounts or checkout. Serve the repository over HTTP because catalogue JSON is fetched by the browser.
-- Current preview CSS/JS/data cache query: `20261022-kada-1`. Advance it when frontend or catalogue data changes. Asset URLs remain relative to support the GitHub Pages repository prefix.
-- Local source photos, pitch, prompts, annotations, excluded attempts and `output/catalogue-images/` are ignored. Only selected WebP exports belong in `catalog/images/{rings,bracelets,earrings,kada}/`.
+Repository: https://github.com/bohemian31/aayam-website (`main`). Preview: https://bohemian31.github.io/aayam-website/preview/index.html. The root `index.html`, `styles.css`, `script.js` and `assets/` are the separate Netlify launching-soon site; this catalogue release does not change them or the live domain. GitHub Pages preview is public even with its visible notice and `noindex`. There is no backend, CMS, account or checkout. Serve this repository over HTTP because the preview fetches JSON.
 
-## File map
+Frontend cache key: `20261024-full-catalogue-1` in `preview/*.html` and `preview/catalog.js`. Increment it when changing frontend/data. Relative paths support the GitHub Pages repository prefix.
 
-| Path | Responsibility |
-| --- | --- |
-| `catalog/products.sample.json` | Runtime catalogue: 20 Rings + 9 Bracelets + 13 Earrings + 5 Kada (enquiry only), 10 Chains + 7 Pendants (sample) |
-| `catalog/{rings,bracelets,earrings,kada}.content.json` | Authored names, summaries, descriptions, visual details and source keys |
-| `catalog/{rings,bracelets,earrings,kada}.media.json` | Approved PNG and exported WebP hashes/roles |
-| `catalog/images/rings/` | 60 selected web views |
-| `catalog/images/bracelets/` | 27 selected web views |
-| `catalog/images/earrings/` | 38 selected web views; Rion has no alternate |
-| `catalog/images/kada/` | 15 selected web views across five listings |
-| `catalog/images/reference/` | September sample reference assets for Chains/Pendants |
-| `preview/catalog.js` | Fetch, escaping, card images, hover support and enquiries |
-| `preview/collection.js` | Search/filter/sort and category state |
-| `preview/product-gallery.js` | Accessible gallery and enquiry-led pages |
-| `preview/styles.css` | Shared responsive styles |
-| `scripts/build_{ring,bracelet,earring,kada}_catalogue.py` | Approved-master export and category builders (Pillow) |
-| `scripts/verify_catalogue.cjs` | Local/deployed browser checks (Playwright) |
-| `output/catalogue-images/` | Ignored local masters, provenance, excluded attempts and reports |
+## Active data and files
 
-## Data contract
+`catalog/products.sample.json` is the stable runtime filename despite its historical name. It now has 60 unique active IDs and no sample listings: AYM-RG-101–120, AYM-BR-101–109, AYM-ER-101–113, AYM-KD-101–105, AYM-CH-101–102, AYM-CL-101–107 and AYM-AC-101–104. Old AYM-CH-001–010, AYM-PD-001–007 and earlier Ring/Bracelet IDs must show the unavailable state, never map to another piece.
 
-There are **64 unique active IDs**: AYM-RG-101–120, AYM-BR-101–109, AYM-ER-101–113, AYM-KD-101–105, AYM-CH-001–010 and AYM-PD-001–007. Former AYM-RG-001–008 and AYM-BR-001–008 references show an unavailable state; do not reuse their IDs for different products.
+Every active record has `catalogueStatus=enquiry`, `sampleContent=false`, `pricingStatus=on_enquiry`, `specificationStatus=confirm_on_enquiry`, `weightGrams=null`, `variants=[]` and `sizeOptions=[]`. Keep numeric price, purity, metal, gemstone, dimensions, weight, fastening, availability and fit claims out until verified. `appearanceLabel`, `designTags`, description, details, fit/care and gallery notes describe visible form or ask for confirmation. `images.onBody` supplies the collection-card hover view. A `gallery` array specifies the actual selected views; it need not contain exactly three.
 
-Top-level `sampleContent` remains true because 17 Chain/Pendant records retain labelled sample facts. Rings, Bracelets, Earrings and Kada use `catalogueStatus=enquiry`, `sampleContent=false`, `pricingStatus=on_enquiry`, `specificationStatus=confirm_on_enquiry`, `weightGrams=null`, `variants=[]` and `sizeOptions=[]`. Descriptions are based on visible form. Do not infer metal, gemstones, purity, sizes, weight, fastening, availability, price or manufacturing method from images.
+The new product prose is authored in `catalog/new-collection.content.json`; `catalog/new-collection.media.json` records source and export hashes. `scripts/build_new_collection.py` checks approved local manifests and 1254×1254 PNG hashes before exporting WebPs into `catalog/images/{chains,cufflinks,accessories}/` and merging records. **Run it last** if rebuilding older categories, because their historical builders still write previous catalogue-level category/sample metadata. Earlier category sources and builders live under `catalog/{rings,bracelets,earrings,kada}.*.json` and `scripts/build_{ring,bracelet,earring,kada}_catalogue.py`. Do not run the new builder without ignored local approved masters, or replace approved images with review attempts.
 
-Enquiry records have `appearanceLabel`, `designTags`, design/finish details, and questions about unverified physical facts. Bracelet and Kada fit ask for wrist measurement and confirmed dimensions; Earring fit asks about scale, closure/backing and whether sold singly or as a pair. Explicit gallery arrays set labels and alt text. `images.onBody` points to the worn image for collection hover. Rings use hero/alternate/on-hand; Bracelets hero/diagonal detail/on-wrist; Earrings hero/alternate/on-ear except Rion, whose gallery is hero/on-ear only; Kada hero/alternate or detail/on-wrist. Rion's `images.alternate` compatibility field points to its worn view, but no duplicate thumbnail is rendered. `mediaType=generated_illustration` and gallery notes disclose illustrative details and fit.
+Selected masters, source photographs, prompts and rejected/deferred variants live under ignored `output/catalogue-images/`. No raw sources or full production folder should be committed. `docs/new-collection-integration.md` maps the selected Chain, Cufflink and Accessory sets; the older `docs/*-integration.md` files map prior categories.
 
-Chains/Pendants retain sample variants, weights, sizes, care and repeated single-photo galleries. Their sample selection flow remains. The runtime filename `products.sample.json` is deliberately stable.
+## UI behavior
 
-## Frontend behaviour
+`preview/catalog.js` loads data, renders cards, and builds WhatsApp/email messages. `preview/collection.js` handles categories, design filters, search and sorting. `preview/product-gallery.js` renders variable galleries and switches the two illustrated band-charm looks. The custom monogram has seven views: three script, three DN and one NG worn view. It must not acquire an NG hero or alternate. The two band-charm records each own two three-view `visualOptions`; default silver/beige is used on the grid and the selected option updates gallery and enquiry links on the product page.
 
-- Collection cards with a distinct worn view crossfade hero to worn in 360ms on fine-pointer hover and keyboard focus, after image decode; exit restores hero. Touch keeps hero; reduced motion skips animation; missing worn images leave hero usable. Homepage cards do not have this overlay.
-- Enquiry categories show design filters and “Price on enquiry”; unconfirmed gold/karat filters and variant selectors are hidden. Mixed-category price sorts put unknown prices after priced sample listings. Search covers name, ID, category, descriptions and tags; user-visible filter text is escaped.
-- Gallery controls expose `aria-pressed`, labels, image alt and announced captions. The product page includes category-aware description, fit/care and enquiry sections. Earring messages request confirmed dimensions, closure/backing, and single/pair availability; Kada messages ask about inner opening, band width and fastening; bracelet messages ask about fit/fastening; ring messages ask about sizing/karat. WhatsApp/email links include correct product name, ID and URL. No message is sent automatically. WhatsApp +91 7265000916 is visibly demo; email is thehouseofaayam@gmail.com.
-- Homepage featured tiles now cover Rings, Bracelets, Earrings, Kada, Chains and Pendants. Preview pages retain `noindex` and visible preview notice; Pages remains a public site. Keep navigation/footer/drawer consistent across the six HTML pages.
+Collection cards fade hero into the worn image on fine-pointer hover and focus after decoding; touch keeps hero and a failed worn image leaves the hero. Prices stay “Price on enquiry”. Gold-colour/karat and price-sort controls are absent or hidden because there are no verified options/prices. The homepage category row shows only Rings, Bracelets, Earrings and Kada; all seven categories are in the drawer/footer and filter.
 
-## Media approvals and limits
+## Checks and release
 
-The five Kada sets are approved under ignored `output/catalogue-images/approved/kada/`. K1 gold and silver are separate linked colourway listings. The k2 symmetrical hero and first revised worn image are selected; k3 omits the stray worn-view curl; k4 uses the second revised worn option. K1 is partly cropped/overlapped in its source and k3/k4 have single-view sources, so complete forms, hidden construction and on-wrist fit remain illustrative. See `docs/kada-integration.md`.
-
-All 13 selected Earring sets are approved under `output/catalogue-images/approved/earrings/`: Avir sample, four batch-001, three batch-002 and five batch-003. Avir's small hero is about 49% of its original linear framing; the template keeps an earring hero small and centred, with a larger alternate and natural ear/jaw worn crop. The dropped Aarav design stays under local `excluded/earrings/` and is absent from the website.
-
-Batch-003's final Kiaan and Ayaan alternate selections are the **earlier front-facing versions with a thin top detail**. Later bar-less versions are archived in `_attempts/` and excluded from exports. Ayaan and Rion worn images were reduced about 20–25%. Rion is an explicit two-image exception: `01-hero.png` and `03-worn.png`; its alternate is archived only. These choices are recorded in selected manifests and `catalog/earrings.media.json` hashes. Original sources, exact prompts, SHA256s and contact sheets remain in ignored local review folders. Fine motifs, rear construction, closure and exact on-ear scale are interpretations requiring physical verification.
-
-Five Kada sets, nine Bracelet sets and 20 Ring sets are approved. Bracelet heroes occupy roughly 80–85% of canvas width; detail images follow a straight diagonal; Ring heroes, distinct angles and worn views retain their earlier specification. The six difficult Ring sources remain under `output/catalogue-images/deferred/rings/to-do/`. Do not publish raw sources, annotations, deferred photos or rejected attempts.
-
-## Build, checks and release
-
-Run `python3 scripts/build_earring_catalogue.py` with Pillow and approved local masters to validate selected hashes, native 1254 × 1254 PNG dimensions and export 38 quality-90 WebPs. The Ring, Bracelet and Kada builders work similarly for their own categories. No image-generation or paid API call is part of these builders.
-
-Serve the repository over HTTP and run `node scripts/verify_catalogue.cjs` with Playwright available; pass an optional base URL to test the deployed preview. `BROWSER_EXECUTABLE` can select Chromium. The old ring verifier forwards to these shared checks. Latest local checks cover 47 enquiry routes, 140 gallery images, card hover/focus/touch/reduced motion/fallback, search/filters/sort, enquiry identity, sample-category flow, retired IDs, homepage, noindex and responsive layouts. Reports/screenshots are under `output/catalogue-images/integration-review/kada/`. Static checks should verify that all 59 prior non-Kada records are unchanged and excluded files never enter public exports.
-
-The Kada website release in commit `535cd0b` is published on the existing GitHub Pages preview; the deployed catalogue, assets and browser checks passed. Future updates to `main` should receive the same deployed verification. A separate live-domain release needs confirmed business/product facts and explicit Netlify/domain instruction. The pitch remains local; avoid unverified founder, alloy, gemstone, hallmarking, policy, service, availability or fulfilment claims.
+With Pillow and approved masters present, run `python3 scripts/build_new_collection.py`. Serve the repo over HTTP, then run `node scripts/verify_catalogue.cjs` with Playwright available. On this machine use the bundled Node module path (`NODE_PATH=/Users/kp/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules`) and `BROWSER_EXECUTABLE=/Applications/Brave Browser.app/Contents/MacOS/Brave Browser`. The browser check also accepts a deployed preview base URL. It checks all 60 product routes, 183 gallery slots, counts, search, options, enquiries, removed IDs, homepage and responsive overflow. Run `git diff --check`, review the changed files, publish only the preview/catalogue change to `main`, then verify GitHub Pages. Live-domain release is a separate decision requiring confirmed product/business facts and a real contact number.

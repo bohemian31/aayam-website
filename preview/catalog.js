@@ -1,6 +1,6 @@
-/* Shared helpers for enquiry-led designs and the remaining sample categories. */
+/* Shared helpers for the enquiry-led collection. */
 
-const CATALOG_URL = '../catalog/products.sample.json?v=20261022-kada-1';
+const CATALOG_URL = '../catalog/products.sample.json?v=20261024-full-catalogue-1';
 
 function escapeHtml(value) {
   return String(value ?? '').replace(/[&<>"']/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]));
@@ -42,8 +42,12 @@ function enquiryMessage(product, selection = {}) {
     const sizing = product.category === 'Bracelets' ? 'wrist sizing, length, fastening and adjustment options'
       : product.category === 'Kada' ? 'wrist sizing, inner opening, band width, fastening and any adjustment options'
       : product.category === 'Earrings' ? 'earring dimensions, closure or backing, and whether it is supplied singly or as a pair'
+      : product.category === 'Chains' ? 'finished length, link width and clasp'
+      : product.category === 'Cufflinks' ? 'face dimensions, backing, whether supplied singly or as a pair, and any personalisation options'
+      : product.category === 'Accessories' ? 'dimensions, attachment and compatibility with my band or frames'
       : 'karat options, sizing';
-    return `Hello, I'm interested in ${product.name} (${product.id}). Please share the price, materials, ${sizing}, weight and availability for this design. ${url}`;
+    const option = selection.visualOption ? ` I'm looking at the ${selection.visualOption} illustration.` : '';
+    return `Hello, I'm interested in ${product.name} (${product.id}).${option} Please share the price, materials, ${sizing}, weight and availability for this design. ${url}`;
   }
   const size = selection.size || 'I need guidance';
   return `Hello, I'm interested in ${product.name} (${product.id}). My sample selection is ${selection.goldColour}, ${selection.karat}, ${size}. Please confirm the actual materials, price, availability and ordering details. ${url}`;
@@ -54,8 +58,8 @@ function whatsAppLink(product, selection = {}) {
   return 'https://wa.me/' + number + '?text=' + encodeURIComponent(enquiryMessage(product, selection));
 }
 
-function emailEnquiryLink(product) {
-  return 'mailto:thehouseofaayam@gmail.com?subject=' + encodeURIComponent('Enquiry: ' + product.name + ' — ' + product.id) + '&body=' + encodeURIComponent(enquiryMessage(product));
+function emailEnquiryLink(product, selection = {}) {
+  return 'mailto:thehouseofaayam@gmail.com?subject=' + encodeURIComponent('Enquiry: ' + product.name + ' — ' + product.id) + '&body=' + encodeURIComponent(enquiryMessage(product, selection));
 }
 
 function productUrl(product) {

@@ -20,14 +20,23 @@ function galleryTemplate(product) {
 function initGallery(product) {
   const views = galleryViews(product);
   const buttons = document.querySelectorAll('.thumbs [data-img]');
-  buttons.forEach(button => button.addEventListener('click', () => {
-    const view = views.find(item => item.key === button.dataset.img);
+  let currentImages = product.images;
+  function show(view) {
     const main = document.getElementById('main-img');
-    main.src = imageUrl(product.images[view.key]);
+    main.src = imageUrl(currentImages[view.key]);
     main.alt = view.alt;
     document.getElementById('gallery-caption').textContent = view.label;
-    buttons.forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+    buttons.forEach(item => item.setAttribute('aria-pressed', String(item.dataset.img === view.key)));
+  }
+  buttons.forEach(button => button.addEventListener('click', () => {
+    const view = views.find(item => item.key === button.dataset.img);
+    show(view);
   }));
+  return images => {
+    currentImages = images;
+    buttons.forEach(button => { button.querySelector('img').src = imageUrl(images[button.dataset.img]); });
+    show(views[0]);
+  };
 }
 
 function renderEnquiryProduct(product) {
@@ -35,11 +44,17 @@ function renderEnquiryProduct(product) {
   const ring = product.category === 'Rings';
   const earring = product.category === 'Earrings';
   const kada = product.category === 'Kada';
+  const chain = product.category === 'Chains';
+  const cufflinks = product.category === 'Cufflinks';
+  const accessory = product.category === 'Accessories';
   const guidance = ring ? 'We’ll confirm materials, karat options, ring size, weight and availability for your piece.'
     : earring ? 'We’ll confirm the materials, dimensions, closure or backing, price and availability for this design.'
     : kada ? 'We’ll confirm the materials, inner opening, band width, fastening, price and availability for this design.'
+    : chain ? 'We’ll confirm the materials, finished length, link width, clasp, price and availability.'
+    : cufflinks ? 'We’ll confirm the materials, face dimensions, backing, personalisation options, price and availability.'
+    : accessory ? 'We’ll confirm the materials, dimensions, attachment, fit, price and availability.'
     : 'We’ll confirm materials, wrist fit, fastening, weight and availability for your piece.';
-  const fitLink = ring ? 'Help with ring sizing' : earring ? 'Help with earring fit' : 'Help with wrist sizing';
+  const fitLink = ring ? 'Help with ring sizing' : earring ? 'Help with earring fit' : chain ? 'Help with chain length' : cufflinks ? 'Help with cufflink fit' : accessory ? 'Help with accessory fit' : 'Help with wrist sizing';
   document.getElementById('page-title').textContent = product.name + ' — The House of Aayam';
   document.querySelector('meta[name="description"]').content = product.shortDescription + ' Enquire about materials, sizing and price at The House of Aayam.';
   document.getElementById('app').innerHTML = `
@@ -51,6 +66,7 @@ function renderEnquiryProduct(product) {
         <h1>${e(product.name)}</h1>
         <p class="variant-line">${e(product.appearanceLabel)}</p>
         ${product.colourways ? `<div class="colourway-group"><span>Illustrated colourway</span><div class="colourway-links">${product.colourways.map(option => `<a href="product.html?id=${encodeURIComponent(option.id)}"${option.id === product.id ? ' aria-current="page"' : ''}>${e(option.label)}</a>`).join('')}</div></div>` : ''}
+        ${product.visualOptions ? `<div class="colourway-group"><span>Illustrated colour option</span><div class="colourway-links" id="visual-options">${product.visualOptions.map((option, i) => `<button type="button" data-option="${e(option.key)}" aria-pressed="${i === 0}">${e(option.label)}</button>`).join('')}</div></div>` : ''}
         <p class="product-intro">${e(product.shortDescription)}</p>
         <p class="price">Price on enquiry</p>
         <p class="enquiry-guidance">${guidance}</p>
@@ -65,7 +81,7 @@ function renderEnquiryProduct(product) {
             <dt>Finish shown</dt><dd>${e(product.details.finish)}</dd>
             <dt>Materials &amp; karat</dt><dd>${e(product.details.composition)}</dd>
             <dt>Dimensions &amp; size</dt><dd>${e(product.details.dimensions)}</dd>
-            ${product.details.fastening ? `<dt>${earring ? 'Closure &amp; backing' : 'Fastening &amp; adjustment'}</dt><dd>${e(product.details.fastening)}</dd>` : ''}
+            ${product.details.fastening ? `<dt>${earring ? 'Closure &amp; backing' : cufflinks ? 'Backing &amp; supply' : accessory ? 'Attachment &amp; compatibility' : 'Fastening &amp; adjustment'}</dt><dd>${e(product.details.fastening)}</dd>` : ''}
             <dt>Weight</dt><dd>${e(product.details.weight)}</dd>
           </dl></details>
           <details><summary>Fit &amp; care</summary><p>${e(product.fitGuidance || 'Ask us for sizing guidance before choosing your ring. The on-hand image is an illustration of styling and scale.')}</p><p>${e(product.care)}</p></details>
@@ -73,5 +89,15 @@ function renderEnquiryProduct(product) {
         </div>
       </div>
     </div>`;
-  initGallery(product);
+  const setImages = initGallery(product);
+  if (product.visualOptions) {
+    document.querySelectorAll('#visual-options [data-option]').forEach(button => button.addEventListener('click', () => {
+      const option = product.visualOptions.find(item => item.key === button.dataset.option);
+      setImages(option.images);
+      document.querySelectorAll('#visual-options [data-option]').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+      const selection = { visualOption: option.label };
+      document.getElementById('enquire-btn').href = whatsAppLink(product, selection);
+      document.querySelector('.email-enquiry').href = emailEnquiryLink(product, selection);
+    }));
+  }
 }
