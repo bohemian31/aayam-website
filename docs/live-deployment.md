@@ -1,8 +1,8 @@
 # Live-domain deployment handoff
 
-Prepared on 24 October 2026 for `thehouseofaayam.com`. The domain currently resolves to the existing Netlify launch page. The GitHub Pages preview is a separate deployment and remains unchanged.
+Prepared and published on 24 October 2026 for `thehouseofaayam.com`. The GitHub Pages preview is a separate deployment and remains unchanged. The founder uploaded the production ZIP to the existing Netlify project `zippy-pasca-aa1745`; deploy `6adca8b686491da2a1fb3e81` was marked Published at 6:17 PM IST.
 
-At preparation time, the apex resolved to Netlify's `75.2.60.5`, `www` pointed to `zippy-pasca-aa1745.netlify.app`, and the live launch page identified Netlify site ID `df7ca837-8530-4077-9a04-c8b9f935791b`. Confirm the project name and domain in the signed-in dashboard before uploading.
+At preparation time, the apex resolved to Netlify's `75.2.60.5`, `www` pointed to `zippy-pasca-aa1745.netlify.app`, and the live launch page identified Netlify site ID `df7ca837-8530-4077-9a04-c8b9f935791b`. The signed-in dashboard confirmed this project serves the domain. The former Sep 26 launch-page deploy remains in Netlify history for rollback.
 
 ## Production artifact
 

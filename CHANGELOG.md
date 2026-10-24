@@ -2,11 +2,16 @@
 
 This records decisions and artifacts visible in the project and conversation. Earlier phase entries use 26 September 2026; later records carry their actual dates. It is a handoff history, not proof that a remote service or deployed site was verified.
 
-## 24 October 2026 — live-domain release prepared, upload pending
+## 24 October 2026 — live-domain catalogue published
 
-- The founder requested replacing the Netlify launch page at `thehouseofaayam.com` with the checked enquiry catalogue and supplied the real WhatsApp number, +91 94294 32142. The existing domain still serves the launch page; the founder believes its Netlify project was deployed manually.
+- The founder uploaded the checked production ZIP to the existing Netlify project `zippy-pasca-aa1745`, connected to `thehouseofaayam.com`. Netlify marked deploy `6adca8b686491da2a1fb3e81` Published at 6:17 PM IST and reported 204 new files uploaded. The prior Sep 26 launch-page deploy remains in the project's deploy history for rollback.
+- In-browser smoke checks confirmed the apex homepage, 60-piece All Jewellery grid, one complete three-image ring gallery, populated product description, WhatsApp enquiry to +91 94294 32142 with the correct product name/ID, email enquiry, Contact page, `www` redirect to apex, and `robots.txt` allowing indexing. Local production verification passed before upload; a full live-domain 60-route test has not been run.
+
+## 24 October 2026 — live-domain release prepared
+
+- The founder requested replacing the Netlify launch page at `thehouseofaayam.com` with the checked enquiry catalogue and supplied the real WhatsApp number, +91 94294 32142. At preparation time, the existing domain still served the launch page; its Netlify project used manual uploads.
 - Added a separate production builder and local browser verifier. The generated, ignored `dist/` contains six domain-root pages, 60 products, 189 unique selected WebPs, public images, allowed robots rules and a sitemap. It removes preview labels and `noindex` while retaining accurate illustration/specification caveats. The GitHub Pages preview and repository root launch files are unchanged.
-- Packaged the verified build for manual Netlify upload and wrote `docs/live-deployment.md`. The existing Netlify dashboard currently requests sign-in, so no production upload has occurred. The founder has been asked to sign in to the existing project.
+- Packaged the verified build for manual Netlify upload and wrote `docs/live-deployment.md`. This entry records preparation; the later entry above records publication.
 
 ## 24 October 2026 — full enquiry catalogue in the GitHub Pages preview
 
