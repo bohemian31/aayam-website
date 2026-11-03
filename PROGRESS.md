@@ -1,6 +1,10 @@
 # Project progress — The House of Aayam
 
-Last updated: 24 October 2026. See CHANGELOG.md for the history and DEVELOPER_REFERENCE.md for the current build contract.
+Last updated: 3 November 2026. See CHANGELOG.md for the history and DEVELOPER_REFERENCE.md for the current build contract.
+
+## Regional analytics on the live site
+
+Netlify CLI production deploy `6aea111aacaba67a8a395df9` is live on `thehouseofaayam.com`. An Edge Function classifies the EEA, UK, Switzerland, and unknown countries for a choice banner; elsewhere GA4 starts without a banner. A saved rejection always blocks GTM. The live endpoint returned `automatic` from the test connection with no shared caching; a fresh live browser visit loaded GTM without a banner, and the privacy-page opt-out prevented GTM on the next page. Protected-region and failed-lookup cases were exercised locally with simulated locations. The existing GitHub Pages preview is unchanged. Future live releases require Netlify CLI or Git deployment of the site and Edge Function together; dashboard ZIP uploads are insufficient. See `docs/analytics-implementation.md`.
 
 ## Live-domain release
 

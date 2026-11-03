@@ -2,6 +2,12 @@
 
 This records decisions and artifacts visible in the project and conversation. Earlier phase entries use 26 September 2026; later records carry their actual dates. It is a handoff history, not proof that a remote service or deployed site was verified.
 
+## 3 November 2026 — regional analytics published
+
+- Added Netlify Edge Function `/analytics-region`, returning a choice requirement for the EEA, UK, Switzerland, and unknown country codes, and automatic analytics elsewhere. Responses are not shared-cacheable. Existing accept/reject choices remain authoritative; a failed lookup shows the banner. The privacy page explains the behavior and provides opt-out.
+- Built the 60-product production site and tested country policy, banner/automatic behavior, failed lookup, saved rejection, and the privacy-page timing race locally. Netlify CLI deployed to the existing project as production deploy `6aea111aacaba67a8a395df9` after a draft deploy. The live endpoint, no-banner GTM load, and privacy opt-out were verified. Protected-region behavior was simulated locally.
+- The Netlify CLI deployment replaces dashboard ZIP upload for future live releases because the Edge Function is outside `dist/`. GitHub Pages preview and root launch source remain unchanged.
+
 ## 24 October 2026 — live-domain catalogue published
 
 - The founder uploaded the checked production ZIP to the existing Netlify project `zippy-pasca-aa1745`, connected to `thehouseofaayam.com`. Netlify marked deploy `6adca8b686491da2a1fb3e81` Published at 6:17 PM IST and reported 204 new files uploaded. The prior Sep 26 launch-page deploy remains in the project's deploy history for rollback.

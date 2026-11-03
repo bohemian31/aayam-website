@@ -1,7 +1,7 @@
 """Build the approved enquiry catalogue as a domain-root static site.
 
-The source GitHub Pages preview remains unchanged. Drag the generated `dist/`
-folder into the existing Netlify site's manual deploy area after review.
+The source GitHub Pages preview remains unchanged. Deploy the generated `dist/`
+and the Netlify Edge Function together using the Netlify CLI or Git.
 """
 import hashlib
 import json
@@ -16,6 +16,7 @@ SOURCE = ROOT / 'preview'
 DEST = ROOT / 'dist'
 CATALOGUE = ROOT / 'catalog/products.sample.json'
 DOMAIN = 'https://thehouseofaayam.com'
+GTM_ID = 'GTM-MDNMX5FG'
 WHATSAPP_DIGITS = '919429432142'
 WHATSAPP_DISPLAY = '+91 94294 32142'
 PAGES = ['index.html', 'all-jewellery.html', 'product.html',
@@ -53,6 +54,8 @@ def html_for_live(name):
     html = html.replace('https://wa.me/917265000916', f'https://wa.me/{WHATSAPP_DIGITS}')
     html = html.replace('+91 72650 00916 (demo)', WHATSAPP_DISPLAY)
     html = html.replace('+91 72650 00916', WHATSAPP_DISPLAY)
+    html = html.replace('  <p class="footer-bottom">', '  <p class="privacy-footer"><a href="privacy.html">Privacy &amp; analytics choices</a></p>\n  <p class="footer-bottom">')
+    html = html.replace('</body>', '<script defer src="analytics.js"></script>\n</body>')
     if name != 'product.html':
         if '<meta name="description"' not in html:
             html = html.replace('<meta name="viewport" content="width=device-width, initial-scale=1">',
@@ -72,6 +75,9 @@ def main():
 
     for name in PAGES:
         save(DEST / name, html_for_live(name))
+    save(DEST / 'analytics.js', (ROOT / 'scripts/analytics.js').read_text(encoding='utf-8').replace('__GTM_ID__', GTM_ID))
+    save(DEST / 'privacy.html', (ROOT / 'scripts/privacy.html').read_text(encoding='utf-8'))
+    save(DEST / 'analytics.css', (ROOT / 'scripts/analytics.css').read_text(encoding='utf-8'))
     shutil.copy2(SOURCE / 'styles.css', DEST / 'styles.css')
     for name in SCRIPTS:
         script = (SOURCE / name).read_text(encoding='utf-8')
@@ -111,7 +117,7 @@ def main():
         shutil.copy2(source, target)
     save(DEST / 'catalog/products.sample.json', json.dumps(data, ensure_ascii=False, indent=2) + '\n')
     save(DEST / 'robots.txt', 'User-agent: *\nAllow: /\nSitemap: ' + DOMAIN + '/sitemap.xml\n')
-    urls = ['', 'all-jewellery.html', 'our-story.html', 'materials-care.html', 'contact.html']
+    urls = ['', 'all-jewellery.html', 'our-story.html', 'materials-care.html', 'contact.html', 'privacy.html']
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     sitemap += ''.join('  <url><loc>' + escape(DOMAIN + '/' + url) + '</loc></url>\n' for url in urls)
     sitemap += '</urlset>\n'

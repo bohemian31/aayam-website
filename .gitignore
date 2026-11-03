@@ -23,5 +23,6 @@ output/catalogue-images/
 
 # Locally assembled production bundle for manual Netlify deployment
 dist/
+.netlify/
 output/live-release-*.json
 output/aayam-live-site-*.zip
