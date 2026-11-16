@@ -1,6 +1,10 @@
 # Live-domain deployment handoff
 
-## Latest release — 17 November 2026
+## Latest release — homepage and footer, 17 November 2026
+
+The approved homepage and footer update was published to the existing Netlify site with `npx --yes netlify-cli deploy --prod --dir=dist` from the repository root. Production deploy: `6afb5a6e2856fb522b18a0b6`. This included the analytics Edge Function. Shop by category now precedes the four-card first collection; both campaign panels rotate worn views every six seconds; the footer logo is 137px wide. The existing 60-product check passed locally, and the live desktop/mobile browser checks passed after publication.
+
+## Previous release — About Us, 17 November 2026
 
 The approved About Us page and real workshop photos were published to the existing Netlify site with `npx --yes netlify-cli deploy --prod --dir=dist` from the repository root. Production deploy: `6afb4e63864ae963e767e601`. This included the analytics Edge Function. The 60-product production browser check passed before deployment, and the live About Us page and stylesheet returned the updated content and 16px opening paragraph. Rebuild with `python3 scripts/build_live_site.py` before subsequent deployments.
 

@@ -21,7 +21,7 @@ WHATSAPP_DIGITS = '919429432142'
 WHATSAPP_DISPLAY = '+91 94294 32142'
 PAGES = ['index.html', 'all-jewellery.html', 'product.html',
          'our-story.html', 'materials-care.html', 'contact.html']
-SCRIPTS = ['catalog.js', 'collection.js', 'product-gallery.js']
+SCRIPTS = ['catalog.js', 'collection.js', 'product-gallery.js', 'home.js']
 DESCRIPTIONS = {
     'index.html': 'The House of Aayam creates considered fine jewellery for men. Explore rings, bracelets, earrings, kada, chains, cufflinks and accessories.',
     'all-jewellery.html': 'Explore illustrated jewellery designs for men from The House of Aayam. Ask us about materials, fit, pricing and availability.',
@@ -54,7 +54,7 @@ def html_for_live(name):
     html = html.replace('https://wa.me/917265000916', f'https://wa.me/{WHATSAPP_DIGITS}')
     html = html.replace('+91 72650 00916 (demo)', WHATSAPP_DISPLAY)
     html = html.replace('+91 72650 00916', WHATSAPP_DISPLAY)
-    html = html.replace('  <p class="footer-bottom">', '  <p class="privacy-footer"><a href="privacy.html">Privacy &amp; analytics choices</a></p>\n  <p class="footer-bottom">')
+    html = html.replace('href="https://thehouseofaayam.com/privacy.html"', 'href="privacy.html"')
     html = html.replace('</body>', '<script defer src="analytics.js"></script>\n</body>')
     if name != 'product.html':
         if '<meta name="description"' not in html:
@@ -76,7 +76,12 @@ def main():
     for name in PAGES:
         save(DEST / name, html_for_live(name))
     save(DEST / 'analytics.js', (ROOT / 'scripts/analytics.js').read_text(encoding='utf-8').replace('__GTM_ID__', GTM_ID))
-    save(DEST / 'privacy.html', (ROOT / 'scripts/privacy.html').read_text(encoding='utf-8'))
+    footer = re.search(r'<footer class="site-footer">.*?</footer>',
+                       (DEST / 'index.html').read_text(encoding='utf-8'), re.S)
+    if footer is None:
+        raise ValueError('Could not find the site footer for the privacy page')
+    privacy = (ROOT / 'scripts/privacy.html').read_text(encoding='utf-8')
+    save(DEST / 'privacy.html', privacy.replace('<!-- SITE_FOOTER -->', footer.group(0)))
     save(DEST / 'analytics.css', (ROOT / 'scripts/analytics.css').read_text(encoding='utf-8'))
     shutil.copy2(SOURCE / 'styles.css', DEST / 'styles.css')
     shutil.copy2(SOURCE / 'about.css', DEST / 'about.css')
@@ -93,10 +98,6 @@ def main():
                                     '<p class="support-line">Ask us to confirm the finished details of this piece.</p>')
         save(DEST / name, script)
 
-    for name in ['campaign-neck.jpg', 'campaign-hand.jpg']:
-        target = DEST / 'images' / name
-        target.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copy2(SOURCE / 'images' / name, target)
     for folder in ['about-real', 'team']:
         target_dir = DEST / 'images' / folder
         target_dir.mkdir(parents=True, exist_ok=True)

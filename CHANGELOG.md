@@ -2,6 +2,15 @@
 
 This records decisions and artifacts visible in the project and conversation. Earlier phase entries use 26 September 2026; later records carry their actual dates. It is a handoff history, not proof that a remote service or deployed site was verified.
 
+## 17 November 2026 — homepage and footer review draft (local only)
+
+- Reduced the homepage's first-collection product grid from six cards to four; the category row remains four tiles.
+- Replaced the two homepage campaign photographs with separate four-piece rotations using only each product's worn image. Each panel changes every 10 seconds with a dissolve, and its image links to the currently displayed product. Motion reduction settings keep the first image still.
+- Added the Aayam logo beneath the footer Contact details on all site pages, including the generated privacy page. Placed Privacy & analytics choices beside the copyright line, with a compact gap. The GitHub Pages preview link points to the live privacy page.
+- Built the production-shaped site locally and passed the existing 60-product browser check. Verified all eight campaign image paths, all four positions in both rotations, the four-card grid, footer and no horizontal overflow. Created `output/homepage-review-20261117.html` and desktop/mobile screenshots for founder review.
+- Founder refinement for publication: moved Shop by category above The first collection, shortened both image rotations to six seconds, and reduced the footer logo to about 65% of the review size.
+- Published the refined build to the existing Netlify project as deploy `6afb5a6e2856fb522b18a0b6`, including the regional analytics Edge Function. The live homepage and rotation script returned 200; desktop and mobile browser checks confirmed section order, four cards, 137px footer logo, six-second rotation and no horizontal overflow.
+
 ## 17 November 2026 — About Us real workshop photo revision
 
 - Shortened the opening to one paragraph about the meaning of Aayam. Added Payal's Google Maps and Instagram links beside its founder-confirmed Diwanpara address; added The House of Aayam's Instagram link to every website footer.
