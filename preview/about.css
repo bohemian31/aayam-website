@@ -1,0 +1,31 @@
+.about-page{max-width:1400px;margin:auto;color:var(--text)}
+.about-hero{max-width:900px;margin:auto;text-align:center;padding:100px 24px 110px}
+.about-line,.about-kicker{font-size:12px;letter-spacing:.13em;text-transform:uppercase}
+.about-line{margin:0 0 22px}.about-kicker{color:var(--text-secondary);margin:0 0 17px}
+.about-page h1,.about-page h2,.about-page h3{font-weight:400;letter-spacing:-.025em}
+.about-hero h1{font-size:clamp(36px,5vw,64px);line-height:1.1;margin:0 auto 28px}
+.about-lead{font-size:16px;line-height:1.55;max-width:690px;margin:0 auto 24px}
+.about-meaning{font-size:15px;line-height:1.7;color:var(--text-secondary);max-width:720px;margin:auto}
+.about-intro{border-top:1px solid var(--rule);padding:75px 24px 80px;text-align:center}
+.about-intro h2{font-size:clamp(26px,3vw,42px);line-height:1.2;margin:0 auto 20px;max-width:800px}
+.about-intro>p:last-child{font-size:17px;line-height:1.65;max-width:660px;margin:auto;color:var(--text-secondary)}
+.about-chapter{display:grid;grid-template-columns:1fr 1fr;align-items:center;border-top:1px solid var(--rule);min-height:500px}
+.about-chapter-reverse .about-photo{order:2}.about-chapter-reverse .about-copy{order:1}
+.about-photo{margin:0;height:100%;min-height:500px;position:relative;background:var(--tile);overflow:hidden}
+.about-photo img{width:100%;height:100%;position:absolute;inset:0;object-fit:cover}
+.about-photo figcaption{position:absolute;bottom:14px;left:14px;background:rgba(255,255,255,.92);padding:6px 9px;font-size:11px;color:var(--text)}
+.about-copy{padding:60px clamp(30px,6vw,95px)}
+.about-copy h2,.about-partner h2,.about-team h2{font-size:clamp(28px,3vw,42px);line-height:1.18;margin:0 0 22px}
+.about-copy>p:last-child,.about-partner-copy>p:not(.about-kicker){font-size:16px;line-height:1.75;color:var(--text-secondary);max-width:520px;margin:0}
+.about-partner{border-top:1px solid var(--rule);display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;padding:90px clamp(24px,7vw,100px)}
+.about-partner img{width:min(100%,430px);justify-self:center}.about-partner address{font-size:14px;font-style:normal;line-height:1.6;margin-top:24px;color:var(--text-secondary)}
+.about-partner a,.about-team a{display:inline-block;font-size:13px;text-decoration:underline;text-underline-offset:4px;margin-top:10px}
+.about-partner-links{display:flex;align-items:center;flex-wrap:wrap;gap:8px 24px;margin-top:8px}.about-partner-links a{margin-top:0}
+.about-team{border-top:1px solid var(--rule);padding:85px clamp(24px,7vw,100px) 110px}
+.about-team h2{margin-bottom:18px}.about-team-lead{font-size:16px;line-height:1.7;max-width:690px;color:var(--text-secondary);margin:0 0 40px}
+.about-team-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.about-team-frame{aspect-ratio:1;background:#fff;overflow:hidden}.about-team-frame img{width:100%;height:100%;object-fit:cover;object-position:center top}
+.about-team-frame-contain img{object-fit:contain;object-position:center center}
+.about-team h3{font-size:17px;margin:14px 0 0}.about-team a{margin-top:4px}
+@media(max-width:760px){.about-hero{padding:70px 20px 78px}.about-intro{padding:60px 20px}.about-chapter{display:flex;flex-direction:column}.about-chapter-reverse .about-photo,.about-chapter-reverse .about-copy{order:initial}.about-photo{width:100%;height:auto;min-height:0;aspect-ratio:1.12}.about-copy{width:100%;padding:45px 24px 55px}.about-partner{grid-template-columns:1fr;gap:35px;padding:60px 24px}.about-partner img{width:min(80%,350px);justify-self:start}.about-team{padding:60px 24px 80px}.about-team-grid{gap:16px}.about-team h3{font-size:15px}}
+@media(max-width:560px){.about-team-grid{grid-template-columns:1fr;gap:34px}.about-team-frame{max-width:420px}}

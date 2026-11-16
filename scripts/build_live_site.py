@@ -25,7 +25,7 @@ SCRIPTS = ['catalog.js', 'collection.js', 'product-gallery.js']
 DESCRIPTIONS = {
     'index.html': 'The House of Aayam creates considered fine jewellery for men. Explore rings, bracelets, earrings, kada, chains, cufflinks and accessories.',
     'all-jewellery.html': 'Explore illustrated jewellery designs for men from The House of Aayam. Ask us about materials, fit, pricing and availability.',
-    'our-story.html': 'The House of Aayam explores jewellery as an everyday expression of personal style for men.',
+    'our-story.html': 'Meet the people and making partner behind The House of Aayam, fine jewellery for men made with Payal Jewellers & Casting in Rajkot.',
     'materials-care.html': 'A guide to jewellery colour, gold karat, fit and care from The House of Aayam.',
     'contact.html': 'Contact The House of Aayam about a jewellery design, its fit, materials, price or availability.',
 }
@@ -79,6 +79,7 @@ def main():
     save(DEST / 'privacy.html', (ROOT / 'scripts/privacy.html').read_text(encoding='utf-8'))
     save(DEST / 'analytics.css', (ROOT / 'scripts/analytics.css').read_text(encoding='utf-8'))
     shutil.copy2(SOURCE / 'styles.css', DEST / 'styles.css')
+    shutil.copy2(SOURCE / 'about.css', DEST / 'about.css')
     for name in SCRIPTS:
         script = (SOURCE / name).read_text(encoding='utf-8')
         if name == 'catalog.js':
@@ -96,6 +97,12 @@ def main():
         target = DEST / 'images' / name
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(SOURCE / 'images' / name, target)
+    for folder in ['about-real', 'team']:
+        target_dir = DEST / 'images' / folder
+        target_dir.mkdir(parents=True, exist_ok=True)
+        for image in (SOURCE / 'images' / folder).iterdir():
+            if image.suffix.lower() in {'.jpg', '.jpeg', '.png', '.webp'}:
+                shutil.copy2(image, target_dir / image.name)
     target = DEST / 'assets/logo.png'
     target.parent.mkdir(parents=True, exist_ok=True)
     shutil.copy2(ROOT / 'assets/logo.png', target)

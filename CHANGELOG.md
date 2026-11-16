@@ -2,6 +2,18 @@
 
 This records decisions and artifacts visible in the project and conversation. Earlier phase entries use 26 September 2026; later records carry their actual dates. It is a handoff history, not proof that a remote service or deployed site was verified.
 
+## 17 November 2026 — About Us real workshop photo revision
+
+- Shortened the opening to one paragraph about the meaning of Aayam. Added Payal's Google Maps and Instagram links beside its founder-confirmed Diwanpara address; added The House of Aayam's Instagram link to every website footer.
+- Replaced the four stock placeholders with photos supplied from Payal's actual site: the storefront, design workstations, workshop benches and an in-person piece review. The original supplied files remain under `assets/`; selected copies for the site are under `preview/images/about-real/`. The other provided workstation photograph remains unused. The photos show those scenes only and are not presented as proof of a particular inspection or certification stage.
+- Reduced the About Us opening paragraph to 16px after founder review. Rebuilt the production bundle; the existing 60-product browser verification passed. Netlify CLI published production deploy `6afb4e63864ae963e767e601` to the existing `thehouseofaayam.com` project, including the regional analytics Edge Function. The live About Us HTML and CSS returned 200 with the new copy, links and 16px rule.
+
+## 16 November 2026 — About Us page prepared locally
+
+- Replaced the previous Our Story content in the site source with the reviewed photo essay, updated the navigation label to About Us throughout the preview, and added four clearly marked Unsplash workshop placeholders. The final Payal workshop photographs remain to be supplied. Image sources and licensing links are recorded in `preview/images/about-stock/README.md`.
+- Incorporated the founder's copy annotations: shorter opening and making introduction, explicit material/purity/hallmark/certification and inspection language, confirmed Payal logo spelling, supplied Diwanpara address and Google listing link, and team order Parth–Vishwa–Khushi. Vishwa's original portrait is displayed on a white square canvas in CSS to preserve her likeness; Khushi's separate white-background draft still needs likeness approval.
+- Added `preview/about.css`, copied new assets through `scripts/build_live_site.py`, rebuilt the ignored `dist/`, and rendered desktop/mobile review screenshots under `output/`. All nine page images loaded in the final visual check; no horizontal overflow. This entry does not record a remote deployment.
+
 ## 3 November 2026 — regional analytics published
 
 - Added Netlify Edge Function `/analytics-region`, returning a choice requirement for the EEA, UK, Switzerland, and unknown country codes, and automatic analytics elsewhere. Responses are not shared-cacheable. Existing accept/reject choices remain authoritative; a failed lookup shows the banner. The privacy page explains the behavior and provides opt-out.

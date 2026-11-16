@@ -1,5 +1,9 @@
 # Live-domain deployment handoff
 
+## Latest release — 17 November 2026
+
+The approved About Us page and real workshop photos were published to the existing Netlify site with `npx --yes netlify-cli deploy --prod --dir=dist` from the repository root. Production deploy: `6afb4e63864ae963e767e601`. This included the analytics Edge Function. The 60-product production browser check passed before deployment, and the live About Us page and stylesheet returned the updated content and 16px opening paragraph. Rebuild with `python3 scripts/build_live_site.py` before subsequent deployments.
+
 Prepared and published on 24 October 2026 for `thehouseofaayam.com`. The GitHub Pages preview is a separate deployment and remains unchanged. The founder uploaded the production ZIP to the existing Netlify project `zippy-pasca-aa1745`; deploy `6adca8b686491da2a1fb3e81` was marked Published at 6:17 PM IST.
 
 At preparation time, the apex resolved to Netlify's `75.2.60.5`, `www` pointed to `zippy-pasca-aa1745.netlify.app`, and the live launch page identified Netlify site ID `df7ca837-8530-4077-9a04-c8b9f935791b`. The signed-in dashboard confirmed this project serves the domain. The former Sep 26 launch-page deploy remains in Netlify history for rollback.
